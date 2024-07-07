@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/Aditya/OneDrive/Desktop/Codes/DSA-Scratch/cpp",
-      "program": "c:/Users/Aditya/OneDrive/Desktop/Codes/DSA-Scratch/cpp/build/Debug/outDebug",
+      "cwd": "d:/Study/GitHub/Code-Universe/DSA Scratch/LinkedList",
+      "program": "d:/Study/GitHub/Code-Universe/DSA Scratch/LinkedList/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
