@@ -2,38 +2,41 @@
 using namespace std;
 #define endl "\n"
 
-class Node {
+class Node
+{
 public:
     int data;
-    Node* next;
+    Node *next;
     // constructor
-    Node(int data) {
+    Node(int data)
+    {
         this->data = data;
         this->next = NULL;
     }
 };
 
-void insertAtTail(Node* &tail, int data) {
-    Node* temp = new Node(data);
-    tail -> next = temp;
+void insertAtTail(Node *&tail, int data)
+{
+    Node *temp = new Node(data);
+    tail->next = temp;
     tail = temp;
-
 }
 
-void print(Node* head) {
-    Node* temp = head;
-    while (temp != NULL) {
-        cout << temp->data << " ";
-        temp = temp->next;
+void print(Node *head)
+{
+    while (head != NULL)
+    {
+        cout << head->data << " ";
+        head = head->next;
     }
-    cout << endl;
 }
 
-int main() {
+int main()
+{
 
-    Node* node1 = new Node(20);
+    Node *node1 = new Node(20);
 
-    Node* tail = node1;
+    Node *tail = node1;
 
     insertAtTail(tail, 5);
     insertAtTail(tail, 10);
