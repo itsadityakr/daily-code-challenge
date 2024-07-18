@@ -1,3 +1,5 @@
+# Patterns in C++
+
 Creating patterns in programming involves using nested loops to systematically print characters or numbers in a specific arrangement. Here’s a detailed breakdown of how patterns are created and the role of loops:
 
 ### Basic Structure:
