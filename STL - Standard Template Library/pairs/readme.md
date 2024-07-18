@@ -85,4 +85,6 @@ int main() {
 - Arrays of pairs can be used to store multiple pairs in a contiguous memory block.
 - Operations like accessing elements, swapping pairs, and comparing pairs are straightforward with pairs in C++.
 
-These notes cover the basics of pairs in C++, including their creation, access methods, and basic operations. Let me know if there's anything else you'd like to explore!
+These notes cover the basics of pairs in C++, including their creation, access methods, and basic operations.
+
+- Aditya Kumar

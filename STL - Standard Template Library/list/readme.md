@@ -157,4 +157,6 @@ int main() {
   - `std::list` provides `O(1)` time complexity for insertion and deletion operations at both ends (`push_back`, `push_front`, `pop_back`, `pop_front`).
   - `O(1)` for insertions and deletions at any position using iterators (`insert`, `erase`).
 
-These notes cover the basics of `std::list` in C++, including its operations, advantages, considerations, and performance characteristics. Let me know if you have any further questions or need additional examples!
+These notes cover the basics of `std::list` in C++, including its operations, advantages, considerations, and performance characteristics.
+
+- Aditya Kumar

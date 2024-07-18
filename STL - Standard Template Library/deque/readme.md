@@ -139,4 +139,6 @@ int main() {
   - `std::deque` offers `O(1)` time complexity for insertions and deletions at both ends.
   - Indexed access (`dq[i]`) also provides `O(1)` time complexity, making it suitable for scenarios where efficient random access is needed.
 
-These notes cover the basics of `std::deque` in C++, including its operations, advantages, considerations, and performance characteristics. Let me know if you have any further questions or need additional examples!
+These notes cover the basics of `std::deque` in C++, including its operations, advantages, considerations, and performance characteristics.
+
+- Aditya Kumar

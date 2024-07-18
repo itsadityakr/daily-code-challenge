@@ -200,4 +200,6 @@ int main() {
 }
 ```
 
-These notes cover the basic and advanced operations you can perform with vectors in C++. Feel free to ask for more specific details or further examples!
+These notes cover the basic and advanced operations you can perform with vectors in C++.
+
+- Aditya Kumar
