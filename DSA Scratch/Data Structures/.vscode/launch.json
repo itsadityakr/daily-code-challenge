@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": ".",
-      "program": "build/Debug/outDebug",
+      "cwd": "d:/Study/GitHub/Code-Universe/DSA Scratch/Data Structures/LinkedList",
+      "program": "d:/Study/GitHub/Code-Universe/DSA Scratch/Data Structures/LinkedList/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [

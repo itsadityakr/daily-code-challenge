@@ -61,5 +61,8 @@
     "new": "cpp",
     "iostream": "cpp",
     "cstdlib": "cpp"
-  }
+  },
+  "code-runner.saveFileBeforeRun": true,
+  "code-runner.saveAllFilesBeforeRun": false,
+  "code-runner.runInTerminal": true
 }
