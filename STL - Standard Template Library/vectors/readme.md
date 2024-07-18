@@ -181,6 +181,7 @@ Here is a complete example demonstrating various vector operations:
     vecA.clear();
     cout << vecA.empty();
     }
+    
     int main() {
         explainVectors();
         return 0;
