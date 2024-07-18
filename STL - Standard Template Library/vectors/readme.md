@@ -180,9 +180,8 @@ Here is a complete example demonstrating various vector operations:
     // Clearing and checking size
     vecA.clear();
     cout << vecA.empty();
-}
-
-int main() {
-    explainVectors();
-    return 0;
-}`
+    }
+    int main() {
+        explainVectors();
+        return 0;
+    }

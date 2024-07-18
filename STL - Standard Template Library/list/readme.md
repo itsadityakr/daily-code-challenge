@@ -124,7 +124,7 @@ Here's a complete example demonstrating various operations on `std::list`:
     cout << "Size: " << myList.size() << endl;  // Print the number of elements in the list
     cout << "Empty: " << myList.empty() << endl; // Check if the list is empty (1 for true, 0 for false)
     }
-
+    
     int main() {
         explainLists();  // Call the explainLists function to demonstrate list operations
         return 0;        // Indicate successful completion of the program

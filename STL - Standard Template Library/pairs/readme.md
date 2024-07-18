@@ -45,11 +45,11 @@
 
 Here's an example demonstrating various operations on pairs:
 
-`#include <bits/stdc++.h>
-using namespace std;
+    #include <bits/stdc++.h>
+    using namespace std;
 
-// Function to explain pairs
-void explainPairs() {
+    / Function to explain pairs
+    void explainPairs() {
     // Simple pair initialization
     pair<int, int> p1 = {1, 3};
     cout << "First element: " << p1.first << ", Second element: " << p1.second << endl;
@@ -67,12 +67,12 @@ void explainPairs() {
     p1.swap(p2);
     cout << "After swapping: First element of p1: " << p1.first << ", Second element of p1: " << p1.second << endl;
     cout << "After swapping: First element of p2: " << p2.first << ", Second element of p2: " << p2.second << endl;
-}
+    }
 
-int main() {
-    explainPairs();
-    return 0;
-}` 
+    int main() {
+       explainPairs();
+        return 0;
+    }
 
 #### Notes
 
