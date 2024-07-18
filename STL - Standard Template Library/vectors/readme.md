@@ -96,21 +96,21 @@
 
 Here is a complete example demonstrating various vector operations:
 
-`#include <bits/stdc++.h>
-using namespace std;
+    #include <bits/stdc++.h>
+    using namespace std;
 
-#define endl "\n"
+    #define endl "\n"
 
-// Function to print elements of a vector
-void printVector(const vector<int>& vec) {
-    for (const auto& elem : vec) {
-        cout << elem << " ";
+    // Function to print elements of a vector
+    void printVector(const vector<int>& vec) {
+        for (const auto& elem : vec) {
+            cout << elem << " ";
+        }
+        cout << endl;
     }
-    cout << endl;
-}
 
-// Function to demonstrate various vector operations
-void explainVectors() {
+    // Function to demonstrate various vector operations
+    void explainVectors() {
     vector<int> intVec;
 
     // Adding elements
