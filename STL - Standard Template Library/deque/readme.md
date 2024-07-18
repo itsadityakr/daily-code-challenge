@@ -141,4 +141,4 @@ int main() {
 
 These notes cover the basics of `std::deque` in C++, including its operations, advantages, considerations, and performance characteristics.
 
-- Aditya Kumar
+-by Aditya Kumar

@@ -202,4 +202,4 @@ int main() {
 
 These notes cover the basic and advanced operations you can perform with vectors in C++.
 
-- Aditya Kumar
+-by Aditya Kumar

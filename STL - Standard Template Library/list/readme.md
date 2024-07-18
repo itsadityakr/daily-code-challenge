@@ -159,4 +159,4 @@ int main() {
 
 These notes cover the basics of `std::list` in C++, including its operations, advantages, considerations, and performance characteristics.
 
-- Aditya Kumar
+-by Aditya Kumar

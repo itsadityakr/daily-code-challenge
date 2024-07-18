@@ -87,4 +87,4 @@ int main() {
 
 These notes cover the basics of pairs in C++, including their creation, access methods, and basic operations.
 
-- Aditya Kumar
+-by Aditya Kumar
