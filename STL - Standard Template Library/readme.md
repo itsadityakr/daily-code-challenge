@@ -17,6 +17,7 @@ Welcome to the STL study guide. This guide provides a structured approach to stu
 11. [Unordered Set](#11-unordered-set)
 12. [Map](#12-map)
 13. [Multimap](#13-multimap)
+14. [Unordered Map](#14-unordered-map)
 
 ---
 
@@ -157,6 +158,16 @@ Multimap is an associative container that allows multiple elements with equivale
 #include <map>
 
 std::multimap<Key, T> myMultimap;
+```
+### 14. Unordered Map
+**Definition:** 
+An unordered_multimap is an associative container that allows multiple elements with equivalent keys, and stores them in an unordered fashion. Implemented in `<unordered_map>`.
+
+**Syntax:**
+```cpp
+#include <unordered_map>
+
+std::unordered_multimap<Key, T> myUnorderedMultimap;
 ```
 
 These definitions and syntax should give you a clear overview of each component in the STL.
