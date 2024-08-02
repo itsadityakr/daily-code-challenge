@@ -225,3 +225,5 @@ int main() {
 - **Passing arrays to functions** involves passing a pointer to the first element, allowing the function to modify the array.
 
 These notes should provide you with a thorough understanding of arrays, character arrays, pointers, and their usage in functions within C++.
+
+- by Aditya Kumar
