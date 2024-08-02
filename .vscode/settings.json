@@ -70,6 +70,9 @@
     "ostream": "cpp",
     "bitset": "cpp",
     "set": "cpp",
-    "format": "cpp"
+    "format": "cpp",
+    "chrono": "cpp",
+    "typeindex": "cpp",
+    "typeinfo": "cpp"
   }
 }
