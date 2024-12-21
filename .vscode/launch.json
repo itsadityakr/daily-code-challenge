@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "d:/Study/GitHub/Code-Universe/Maths and Euclidean Algorithm",
-      "program": "d:/Study/GitHub/Code-Universe/Maths and Euclidean Algorithm/build/Debug/outDebug",
+      "cwd": "D:/Study/GitHub/Code-Universe/Codes CPP",
+      "program": "D:/Study/GitHub/Code-Universe/Codes CPP/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [

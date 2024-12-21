@@ -1,83 +1,198 @@
-# Code Universe
+Here is a summary of **all the STL containers** in C++ with basic usage:
+
+### 1. **Vector**
+   - **Description**: A dynamic array that can resize itself automatically when elements are added or removed.
+   - **Key Operations**: `push_back`, `pop_back`, `size`, `at`, `begin`, `end`
+   - **Example**:
+     ```cpp
+     #include <vector>
+     std::vector<int> v;
+     v.push_back(10); // Add an element
+     v.push_back(20);
+     std::cout << v[0]; // Access first element
+     ```
+
+### 2. **List**
+   - **Description**: A doubly linked list that allows fast insertions and deletions at both ends.
+   - **Key Operations**: `push_front`, `push_back`, `pop_front`, `pop_back`, `size`, `begin`, `end`
+   - **Example**:
+     ```cpp
+     #include <list>
+     std::list<int> l;
+     l.push_back(10);  // Add element at the end
+     l.push_front(5);  // Add element at the front
+     ```
+
+### 3. **Deque**
+   - **Description**: A double-ended queue that allows insertion and deletion of elements from both ends efficiently.
+   - **Key Operations**: `push_front`, `push_back`, `pop_front`, `pop_back`, `at`, `begin`, `end`
+   - **Example**:
+     ```cpp
+     #include <deque>
+     std::deque<int> dq;
+     dq.push_back(10);
+     dq.push_front(5);  // Insert at the front
+     ```
+
+### 4. **Set**
+   - **Description**: A collection of unique elements, usually implemented as a balanced tree (ordered).
+   - **Key Operations**: `insert`, `erase`, `find`, `count`, `size`, `begin`, `end`
+   - **Example**:
+     ```cpp
+     #include <set>
+     std::set<int> s;
+     s.insert(10);
+     s.insert(20);
+     ```
+
+### 5. **Map**
+   - **Description**: A collection of key-value pairs, where keys are unique, and elements are ordered by the key.
+   - **Key Operations**: `insert`, `erase`, `find`, `at`, `begin`, `end`
+   - **Example**:
+     ```cpp
+     #include <map>
+     std::map<int, std::string> m;
+     m[1] = "one";  // Insert key-value pair
+     m[2] = "two";
+     ```
+
+### 6. **Multiset**
+   - **Description**: A collection of elements that can have duplicate values, ordered by value.
+   - **Key Operations**: `insert`, `erase`, `count`, `find`, `begin`, `end`
+   - **Example**:
+     ```cpp
+     #include <set>
+     std::multiset<int> ms;
+     ms.insert(10);
+     ms.insert(10);  // Duplicates allowed
+     ```
+
+### 7. **Multimap**
+   - **Description**: A collection of key-value pairs, where keys can be duplicated.
+   - **Key Operations**: `insert`, `erase`, `find`, `count`, `begin`, `end`
+   - **Example**:
+     ```cpp
+     #include <map>
+     std::multimap<int, std::string> mm;
+     mm.insert({1, "one"});
+     mm.insert({1, "uno"});  // Duplicate keys allowed
+     ```
+
+### 8. **Stack**
+   - **Description**: A container adapter that gives the behavior of a stack (LIFO: Last In First Out).
+   - **Key Operations**: `push`, `pop`, `top`, `empty`, `size`
+   - **Example**:
+     ```cpp
+     #include <stack>
+     std::stack<int> stk;
+     stk.push(10);
+     stk.push(20);
+     int top_element = stk.top();  // 20
+     stk.pop();  // Removes 20
+     ```
+
+### 9. **Queue**
+   - **Description**: A container adapter that gives the behavior of a queue (FIFO: First In First Out).
+   - **Key Operations**: `push`, `pop`, `front`, `back`, `empty`, `size`
+   - **Example**:
+     ```cpp
+     #include <queue>
+     std::queue<int> q;
+     q.push(10);
+     q.push(20);
+     int front_element = q.front();  // 10
+     q.pop();  // Removes 10
+     ```
+
+### 10. **Priority Queue**
+   - **Description**: A container adapter that provides the behavior of a priority queue, where the highest (or lowest) element is always accessible.
+   - **Key Operations**: `push`, `pop`, `top`, `empty`, `size`
+   - **Example**:
+     ```cpp
+     #include <queue>
+     std::priority_queue<int> pq;
+     pq.push(10);
+     pq.push(20);
+     int top_element = pq.top();  // 20 (default: max-heap)
+     pq.pop();  // Removes 20
+     ```
+
+### 11. **Array**
+   - **Description**: A fixed-size container that provides direct access to its elements by index.
+   - **Key Operations**: `at`, `size`, `begin`, `end`
+   - **Example**:
+     ```cpp
+     #include <array>
+     std::array<int, 3> arr = {1, 2, 3};
+     int first_element = arr[0];  // 1
+     ```
+
+### 12. **Unordered Set**
+   - **Description**: A collection of unique elements, but without any specific order, implemented as a hash table.
+   - **Key Operations**: `insert`, `erase`, `find`, `count`, `size`, `begin`, `end`
+   - **Example**:
+     ```cpp
+     #include <unordered_set>
+     std::unordered_set<int> us;
+     us.insert(10);
+     us.insert(20);
+     ```
+
+### 13. **Unordered Map**
+   - **Description**: A collection of key-value pairs, where keys are unique, but there is no specific order. It uses hashing for fast lookup.
+   - **Key Operations**: `insert`, `erase`, `find`, `at`, `begin`, `end`
+   - **Example**:
+     ```cpp
+     #include <unordered_map>
+     std::unordered_map<int, std::string> um;
+     um[1] = "one";  // Insert key-value pair
+     um[2] = "two";
+     ```
+
+### 14. **Unordered Multiset**
+   - **Description**: A collection of elements that can have duplicates, but no specific order, implemented as a hash table.
+   - **Key Operations**: `insert`, `erase`, `find`, `count`, `begin`, `end`
+   - **Example**:
+     ```cpp
+     #include <unordered_set>
+     std::unordered_multiset<int> ums;
+     ums.insert(10);
+     ums.insert(10);  // Duplicates allowed
+     ```
+
+### 15. **Unordered Multimap**
+   - **Description**: A collection of key-value pairs, where keys can be duplicated, and no specific order is enforced. It uses hashing.
+   - **Key Operations**: `insert`, `erase`, `find`, `count`, `begin`, `end`
+   - **Example**:
+     ```cpp
+     #include <unordered_map>
+     std::unordered_multimap<int, std::string> umm;
+     umm.insert({1, "one"});
+     umm.insert({1, "uno"});  // Duplicate keys allowed
+     ```
+
 ---
-## Content Included
 
-#### Step 1: Foundations of Programming
-- **Lec 1: Things to Know in C++/Java/Python or any language**
-  - **User Input / Output:** Understand basic input and output operations in your language.
-  - **Data Types:** Learn about different data types and their usage.
-  - **Control Flow:** Master if-else statements, switch statements, and loops (for and while).
-  - **Arrays and Strings:** Explore the basics of arrays and strings, including operations and manipulations.
-  - **Functions:** Understand function definitions, parameter passing (by reference and value), and return types.
-  - **Time Complexity:** Introduce the concept of time complexity and its importance in algorithm analysis.
+### Summary Table of Containers:
 
-- **Lec 2: Build-up Logical Thinking**
-  - **Patterns:** Develop logical thinking skills through pattern recognition and generation exercises.
+| **Container**         | **Description**                                                   | **Key Operations**                                                  |
+|-----------------------|-------------------------------------------------------------------|---------------------------------------------------------------------|
+| **Vector**            | Dynamic array (resizable)                                         | `push_back`, `pop_back`, `size`, `begin`, `end`                     |
+| **List**              | Doubly linked list                                                | `push_front`, `push_back`, `pop_front`, `pop_back`, `size`          |
+| **Deque**             | Double-ended queue                                                | `push_front`, `push_back`, `pop_front`, `pop_back`, `at`, `size`    |
+| **Set**               | Collection of unique elements (ordered)                           | `insert`, `erase`, `find`, `count`, `size`, `begin`, `end`         |
+| **Map**               | Collection of key-value pairs (unique keys, ordered)              | `insert`, `erase`, `find`, `at`, `size`, `begin`, `end`            |
+| **Multiset**          | Collection of elements (duplicates allowed, ordered)              | `insert`, `erase`, `count`, `find`, `size`, `begin`, `end`         |
+| **Multimap**          | Collection of key-value pairs (duplicate keys allowed, ordered)   | `insert`, `erase`, `find`, `at`, `size`, `begin`, `end`            |
+| **Stack**             | Container adapter (LIFO)                                          | `push`, `pop`, `top`, `empty`, `size`                               |
+| **Queue**             | Container adapter (FIFO)                                          | `push`, `pop`, `front`, `back`, `empty`, `size`                      |
+| **Priority Queue**    | Container adapter (ordered, based on priority)                    | `push`, `pop`, `top`, `empty`, `size`                               |
+| **Array**             | Fixed-size array                                                  | `at`, `size`, `begin`, `end`                                        |
+| **Unordered Set**     | Hash table (unique elements, unordered)                           | `insert`, `erase`, `find`, `count`, `size`, `begin`, `end`         |
+| **Unordered Map**     | Hash table (unique keys, unordered)                               | `insert`, `erase`, `find`, `at`, `size`, `begin`, `end`            |
+| **Unordered Multiset**| Hash table (duplicate elements, unordered)                        | `insert`, `erase`, `find`, `count`, `size`, `begin`, `end`         |
+| **Unordered Multimap**| Hash table (duplicate keys allowed, unordered)                    | `insert`, `erase`, `find`, `count`, `size`, `begin`, `end`         |
 
-#### Step 2: Learning STL/Java-Collections or Similar
-- **Lec 3: Understanding C++ STL**
-  - **Overview:** Introduction to the Standard Template Library (STL) and its components.
-  - **Containers:** Study containers like vectors, lists, deques, stacks, queues, and sets.
-  - **Algorithms:** Explore algorithms provided by STL for sorting, searching, and more.
+These containers form the basis of most STL operations and are essential for handling data structures
 
-#### Step 3: Basic Mathematical Concepts
-- **Lec 4: Know Basic Maths**
-  - **Number Operations:** Perform operations like counting digits, reversing numbers, checking for palindromes, finding GCD/HCF, identifying Armstrong numbers, and printing divisors.
-  
-#### Step 4: Introduction to Recursion and Hashing
-- **Lec 5: Learn Basic Recursion**
-  - **Recursive Functions:** Implement recursion for common problems like factorial calculation, array reversal, palindrome checks, and Fibonacci sequence generation.
-  
-- **Lec 6: Learn Basic Hashing**
-  - **Hashing Techniques:** Understand hashing theory and its applications, such as counting frequencies of array elements and finding elements with highest/lowest frequencies.
-
-#### Step 5: Important Sorting Techniques
-- **Lec 1: Sorting-I**
-  - **Basic Sorting Algorithms:** Implement selection sort, bubble sort, and insertion sort.
-
-- **Lec 2: Sorting-II**
-  - **Advanced Sorting Algorithms:** Learn merge sort, quick sort, and their recursive variants.
-
-#### Step 6: Problem Solving with Arrays
-- **Lec 1: Easy Problems**
-  - **Array Manipulations:** Solve problems like finding the largest element, second largest element without sorting, checking if an array is sorted, removing duplicates, and rotating arrays.
-
-- **Lec 2: Medium Problems**
-  - **Advanced Array Operations:** Tackle challenges such as the two-sum problem, sorting arrays of 0s, 1s, and 2s, identifying majority elements, implementing Kadane’s algorithm, and more complex operations like rotating matrices and spiral printing.
-
-- **Lec 3: Hard Problems**
-  - **Challenging Array Tasks:** Face difficult tasks such as finding elements with specific properties (like XOR K), managing overlapping subintervals, handling inversions, and solving complex problems like reverse pairs and maximum product subarrays.
-
-#### Step 7: Binary Search and Search Techniques
-- **Lec 1: Binary Search on 1D Arrays**
-  - **Fundamentals:** Master binary search fundamentals, including finding elements in sorted arrays, implementing lower and upper bounds, searching in rotated sorted arrays, and handling peak element identification.
-
-- **Lec 2: Binary Search on Answers**
-  - **Advanced Techniques:** Apply binary search to find square roots, Nth roots, solve allocation problems, partitioning arrays, and locating elements in 2D arrays.
-
-- **Lec 3: Binary Search on 2D Arrays**
-  - **Matrix Operations:** Perform operations such as finding rows with maximum 1s, searching efficiently in sorted matrices, identifying peak elements in 2D matrices, and more complex tasks like matrix median calculations.
-
-#### Step 8: String Manipulation
-- **Lec 1: Basic and Easy String Problems**
-  - **Basic Operations:** Perform operations like removing outermost parentheses, reversing words in strings, finding the largest odd number, identifying longest common prefixes, and checking string isomorphism and rotations.
-
-- **Lec 2: Medium String Problems**
-  - **Advanced Techniques:** Solve challenges like sorting characters by frequency, determining nesting depths of parentheses, converting Roman numerals to integers and vice versa, implementing `atoi` functions, and exploring palindromic substrings.
-
-### GitHub Repository Usage
-
-Clone or download this repository to access:
-- Detailed lecture notes for each topic.
-- Articles and tutorials for deeper understanding.
-- Curated YouTube resources for visual learning.
-- Practice problems with solutions in various programming languages.
-- Revision materials and additional resources to reinforce learning.
-
-### Who Is This For?
-
-- **Beginners:** Ideal for those starting their programming journey and looking to build strong foundational knowledge.
-- **Intermediate Learners:** Perfect for those aiming to deepen their understanding of algorithms, data structures, and problem-solving techniques.
-- **Aspiring Coders:** Suitable for individuals preparing for coding interviews, competitive programming contests, or simply enhancing their programming skills.
-
----
+ efficiently in C++.
