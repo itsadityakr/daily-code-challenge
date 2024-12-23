@@ -4,7 +4,7 @@
 #define endl "\n"
 using namespace std;
 
-int maxFrequencyElements(vector<int>& nums) {
+int count_element_max_frequency(vector<int>& nums) {
     unordered_map<int, int> frequencyMap;
     int maxFrequency = 0;
 
@@ -30,5 +30,5 @@ int main() {
     for(int i = 0; i < n; i++) {
         cin >> nums[i];
     }
-    cout << maxFrequencyElements(nums);
+    cout << count_element_max_frequency(nums);
 }
