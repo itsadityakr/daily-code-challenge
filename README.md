@@ -260,5 +260,3 @@ Feel free to contribute by submitting pull requests, reporting issues, or sugges
 This repository is open-source and available under the [MIT License](LICENSE).
 
 ---
-
-These minor improvements are mostly formatting and clarity. Your repository's content is already very comprehensive and clear!
