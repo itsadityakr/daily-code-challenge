@@ -40,29 +40,29 @@
 
      Let's go through the example of converting the number **17** to binary, octal, and hexadecimal.
 
-### 1. **Binary Representation of 17**:
-   - Start with 17 and repeatedly divide by 2:
-     - 17 ÷ 2 = 8 (remainder 1)
-     - 8 ÷ 2 = 4 (remainder 0)
-     - 4 ÷ 2 = 2 (remainder 0)
-     - 2 ÷ 2 = 1 (remainder 0)
-     - 1 ÷ 2 = 0 (remainder 1)
-   - The binary representation of 17 is read from the last remainder to the first: **10001**.
+      ### 1. **Binary Representation of 17**:
+         - Start with 17 and repeatedly divide by 2:
+         - 17 ÷ 2 = 8 (remainder 1)
+         - 8 ÷ 2 = 4 (remainder 0)
+         - 4 ÷ 2 = 2 (remainder 0)
+         - 2 ÷ 2 = 1 (remainder 0)
+         - 1 ÷ 2 = 0 (remainder 1)
+         - The binary representation of 17 is read from the last remainder to the first: **10001**.
 
-### 2. **Octal Representation of 17**:
-   - Start with 17 and repeatedly divide by 8:
-     - 17 ÷ 8 = 2 (remainder 1)
-     - 2 ÷ 8 = 0 (remainder 2)
-   - The octal representation of 17 is read from the last remainder to the first: **21**.
+      ### 2. **Octal Representation of 17**:
+         - Start with 17 and repeatedly divide by 8:
+         - 17 ÷ 8 = 2 (remainder 1)
+         - 2 ÷ 8 = 0 (remainder 2)
+         - The octal representation of 17 is read from the last remainder to the first: **21**.
 
-### 3. **Hexadecimal Representation of 17**:
-   - Since 17 is less than 16 but more than 9, it is represented by the digit **11** (in hexadecimal, 10 is A, 11 is B, and so on, but here it is just 17).
-   - The hexadecimal representation of 17 is **11**.
+      ### 3. **Hexadecimal Representation of 17**:
+         - Since 17 is less than 16 but more than 9, it is represented by the digit **11** (in hexadecimal, 10 is A, 11 is B, and so on, but here it is just 17).
+         - The hexadecimal representation of 17 is **11**.
 
-So, for the number 17:
-- **Binary**: `10001`
-- **Octal**: `21`
-- **Hexadecimal**: `11`
+      So, for the number 17:
+      - **Binary**: `10001`
+      - **Octal**: `21`
+      - **Hexadecimal**: `11`
 
 ---
 
