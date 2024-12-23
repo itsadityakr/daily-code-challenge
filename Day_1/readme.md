@@ -75,7 +75,13 @@
    - **Description**: The program calculates the Highest Common Factor (HCF) and Least Common Multiple (LCM) of two numbers.
    - **Approach**:
      - Use Euclid’s algorithm for HCF.
-     - Use the relationship `LCM(a, b) = (a * b) / HCF(a, b)` to find the LCM.
+
+```cpp
+  euclid_gcd(a, b):
+    while b != 0:
+        a, b = b, a % b
+    return a
+```
 
 ---
 
