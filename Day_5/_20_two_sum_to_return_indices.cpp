@@ -30,7 +30,7 @@ int main()
     vector<int> new_vec = twoSum(nums, k);
     for (auto x : new_vec)
     {
-        cout << x;
+        cout << x<<" ";
     }
     return 0;
 }

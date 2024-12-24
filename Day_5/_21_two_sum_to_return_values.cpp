@@ -1,4 +1,4 @@
-// https://www.naukri.com/code360/problems/two-sum_839653?leftPanelTabValue=SOLUTION
+// https://www.naukri.com/code360/problems/two-sum_839653?leftPanelTabValue=PROBLEM
 #include <iostream>
 #include <vector>
 #include <unordered_map>
