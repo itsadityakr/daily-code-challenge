@@ -1,4 +1,4 @@
-// https://www.naukri.com/code360/problems/intersection-of-2-arrays_1082149?leftPanelTabValue=PROBLEM
+// https://www.naukri.com/code360/problems/intersection_result-of-2-arrays_1082149?leftPanelTabValue=PROBLEM
 #include <iostream>
 #include <vector>
 using namespace std;
@@ -6,10 +6,10 @@ using namespace std;
 void findIntersection(vector<int> &A, vector<int> &B) {
     int n = A.size(), m = B.size();
     int i = 0, j = 0;
-    vector<int> intersection;
+    vector<int> intersection_result;
     while (i < n && j < m) {
         if (A[i] == B[j]) {
-            intersection.push_back(A[i]);
+            intersection_result.push_back(A[i]);
             i++;
             j++;
         } else if (A[i] < B[j]) {
@@ -18,8 +18,8 @@ void findIntersection(vector<int> &A, vector<int> &B) {
             j++;
         }
     }
-    if (!intersection.empty()) {
-        for (int val : intersection) {
+    if (!intersection_result.empty()) {
+        for (int val : intersection_result) {
             cout << val << " ";
         }
         cout << endl;
