@@ -1,4 +1,4 @@
-// https://leetcode.com/problems/check-if-array-is-sorted-and-rotated/submissions/1487234594/
+// https://leetcode.com/problems/check-if-array-is-sorted-and-rotated/description/
 #include <vector>
 #include <iostream>
 
