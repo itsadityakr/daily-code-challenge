@@ -59,3 +59,63 @@
    - **Space Complexity**: O(1), since no additional space is used except for a few integer variables.
 
 ---
+
+### 34. **Longest Substring Without Repeating Characters**
+   - **File**: `_34_longest_substring_without_repeating_characters.cpp`
+   - **Description**: Given a string, find the length of the longest substring without repeating characters. The solution uses the sliding window technique to dynamically adjust the window's start and end to ensure no repeating characters.
+   - **Approach**: 
+     - Use a sliding window with two pointers (`windowStart` and `windowEnd`) to track the current window of non-repeating characters.
+     - Maintain an array `charIndex` of size 256 to store the most recent index of each character in the string.
+     - When encountering a repeating character, adjust `windowStart` to ensure the window contains only unique characters.
+     - Track the maximum length of the window without repeating characters.
+   - **Time Complexity**: O(n), where n is the length of the input string. We traverse the string once, and each character is processed in constant time.
+   - **Space Complexity**: O(1) because the space used by the `charIndex` array is constant (256 for all possible ASCII characters).
+
+---
+
+### 35. **Find All Permutations of a String**
+   - **File**: `_35_find_all_permutations_of_a_string.cpp`
+   - **Description**: Given a list of numbers, find all permutations of the given list. This problem involves generating all possible permutations and returning them in lexicographical order.
+   - **Approach**: 
+     - First, sort the input array to ensure permutations are generated in lexicographical order.
+     - Use the `next_permutation` function to generate each subsequent permutation of the input array.
+     - Push each permutation into a result vector.
+   - **Time Complexity**: O(n * n!), where n is the length of the input array. This comes from generating all n! permutations, and for each permutation, the next_permutation function takes O(n) time.
+   - **Space Complexity**: O(n!), due to the space needed to store all permutations.
+
+---
+
+### 36. **Count Frequency of Characters in a String**
+   - **File**: `_36_count_frequency_of_characters_in_string.cpp`
+   - **Description**: Given a string, count the frequency of each character in it. Only lowercase English letters are considered.
+   - **Approach**: 
+     - Create an array `freq` of size 26 to count occurrences of each character.
+     - Traverse the string and update the frequency count for each character.
+     - After processing the string, print the frequency of each character that occurs at least once.
+   - **Time Complexity**: O(n), where n is the length of the string, as we need to process each character exactly once.
+   - **Space Complexity**: O(1), since the frequency array size is fixed (26 letters).
+
+---
+
+### 37. **Largest Common Prefix in Array of Strings**
+   - **File**: `_37_largest_common_prefix_in_array_of_strings.cpp`
+   - **Description**: Given an array of strings, find the longest common prefix (LCP) shared by all the strings.
+   - **Approach**: 
+     - First, sort the array to bring similar prefixes together.
+     - Compare the first and last strings in the sorted array, as they will have the smallest common prefix.
+     - Iterate through both strings and find the longest common prefix.
+   - **Time Complexity**: O(n * m), where n is the number of strings and m is the length of the longest string. Sorting the strings takes O(n log n), and comparing the first and last strings takes O(m).
+   - **Space Complexity**: O(1), as we only need space for a few auxiliary variables.
+
+---
+
+### 38. **Find ASCII Values of String**
+   - **File**: `_38_find_ascii_values_of_string.cpp`
+   - **Description**: Given a string, return the ASCII values of its characters.
+   - **Approach**: 
+     - Iterate over the string and convert each character to its ASCII value using type casting.
+     - Store the ASCII values in a vector and return it.
+   - **Time Complexity**: O(n), where n is the length of the string, as we process each character once.
+   - **Space Complexity**: O(n), as we store the ASCII values of all characters in a vector.
+
+---

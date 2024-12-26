@@ -92,15 +92,15 @@ Welcome to my repository where I will be solving **Data Structures and Algorithm
 18. **Find the union and intersection of two arrays.** ✅
 
 #### Strings
-19. **Check if two strings are anagrams.**
-20. **Check if a string is a palindrome.**
-21. **Reverse words in a string.**
-22. **Check if a string contains only digits.**
-23. **Convert a string to an integer (Implement atoi).**
-24. **Find the longest substring without repeating characters.**
-25. **Find all permutations of a string.**
-26. **Count the frequency of characters in a string.**
-27. **Longest common prefix in an array of strings.**
+19. **Check if two strings are anagrams.** ✅
+20. **Check if a string is a palindrome.** ✅
+21. **Reverse words in a string.** ✅
+22. **Check if a string contains only digits.** ✅
+23. **Convert a string to an integer (Implement atoi).** ✅
+24. **Find the longest substring without repeating characters.** ✅
+25. **Find all permutations of a string.** ✅
+26. **Count the frequency of characters in a string.** ✅
+27. **Longest common prefix in an array of strings.** ✅
 
 #### Linked Lists
 28. **Reverse a linked list.**
