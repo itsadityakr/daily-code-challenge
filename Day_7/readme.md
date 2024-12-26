@@ -62,60 +62,81 @@
 
 ### 34. **Longest Substring Without Repeating Characters**
    - **File**: `_34_longest_substring_without_repeating_characters.cpp`
-   - **Description**: Given a string, find the length of the longest substring without repeating characters. The solution uses the sliding window technique to dynamically adjust the window's start and end to ensure no repeating characters.
+   - **Description**: Finds the length of the longest substring without repeating characters in a given string.
    - **Approach**: 
-     - Use a sliding window with two pointers (`windowStart` and `windowEnd`) to track the current window of non-repeating characters.
-     - Maintain an array `charIndex` of size 256 to store the most recent index of each character in the string.
-     - When encountering a repeating character, adjust `windowStart` to ensure the window contains only unique characters.
-     - Track the maximum length of the window without repeating characters.
-   - **Time Complexity**: O(n), where n is the length of the input string. We traverse the string once, and each character is processed in constant time.
-   - **Space Complexity**: O(1) because the space used by the `charIndex` array is constant (256 for all possible ASCII characters).
+     1. Initialize variables:
+        - `longest` to store the maximum length of the substring found so far.
+        - `windowStart` to manage the starting index of the current substring.
+        - A `charIndex` vector of size 256 (ASCII range) initialized to `-1` to track the most recent occurrence of each character.
+     2. Iterate through the string using a `windowEnd` pointer.
+     3. For each character, check if it has appeared after the current `windowStart`. If so, update `windowStart` to the index of its most recent occurrence (`charIndex` value).
+     4. Update `charIndex` for the current character to its latest index.
+     5. Calculate the length of the current substring (`windowEnd - windowStart`) and update `longest` if this length is greater than the previous maximum.
+     6. Return the `longest` length at the end.
+   - **Time Complexity**: \(O(n)\), where \(n\) is the length of the string (each character is processed once).
+   - **Space Complexity**: \(O(1)\) (fixed size for 256 ASCII characters).
 
 ---
 
 ### 35. **Find All Permutations of a String**
    - **File**: `_35_find_all_permutations_of_a_string.cpp`
-   - **Description**: Given a list of numbers, find all permutations of the given list. This problem involves generating all possible permutations and returning them in lexicographical order.
-   - **Approach**: 
-     - First, sort the input array to ensure permutations are generated in lexicographical order.
-     - Use the `next_permutation` function to generate each subsequent permutation of the input array.
-     - Push each permutation into a result vector.
-   - **Time Complexity**: O(n * n!), where n is the length of the input array. This comes from generating all n! permutations, and for each permutation, the next_permutation function takes O(n) time.
-   - **Space Complexity**: O(n!), due to the space needed to store all permutations.
+   - **Description**: Generates all permutations of a given string (or vector of characters) in lexicographical order.
+   - **Approach**:
+     1. Sort the input string or vector to start with the smallest lexicographical order.
+     2. Store the first permutation in the result list.
+     3. Use the **next permutation algorithm** to find subsequent permutations:
+        - Find the rightmost position (`i`) where the character is smaller than the one after it.
+        - If no such position exists, all permutations have been generated (terminate).
+        - Find the smallest character to the right of `i` that is larger than `nums[i]` and swap them.
+        - Reverse the substring to the right of position `i` to restore ascending order.
+     4. Add each permutation to the result list until no more permutations are possible.
+     5. Return the list of permutations.
+   - **Time Complexity**: \(O(n! \times n)\), where \(n\) is the length of the input string.
+   - **Space Complexity**: \(O(1)\), excluding the storage for permutations.
 
 ---
 
 ### 36. **Count Frequency of Characters in a String**
    - **File**: `_36_count_frequency_of_characters_in_string.cpp`
-   - **Description**: Given a string, count the frequency of each character in it. Only lowercase English letters are considered.
-   - **Approach**: 
-     - Create an array `freq` of size 26 to count occurrences of each character.
-     - Traverse the string and update the frequency count for each character.
-     - After processing the string, print the frequency of each character that occurs at least once.
-   - **Time Complexity**: O(n), where n is the length of the string, as we need to process each character exactly once.
-   - **Space Complexity**: O(1), since the frequency array size is fixed (26 letters).
+   - **Description**: Counts the frequency of each character in a given string and prints the result.
+   - **Approach**:
+     1. Initialize a frequency vector of size 26 (for each lowercase letter) with zeros.
+     2. Iterate through the string character by character:
+        - If the character is between 'a' and 'z', calculate its index (`c - 'a'`) and increment the corresponding frequency count.
+     3. After processing the string, iterate through the frequency vector:
+        - For each non-zero frequency, convert the index back to the character and print the character along with its frequency.
+     4. Handle only lowercase letters; other characters are ignored.
+   - **Time Complexity**: \(O(n)\), where \(n\) is the length of the string.
+   - **Space Complexity**: \(O(1)\), fixed array size for 26 characters.
 
 ---
 
-### 37. **Largest Common Prefix in Array of Strings**
+### 37. **Largest Common Prefix in an Array of Strings**
    - **File**: `_37_largest_common_prefix_in_array_of_strings.cpp`
-   - **Description**: Given an array of strings, find the longest common prefix (LCP) shared by all the strings.
-   - **Approach**: 
-     - First, sort the array to bring similar prefixes together.
-     - Compare the first and last strings in the sorted array, as they will have the smallest common prefix.
-     - Iterate through both strings and find the longest common prefix.
-   - **Time Complexity**: O(n * m), where n is the number of strings and m is the length of the longest string. Sorting the strings takes O(n log n), and comparing the first and last strings takes O(m).
-   - **Space Complexity**: O(1), as we only need space for a few auxiliary variables.
+   - **Description**: Finds the longest common prefix among an array of strings.
+   - **Approach**:
+     1. If the array is empty, return an empty string.
+     2. Sort the array lexicographically so the smallest and largest strings will have the least overlap.
+     3. Compare the first and last strings in the sorted array character by character:
+        - Continue matching characters until a mismatch is found or the end of either string is reached.
+     4. Extract the matching portion of the prefix (from the start to the mismatch index).
+     5. Return the extracted prefix as the longest common prefix.
+   - **Time Complexity**: \(O(n \times m \log n)\), where \(n\) is the number of strings, \(m\) is the average length of the strings, and sorting dominates the runtime.
+   - **Space Complexity**: \(O(1)\), excluding input storage.
 
 ---
 
-### 38. **Find ASCII Values of String**
+### 38. **Find ASCII Values of a String**
    - **File**: `_38_find_ascii_values_of_string.cpp`
-   - **Description**: Given a string, return the ASCII values of its characters.
-   - **Approach**: 
-     - Iterate over the string and convert each character to its ASCII value using type casting.
-     - Store the ASCII values in a vector and return it.
-   - **Time Complexity**: O(n), where n is the length of the string, as we process each character once.
-   - **Space Complexity**: O(n), as we store the ASCII values of all characters in a vector.
+   - **Description**: Converts each character in a string to its ASCII value and stores the values in a vector.
+   - **Approach**:
+     1. Initialize an empty vector to store ASCII values.
+     2. Traverse the input string using a loop.
+     3. For each character in the string:
+        - Use the `int` conversion to find its ASCII value.
+        - Store the ASCII value in the vector at the corresponding index.
+     4. Return the vector containing all ASCII values of the string.
+   - **Time Complexity**: \(O(n)\), where \(n\) is the length of the string.
+   - **Space Complexity**: \(O(n)\), required for the vector to store ASCII values.
 
 ---

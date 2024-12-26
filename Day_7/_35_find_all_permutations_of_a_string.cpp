@@ -8,9 +8,22 @@ vector<vector<int>> permute(vector<int>& nums) {
     sort(nums.begin(), nums.end());
     vector<vector<int>> ans;
     ans.push_back(nums);
-    while (next_permutation(nums.begin(), nums.end())) {
+    
+    while (true) {
+        int i = nums.size() - 2;
+        while (i >= 0 && nums[i] >= nums[i + 1]) {
+            i--;
+        }
+        if (i < 0) break;
+        int j = nums.size() - 1;
+        while (nums[j] <= nums[i]) {
+            j--;
+        }
+        swap(nums[i], nums[j]);
+        reverse(nums.begin() + i + 1, nums.end());
         ans.push_back(nums);
     }
+    
     return ans;
 }
 
