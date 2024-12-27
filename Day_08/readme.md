@@ -2,7 +2,7 @@
 
 ---
 
-### 39. **Reverse a Linked List**
+### 39. **Reverse a Linked List** [Link](./_39_reverse_a_linked_list.cpp)
    - **File**: _39_reverse_a_linked_list.cpp
    - **Description**: This problem requires reversing a singly linked list. The task is to reverse the links between the nodes in the list such that the head node becomes the last node, and all other nodes are reversed.
    - **Approach**: The solution uses an iterative approach to reverse the linked list. Starting with the head node, the algorithm traverses the list, changing each node’s `next` pointer to point to its previous node. The process continues until all nodes are reversed. The `prev`, `curr`, and `nextNode` pointers help in maintaining the state during the traversal and reversal.
