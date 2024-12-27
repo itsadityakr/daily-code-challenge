@@ -1,7 +1,7 @@
 ## Day 8 - Linked List Operations
 ---
 
-### 1. **Insert at End (Default)** [Link](./_SLL_01_insert_at_end_default.cpp)
+### 1. **Insert at End (Default)** [📎🧲🔗](./_SLL_01_insert_at_end_default.cpp)
    - **File**: `_SLL_01_insert_at_end_default.cpp`
    - **Description**: This function inserts a new node with the specified value at the end of a singly linked list. If the list is empty, it assigns the new node as the head. Otherwise, it traverses to the last node and appends the new node after it.
    - **Approach**: 
