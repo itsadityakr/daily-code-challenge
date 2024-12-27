@@ -103,8 +103,8 @@ Welcome to my repository where I will be solving **Data Structures and Algorithm
 27. **Longest common prefix in an array of strings.** ✅
 
 #### Linked Lists
-28. **Reverse a linked list.**
-29. **Detect a cycle in a linked list.**
+28. **Reverse a linked list.** ✅
+29. **Detect a cycle in a linked list.** ✅
 30. **Merge two sorted linked lists.**
 31. **Remove duplicates from a sorted linked list.**
 32. **Find the length of a linked list.**
