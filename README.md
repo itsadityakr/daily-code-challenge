@@ -1,6 +1,6 @@
 # Daily DSA Problem Solving
 
-Welcome to my repository where I will be solving **Data Structures and Algorithms (DSA)** questions daily. This repository contains a collection of over **200+ DSA interview questions** ordered from beginner to advanced levels.
+Welcome to my repository where I will be solving **Data Structures and Algorithms (DSA)** questions daily. This repository contains a collection of over **150+ DSA interview questions** ordered from beginner to advanced levels.
 
 ---
 
@@ -19,12 +19,9 @@ Welcome to my repository where I will be solving **Data Structures and Algorithm
     - [Strings](#strings-1)
     - [Linked Lists](#linked-lists-1)
     - [Stacks and Queues](#stacks-and-queues-1)
-    - [Binary Trees](#binary-trees)
   - [Advanced-Level Questions](#advanced-level-questions) ⭐⭐⭐
     - [Dynamic Programming](#dynamic-programming)
-    - [Graphs](#graphs)
     - [Backtracking](#backtracking)
-    - [Binary Search Trees (BST)](#binary-search-trees-bst)
     - [Bit Manipulation](#bit-manipulation)
     - [Miscellaneous](#miscellaneous)
 - 💡[About This Repository](#-about-this-repository)
