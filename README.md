@@ -9,18 +9,18 @@ Welcome to my repository where I will be solving **Data Structures and Algorithm
 - [📚 Problem Categories](#-problem-categories)
   - [Numbers and Arithmetic 🚨](#numbers-and-arithmetic)
   - [Loops and Patterns 🚨](#loops-and-patterns)
-  - [Beginner-Level Questions ⭐](#beginner-level-questions)
+  - [Beginner-Level Questions](#beginner-level-questions) ⭐
     - [Arrays](#arrays)
     - [Strings](#strings)
     - [Linked Lists](#linked-lists)
     - [Stacks and Queues](#stacks-and-queues)
-  - [Intermediate-Level Questions ⭐⭐](#intermediate-level-questions)
+  - [Intermediate-Level Questions](#intermediate-level-questions) ⭐⭐
     - [Arrays](#arrays-1)
     - [Strings](#strings-1)
     - [Linked Lists](#linked-lists-1)
     - [Stacks and Queues](#stacks-and-queues-1)
     - [Binary Trees](#binary-trees)
-  - [Advanced-Level Questions ⭐⭐⭐](#advanced-level-questions)
+  - [Advanced-Level Questions](#advanced-level-questions) ⭐⭐⭐
     - [Dynamic Programming](#dynamic-programming)
     - [Graphs](#graphs)
     - [Backtracking](#backtracking)
