@@ -7,8 +7,8 @@ Welcome to my repository where I will be solving **Data Structures and Algorithm
 ## 🗂️ Table of Contents
 
 - [📚 Problem Categories](#-problem-categories)
-  - [Numbers and Arithmetic 🚨](#numbers-and-arithmetic)
-  - [Loops and Patterns 🚨](#loops-and-patterns)
+  - [Numbers and Arithmetic](#numbers-and-arithmetic) 🚨
+  - [Loops and Patterns](#loops-and-patterns) 🚨
   - [Beginner-Level Questions](#beginner-level-questions) ⭐
     - [Arrays](#arrays)
     - [Strings](#strings)
