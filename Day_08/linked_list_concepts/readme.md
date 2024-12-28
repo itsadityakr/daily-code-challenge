@@ -1,7 +1,7 @@
 ## Day 8 - Linked List Operations
 ---
 
-### 1. **Insert at End (Default)** [🔗](./_SLL_01_insert_at_end_default.cpp)
+### 1. **Insert at End (Default)** [🧲](./_SLL_01_insert_at_end_default.cpp)
    - **File**: `_SLL_01_insert_at_end_default.cpp`
    - **Description**: This function inserts a new node with the specified value at the end of a singly linked list. If the list is empty, it assigns the new node as the head. Otherwise, it traverses to the last node and appends the new node after it.
    - **Approach**: 
@@ -13,7 +13,7 @@
 
 ---
 
-### 2. **Insert at Beginning** [🔗](./_SLL_02_insert_at_first.cpp)
+### 2. **Insert at Beginning** [🧲](./_SLL_02_insert_at_first.cpp)
    - **File**: `_SLL_02_insert_at_first.cpp`
    - **Description**: This function inserts a new node with the given value at the beginning of the singly linked list. The new node's `next` pointer is set to the current head of the list, and then the head is updated to the new node.
    - **Approach**:
@@ -25,7 +25,7 @@
 
 ---
 
-### 3. **Insert at Index** [🔗](./_SLL_03_insert_at_index.cpp)
+### 3. **Insert at Index** [🧲](./_SLL_03_insert_at_index.cpp)
    - **File**: `_SLL_03_insert_at_index.cpp`
    - **Description**: This function inserts a new node with the given value at the specified index in the singly linked list. If the index is `0`, it inserts the node at the beginning. Otherwise, it traverses the list to the given index and inserts the node there.
    - **Approach**:
@@ -38,7 +38,7 @@
 
 ---
 
-### 4. **Insert After Index** [🔗](./_SLL_04_insert_after_index.cpp)
+### 4. **Insert After Index** [🧲](./_SLL_04_insert_after_index.cpp)
    - **File**: `_SLL_04_insert_after_index.cpp`
    - **Description**: This function inserts a new node with the given value after the specified index in the singly linked list. It traverses the list to the node at the specified index and inserts the new node after it.
    - **Approach**:
@@ -50,7 +50,7 @@
 
 ---
 
-### 5. *Insert Before Index** [🔗](./_SLL_05_insert_before_index.cpp)
+### 5. *Insert Before Index** [🧲](./_SLL_05_insert_before_index.cpp)
    - **File**: `_SLL_05_insert_before_index.cpp`
    - **Description**: This function inserts a new node with the given value before the specified index in the singly linked list. If the index is `0`, the new node is inserted at the beginning. Otherwise, the list is traversed to the node just before the index, and the new node is inserted there.
    - **Approach**:
@@ -63,7 +63,7 @@
 
 ---
 
-### 6. **Insert After Value** [🔗](./_SLL_06_insert_after_value.cpp)
+### 6. **Insert After Value** [🧲](./_SLL_06_insert_after_value.cpp)
    - **File**: `_SLL_06_insert_after_value.cpp`
    - **Description**: This function inserts a new node with the given value immediately after the first occurrence of a specified value in the list. It traverses the list to find the node containing the specified value and inserts the new node after it.
    - **Approach**:
@@ -75,7 +75,7 @@
 
 ---
 
-### 7. **Insert Before Value** [🔗](./_SLL_07_insert_before_value.cpp)
+### 7. **Insert Before Value** [🧲](./_SLL_07_insert_before_value.cpp)
    - **File**: `_SLL_07_insert_before_value.cpp`
    - **Description**: This function inserts a new node with the given value before the first occurrence of a specified value in the list. It traverses the list to find the node containing the specified value and inserts the new node before it.
    - **Approach**:
@@ -88,7 +88,7 @@
 
 ---
 
-### 08. **Traverse the Linked List** [🔗](./_SLL_08_traverse.cpp)
+### 08. **Traverse the Linked List** [🧲](./_SLL_08_traverse.cpp)
    - **File**: `_SLL_08_traverse.cpp`
    - **Description**: This function prints all the elements of a singly linked list in a sequence, starting from the head and following the `next` pointers until the end of the list (denoted by `nullptr`).
    - **Approach**:
@@ -100,7 +100,7 @@
 
 ---
 
-### 09. **Traverse the Linked List in Range** [🔗](./_SLL_09_traverse_in_range.cpp)
+### 09. **Traverse the Linked List in Range** [🧲](./_SLL_09_traverse_in_range.cpp)
    - **File**: `_SLL_09_traverse_in_range.cpp`
    - **Description**: This function prints the elements of a singly linked list within a specified range of indices (`start` to `end`). If the range is valid, it prints the nodes in the given range; otherwise, it prints a message indicating no elements in the range.
    - **Approach**:
@@ -112,7 +112,7 @@
 
 ---
 
-### 10. **Delete the First Element** [🔗](./_SLL_10_delete_first_element.cpp)
+### 10. **Delete the First Element** [🧲](./_SLL_10_delete_first_element.cpp)
    - **File**: `_SLL_10_delete_first_element.cpp`
    - **Description**: This function deletes the first node of the singly linked list. If the list is not empty, it updates the head to the second node and frees the memory of the removed node.
    - **Approach**:
@@ -123,7 +123,7 @@
 
 ---
 
-### 11. **Delete the Last Element** [🔗](./_SLL_11_delete_last_element.cpp)
+### 11. **Delete the Last Element** [🧲](./_SLL_11_delete_last_element.cpp)
    - **File**: `_SLL_11_delete_last_element.cpp`
    - **Description**: This function deletes the last node of the singly linked list. It traverses the list to find the second-to-last node and sets its `next` pointer to `nullptr` before deleting the last node.
    - **Approach**:
@@ -134,7 +134,7 @@
 
 ---
 
-### 12. **Delete by Index** [🔗](./_SLL_12_delete_by_index.cpp)
+### 12. **Delete by Index** [🧲](./_SLL_12_delete_by_index.cpp)
    - **File**: `_SLL_12_delete_by_index.cpp`
    - **Description**: This function deletes the node at a specified index in the singly linked list. It handles special cases for the first node (index 0) and traverses the list to the node just before the specified index to perform the deletion.
    - **Approach**:
@@ -146,7 +146,7 @@
 
 ---
 
-### 13. **Delete by Value** [🔗](./_SLL_13_delete_by_value.cpp)
+### 13. **Delete by Value** [🧲](./_SLL_13_delete_by_value.cpp)
    - **File**: `_SLL_13_delete_by_value.cpp`
    - **Description**: This function deletes the first occurrence of a node with the specified value in the singly linked list. It handles special cases for the head and traverses the list to find the node with the given value, adjusting the `next` pointers accordingly.
    - **Approach**:
@@ -158,7 +158,7 @@
 
 ---
 
-### 14. **Search by Value** [🔗](./_SLL_14_search_by_value.cpp)
+### 14. **Search by Value** [🧲](./_SLL_14_search_by_value.cpp)
    - **File**: `_SLL_14_search_by_value.cpp`
    - **Description**: This function searches for a specified value in the singly linked list and prints the index of the first occurrence of the value. If the value is not found, it prints `-1`.
    - **Approach**:
@@ -170,7 +170,7 @@
 
 ---
 
-### 15. **Search by Index** [🔗](./_SLL_15_search_by_index.cpp)
+### 15. **Search by Index** [🧲](./_SLL_15_search_by_index.cpp)
    - **File**: `_SLL_15_search_by_index.cpp`
    - **Description**: This function searches for a node at a specified index in the singly linked list and prints its value. If the index is out of bounds, it prints `-1`.
    - **Approach**:
@@ -182,7 +182,7 @@
 
 ---
 
-### 16. **Update Value** [🔗](./_SLL_16_update_value.cpp)
+### 16. **Update Value** [🧲](./_SLL_16_update_value.cpp)
    - **File**: `_SLL_16_update_value.cpp`
    - **Description**: This function updates the value of the first occurrence of a specified value in the singly linked list to a new value. If the value is not found, it prints `-1`.
    - **Approach**:
@@ -194,7 +194,7 @@
 
 ---
 
-### 17. **Update Value at Index** [🔗](./_SLL_17_update_value_at_index.cpp)
+### 17. **Update Value at Index** [🧲](./_SLL_17_update_value_at_index.cpp)
    - **File**: `_SLL_17_update_value_at_index.cpp`
    - **Description**: This function updates the value of the node at a specified index in the singly linked list. If the index is out of bounds, it prints `-1`.
    - **Approach**:
