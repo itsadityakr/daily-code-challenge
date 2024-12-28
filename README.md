@@ -6,7 +6,7 @@ Welcome to my repository where I will be solving **Data Structures and Algorithm
 
 ## 🗂️ Table of Contents
 
-- [📚 Problem Categories](#-problem-categories)
+- 📚 [Problem Categories](#-problem-categories)
   - [Numbers and Arithmetic](#numbers-and-arithmetic) 🚨
   - [Loops and Patterns](#loops-and-patterns) 🚨
   - [Beginner-Level Questions](#beginner-level-questions) ⭐
@@ -27,9 +27,9 @@ Welcome to my repository where I will be solving **Data Structures and Algorithm
     - [Binary Search Trees (BST)](#binary-search-trees-bst)
     - [Bit Manipulation](#bit-manipulation)
     - [Miscellaneous](#miscellaneous)
-- [💡 About This Repository](#-about-this-repository)
-- [📝 Contribution](#-contribution)
-- [🔖 License](#-license)
+- 💡[About This Repository](#-about-this-repository)
+- 📝 [Contribution](#-contribution)
+- 🔖 [License](#-license)
 
 ---
 
