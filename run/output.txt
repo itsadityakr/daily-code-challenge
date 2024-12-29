@@ -1,2 +1,7 @@
-1 1 2 3 3 
-1 2 3 
+Linked List after insertions: 10 -> 15 -> 20 -> 30 -> NULL
+Linked List after deleting from start: 15 -> 20 -> 30 -> NULL
+Linked List after deleting from end: 15 -> 20 -> NULL
+Linked List after deleting from position 2: 15 -> 40 -> NULL
+Searching for 40: Found
+Linked List after updating position 2: 15 -> 50 -> NULL
+Linked List after reversing: 50 -> 15 -> NULL

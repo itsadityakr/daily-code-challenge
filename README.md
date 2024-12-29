@@ -69,139 +69,152 @@ Welcome to my repository where I will be solving **Data Structures and Algorithm
 ### Beginner-Level Questions
 
 #### Arrays
-1. **Find the largest element in an array.** [🧲](./Day_03/_01_find_the_largest_element_in_an_array.cpp) ✅
-2. **Find the smallest element in an array.** [🧲](./Day_03/_02_find_the_smallest_element_in_an_array.cpp) ✅
-3. **Find the missing number in an array of 1 to n.** [🧲](./Day_03/) ✅
-4. **Rotate an array by K positions.** [🧲](./Day_0) ✅
-5. **Move all zeroes to the end of an array.** [🧲](./Day_0) ✅
-6. **Rearrange positive and negative numbers in an array.** [🧲](./Day_0) ✅
-7. **Find the first repeating element in an array.** [🧲](./Day_0) ✅
-8. **Find the first non-repeating element in an array.** [🧲](./Day_0) ✅
-9. **Count the frequencies of array elements in O(1) extra space.** [🧲](./Day_0) ✅
-10. **Rearrange array elements alternately (maximum, minimum).** [🧲](./Day_0) ✅
-11. **Find the kth smallest and kth largest element in an array.** [🧲](./Day_0) ✅
-12. **Find all pairs in an array that sum up to a given number.** [🧲](./Day_0) ✅
-13. **Find the second largest element in an array.** [🧲](./Day_0) ✅
-14. **Find the maximum difference between two elements such that the larger appears after the smaller.** [🧲](./Day_0) ✅
-15. **Check if an array is sorted.** [🧲](./Day_0) ✅
-16. **Find the equilibrium index of an array.** [🧲](./Day_0) ✅
-17. **Reverse an array.** [🧲](./Day_0) ✅
-18. **Find the union and intersection of two arrays.** [🧲](./Day_0) ✅
+01. **Find the Missing Number in an Array (0 to n)** [🧲](./Day_03/_01_find_the_largest_element_in_an_array.cpp) ✅
+02. **Find the Missing Number in an Array (0 to n)** [🧲](./Day_03/_02_find_the_smallest_element_in_an_array.cpp) ✅
+03. **Find the Missing Number in an Array (0 to n)** [🧲](./Day_03/_03_find_the_missing_number_in_an_array_of_0_to_n.cpp) ✅
+04. **Find the Missing Number in an Array (1 to n)** [🧲](./Day_03/_04_find_the_missing_number_in_an_array_of_1_to_n.cpp) ✅
+05. **Rotate an Array by K Positions Left** [🧲](./Day_03/_05_rotate_an_array_by_k_positions_left.cpp) ✅
+06. **Rotate an Array by K Positions Right** [🧲](./Day_03/_06_rotate_an_array_by_k_positions_right.cpp) ✅
+07. **Move All Zeroes to the End of an Array** [🧲](./Day_03/_07_move_all_zeroes_to_the_end_of_an_array.cpp) ✅
+08. **Rearrange Positive and Negative Numbers in an Array** [🧲](./Day_03/_08_rearrange_positive_and_negative_numbers_in_an_array.cpp) ✅
+09. **Find the First Repeating Element in an Array** [🧲](./Day_03/_09_find_the_first_repeating_element_in_an_array.cpp) ✅
+10. **Find Duplicates in Array using Floyd's Tortoise and Hare Algorithm** [🧲](./Day_03/_10_find_duplicates_in_array_using_floyds_tortoise_and_hare_algo.cpp) ✅
+11. **Find the First Non-Repeating Element in an Array** [🧲](./Day_03/_11_find_the_first_non_repeating_element_in_an_array.cpp) ✅
+12. **Single Number** [🧲](./Day_03/_12_single_number.cpp) ✅
+13. **Count Frequency in Range** [🧲](./Day_04/_13_count_freq_in_range.cpp) ✅
+14. **Count the Frequencies of Array Elements in O(1) Extra Space** [🧲](./Day_04/_14_count_the_frequencies_of_array_elements_in_O1_extra_space.cpp) ✅
+15. **Count Element with Maximum Frequency** [🧲](./Day_04/_15_count_element_with_max_frequency.cpp) ✅
+16. **Rearrange Array Elements Alternately (Max-Min)** [🧲](./Day_04/_16_rearrange_array_elements_alternately_max_min.cpp) ✅
+17. **Second Largest Element in Array** [🧲](./Day_04/_17_second_largest_element_in_array.cpp) ✅
+18. **Find Kth Largest Element** [🧲](./Day_04/_18_find_kth_largest_element.cpp) ✅
+19. **Find Kth Smallest and Largest Element** [🧲](./Day_04/_19_find_kth_smallest_and_largest_element.cpp) ✅
+20. **Two Sum to Return Indices** [🧲](./Day_05/_20_two_sum_to_return_indices.cpp) ✅
+21. **Two Sum to Return Values** [🧲](./Day_05/_21_two_sum_to_return_values.cpp) ✅
+22. **Second Largest Element in Array** [🧲](./Day_05/_22_second_largest_element_in_array.cpp) ✅
+23. **Maximum Differences Between Increasing Elements** [🧲](./Day_05/_23_maximun_differences_between_increasing_elements.cpp) ✅
+24. **Sorted and Rotated** [🧲](./Day_05/_24_sorted_and_rotated.cpp) ✅
+25. **Equilibrium Index of Array** [🧲](./Day_05/_25_equilibrium_index_of_array.cpp) ✅
+26. **Reverse Array** [🧲](./Day_06/_26_reverse_array.cpp) ✅
+27. **Intersection and Union of Unsorted Arrays** [🧲](./Day_06/_27_intersection_and_union_of_unsorted_array.cpp) ✅
+28. **Intersection and Union of Sorted Arrays** [🧲](./Day_06/_28_intersection_and_union_of_sorted_array.cpp) ✅
 
 #### Strings
-19. **Check if two strings are anagrams.** [🧲](./Day_0) ✅
-20. **Check if a string is a palindrome.** [🧲](./Day_0) ✅
-21. **Reverse words in a string.** [🧲](./Day_0) ✅
-22. **Check if a string contains only digits.** [🧲](./Day_0) ✅
-23. **Convert a string to an integer (Implement atoi).** [🧲](./Day_0) ✅
-24. **Find the longest substring without repeating characters.** [🧲](./Day_0) ✅
-25. **Find all permutations of a string.** [🧲](./Day_0) ✅
-26. **Count the frequency of characters in a string.** [🧲](./Day_0) ✅
-27. **Longest common prefix in an array of strings.** [🧲](./Day_0) ✅
+29. **Valid Anagrams** [🧲](./Day_07/_29_valid_anagrams.cpp) ✅
+30. **Check Palindrome** [🧲](./Day_07/_30_check_palindrome.cpp) ✅
+31. **Reverse String** [🧲](./Day_07/_31_reverse_string.cpp) ✅
+32. **Check if String Contains Only Digits** [🧲](./Day_07/_32_check_if_string_contains_only_digits.cpp) ✅
+33. **Convert String to Integer (Implementing Atoi)** [🧲](./Day_07/_33_convert_string_to_integer_implementing_a_to_i.cpp) ✅
+34. **Longest Substring Without Repeating Characters** [🧲](./Day_07/_34_longest_substring_without_repeating_characters.cpp) ✅
+35. **Find All Permutations of a String** [🧲](./Day_07/_35_find_all_permutations_of_a_string.cpp) ✅
+36. **Count Frequency of Characters in String** [🧲](./Day_07/_36_count_frequency_of_characters_in_string.cpp) ✅
+37. **Largest Common Prefix in Array of Strings** [🧲](./Day_07/_37_largest_common_prefix_in_array_of_strings.cpp) ✅
+38. **Find ASCII Values of String** [🧲](./Day_07/_38_find_ascii_values_of_string.cpp) ✅
 
 #### Linked Lists
-28. **Reverse a linked list.** [🧲](./Day_0) ✅
-29. **Detect a cycle in a linked list.** [🧲](./Day_0) ✅
-30. **Merge two sorted linked lists.** [🧲](./Day_0) ✅
-31. **Remove duplicates from a sorted linked list.** [🧲](./Day_0) ✅
-32. **Find the length of a linked list.**
-33. **Remove the nth node from the end of a linked list.**
-34. **Find the middle element of a linked list.**
+39. **Reverse a Linked List** [🧲](./Day_08/_39_reverse_a_linked_list.cpp) ✅
+40. **Detect Cycle in Linked List** [🧲](./Day_08/_40_detect_cycle_in_linked_list.cpp) ✅
+41. **Merge Two Sorted Linked Lists** [🧲](./Day_09/_41_merge_two_sorted_linked_list.cpp) ✅
+42. **Remove Duplicates in Linked List** [🧲](./Day_09/_42_remove_duplicates_in_linked_list.cpp) ✅
+43. **Find the length of a linked list.**
+44. **Remove the nth node from the end of a linked list.**
+45. **Find the middle element of a linked list.**
 
 #### Stacks and Queues
-35. **Implement a stack using arrays or linked lists.**
-36. **Implement a queue using arrays or linked lists.**
-37. **Implement a stack that supports `getMin()` in O(1).**
-38. **Evaluate a postfix expression.**
-39. **Check for balanced parentheses in an expression.**
+46. **Implement a stack using arrays or linked lists.**
+47. **Implement a queue using arrays or linked lists.**
+48. **Implement a stack that supports `getMin()` in O(1).**
+49. **Evaluate a postfix expression.**
+50. **Check for balanced parentheses in an expression.**
+---
 
 ### Intermediate-Level Questions
 
-#### Arrays
-40. **Kadane's Algorithm (Maximum subarray sum).**
-41. **Trapping Rain Water.**
-42. **Find the longest consecutive subsequence.**
-43. **Best time to buy and sell stock.**
-44. **Merge two sorted arrays without extra space.**
-45. **Three sum problem.**
-46. **Find the maximum product subarray.**
-47. **Find the minimum number of jumps to reach the end of an array.**
-48. **Find subarray with a given sum.**
-49. **Count the number of inversions in an array.**
-50. **Smallest subarray with a sum greater than a given value.**
-51. **Find the first missing positive integer.**
-52. **Find common elements in three sorted arrays.**
-53. **Rearrange array to form the largest number.**
-54. **Find the maximum circular subarray sum.**
-55. **Merge overlapping intervals.**
+### Arrays
+51. **Kadane's Algorithm (Maximum subarray sum).**  
+52. **Trapping Rain Water.**  
+53. **Find the longest consecutive subsequence.**  
+54. **Best time to buy and sell stock.**  
+55. **Merge two sorted arrays without extra space.**  
+56. **Three sum problem.**  
+57. **Find the maximum product subarray.**  
+58. **Find the minimum number of jumps to reach the end of an array.**  
+59. **Find subarray with a given sum.**  
+60. **Count the number of inversions in an array.**  
+61. **Smallest subarray with a sum greater than a given value.**  
+62. **Find the first missing positive integer.**  
+63. **Find common elements in three sorted arrays.**  
+64. **Rearrange array to form the largest number.**  
+65. **Find the maximum circular subarray sum.**  
+66. **Merge overlapping intervals.**
 
-#### Strings
-56. **Rabin-Karp algorithm.**
-57. **KMP algorithm for pattern matching.**
-58. **Longest palindromic substring.**
-59. **Find the minimum window substring.**
-60. **Z-algorithm (Pattern matching).**
-61. **Longest repeating subsequence.**
-62. **Check if one string is a rotation of another.**
+### Strings
+67. **Rabin-Karp algorithm.**  
+68. **KMP algorithm for pattern matching.**  
+69. **Longest palindromic substring.**  
+70. **Find the minimum window substring.**  
+71. **Z-algorithm (Pattern matching).**  
+72. **Longest repeating subsequence.**  
+73. **Check if one string is a rotation of another.**
 
-#### Linked Lists
-63. **Find the starting point of a cycle in a linked list.**
-64. **Flatten a multilevel linked list.**
-65. **Add two numbers represented by linked lists.**
-66. **Clone a linked list with random pointers.**
-67. **Merge K sorted linked lists.**
-68. **Reverse a linked list in groups of K.**
+### Linked Lists
+74. **Find the starting point of a cycle in a linked list.**  
+75. **Flatten a multilevel linked list.**  
+76. **Add two numbers represented by linked lists.**  
+77. **Clone a linked list with random pointers.**  
+78. **Merge K sorted linked lists.**  
+79. **Reverse a linked list in groups of K.**
 
-#### Stacks and Queues
-69. **Implement a circular queue.**
-70. **Design a stack with push, pop, and getMiddle operations.**
-71. **Find the next greater element for an array.**
-72. **Implement LRU Cache.**
-73. **Find the maximum of all subarrays of size K.**
-74. **Simplify a directory path using a stack.**
+### Stacks and Queues
+80. **Implement a circular queue.**  
+81. **Design a stack with push, pop, and getMiddle operations.**  
+82. **Find the next greater element for an array.**  
+83. **Implement LRU Cache.**  
+84. **Find the maximum of all subarrays of size K.**  
+85. **Simplify a directory path using a stack.**
 
 ### Advanced-Level Questions
 
 #### Dynamic Programming
-75. **Longest common subsequence.**  
-76. **Longest increasing subsequence.**  
-77. **Longest common substring.**  
-78. **0/1 Knapsack problem.**  
-79. **Edit distance between two strings.**  
-80. **Matrix chain multiplication.**  
-81. **Subset sum problem.**  
-82. **Egg dropping problem.**  
-83. **Maximum sum increasing subsequence.**  
-84. **Minimum number of jumps to reach the end of an array.**  
-85. **Maximum profit in rod cutting.**  
-86. **Coin change problem.**  
-87. **Partition problem.**
+86. **Longest common subsequence.**  
+87. **Longest increasing subsequence.**  
+88. **Longest common substring.**  
+89. **0/1 Knapsack problem.**  
+90. **Edit distance between two strings.**  
+91. **Matrix chain multiplication.**  
+92. **Subset sum problem.**  
+93. **Egg dropping problem.**  
+94. **Maximum sum increasing subsequence.**  
+95. **Minimum number of jumps to reach the end of an array.**  
+96. **Maximum profit in rod cutting.**  
+97. **Coin change problem.**  
+98. **Partition problem.**
 
 #### Backtracking
-88. **Solve the N-Queens problem.**  
-89. **Find all subsets of a set.**  
-90. **Generate all permutations of a string/array.**  
-91. **Solve the Sudoku puzzle.**  
-92. **Word search in a grid.**
+99. **Solve the N-Queens problem.**  
+100. **Find all subsets of a set.**  
+101. **Generate all permutations of a string/array.**  
+102. **Solve the Sudoku puzzle.**  
+103. **Word search in a grid.**
 
 #### Bit Manipulation
-93. **Count the number of set bits in an integer.**  
-94. **Check if a number is a power of two.**  
-95. **Find the XOR of all elements in an array.**  
-96. **Find the single number in an array (where every element appears twice except one).**  
-97. **Swap two numbers without using a temporary variable.**  
-98. **Find the two non-repeating numbers in an array.**
+104. **Count the number of set bits in an integer.**  
+105. **Check if a number is a power of two.**  
+106. **Find the XOR of all elements in an array.**  
+107. **Find the single number in an array (where every element appears twice except one).**  
+108. **Swap two numbers without using a temporary variable.**  
+109. **Find the two non-repeating numbers in an array.**
 
 #### Miscellaneous
-99. **Find the median of two sorted arrays.**  
-100. **Find the majority element in an array.**  
-101. **Best time to buy and sell stock (multiple transactions allowed).**  
-102. **Find the minimum number of platforms required for a train station.**  
-103. **Solve the Josephus problem.**  
-104. **Find the smallest range in K sorted lists.**  
-105. **Design a data structure that supports insert, delete, and getRandom in O(1).**
+110. **Find the median of two sorted arrays.**  
+111. **Find the majority element in an array.**  
+112. **Best time to buy and sell stock (multiple transactions allowed).**  
+113. **Find the minimum number of platforms required for a train station.**  
+114. **Solve the Josephus problem.**  
+115. **Find the smallest range in K sorted lists.**  
+116. **Design a data structure that supports insert, delete, and getRandom in O(1).**
 
----
+--- 
+
 
 ## 💡 About This Repository
 
