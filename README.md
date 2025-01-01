@@ -132,10 +132,10 @@ Welcome to my repository where I will be solving **Data Structures and Algorithm
 ### Intermediate-Level Questions
 
 ### Arrays
-53. **Kadane's Algorithm (Maximum subarray sum).**  
-54. **Trapping Rain Water.**  
-55. **Find the longest consecutive subsequence.**
-56. **Best time to buy and sell stock.**  
+53. **Kadane's Algorithm (Maximum subarray sum).** [🧲](./Day_13/_53_kadanes_algorithm_maximum_sub_array_sum.cpp) ✅  
+54. **Trapping Rain Water.** [🧲](./Day_13/_54_trapping_rain_water.cpp) ✅  
+55. **Find the longest consecutive subsequence.** [🧲](./Day_13/_55_longest_consecutive_subsequence.cpp) ✅
+56. **Best time to buy and sell stock.** [🧲](./Day_13/_56_best_time_to_buy_and_sell_stock.cpp) ✅  
 57. **Merge two sorted arrays without extra space.**  
 58. **Three sum problem.**  
 59. **Find the maximum product subarray.**  
