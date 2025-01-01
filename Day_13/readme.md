@@ -60,7 +60,7 @@
           - Otherwise, update `maxcount` with `count` if it's larger, and reset `count` to 1.
      5. After the loop, update `maxcount` one final time in case the longest sequence ends at the last element.
      6. Return `maxcount` as the result.
-   - **Time Complexity**: \(O(n \log n)\), dominated by the sorting operation.
+   - **Time Complexity**: \(O(n log n)\), dominated by the sorting operation.
    - **Space Complexity**: \(O(n)\), required for the sorted and deduplicated array.
 
 ---
