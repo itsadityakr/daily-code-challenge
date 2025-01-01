@@ -132,47 +132,47 @@ Welcome to my repository where I will be solving **Data Structures and Algorithm
 ### Intermediate-Level Questions
 
 ### Arrays
-51. **Kadane's Algorithm (Maximum subarray sum).**  
-52. **Trapping Rain Water.**  
-53. **Find the longest consecutive subsequence.**  
-54. **Best time to buy and sell stock.**  
-55. **Merge two sorted arrays without extra space.**  
-56. **Three sum problem.**  
-57. **Find the maximum product subarray.**  
-58. **Find the minimum number of jumps to reach the end of an array.**  
-59. **Find subarray with a given sum.**  
-60. **Count the number of inversions in an array.**  
-61. **Smallest subarray with a sum greater than a given value.**  
-62. **Find the first missing positive integer.**  
-63. **Find common elements in three sorted arrays.**  
-64. **Rearrange array to form the largest number.**  
-65. **Find the maximum circular subarray sum.**  
-66. **Merge overlapping intervals.**
+53. **Kadane's Algorithm (Maximum subarray sum).**  
+54. **Trapping Rain Water.**  
+55. **Find the longest consecutive subsequence.**
+56. **Best time to buy and sell stock.**  
+57. **Merge two sorted arrays without extra space.**  
+58. **Three sum problem.**  
+59. **Find the maximum product subarray.**  
+60. **Find the minimum number of jumps to reach the end of an array.**  
+61. **Find subarray with a given sum.**  
+62. **Count the number of inversions in an array.**  
+63. **Smallest subarray with a sum greater than a given value.**  
+64. **Find the first missing positive integer.**  
+65. **Find common elements in three sorted arrays.**  
+66. **Rearrange array to form the largest number.**  
+67. **Find the maximum circular subarray sum.**  
+68. **Merge overlapping intervals.**
 
 ### Strings
-67. **Rabin-Karp algorithm.**  
-68. **KMP algorithm for pattern matching.**  
-69. **Longest palindromic substring.**  
-70. **Find the minimum window substring.**  
-71. **Z-algorithm (Pattern matching).**  
-72. **Longest repeating subsequence.**  
-73. **Check if one string is a rotation of another.**
+69. **Rabin-Karp algorithm.**  
+70. **KMP algorithm for pattern matching.**  
+71. **Longest palindromic substring.**  
+72. **Find the minimum window substring.**  
+73. **Z-algorithm (Pattern matching).**  
+74. **Longest repeating subsequence.**  
+75. **Check if one string is a rotation of another.**
 
 ### Linked Lists
-74. **Find the starting point of a cycle in a linked list.**  
-75. **Flatten a multilevel linked list.**  
-76. **Add two numbers represented by linked lists.**  
-77. **Clone a linked list with random pointers.**  
-78. **Merge K sorted linked lists.**  
-79. **Reverse a linked list in groups of K.**
+76. **Find the starting point of a cycle in a linked list.**  
+77. **Flatten a multilevel linked list.**  
+78. **Add two numbers represented by linked lists.**  
+79. **Clone a linked list with random pointers.**  
+80. **Merge K sorted linked lists.**  
+81. **Reverse a linked list in groups of K.**
 
 ### Stacks and Queues
-80. **Implement a circular queue.**  
-81. **Design a stack with push, pop, and getMiddle operations.**  
-82. **Find the next greater element for an array.**  
-83. **Implement LRU Cache.**  
-84. **Find the maximum of all subarrays of size K.**  
-85. **Simplify a directory path using a stack.**
+82. **Implement a circular queue.**  
+83. **Design a stack with push, pop, and getMiddle operations.**  
+84. **Find the next greater element for an array.**  
+85. **Implement LRU Cache.**  
+86. **Find the maximum of all subarrays of size K.**  
+87. **Simplify a directory path using a stack.**
 
 ### Advanced-Level Questions
 

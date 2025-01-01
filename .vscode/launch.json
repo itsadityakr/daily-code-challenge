@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "D:/Study/GitHub/Code-Universe/Codes CPP",
-      "program": "D:/Study/GitHub/Code-Universe/Codes CPP/build/Debug/outDebug",
+      "cwd": "d:/Study/Code-Universe/Day_13",
+      "program": "d:/Study/Code-Universe/Day_13/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
