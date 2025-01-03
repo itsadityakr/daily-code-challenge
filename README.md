@@ -140,14 +140,15 @@ Welcome to my repository where I will be solving **Data Structures and Algorithm
 58. **Three sum problem.**[🔗](./Day_14/_58_three_sum.cpp) ✅
 59. **Find the maximum product subarray.**[🔗](./Day_14/_59_maximum_product_of_subarray.cpp) ✅
 60. **Find the minimum number of jumps to reach the end of an array.**  
-61. **Find subarray with a given sum.**  
-62. **Count the number of inversions in an array.**  
-63. **Smallest subarray with a sum greater than a given value.**  
-64. **Find the first missing positive integer.**  
-65. **Find common elements in three sorted arrays.**  
-66. **Rearrange array to form the largest number.**  
-67. **Find the maximum circular subarray sum.**  
-68. **Merge overlapping intervals.**
+61. **Find the minimum number of jumps to reach the end of an array.**  
+62. **Find subarray with a given sum.**  
+63. **Count the number of inversions in an array.**  
+64. **Smallest subarray with a sum greater than a given value.**  
+65. **Find the first missing positive integer.**  
+66. **Find common elements in three sorted arrays.**  
+67. **Rearrange array to form the largest number.**  
+68. **Find the maximum circular subarray sum.**  
+69. **Merge overlapping intervals.**
 
 ### Strings
 69. **Rabin-Karp algorithm.**  
