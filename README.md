@@ -142,13 +142,12 @@ Welcome to my repository where I will be solving **Data Structures and Algorithm
 60. **Check if you can reach end of .**  [🔗](./Day_15/_60_can_we_reach_end_of_array.cpp) ✅
 61. **Find the minimum number of jumps to reach the end of an array.**  [🔗](./Day_15/_61_minimum_jumps_required_to_reach_end_of_array.cpp) ✅  
 62. **Find subarray with a given sum.**  [🔗](./Day_15/_62_subarray_sum_equals_k.cpp) ✅  
-63. **Count the number of inversions in an array.**  
-64. **Smallest subarray with a sum greater than a given value.**  
-65. **Find the first missing positive integer.**  
-66. **Find common elements in three sorted arrays.**  
-67. **Rearrange array to form the largest number.**  
-68. **Find the maximum circular subarray sum.**  
-69. **Merge overlapping intervals.**
+63. **Smallest subarray with a sum greater than a given value.**  
+64. **Find the first missing positive integer.**  
+65. **Find common elements in three sorted arrays.**  
+66. **Rearrange array to form the largest number.**  
+67. **Find the maximum circular subarray sum.**  
+68. **Merge overlapping intervals.**
 
 ### Strings
 69. **Rabin-Karp algorithm.**  
