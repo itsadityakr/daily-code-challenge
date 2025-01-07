@@ -25,7 +25,7 @@ vector<int> computeLPSArray(string pattern) {
     return lps;
 }
 
-//
+
 // bool KMPSearch(string text, string pattern) {
 //     int n = text.length(), m = pattern.length();
 //     if (m == 0) return true;
@@ -48,7 +48,7 @@ vector<int> computeLPSArray(string pattern) {
 //     }
 //     return false;
 // }
-//
+
 
 string longestPrefix(string s) {
     int n = s.length();

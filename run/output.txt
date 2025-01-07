@@ -1,2 +1,1 @@
-Longest happy prefix of 'level': l
-Longest happy prefix of 'ababab': abab
+bab
