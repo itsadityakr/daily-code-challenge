@@ -154,15 +154,15 @@ Welcome to my repository where I will be solving **Data Structures and Algorithm
 ### Strings
 69. **Rabin-Karp algorithm.**  [🔗](./Day_18/_69_repeated_string_match_rabin_karp_or_rolling_hash_algorithm.cpp) ✅   
 70. **Longest Happy Prefix-KMP algorithm for pattern matching.**  [🔗](./Day_18/_70_longest_happy_prefix_kmp_algorithm.cpp) ✅   
-71. **Longest palindromic substring.**  [🔗](./Day_17/_68_merge_overlapping_intervals.cpp) ✅   
-72. **Find the minimum window substring.**  [🔗](./Day_17/_68_merge_overlapping_intervals.cpp) ✅   
+71. **Longest palindromic substring.**  [🔗](./Day_19/_71_longest_palindromic_substring.cpp) ✅   
+72. **Find the minimum window substring.**  [🔗](./Day_20/_72_minimum_window_substring.cpp) ✅   
 
 ---
 
 # Daily DSA Problem Solving - SHEET 2
 
 ## 🧮 Arrays
-1. [Two Sum](https://leetcode.com/problems/two-sum/)
+1. [Two Sum](https://leetcode.com/problems/two-sum/) 
 2. [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)
 3. [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)
 4. [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/)
@@ -171,7 +171,7 @@ Welcome to my repository where I will be solving **Data Structures and Algorithm
 7. [Single Number](https://leetcode.com/problems/single-number/)
 8. [Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii/)
 9. [Rotate Array](https://leetcode.com/problems/rotate-array/)
-10. [Plus One](https://leetcode.com/problems/plus-one/)
+10. [Plus One](https://leetcode.com/problems/plus-one/)  [🔗](./Day_21/_74_plus_one.cpp) ✅   
 11. [Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/)
 12. [Find Pivot Index](https://leetcode.com/problems/find-pivot-index/)
 13. [Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/)
