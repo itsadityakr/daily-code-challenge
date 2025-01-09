@@ -2,6 +2,8 @@
 
 Welcome to my repository where I will be solving **Data Structures and Algorithms (DSA)** questions daily. This repository contains a collection of over **150+ DSA interview questions** ordered from beginner to advanced levels.
 
+# Daily DSA Problem Solving - SHEET 1
+
 ---
 
 ## 🗂️ Table of Contents
@@ -150,73 +152,120 @@ Welcome to my repository where I will be solving **Data Structures and Algorithm
 68. **Merge overlapping intervals.**  [🔗](./Day_17/_68_merge_overlapping_intervals.cpp) ✅ 
 
 ### Strings
-69. **Rabin-Karp algorithm.**  
-70. **KMP algorithm for pattern matching.**  
-71. **Longest palindromic substring.**  
-72. **Find the minimum window substring.**  
-73. **Z-algorithm (Pattern matching).**  
-74. **Longest repeating subsequence.**  
-75. **Check if one string is a rotation of another.**
+69. **Rabin-Karp algorithm.**  [🔗](./Day_18/_69_repeated_string_match_rabin_karp_or_rolling_hash_algorithm.cpp) ✅   
+70. **Longest Happy Prefix-KMP algorithm for pattern matching.**  [🔗](./Day_18/_70_longest_happy_prefix_kmp_algorithm.cpp) ✅   
+71. **Longest palindromic substring.**  [🔗](./Day_17/_68_merge_overlapping_intervals.cpp) ✅   
+72. **Find the minimum window substring.**  [🔗](./Day_17/_68_merge_overlapping_intervals.cpp) ✅   
 
-### Linked Lists
-76. **Find the starting point of a cycle in a linked list.**  
-77. **Flatten a multilevel linked list.**  
-78. **Add two numbers represented by linked lists.**  
-79. **Clone a linked list with random pointers.**  
-80. **Merge K sorted linked lists.**  
-81. **Reverse a linked list in groups of K.**
+---
 
-### Stacks and Queues
-82. **Implement a circular queue.**  
-83. **Design a stack with push, pop, and getMiddle operations.**  
-84. **Find the next greater element for an array.**  
-85. **Implement LRU Cache.**  
-86. **Find the maximum of all subarrays of size K.**  
-87. **Simplify a directory path using a stack.**
+# Daily DSA Problem Solving - SHEET 2
 
-### Advanced-Level Questions
+## 🧮 Arrays
+1. [Two Sum](https://leetcode.com/problems/two-sum/)
+2. [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)
+3. [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)
+4. [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/)
+5. [Move Zeroes](https://leetcode.com/problems/move-zeroes/)
+6. [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)
+7. [Single Number](https://leetcode.com/problems/single-number/)
+8. [Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii/)
+9. [Rotate Array](https://leetcode.com/problems/rotate-array/)
+10. [Plus One](https://leetcode.com/problems/plus-one/)
+11. [Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/)
+12. [Find Pivot Index](https://leetcode.com/problems/find-pivot-index/)
+13. [Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/)
+14. [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/)
+15. [Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/)
+16. [Container With Most Water](https://leetcode.com/problems/container-with-most-water/)
+17. [Sort Colors](https://leetcode.com/problems/sort-colors/)
+18. [Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/)
+19. [Hamming Distance](https://leetcode.com/problems/hamming-distance/)
+20. [Valid Mountain Array](https://leetcode.com/problems/valid-mountain-array/)
 
-#### Dynamic Programming
-86. **Longest common subsequence.**  
-87. **Longest increasing subsequence.**  
-88. **Longest common substring.**  
-89. **0/1 Knapsack problem.**  
-90. **Edit distance between two strings.**  
-91. **Matrix chain multiplication.**  
-92. **Subset sum problem.**  
-93. **Egg dropping problem.**  
-94. **Maximum sum increasing subsequence.**  
-95. **Minimum number of jumps to reach the end of an array.**  
-96. **Maximum profit in rod cutting.**  
-97. **Coin change problem.**  
-98. **Partition problem.**
+## 🔤 Strings
+21. [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)
+22. [Reverse String](https://leetcode.com/problems/reverse-string/)
+23. [First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string/)
+24. [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/)
+25. [Anagram](https://leetcode.com/problems/valid-anagram/)
+26. [Count and Say](https://leetcode.com/problems/count-and-say/)
+27. [String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/)
+28. [Implement strStr()](https://leetcode.com/problems/implement-strstr/)
+29. [Add Binary](https://leetcode.com/problems/add-binary/)
+30. [Substring with Concatenation of All Words](https://leetcode.com/problems/substring-with-concatenation-of-all-words/)
+31. [Find All Anagrams in a String](https://leetcode.com/problems/find-all-anagrams-in-a-string/)
+32. [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)
+33. [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)
+34. [Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/)
+35. [Palindrome Partitioning](https://leetcode.com/problems/palindrome-partitioning/)
+36. [Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/)
+37. [Find the Difference](https://leetcode.com/problems/find-the-difference/)
+38. [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)
+39. [Decode Ways](https://leetcode.com/problems/decode-ways/)
+40. [Valid Palindrome II](https://leetcode.com/problems/valid-palindrome-ii/)
 
-#### Backtracking
-99. **Solve the N-Queens problem.**  
-100. **Find all subsets of a set.**  
-101. **Generate all permutations of a string/array.**  
-102. **Solve the Sudoku puzzle.**  
-103. **Word search in a grid.**
+## 🔗 Linked List
+41. [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)
+42. [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)
+43. [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/)
+44. [Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/)
+45. [Remove Linked List Elements](https://leetcode.com/problems/remove-linked-list-elements/)
+46. [Delete Node in a Linked List](https://leetcode.com/problems/delete-node-in-a-linked-list/)
+47. [Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)
+48. [Odd Even Linked List](https://leetcode.com/problems/odd-even-linked-list/)
+49. [Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/)
+50. [Reorder List](https://leetcode.com/problems/reorder-list/)
+51. [Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/)
+52. [Flatten a Multilevel Doubly Linked List](https://leetcode.com/problems/flatten-a-multilevel-doubly-linked-list/)
+53. [Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/)
 
-#### Bit Manipulation
-104. **Count the number of set bits in an integer.**  
-105. **Check if a number is a power of two.**  
-106. **Find the XOR of all elements in an array.**  
-107. **Find the single number in an array (where every element appears twice except one).**  
-108. **Swap two numbers without using a temporary variable.**  
-109. **Find the two non-repeating numbers in an array.**
+## 📦 Stacks
+54. [Min Stack](https://leetcode.com/problems/min-stack/)  
+55. [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)  
+56. [Implement Stack using Queues](https://leetcode.com/problems/implement-stack-using-queues/)  
+57. [Daily Temperature](https://leetcode.com/problems/daily-temperature/)  
+58. [Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/)  
+59. [Basic Calculator](https://leetcode.com/problems/basic-calculator/)  
+60. [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/)  
+61. [Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/)  
+62. [Remove Duplicate Letters](https://leetcode.com/problems/remove-duplicate-letters/)  
 
-#### Miscellaneous
-110. **Find the median of two sorted arrays.**  
-111. **Find the majority element in an array.**  
-112. **Best time to buy and sell stock (multiple transactions allowed).**  
-113. **Find the minimum number of platforms required for a train station.**  
-114. **Solve the Josephus problem.**  
-115. **Find the smallest range in K sorted lists.**  
-116. **Design a data structure that supports insert, delete, and getRandom in O(1).**
+## 🔄 Recursion
+63. [Fibonacci Number](https://leetcode.com/problems/fibonacci-number/)  
+64. [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)  
+65. [Factorial Trailing Zeroes](https://leetcode.com/problems/factorial-trailing-zeroes/)  
+66. [Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/)  
+67. [Generate Parentheses](https://leetcode.com/problems/generate-parentheses/)  
+68. [Subsets](https://leetcode.com/problems/subsets/)  
+69. [Permutations](https://leetcode.com/problems/permutations/)  
+70. [Power of Three](https://leetcode.com/problems/power-of-three/)  
+71. [Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/)  
 
---- 
+## 💻 Bit Manipulation
+72. [Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/)  
+73. [Power of Two](https://leetcode.com/problems/power-of-two/)  
+74. [Counting Bits](https://leetcode.com/problems/counting-bits/)  
+75. [Reverse Bits](https://leetcode.com/problems/reverse-bits/)  
+76. [Hamming Distance](https://leetcode.com/problems/hamming-distance/)  
+77. [Single Number](https://leetcode.com/problems/single-number/)  
+78. [Single Number II](https://leetcode.com/problems/single-number-ii/)  
+79. [Bitwise AND of Numbers Range](https://leetcode.com/problems/bitwise-and-of-numbers-range/)  
+80. [Number of Steps to Reduce a Number to Zero](https://leetcode.com/problems/number-of-steps-to-reduce-a-number-to-zero/)  
 
+## 🔑 Hashing
+81. [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)  
+82. [Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays/)  
+83. [Group Anagrams](https://leetcode.com/problems/group-anagrams/)  
+84. [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/)  
+85. [Happy Number](https://leetcode.com/problems/happy-number/)  
+86. [Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/)  
+87. [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/)  
+88. [Find All Anagrams in a String](https://leetcode.com/problems/find-all-anagrams-in-a-string/)  
+89. [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)  
+90. [Find the Difference](https://leetcode.com/problems/find-the-difference/)  
+
+---
 
 ## 💡 About This Repository
 
