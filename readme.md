@@ -11,7 +11,7 @@ Welcome to my repository where I will be solving **Data Structures and Algorithm
 
 ---
 
-## 📂 Arrays
+## Arrays
 
 | **#**  | **Problem Name**                                        | **LeetCode Link**                                                           | **Status**  | **File Link** |
 |--------|---------------------------------------------------------|-----------------------------------------------------------------------------|-------------|---------------|
@@ -59,7 +59,7 @@ Welcome to my repository where I will be solving **Data Structures and Algorithm
 
 ---
 
-## 🔢 Basic Maths
+## Basic Maths
 
 | **#**  | **Problem Name**                                  | **LeetCode Link**                                                              | **Status**  | **File Link** |
 |--------|---------------------------------------------------|--------------------------------------------------------------------------------|-------------|---------------|
@@ -73,7 +73,7 @@ Welcome to my repository where I will be solving **Data Structures and Algorithm
 
 ---
 
-## 🔄 Recursion
+## Recursion
 
 | **#**  | **Problem Name**                                  | **LeetCode Link**                                                              | **Status**  | **File Link** |
 |--------|---------------------------------------------------|--------------------------------------------------------------------------------|-------------|---------------|
@@ -88,7 +88,7 @@ Welcome to my repository where I will be solving **Data Structures and Algorithm
 
 ---
 
-## 📚 Sorting
+## Sorting
 
 | **#**  | **Problem Name**                                  | **LeetCode Link**                                                              | **Status**  | **File Link** |
 |--------|---------------------------------------------------|--------------------------------------------------------------------------------|-------------|---------------|
@@ -119,7 +119,7 @@ Welcome to my repository where I will be solving **Data Structures and Algorithm
 
 ---
 
-## 🔢 Numbers and Arithmetic
+## Numbers and Arithmetic
 
 | **#**  | **Problem Name**                                     | **Status**  | **File Link** |
 |--------|------------------------------------------------------|-------------|---------------|
@@ -146,7 +146,7 @@ Welcome to my repository where I will be solving **Data Structures and Algorithm
 
 ---
 
-## 🔄 Loops and Patterns
+## Loops and Patterns
 
 | **#**  | **Problem Name**                                      | **Status**  | **File Link** |
 |--------|-------------------------------------------------------|-------------|---------------|
@@ -161,7 +161,7 @@ Welcome to my repository where I will be solving **Data Structures and Algorithm
 
 ---
 
-## 📚 Beginner-Level Questions
+## Beginner-Level Questions
 
 ### Arrays
 
@@ -237,7 +237,7 @@ Welcome to my repository where I will be solving **Data Structures and Algorithm
 
 ---
 
-## 📚 Intermediate-Level Questions
+## Intermediate-Level Questions
 
 ### Arrays
 
