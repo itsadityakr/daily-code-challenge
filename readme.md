@@ -15,11 +15,11 @@ Welcome to my repository where I will be solving **Data Structures and Algorithm
 
 | **#**  | **Problem Name**                                        | **LeetCode Link**                                                           | **Status**  | **File Link** |
 |--------|---------------------------------------------------------|-----------------------------------------------------------------------------|-------------|---------------|
-| 1      | Largest Element in an Array                             | [LeetCode](https://leetcode.com/problems/third-maximum-number/)             | ❌            | [CPP Code](./.cpp)              |
+| 1      | Third Maximun Number                             | [LeetCode](https://leetcode.com/problems/third-maximum-number/)             | ❌            | [CPP Code](./.cpp)              |
 | 2      | Find Second Smallest and Second Largest Element in an Array | [LeetCode](https://leetcode.com/problems/third-maximum-number/)             | ❌            | [CPP Code](./second_smallest_largest.cpp) |
-| 3      | Check if the Array is Sorted                           | [LeetCode](https://leetcode.com/problems/check-if-array-is-sorted-and-rotated/) | ❌            | [CPP Code](./check_array_sorted.cpp) |
+| 3      | Check if the Array is Sorted and Rotated                          | [LeetCode](https://leetcode.com/problems/check-if-array-is-sorted-and-rotated/) | ❌            | [CPP Code](./check_array_sorted.cpp) |
 | 4      | Remove Duplicates from Sorted Array                     | [LeetCode](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | ❌            | [CPP Code](./remove_duplicates.cpp) |
-| 5      | Left Rotate an Array by One Place                       | [LeetCode](https://leetcode.com/problems/rotate-array/)                     | ❌            | [CPP Code](./left_rotate_one.cpp) |
+| 5      | Left Rotate an Array by K Steps                       | [LeetCode](https://leetcode.com/problems/rotate-array/)                     | ❌            | [CPP Code](./left_rotate_one.cpp) |
 | 6      | Left Rotate an Array by D Places                        | [LeetCode](https://leetcode.com/problems/rotate-array/)                     | ❌            | [CPP Code](./left_rotate_d.cpp) |
 | 7      | Move All Zeros to the End                               | [LeetCode](https://leetcode.com/problems/move-zeroes/)                      | ❌            | [CPP Code](./move_zeroes.cpp) |
 | 8      | Linear Search                                           | [LeetCode](https://leetcode.com/problems/search-in-rotated-sorted-array/)   | ❌            | [CPP Code](./linear_search.cpp) |
