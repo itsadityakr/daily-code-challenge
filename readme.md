@@ -15,7 +15,7 @@ Welcome to my repository where I will be solving **Data Structures and Algorithm
 
 | **#**  | **Problem Name**                                        | **LeetCode Link**                                                           | **Status**  | **File Link** |
 |--------|---------------------------------------------------------|-----------------------------------------------------------------------------|-------------|---------------|
-| 1      | Third Maximujm Number                             | [LeetCode](https://leetcode.com/problems/third-maximum-number/)             | ✅            | [CPP Code](./.cpp)              |
+| 1      | Third Maximum Number                             | [LeetCode](https://leetcode.com/problems/third-maximum-number/)             | ✅            | [CPP Code](./.cpp)              |
 | 2      | Kth Largest Element in Array | [LeetCode](https://leetcode.com/problems/kth-largest-element-in-an-array/description/)             | ✅            | [CPP Code](./second_smallest_largest.cpp) |
 | 3      | Check if the Array is Sorted and Rotated                          | [LeetCode](https://leetcode.com/problems/check-if-array-is-sorted-and-rotated/) | ✅            | [CPP Code](./check_array_sorted.cpp) |
 | 4      | Remove Duplicates from Sorted Array                     | [LeetCode](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | ✅            | [CPP Code](./remove_duplicates.cpp) |
