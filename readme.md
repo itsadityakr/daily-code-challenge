@@ -15,16 +15,16 @@ Welcome to my repository where I will be solving **Data Structures and Algorithm
 
 | **#**  | **Problem Name**                                        | **LeetCode Link**                                                           | **Status**  | **File Link** |
 |--------|---------------------------------------------------------|-----------------------------------------------------------------------------|-------------|---------------|
-| 1      | Third Maximum Number                             | [LeetCode](https://leetcode.com/problems/third-maximum-number/)             | ✅            | [CPP Code](./.cpp)              |
-| 2      | Kth Largest Element in Array | [LeetCode](https://leetcode.com/problems/kth-largest-element-in-an-array/description/)             | ✅            | [CPP Code](./second_smallest_largest.cpp) |
-| 3      | Check if the Array is Sorted and Rotated                          | [LeetCode](https://leetcode.com/problems/check-if-array-is-sorted-and-rotated/) | ✅            | [CPP Code](./check_array_sorted.cpp) |
-| 4      | Remove Duplicates from Sorted Array                     | [LeetCode](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | ✅            | [CPP Code](./remove_duplicates.cpp) |
-| 5      | Right Rotate an Array by K Steps                       | [LeetCode](https://leetcode.com/problems/rotate-array/)                     | ✅            | [CPP Code](./left_rotate_one.cpp) |
-| 6      | Left Rotate an Array by D Places                        | [LeetCode](https://leetcode.com/problems/rotate-array/)                     | ❌            | [CPP Code](./left_rotate_d.cpp) |
-| 7      | Move All Zeros to the End                               | [LeetCode](https://leetcode.com/problems/move-zeroes/)                      | ❌            | [CPP Code](./move_zeroes.cpp) |
-| 8      | Linear Search                                           | [LeetCode](https://leetcode.com/problems/search-in-rotated-sorted-array/)   | ❌            | [CPP Code](./linear_search.cpp) |
-| 9      | Find the Union of Two Sorted Arrays                     | [LeetCode](https://leetcode.com/problems/union-of-two-arrays/)              | ❌            | [CPP Code](./union_sorted_arrays.cpp) |
-| 10     | Find Missing Number in an Array                         | [LeetCode](https://leetcode.com/problems/missing-number/)                   | ❌            | [CPP Code](./missing_number.cpp) |
+| 1      | Third Maximum Number                             | [LeetCode](https://leetcode.com/problems/third-maximum-number/)             | ✅            | [CPP Code](./Day_25/_79_third_maximum_number.cpp)              |
+| 2      | Right Rotate an Array by K Steps                       | [LeetCode](https://leetcode.com/problems/rotate-array/)                     | ✅            | [CPP Code](./Day_25/_82_right_rotate_array_by_k_steps.cpp) |
+| 3      | Check if the Array is Sorted and Rotated                          | [LeetCode](https://leetcode.com/problems/check-if-array-is-sorted-and-rotated/) | ✅            | [CPP Code](./Day_25/_80_check_if_array_is_sorted_and_rotated.cpp) |
+| 4      | Remove Duplicates from Sorted Array                     | [LeetCode](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | ✅            | [CPP Code](./Day_25/_81_remove_duplicates_from_sorted_array.cpp) |
+| 5      | Kth Largest Element in Array | [LeetCode](https://leetcode.com/problems/kth-largest-element-in-an-array/description/)             | ✅            | [CPP Code](./Day_25/_83_kth_largest_element_in_array.cpp) |
+| 6      | Search in Rotated Sorted Array Places                        | [LeetCode](https://leetcode.com/problems/search-in-rotated-sorted-array/description/)                     | ✅            | [CPP Code](./left_rotate_d.cpp) |
+| 7      | Move All Zeros to the End                               | [LeetCode](https://leetcode.com/problems/move-zeroes/)                      | ✅            | [CPP Code](./move_zeroes.cpp) |
+| 8      | Find Minimum in Rotated Sorted Array                                           | [LeetCode](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/description/)   | ✅            | [CPP Code](./linear_search.cpp) |
+| 9      | Intersection of Two Arrays                     | [LeetCode](https://leetcode.com/problems/intersection-of-two-arrays/description/)              | ✅            | [CPP Code](./union_sorted_arrays.cpp) |
+| 10     | Find Missing Number in an Array                         | [LeetCode](https://leetcode.com/problems/missing-number/)                   | ✅            | [CPP Code](./missing_number.cpp) |
 | 11     | Max Consecutive 1's                                     | [LeetCode](https://leetcode.com/problems/max-consecutive-ones/)             | ❌            | [CPP Code](./max_consecutive_ones.cpp) |
 | 12     | Find the Single Element Among Pairs                     | [LeetCode](https://leetcode.com/problems/single-element-in-a-sorted-array/) | ❌            | [CPP Code](./single_element.cpp) |
 | 13     | Longest Subarray with Sum K                             | [LeetCode](https://leetcode.com/problems/longest-subarray-with-sum-equals-k/) | ❌            | [CPP Code](./longest_subarray_sum_k.cpp) |
