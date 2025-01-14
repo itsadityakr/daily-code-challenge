@@ -1,23 +1,31 @@
-// https://leetcode.com/problems/third-maximum-number/
+// https://leetcode.com/problems/move-zeroes/
 
 class Solution
 {
 public:
-    int thirdMax(vector<int> &nums)
+    void swap(int &a, int &b)
     {
-        if (nums.size() == 1)
-            return nums[0];
-        sort(nums.begin(), nums.end(), greater<>());
-        int i, cnt = 0;
-        for (i = 1; i < nums.size(); i++)
+        if (&a != &b)
         {
-            if (cnt == 2)
-                return nums[i - 1];
-            if (nums[i] != nums[i - 1])
-                cnt++;
+            a = a ^ b;
+            b = b ^ a;
+            a = a ^ b;
         }
-        if (cnt == 2)
-            return nums[i - 1];
-        return nums[0];
+    }
+    void moveZeroes(vector<int> &arr)
+    {
+        int n = arr.size();
+        int zeroCount = 0;
+        for (int i = 0; i < n; i++)
+        {
+            if (arr[i] != 0)
+            {
+                swap(arr[i], arr[i - zeroCount]);
+            }
+            else
+            {
+                zeroCount++;
+            }
+        }
     }
 };

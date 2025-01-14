@@ -1,23 +1,50 @@
-// https://leetcode.com/problems/third-maximum-number/
+// https://leetcode.com/problems/search-in-rotated-sorted-array/description/
+
+#include <bits/stdc++.h>
+#define endl "\n"
+using namespace std;
 
 class Solution
 {
 public:
-    int thirdMax(vector<int> &nums)
+    int search(vector<int> &nums, int target)
     {
-        if (nums.size() == 1)
-            return nums[0];
-        sort(nums.begin(), nums.end(), greater<>());
-        int i, cnt = 0;
-        for (i = 1; i < nums.size(); i++)
+        int n = nums.size();
+        int low = 0, high = n - 1;
+
+        while (low <= high)
         {
-            if (cnt == 2)
-                return nums[i - 1];
-            if (nums[i] != nums[i - 1])
-                cnt++;
+            int mid = low + (high - low) / 2;
+
+            if (nums[mid] == target)
+            {
+                return mid;
+            }
+
+            if (nums[low] <= nums[mid])
+            {
+                if (nums[low] <= target && target < nums[mid])
+                {
+                    high = mid - 1;
+                }
+                else
+                {
+                    low = mid + 1;
+                }
+            }
+            else
+            {
+                if (nums[mid] < target && target <= nums[high])
+                {
+                    low = mid + 1;
+                }
+                else
+                {
+                    high = mid - 1;
+                }
+            }
         }
-        if (cnt == 2)
-            return nums[i - 1];
-        return nums[0];
+
+        return -1;
     }
 };

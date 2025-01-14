@@ -1,23 +1,19 @@
-// https://leetcode.com/problems/third-maximum-number/
+// https://leetcode.com/problems/intersection-of-two-arrays/
 
 class Solution
 {
 public:
-    int thirdMax(vector<int> &nums)
+    vector<int> intersection(vector<int> &nums1, vector<int> &nums2)
     {
-        if (nums.size() == 1)
-            return nums[0];
-        sort(nums.begin(), nums.end(), greater<>());
-        int i, cnt = 0;
-        for (i = 1; i < nums.size(); i++)
+        unordered_set<int> ans(nums1.begin(), nums1.end());
+        unordered_set<int> res;
+        for (int x : nums2)
         {
-            if (cnt == 2)
-                return nums[i - 1];
-            if (nums[i] != nums[i - 1])
-                cnt++;
+            if (ans.find(x) != ans.end())
+            {
+                res.insert(x);
+            }
         }
-        if (cnt == 2)
-            return nums[i - 1];
-        return nums[0];
+        return vector<int>(res.begin(), res.end());
     }
 };

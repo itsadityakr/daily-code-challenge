@@ -1,23 +1,25 @@
-// https://leetcode.com/problems/third-maximum-number/
+// https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/description/
 
 class Solution
 {
 public:
-    int thirdMax(vector<int> &nums)
+    int findMin(vector<int> &nums)
     {
-        if (nums.size() == 1)
-            return nums[0];
-        sort(nums.begin(), nums.end(), greater<>());
-        int i, cnt = 0;
-        for (i = 1; i < nums.size(); i++)
+        int numsSize = nums.size();
+        int left = 0, right = numsSize - 1;
+        while (left < right)
         {
-            if (cnt == 2)
-                return nums[i - 1];
-            if (nums[i] != nums[i - 1])
-                cnt++;
+            int mid = left + (right - left) / 2;
+            if (nums[mid] < nums[right])
+            {
+                right = mid;
+            }
+            else
+            {
+                left = mid + 1;
+            }
         }
-        if (cnt == 2)
-            return nums[i - 1];
-        return nums[0];
+
+        return nums[left];
     }
 };
