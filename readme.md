@@ -14,7 +14,7 @@ Welcome to my repository where I will be solving **Data Structures and Algorithm
 ## Arrays
 
 
-| **#**  | **Problem Name**                                        | **Platform**                                                           | **Status**  | **File Link** | **Difficulty Level** | **Prerequisites** |
+| **#**  | **Problem Name**                                        | **Platform**                                                           | **Status**  | **File Link** | **Difficulty** | **Prerequisites** |
 |--------|---------------------------------------------------------|-----------------------------------------------------------------------------|-------------|---------------|----------------------|----------------------------|
 | 1      | Third Maximum Number                                     | [LeetCode](https://leetcode.com/problems/third-maximum-number/)             | ✅            | [CPP Code](./Day_25/_79_third_maximum_number.cpp)              |                      |                            |
 | 2      | Right Rotate an Array by K Steps                         | [LeetCode](https://leetcode.com/problems/rotate-array/)                     | ✅            | [CPP Code](./Day_25/_82_right_rotate_array_by_k_steps.cpp) |                      |                            |
@@ -63,7 +63,7 @@ Welcome to my repository where I will be solving **Data Structures and Algorithm
 
 ## Basic Maths
 
-| **#**  | **Problem Name**                                  | **Platform**                                                              | **Status**  | **File Link** | **Difficulty Level** | **Prerequisites** |
+| **#**  | **Problem Name**                                  | **Platform**                                                              | **Status**  | **File Link** | **Difficulty** | **Prerequisites** |
 |--------|---------------------------------------------------|--------------------------------------------------------------------------------|-------------|---------------|----------------------|-------------------|
 | 1      | All Divisors                                      | [LeetCode](https://leetcode.com/problems/all-divisors/)                         | ❌           | [CPP Code](./all_divisors.cpp) |  |  |
 | 2      | Armstrong Number                                  | [LeetCode](https://leetcode.com/problems/armstrong-number/)                    | ❌           | [CPP Code](./armstrong_number.cpp) |  |  |
@@ -77,7 +77,7 @@ Welcome to my repository where I will be solving **Data Structures and Algorithm
 
 ## Recursion
 
-| **#**  | **Problem Name**                                  | **Platform**                                                              | **Status**  | **File Link** | **Difficulty Level** | **Prerequisites** |
+| **#**  | **Problem Name**                                  | **Platform**                                                              | **Status**  | **File Link** | **Difficulty** | **Prerequisites** |
 |--------|---------------------------------------------------|--------------------------------------------------------------------------------|-------------|---------------|----------------------|-------------------|
 | 1      | Print 1 to N                                     | [LeetCode](https://leetcode.com/problems/print-numbers-from-1-to-n/)           | ❌           | [CPP Code](./print_1_to_n.cpp) |  |  |
 | 2      | Check Palindrome                                  | [LeetCode](https://leetcode.com/problems/palindrome-number/)                   | ❌           | [CPP Code](./check_palindrome.cpp) |  |  |
@@ -92,7 +92,7 @@ Welcome to my repository where I will be solving **Data Structures and Algorithm
 
 ## Sorting
 
-| **#**  | **Problem Name**                                  | **Platform**                                                              | **Status**  | **File Link** | **Difficulty Level** | **Prerequisites** |
+| **#**  | **Problem Name**                                  | **Platform**                                                              | **Status**  | **File Link** | **Difficulty** | **Prerequisites** |
 |--------|---------------------------------------------------|--------------------------------------------------------------------------------|-------------|---------------|----------------------|-------------------|
 | 1      | Bubble Sort                                       | [LeetCode](https://leetcode.com/problems/sort-an-array/)                       | ❌        | [CPP Code](./bubble_sort.cpp) |  |  |
 | 2      | Insertion Sort                                    | [LeetCode](https://leetcode.com/problems/sort-an-array/)                       | ❌        | [CPP Code](./insertion_sort.cpp) |  |  |
