@@ -14,7 +14,7 @@ Welcome to my repository where I will be solving **Data Structures and Algorithm
 ## Arrays
 
 
-| **#**  | **Problem Name**                                        | **Platform**                                                           | **Status**  | **File Link** | **Difficulty** | **Prerequisites** |
+| **#**  | **Problem Name**                                        | **Platform**                                                           | **Status**  | **File** | **Difficulty** | **Prerequisites** |
 |--------|---------------------------------------------------------|-----------------------------------------------------------------------------|-------------|---------------|----------------------|----------------------------|
 | 1      | Third Maximum Number                                     | [LeetCode](https://leetcode.com/problems/third-maximum-number/)             | ✅            | [CPP Code](./Day_25/_79_third_maximum_number.cpp)              |                      |                            |
 | 2      | Right Rotate an Array by K Steps                         | [LeetCode](https://leetcode.com/problems/rotate-array/)                     | ✅            | [CPP Code](./Day_25/_82_right_rotate_array_by_k_steps.cpp) |                      |                            |
@@ -63,7 +63,7 @@ Welcome to my repository where I will be solving **Data Structures and Algorithm
 
 ## Basic Maths
 
-| **#**  | **Problem Name**                                  | **Platform**                                                              | **Status**  | **File Link** | **Difficulty** | **Prerequisites** |
+| **#**  | **Problem Name**                                  | **Platform**                                                              | **Status**  | **File** | **Difficulty** | **Prerequisites** |
 |--------|---------------------------------------------------|--------------------------------------------------------------------------------|-------------|---------------|----------------------|-------------------|
 | 1      | All Divisors                                      | [LeetCode](https://leetcode.com/problems/all-divisors/)                         | ❌           | [CPP Code](./all_divisors.cpp) |  |  |
 | 2      | Armstrong Number                                  | [LeetCode](https://leetcode.com/problems/armstrong-number/)                    | ❌           | [CPP Code](./armstrong_number.cpp) |  |  |
@@ -77,7 +77,7 @@ Welcome to my repository where I will be solving **Data Structures and Algorithm
 
 ## Recursion
 
-| **#**  | **Problem Name**                                  | **Platform**                                                              | **Status**  | **File Link** | **Difficulty** | **Prerequisites** |
+| **#**  | **Problem Name**                                  | **Platform**                                                              | **Status**  | **File** | **Difficulty** | **Prerequisites** |
 |--------|---------------------------------------------------|--------------------------------------------------------------------------------|-------------|---------------|----------------------|-------------------|
 | 1      | Print 1 to N                                     | [LeetCode](https://leetcode.com/problems/print-numbers-from-1-to-n/)           | ❌           | [CPP Code](./print_1_to_n.cpp) |  |  |
 | 2      | Check Palindrome                                  | [LeetCode](https://leetcode.com/problems/palindrome-number/)                   | ❌           | [CPP Code](./check_palindrome.cpp) |  |  |
@@ -92,7 +92,7 @@ Welcome to my repository where I will be solving **Data Structures and Algorithm
 
 ## Sorting
 
-| **#**  | **Problem Name**                                  | **Platform**                                                              | **Status**  | **File Link** | **Difficulty** | **Prerequisites** |
+| **#**  | **Problem Name**                                  | **Platform**                                                              | **Status**  | **File** | **Difficulty** | **Prerequisites** |
 |--------|---------------------------------------------------|--------------------------------------------------------------------------------|-------------|---------------|----------------------|-------------------|
 | 1      | Bubble Sort                                       | [LeetCode](https://leetcode.com/problems/sort-an-array/)                       | ❌        | [CPP Code](./bubble_sort.cpp) |  |  |
 | 2      | Insertion Sort                                    | [LeetCode](https://leetcode.com/problems/sort-an-array/)                       | ❌        | [CPP Code](./insertion_sort.cpp) |  |  |
@@ -125,7 +125,7 @@ Welcome to my repository where I will be solving **Data Structures and Algorithm
 
 ## Numbers and Arithmetic
 
-| **#**  | **Problem Name**                                     | **Status**  | **File Link** |
+| **#**  | **Problem Name**                                     | **Status**  | **File** |
 |--------|------------------------------------------------------|-------------|---------------|
 | 1      | Check if a number is odd or even                     | ✅          | [Link](./Day_01/_01_odd_even.cpp) |
 | 2      | Determine if a number is prime                       | ✅          | [Link](./Day_01/_02_prime_number.cpp) |
@@ -152,7 +152,7 @@ Welcome to my repository where I will be solving **Data Structures and Algorithm
 
 ## Loops and Patterns
 
-| **#**  | **Problem Name**                                      | **Status**  | **File Link** |
+| **#**  | **Problem Name**                                      | **Status**  | **File** |
 |--------|-------------------------------------------------------|-------------|---------------|
 | 21     | Print the sum of the first N natural numbers         | ✅          | [Link](./Day_02/_21_sum_of_first_n_natural_numbers.cpp) |
 | 22     | Print the sum of the first N even numbers            | ✅          | [Link](./Day_02/_22_sum_of_first_n_even_natural_numbers.cpp) |
@@ -169,7 +169,7 @@ Welcome to my repository where I will be solving **Data Structures and Algorithm
 
 ### Arrays
 
-| **#**  | **Problem Name**                                          | **Status**  | **File Link** |
+| **#**  | **Problem Name**                                          | **Status**  | **File** |
 |--------|-----------------------------------------------------------|-------------|---------------|
 | 1      | Find the Largest Element in an Array                      | ✅          | [Link](./Day_03/_01_find_the_largest_element_in_an_array.cpp) |
 | 2      | Find the Smallest Element in an Array                     | ✅          | [Link](./Day_03/_02_find_the_smallest_element_in_an_array.cpp) |
@@ -202,7 +202,7 @@ Welcome to my repository where I will be solving **Data Structures and Algorithm
 
 ### Strings
 
-| **#**  | **Problem Name**                                          | **Status**  | **File Link** |
+| **#**  | **Problem Name**                                          | **Status**  | **File** |
 |--------|-----------------------------------------------------------|-------------|---------------|
 | 29     | Valid Anagrams                                           | ✅          | [Link](./Day_07/_29_valid_anagrams.cpp) |
 | 30     | Check Palindrome                                          | ✅          | [Link](./Day_07/_30_check_palindrome.cpp) |
@@ -217,7 +217,7 @@ Welcome to my repository where I will be solving **Data Structures and Algorithm
 
 ### Linked Lists
 
-| **#**  | **Problem Name**                                          | **Status**  | **File Link** |
+| **#**  | **Problem Name**                                          | **Status**  | **File** |
 |--------|-----------------------------------------------------------|-------------|---------------|
 | 39     | Reverse a Linked List                                     | ✅          | [Link](./Day_08/_39_reverse_a_linked_list.cpp) |
 | 40     | Detect Cycle in Linked List                               | ✅          | [Link](./Day_08/_40_detect_cycle_in_linked_list.cpp) |
@@ -229,7 +229,7 @@ Welcome to my repository where I will be solving **Data Structures and Algorithm
 
 ### Stacks and Queues
 
-| **#**  | **Problem Name**                                          | **Status**  | **File Link** |
+| **#**  | **Problem Name**                                          | **Status**  | **File** |
 |--------|-----------------------------------------------------------|-------------|---------------|
 | 46     | Implement a stack using arrays                            | ✅          | [Link](./Day_11/_46_stack_using_arrays.cpp) |
 | 47     | Implement a stack using linked lists                      | ✅          | [Link](./Day_11/_47_stack_using_linked_list.cpp) |
@@ -245,7 +245,7 @@ Welcome to my repository where I will be solving **Data Structures and Algorithm
 
 ### Arrays
 
-| **#**  | **Problem Name**                                         | **Status**  | **File Link** |
+| **#**  | **Problem Name**                                         | **Status**  | **File** |
 |--------|----------------------------------------------------------|-------------|---------------|
 | 53     | Kadane's Algorithm (Maximum subarray sum).               | ✅          | [Link](./Day_13/_53_kadanes_algorithm_maximum_sub_array_sum.cpp) |
 | 54     | Trapping Rain Water                                      | ✅          | [Link](./Day_13/_54_trapping_rain_water.cpp) |
@@ -266,7 +266,7 @@ Welcome to my repository where I will be solving **Data Structures and Algorithm
 
 ### Strings
 
-| **#**  | **Problem Name**                                         | **Status**  | **File Link** |
+| **#**  | **Problem Name**                                         | **Status**  | **File** |
 |--------|----------------------------------------------------------|-------------|---------------|
 | 69     | Rabin-Karp algorithm.                                    | ✅          | [Link](./Day_18/_69_repeated_string_match_rabin_karp_or_rolling_hash_algorithm.cpp) |
 | 70     | Longest Happy Prefix-KMP algorithm for pattern matching. | ✅          | [Link](./Day_18/_70_longest_happy_prefix_kmp_algorithm.cpp) |
