@@ -13,92 +13,96 @@ Welcome to my repository where I will be solving **Data Structures and Algorithm
 
 ## Arrays
 
-| **#**  | **Problem Name**                                        | **LeetCode Link**                                                           | **Status**  | **File Link** |
-|--------|---------------------------------------------------------|-----------------------------------------------------------------------------|-------------|---------------|
-| 1      | Third Maximum Number                             | [LeetCode](https://leetcode.com/problems/third-maximum-number/)             | ✅            | [CPP Code](./Day_25/_79_third_maximum_number.cpp)              |
-| 2      | Right Rotate an Array by K Steps                       | [LeetCode](https://leetcode.com/problems/rotate-array/)                     | ✅            | [CPP Code](./Day_25/_82_right_rotate_array_by_k_steps.cpp) |
-| 3      | Check if the Array is Sorted and Rotated                          | [LeetCode](https://leetcode.com/problems/check-if-array-is-sorted-and-rotated/) | ✅            | [CPP Code](./Day_25/_80_check_if_array_is_sorted_and_rotated.cpp) |
-| 4      | Remove Duplicates from Sorted Array                     | [LeetCode](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | ✅            | [CPP Code](./Day_25/_81_remove_duplicates_from_sorted_array.cpp) |
-| 5      | Kth Largest Element in Array | [LeetCode](https://leetcode.com/problems/kth-largest-element-in-an-array/description/)             | ✅            | [CPP Code](./Day_25/_83_kth_largest_element_in_array.cpp) |
-| 6      | Search in Rotated Sorted Array Places                        | [LeetCode](https://leetcode.com/problems/search-in-rotated-sorted-array/description/)                     | ✅            | [CPP Code](./Day_26/_84_search_in_rotated_sorted_array_places.cpp) |
-| 7      | Move All Zeros to the End                               | [LeetCode](https://leetcode.com/problems/move-zeroes/)                      | ✅            | [CPP Code](./Day_26/_85_move_all_zeros_to_end.cpp) |
-| 8      | Find Minimum in Rotated Sorted Array                                           | [LeetCode](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/description/)   | ✅            | [CPP Code](./Day_26/_86_find_minimum_in_roated_sorted_array.cpp) |
-| 9      | Intersection of Two Arrays                     | [LeetCode](https://leetcode.com/problems/intersection-of-two-arrays/description/)              | ✅            | [CPP Code](./Day_26/_87_intersection_of_two_arrays.cpp) |
-| 10     | Find Missing Number in an Array                         | [LeetCode](https://leetcode.com/problems/missing-number/)                   | ✅            | [CPP Code](./Day_26/_88_find_missing_number_in_an_array.cpp) |
-| 11     | Max Consecutive 1's                                     | [LeetCode](https://leetcode.com/problems/max-consecutive-ones/)             | ✅            | [CPP Code](./max_consecutive_ones.cpp) |
-| 12     | Find the Single Element Among Pairs                     | [LeetCode](https://leetcode.com/problems/single-element-in-a-sorted-array/) | ✅            | [CPP Code](./single_element.cpp) |
-| 13     | Subarray with Sum K                             | [LeetCode](https://leetcode.com/problems/subarray-sum-equals-k/description/) | ✅            | [CPP Code](./longest_subarray_sum_k.cpp) |
-| 14     | Maximum Sum of Distinct Subarrays With Length K | [LeetCode](https://leetcode.com/problems/maximum-sum-of-distinct-subarrays-with-length-k/description/) | ✅            | [CPP Code](./longest_subarray_sum_k_alternate.cpp) |
-| 15     | 2-Sum Problem                                           | [LeetCode](https://leetcode.com/problems/two-sum/)                             | ✅            | [CPP Code](./two_sum.cpp) |
-| 16     | Sort 0, 1, 2                                            | [LeetCode](https://leetcode.com/problems/sort-colors/)                         | 🔄            | [CPP Code](./sort_0_1_2.cpp) |
-| 17     | Majority Element                                        | [LeetCode](https://leetcode.com/problems/majority-element/)                    | 🔄            | [CPP Code](./majority_element.cpp) |
-| 18     | Kadane's Algorithm                                      | [LeetCode](https://leetcode.com/problems/maximum-subarray/)                    | 🔄            | [CPP Code](./kadane_algorithm.cpp) |
-| 19     | Number of Subarrays with Sum Equal to K                | [LeetCode](https://leetcode.com/problems/subarray-sum-equals-k/)               | 🔄            | [CPP Code](./subarrays_sum_k.cpp) |
-| 20     | Stock Buy and Sell                                      | [LeetCode](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)     | 🔄            | [CPP Code](./stock_buy_sell.cpp) |
-| 21     | Rearrange Elements by Sign                              | [LeetCode](https://leetcode.com/problems/rearrange-array-elements-by-sign/)    | ❌            | [CPP Code](./rearrange_by_sign.cpp) |
-| 22     | Next Permutation                                        | [LeetCode](https://leetcode.com/problems/next-permutation/)                    | ❌            | [CPP Code](./next_permutation.cpp) |
-| 23     | Leaders in an Array                                     | [LeetCode](https://leetcode.com/problems/leaders-in-an-array/)                 | ❌            | [CPP Code](./leaders_in_array.cpp) |
-| 24     | Longest Consecutive Subsequence                         | [LeetCode](https://leetcode.com/problems/longest-consecutive-sequence/)       | ❌            | [CPP Code](./longest_consecutive_subsequence.cpp) |
-| 25     | Set Matrix 0's                                          | [LeetCode](https://leetcode.com/problems/set-matrix-zeroes/)                   | ❌            | [CPP Code](./set_matrix_zeros.cpp) |
-| 26     | Rotate Matrix                                           | [LeetCode](https://leetcode.com/problems/rotate-image/)                        | ❌            | [CPP Code](./rotate_matrix.cpp) |
-| 27     | Spiral Traversal                                        | [LeetCode](https://leetcode.com/problems/spiral-matrix/)                       | ❌            | [CPP Code](./spiral_traversal.cpp) |
-| 28     | Pascal's Triangle                                       | [LeetCode](https://leetcode.com/problems/pascals-triangle/)                    | ❌            | [CPP Code](./pascals_triangle.cpp) |
-| 29     | Majority Element II (n by 3 times)                      | [LeetCode](https://leetcode.com/problems/majority-element-ii/)                 | ❌            | [CPP Code](./majority_element_ii.cpp) |
-| 30     | Count Subarrays with Given Sum                          | [LeetCode](https://leetcode.com/problems/longest-subarray-with-sum-equals-k/)  | ❌            | [CPP Code](./longest_subarray_given_sum.cpp) |
-| 31     | 3-Sum Problem                                           | [LeetCode](https://leetcode.com/problems/3sum/)                                | ❌            | [CPP Code](./three_sum.cpp) |
-| 32     | 4-Sum Problem                                           | [LeetCode](https://leetcode.com/problems/4sum/)                                | ❌            | [CPP Code](./four_sum.cpp) |
-| 33     | Largest Subarray with 0 Sum                            | [LeetCode](https://leetcode.com/problems/largest-subarray-with-0-sum/)         | ❌            | [CPP Code](./largest_subarray_0_sum.cpp) |
-| 34     | Subarrays with XOR Equal to K                          | [LeetCode](https://leetcode.com/problems/subarrays-with-sum-equals-k/)         | ❌            | [CPP Code](./subarrays_xor_k.cpp) |
-| 35     | Merge Overlapping Subintervals                         | [LeetCode](https://leetcode.com/problems/merge-intervals/)                     | ❌            | [CPP Code](./merge_overlapping_intervals.cpp) |
-| 36     | Merge Two Sorted Arrays Without Extra Space            | [LeetCode](https://leetcode.com/problems/merge-sorted-array/)                  | ❌            | [CPP Code](./merge_two_sorted_arrays.cpp) |
-| 37     | Repeating and Missing Numbers                          | [LeetCode](https://leetcode.com/problems/find-the-duplicate-number/)           | ❌            | [CPP Code](./repeating_missing_numbers.cpp) |
-| 38     | Count Inversions                                       | [LeetCode](https://leetcode.com/problems/count-of-smaller-numbers-after-self/) | ❌            | [CPP Code](./count_inversions.cpp) |
-| 39     | Reverse Pairs                                          | [LeetCode](https://leetcode.com/problems/reverse-pairs/)                       | ❌            | [CPP Code](./reverse_pairs.cpp) |
-| 40     | Maximum Product Subarray                               | [LeetCode](https://leetcode.com/problems/maximum-product-subarray/)           | ❌            | [CPP Code](./maximum_product_subarray.cpp) |
-| 41     | Longest Subarray with Given Sum                        | [LeetCode](https://leetcode.com/problems/longest-subarray-with-sum-equals-k/)  | ❌            | [CPP Code](./longest_subarray_given_sum.cpp) |
+
+| **#**  | **Problem Name**                                        | **Platform**                                                           | **Status**  | **File Link** | **Difficulty Level** | **Prerequisites** |
+|--------|---------------------------------------------------------|-----------------------------------------------------------------------------|-------------|---------------|----------------------|----------------------------|
+| 1      | Third Maximum Number                                     | [LeetCode](https://leetcode.com/problems/third-maximum-number/)             | ✅            | [CPP Code](./Day_25/_79_third_maximum_number.cpp)              |                      |                            |
+| 2      | Right Rotate an Array by K Steps                         | [LeetCode](https://leetcode.com/problems/rotate-array/)                     | ✅            | [CPP Code](./Day_25/_82_right_rotate_array_by_k_steps.cpp) |                      |                            |
+| 3      | Check if the Array is Sorted and Rotated                 | [LeetCode](https://leetcode.com/problems/check-if-array-is-sorted-and-rotated/) | ✅            | [CPP Code](./Day_25/_80_check_if_array_is_sorted_and_rotated.cpp) |                      |                            |
+| 4      | Remove Duplicates from Sorted Array                      | [LeetCode](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | ✅            | [CPP Code](./Day_25/_81_remove_duplicates_from_sorted_array.cpp) |                      |                            |
+| 5      | Kth Largest Element in Array                             | [LeetCode](https://leetcode.com/problems/kth-largest-element-in-an-array/description/)             | ✅            | [CPP Code](./Day_25/_83_kth_largest_element_in_array.cpp) |                      |                            |
+| 6      | Search in Rotated Sorted Array Places                    | [LeetCode](https://leetcode.com/problems/search-in-rotated-sorted-array/description/)                     | ✅            | [CPP Code](./Day_26/_84_search_in_rotated_sorted_array_places.cpp) |                      |                            |
+| 7      | Move All Zeros to the End                                | [LeetCode](https://leetcode.com/problems/move-zeroes/)                      | ✅            | [CPP Code](./Day_26/_85_move_all_zeros_to_end.cpp) |                      |                            |
+| 8      | Find Minimum in Rotated Sorted Array                     | [LeetCode](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/description/)   | ✅            | [CPP Code](./Day_26/_86_find_minimum_in_roated_sorted_array.cpp) |                      |                            |
+| 9      | Intersection of Two Arrays                               | [LeetCode](https://leetcode.com/problems/intersection-of-two-arrays/description/)              | ✅            | [CPP Code](./Day_26/_87_intersection_of_two_arrays.cpp) |                      |                            |
+| 10     | Find Missing Number in an Array                          | [LeetCode](https://leetcode.com/problems/missing-number/)                   | ✅            | [CPP Code](./Day_26/_88_find_missing_number_in_an_array.cpp) |                      |                            |
+| 11     | Max Consecutive 1's                                      | [LeetCode](https://leetcode.com/problems/max-consecutive-ones/)             | ✅            | [CPP Code](./max_consecutive_ones.cpp) |                      |                            |
+| 12     | Find the Single Element Among Pairs                      | [LeetCode](https://leetcode.com/problems/single-element-in-a-sorted-array/) | ✅            | [CPP Code](./single_element.cpp) |                      |                            |
+| 13     | Subarray with Sum K                                      | [LeetCode](https://leetcode.com/problems/subarray-sum-equals-k/description/) | ✅            | [CPP Code](./longest_subarray_sum_k.cpp) |                      |                            |
+| 14     | Maximum Sum of Distinct Subarrays With Length K         | [LeetCode](https://leetcode.com/problems/maximum-sum-of-distinct-subarrays-with-length-k/description/) | ✅            | [CPP Code](./longest_subarray_sum_k_alternate.cpp) |                      |                            |
+| 15     | 2-Sum Problem                                           | [LeetCode](https://leetcode.com/problems/two-sum/)                             | ✅            | [CPP Code](./two_sum.cpp) |                      |                            |
+| 16     | Sort 0, 1, 2                                            | [LeetCode](https://leetcode.com/problems/sort-colors/)                         | 🔄            | [CPP Code](./sort_0_1_2.cpp) |                      |                            |
+| 17     | Majority Element                                        | [LeetCode](https://leetcode.com/problems/majority-element/)                    | 🔄            | [CPP Code](./majority_element.cpp) |                      |                            |
+| 18     | Kadane's Algorithm                                      | [LeetCode](https://leetcode.com/problems/maximum-subarray/)                    | 🔄            | [CPP Code](./kadane_algorithm.cpp) |                      |                            |
+| 19     | Number of Subarrays with Sum Equal to K                | [LeetCode](https://leetcode.com/problems/subarray-sum-equals-k/)               | 🔄            | [CPP Code](./subarrays_sum_k.cpp) |                      |                            |
+| 20     | Stock Buy and Sell                                      | [LeetCode](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)     | 🔄            | [CPP Code](./stock_buy_sell.cpp) |                      |                            |
+| 21     | Rearrange Elements by Sign                              | [LeetCode](https://leetcode.com/problems/rearrange-array-elements-by-sign/)    | ❌            | [CPP Code](./rearrange_by_sign.cpp) |                      |                            |
+| 22     | Next Permutation                                        | [LeetCode](https://leetcode.com/problems/next-permutation/)                    | ❌            | [CPP Code](./next_permutation.cpp) |                      |                            |
+| 23     | Leaders in an Array                                     | [LeetCode](https://leetcode.com/problems/leaders-in-an-array/)                 | ❌            | [CPP Code](./leaders_in_array.cpp) |                      |                            |
+| 24     | Longest Consecutive Subsequence                         | [LeetCode](https://leetcode.com/problems/longest-consecutive-sequence/)       | ❌            | [CPP Code](./longest_consecutive_subsequence.cpp) |                      |                            |
+| 25     | Set Matrix 0's                                          | [LeetCode](https://leetcode.com/problems/set-matrix-zeroes/)                   | ❌            | [CPP Code](./set_matrix_zeros.cpp) |                      |                            |
+| 26     | Rotate Matrix                                           | [LeetCode](https://leetcode.com/problems/rotate-image/)                        | ❌            | [CPP Code](./rotate_matrix.cpp) |                      |                            |
+| 27     | Spiral Traversal                                        | [LeetCode](https://leetcode.com/problems/spiral-matrix/)                       | ❌            | [CPP Code](./spiral_traversal.cpp) |                      |                            |
+| 28     | Pascal's Triangle                                       | [LeetCode](https://leetcode.com/problems/pascals-triangle/)                    | ❌            | [CPP Code](./pascals_triangle.cpp) |                      |                            |
+| 29     | Majority Element II (n by 3 times)                      | [LeetCode](https://leetcode.com/problems/majority-element-ii/)                 | ❌            | [CPP Code](./majority_element_ii.cpp) |                      |                            |
+| 30     | Count Subarrays with Given Sum                          | [LeetCode](https://leetcode.com/problems/longest-subarray-with-sum-equals-k/)  | ❌            | [CPP Code](./longest_subarray_given_sum.cpp) |                      |                            |
+| 31     | 3-Sum Problem                                           | [LeetCode](https://leetcode.com/problems/3sum/)                                | ❌            | [CPP Code](./three_sum.cpp) |                      |                            |
+| 32     | 4-Sum Problem                                           | [LeetCode](https://leetcode.com/problems/4sum/)                                | ❌            | [CPP Code](./four_sum.cpp) |                      |                            |
+| 33     | Largest Subarray with 0 Sum                            | [LeetCode](https://leetcode.com/problems/largest-subarray-with-0-sum/)         | ❌            | [CPP Code](./largest_subarray_0_sum.cpp) |                      |                            |
+| 34     | Subarrays with XOR Equal to K                          | [LeetCode](https://leetcode.com/problems/subarrays-with-sum-equals-k/)         | ❌            | [CPP Code](./subarrays_xor_k.cpp) |                      |                            |
+| 35     | Merge Overlapping Subintervals                         | [LeetCode](https://leetcode.com/problems/merge-intervals/)                     | ❌            | [CPP Code](./merge_overlapping_intervals.cpp) |                      |                            |
+| 36     | Merge Two Sorted Arrays Without Extra Space            | [LeetCode](https://leetcode.com/problems/merge-sorted-array/)                  | ❌            | [CPP Code](./merge_two_sorted_arrays.cpp) |                      |                            |
+| 37     | Repeating and Missing Numbers                          | [LeetCode](https://leetcode.com/problems/find-the-duplicate-number/)           | ❌            | [CPP Code](./repeating_missing_numbers.cpp) |                      |                            |
+| 38     | Count Inversions                                       | [LeetCode](https://leetcode.com/problems/count-of-smaller-numbers-after-self/) | ❌            | [CPP Code](./count_inversions.cpp) |                      |                            |
+| 39     | Reverse Pairs                                          | [LeetCode](https://leetcode.com/problems/reverse-pairs/)                       | ❌            | [CPP Code](./reverse_pairs.cpp) |                      |                            |
+| 40     | Maximum Product Subarray                               | [LeetCode](https://leetcode.com/problems/maximum-product-subarray/)           | ❌            | [CPP Code](./maximum_product_subarray.cpp) |                      |                            |
+| 41     | Longest Subarray with Given Sum                        | [LeetCode](https://leetcode.com/problems/longest-subarray-with-sum-equals-k/)  | ❌            | [CPP Code](./longest_subarray_given_sum.cpp) |                      |                            |
+
 
 ---
 
 ## Basic Maths
 
-| **#**  | **Problem Name**                                  | **LeetCode Link**                                                              | **Status**  | **File Link** |
-|--------|---------------------------------------------------|--------------------------------------------------------------------------------|-------------|---------------|
-| 1      | All Divisors                                      | [LeetCode](https://leetcode.com/problems/all-divisors/)                         | ❌           | [CPP Code](./all_divisors.cpp) |
-| 2      | Armstrong Number                                  | [LeetCode](https://leetcode.com/problems/armstrong-number/)                    | ❌           | [CPP Code](./armstrong_number.cpp) |
-| 3      | Check Palindrome                                  | [LeetCode](https://leetcode.com/problems/palindrome-number/)                   | ❌           | [CPP Code](./check_palindrome.cpp) |
-| 4      | Check Prime                                       | [LeetCode](https://leetcode.com/problems/prime-number/)                        | ❌           | [CPP Code](./check_prime.cpp) |
-| 5      | Count Digits                                      | [LeetCode](https://leetcode.com/problems/count-digits/)                        | ❌           | [CPP Code](./count_digits.cpp) |
-| 6      | LCM & GCD                                         | [LeetCode](https://leetcode.com/problems/lcm-and-gcd/)                         | ❌           | [CPP Code](./lcm_gcd.cpp) |
-| 7      | Reverse Number                                    | [LeetCode](https://leetcode.com/problems/reverse-integer/)                     | ❌           | [CPP Code](./reverse_number.cpp) |
+| **#**  | **Problem Name**                                  | **Platform**                                                              | **Status**  | **File Link** | **Difficulty Level** | **Prerequisites** |
+|--------|---------------------------------------------------|--------------------------------------------------------------------------------|-------------|---------------|----------------------|-------------------|
+| 1      | All Divisors                                      | [LeetCode](https://leetcode.com/problems/all-divisors/)                         | ❌           | [CPP Code](./all_divisors.cpp) |  |  |
+| 2      | Armstrong Number                                  | [LeetCode](https://leetcode.com/problems/armstrong-number/)                    | ❌           | [CPP Code](./armstrong_number.cpp) |  |  |
+| 3      | Check Palindrome                                  | [LeetCode](https://leetcode.com/problems/palindrome-number/)                   | ❌           | [CPP Code](./check_palindrome.cpp) |  |  |
+| 4      | Check Prime                                       | [LeetCode](https://leetcode.com/problems/prime-number/)                        | ❌      | [CPP Code](./check_prime.cpp) |  |  |
+| 5      | Count Digits                                      | [LeetCode](https://leetcode.com/problems/count-digits/)                        | ❌        | [CPP Code](./count_digits.cpp) |  |  |
+| 6      | LCM & GCD                                         | [LeetCode](https://leetcode.com/problems/lcm-and-gcd/)                         | ❌      | [CPP Code](./lcm_gcd.cpp) |  |  |
+| 7      | Reverse Number                                    | [LeetCode](https://leetcode.com/problems/reverse-integer/)                     | ❌        | [CPP Code](./reverse_number.cpp) |  |  |
 
 ---
 
 ## Recursion
 
-| **#**  | **Problem Name**                                  | **LeetCode Link**                                                              | **Status**  | **File Link** |
-|--------|---------------------------------------------------|--------------------------------------------------------------------------------|-------------|---------------|
-| 1      | Print 1 to N                                     | [LeetCode](https://leetcode.com/problems/print-numbers-from-1-to-n/)           | ❌           | [CPP Code](./print_1_to_n.cpp) |
-| 2      | Check Palindrome                                  | [LeetCode](https://leetcode.com/problems/palindrome-number/)                   | ❌           | [CPP Code](./check_palindrome.cpp) |
-| 3      | Factorial of N                                    | [LeetCode](https://leetcode.com/problems/factorial/)                           | ❌           | [CPP Code](./factorial.cpp) |
-| 4      | Fibonacci Series                                   | [LeetCode](https://leetcode.com/problems/fibonacci-number/)                    | ❌           | [CPP Code](./fibonacci_series.cpp) |
-| 5      | Print N Times                                     | [LeetCode](https://leetcode.com/problems/print-string-n-times/)                | ❌           | [CPP Code](./print_n_times.cpp) |
-| 6      | Print N to 1                                      | [LeetCode](https://leetcode.com/problems/print-numbers-from-n-to-1/)           | ❌           | [CPP Code](./print_n_to_1.cpp) |
-| 7      | Reverse Array                                    | [LeetCode](https://leetcode.com/problems/reverse-array/)                       | ❌           | [CPP Code](./reverse_array.cpp) |
-| 8      | Sum of N Numbers                                  | [LeetCode](https://leetcode.com/problems/sum-of-n-numbers/)                    | ❌           | [CPP Code](./sum_of_n_numbers.cpp) |
+| **#**  | **Problem Name**                                  | **Platform**                                                              | **Status**  | **File Link** | **Difficulty Level** | **Prerequisites** |
+|--------|---------------------------------------------------|--------------------------------------------------------------------------------|-------------|---------------|----------------------|-------------------|
+| 1      | Print 1 to N                                     | [LeetCode](https://leetcode.com/problems/print-numbers-from-1-to-n/)           | ❌           | [CPP Code](./print_1_to_n.cpp) |  |  |
+| 2      | Check Palindrome                                  | [LeetCode](https://leetcode.com/problems/palindrome-number/)                   | ❌           | [CPP Code](./check_palindrome.cpp) |  |  |
+| 3      | Factorial of N                                    | [LeetCode](https://leetcode.com/problems/factorial/)                           | ❌        | [CPP Code](./factorial.cpp) |  |  |
+| 4      | Fibonacci Series                                   | [LeetCode](https://leetcode.com/problems/fibonacci-number/)                    | ❌        | [CPP Code](./fibonacci_series.cpp) |  |  |
+| 5      | Print N Times                                     | [LeetCode](https://leetcode.com/problems/print-string-n-times/)                | ❌        | [CPP Code](./print_n_times.cpp) |  |  |
+| 6      | Print N to 1                                      | [LeetCode](https://leetcode.com/problems/print-numbers-from-n-to-1/)           | ❌        | [CPP Code](./print_n_to_1.cpp) |  |  |
+| 7      | Reverse Array                                    | [LeetCode](https://leetcode.com/problems/reverse-array/)                       | ❌        | [CPP Code](./reverse_array.cpp) |  |  |
+| 8      | Sum of N Numbers                                  | [LeetCode](https://leetcode.com/problems/sum-of-n-numbers/)                    | ❌        | [CPP Code](./sum_of_n_numbers.cpp) |  |  |
 
 ---
 
 ## Sorting
 
-| **#**  | **Problem Name**                                  | **LeetCode Link**                                                              | **Status**  | **File Link** |
-|--------|---------------------------------------------------|--------------------------------------------------------------------------------|-------------|---------------|
-| 1      | Bubble Sort                                       | [LeetCode](https://leetcode.com/problems/sort-an-array/)                       | ❌           | [CPP Code](./bubble_sort.cpp) |
-| 2      | Insertion Sort                                    | [LeetCode](https://leetcode.com/problems/sort-an-array/)                       | ❌           | [CPP Code](./insertion_sort.cpp) |
-| 3      | Merge Sort                                        | [LeetCode](https://leetcode.com/problems/sort-an-array/)                       | ❌           | [CPP Code](./merge_sort.cpp) |
-| 4      | Quick Sort                                        | [LeetCode](https://leetcode.com/problems/sort-an-array/)                       | ❌           | [CPP Code](./quick_sort.cpp) |
-| 5      | Recursive Bubble Sort                             | [LeetCode](https://leetcode.com/problems/sort-an-array/)                       | ❌           | [CPP Code](./recursive_bubble_sort.cpp) |
-| 6      | Recursive Insertion Sort                          | [LeetCode](https://leetcode.com/problems/sort-an-array/)                       | ❌           | [CPP Code](./recursive_insertion_sort.cpp) |
-| 7      | Selection Sort                                    | [LeetCode](https://leetcode.com/problems/sort-an-array/)                       | ❌           | [CPP Code](./selection_sort.cpp) |
+| **#**  | **Problem Name**                                  | **Platform**                                                              | **Status**  | **File Link** | **Difficulty Level** | **Prerequisites** |
+|--------|---------------------------------------------------|--------------------------------------------------------------------------------|-------------|---------------|----------------------|-------------------|
+| 1      | Bubble Sort                                       | [LeetCode](https://leetcode.com/problems/sort-an-array/)                       | ❌        | [CPP Code](./bubble_sort.cpp) |  |  |
+| 2      | Insertion Sort                                    | [LeetCode](https://leetcode.com/problems/sort-an-array/)                       | ❌        | [CPP Code](./insertion_sort.cpp) |  |  |
+| 3      | Merge Sort                                        | [LeetCode](https://leetcode.com/problems/sort-an-array/)                       | ❌      | [CPP Code](./merge_sort.cpp) |  |  |
+| 4      | Quick Sort                                        | [LeetCode](https://leetcode.com/problems/sort-an-array/)                       | ❌      | [CPP Code](./quick_sort.cpp) |  |  |
+| 5      | Recursive Bubble Sort                             | [LeetCode](https://leetcode.com/problems/sort-an-array/)                       | ❌      | [CPP Code](./recursive_bubble_sort.cpp) |  |  |
+| 6      | Recursive Insertion Sort                          | [LeetCode](https://leetcode.com/problems/sort-an-array/)                       | ❌      | [CPP Code](./recursive_insertion_sort.cpp) |  |  |
+| 7      | Selection Sort                                    | [LeetCode](https://leetcode.com/problems/sort-an-array/)                       | ❌        | [CPP Code](./selection_sort.cpp) |  |  |
+
+
 
 ---
 
