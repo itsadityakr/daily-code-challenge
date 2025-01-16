@@ -30,7 +30,7 @@
      3. **Update Search Range**: Based on the above conditions, adjust the `left` and `right` pointers to narrow down the range.
      4. **Return the Result**: Once the search range is narrowed down, return the element at `left`, which will be the single element.
      - **Why this works**: The array is sorted and contains only one element that doesn't have a pair. Binary search is used to efficiently find this element by halving the search space at each step.
-   - **Time Complexity**: \(O(\log n)\), due to the binary search reducing the search space by half each time.
+   - **Time Complexity**: \(O(log n)\), due to the binary search reducing the search space by half each time.
    - **Space Complexity**: \(O(1)\), as no extra space is used other than a few variables for indices.
 
 ---
