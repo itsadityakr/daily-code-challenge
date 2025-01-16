@@ -34,19 +34,3 @@ public:
         return result;
     }
 };
-
-int main() {
-    Solution sol;
-    vector<int> arr = {1, 2, 3, 4, 5};
-    int k = 5;
-    vector<vector<int>> result = sol.subarraySum(arr, k);
-
-    for (const auto& subarray : result) {
-        for (int num : subarray) {
-            cout << num << " ";
-        }
-        cout << endl;
-    }
-
-    return 0;
-}
