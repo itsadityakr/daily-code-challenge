@@ -35,8 +35,8 @@
 
 ---
 
-### 91. **Subarray with Sum K** [CPP Code](./_91_number_of_subarrays_with_sum_k.cpp)
-   - **File**: _91_number_of_subarrays_with_sum_k.cpp
+### 91. **Subarray with Sum K** [CPP Code](./_91_subarray_with_sum_k.cpp)
+   - **File**: _91_subarray_with_sum_k.cpp
    - **Description**: Count the number of subarrays with a sum equal to \(k\).
    - **Approach**:
      1. **Prefix Sum Array**: Calculate the cumulative sum of the elements of the array at each index and store it in the `prefix` array.
