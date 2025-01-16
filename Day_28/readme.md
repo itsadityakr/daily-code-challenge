@@ -2,7 +2,7 @@
 
 ---
 
-### X94. **Sort Colors** [CPP Code](./_94_sort_0_1_2.cpp)
+### 94. **Sort Colors** [CPP Code](./_94_sort_0_1_2.cpp)
    - **File**: _94_sort_0_1_2.cpp
    - **Description**: 
      Given an array with numbers 0, 1, and 2, representing colors, sort the array so that all 0's come first, followed by all 1's and all 2's. This is also known as the "Dutch National Flag problem."
@@ -19,7 +19,7 @@
 
 ---
 
-### X95. **Majority Element** [CPP Code](./_95_majority_element.cpp)
+### 95. **Majority Element** [CPP Code](./_95_majority_element.cpp)
    - **File**: _95_majority_element.cpp
    - **Description**: 
      Given an array of size n, find the majority element. The majority element is the element that appears more than ⌊n / 2⌋ times. It is guaranteed that a majority element always exists.
@@ -35,7 +35,7 @@
 
 ---
 
-### X96. **Maximum Subarray (Kadane's Algorithm)** [CPP Code](./_96_maximum_subarray_kadanes_algorithm.cpp)
+### 96. **Maximum Subarray (Kadane's Algorithm)** [CPP Code](./_96_maximum_subarray_kadanes_algorithm.cpp)
    - **File**: _96_maximum_subarray_kadanes_algorithm.cpp
    - **Description**: 
      Given an integer array, find the contiguous subarray (containing at least one number) which has the largest sum and return its sum.
@@ -51,7 +51,7 @@
 
 ---
 
-### X97. **Subarrays with Sum Equals K** [CPP Code](./_97_subarrays_with_sum_equals_k.cpp)
+### 97. **Subarrays with Sum Equals K** [CPP Code](./_97_subarrays_with_sum_equals_k.cpp)
    - **File**: _97_subarrays_with_sum_equals_k.cpp
    - **Description**: 
      Given an array of integers and an integer k, find all the continuous subarrays whose sum equals k.
@@ -66,7 +66,7 @@
 
 ---
 
-### X98. **Stock Buy and Sell** [CPP Code](./_98_stock_buy_and_sell.cpp)
+### 98. **Stock Buy and Sell** [CPP Code](./_98_stock_buy_and_sell.cpp)
    - **File**: _98_stock_buy_and_sell.cpp
    - **Description**: 
      Given an array where each element represents the price of a stock on a given day, find the maximum profit you can make by buying and selling the stock at most once.
