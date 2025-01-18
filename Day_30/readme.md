@@ -99,10 +99,3 @@
    - **Space Complexity**: \(O(1)\), as the algorithm uses constant extra space.
 
 ---
-
-**Prerequisites**: 
-- **Rotate Matrix**: Familiarity with 2D arrays, diagonal traversal, and reversing arrays.
-- **Spiral Traversal**: Loop control with matrix boundaries and understanding of direction changes.
-- **Pascal's Triangle**: Nested loops and basic properties of binomial coefficients.
-- **Majority Element**: Array traversal, counting techniques, and Boyer-Moore Voting Algorithm.
-```
