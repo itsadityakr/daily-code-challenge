@@ -78,7 +78,7 @@
 
 ### 107. **Majority Element (n/3)** [CPP Code](./_107_majority_element_II_n_by_3.cpp)
    - **File**: _107_majority_element_II_n_by_3.cpp
-   - **Description**: Identify elements in an array that appear more than \(\frac{n}{3}\) times.
+   - **Description**: Identify elements in an array that appear more than \(n\3\) times.
    - **Approach**:
      1. **Understand the Problem**:
         - For an array of size \(n\), there can be at most two elements appearing more than \(\frac{n}{3}\) times.
@@ -90,7 +90,7 @@
           - Otherwise, decrement both counts.
         - This step identifies potential majority candidates.
      3. **Validation**:
-        - Recount the occurrences of the two candidates to verify if their frequency exceeds \(\frac{n}{3}\).
+        - Recount the occurrences of the two candidates to verify if their frequency exceeds \(n\3\).
      4. **Code Walkthrough**:
         - Example for `nums = [3, 3, 4, 2, 4, 4, 2, 4, 4]`:
           - Candidates after the first pass: `4` (count = 4) and `3` (count = 2).
