@@ -1,45 +1,26 @@
-// https://leetcode.com/problems/count-of-smaller-numbers-after-self/
+// https://leetcode.com/problems/count-the-number-of-inversions/description/
 
 class Solution
 {
-protected:
-    void mergeHelper(vector<int> &idx, int start, int end, vector<int> &res, vector<int> &nums)
-    {
-        int len = end - start;
-        if (len > 1)
-        {
-            int mid = start + len / 2;
-            mergeHelper(idx, start, mid, res, nums);
-            mergeHelper(idx, mid, end, res, nums);
-            vector<int> temp;
-            temp.reserve(len);
-            int left = start, right = mid, smallerCount = 0;
-            while (left < mid || right < end)
-            {
-                if (right == end || (left < mid && nums[idx[left]] <= nums[idx[right]]))
-                {
-                    temp.push_back(idx[left]);
-                    res[idx[left]] += smallerCount;
-                    ++left;
-                }
-                else
-                {
-                    temp.push_back(idx[right]);
-                    ++smallerCount;
-                    ++right;
-                }
-            }
-            move(temp.begin(), temp.end(), idx.begin() + start);
-        }
-    }
-
 public:
-    vector<int> countSmaller(vector<int> &nums)
+    int numberOfPermutations(int n, vector<vector<int>> &requirements)
     {
-        int n = nums.size();
-        vector<int> res(n, 0), idx(n, 0);
-        iota(idx.begin(), idx.end(), 0);
-        mergeHelper(idx, 0, n, res, nums);
-        return res;
+        vector<int> r(n + 1, -1);
+        for (auto &re : requirements)
+            r[re[0] + 1] = re[1];
+        int m = r[n], mod = 1e9 + 7;
+        vector<vector<long long>> dp(n + 1, vector<long long>(m + 1, 0));
+        dp[0][0] = 1;
+        for (int i = 1; i <= n; i++)
+        {
+            for (int j = 0; j <= m; j++)
+            {
+                if (r[i] != -1 && j != r[i])
+                    continue;
+                for (int k = 0; k <= min(j, i - 1); k++)
+                    dp[i][j] = (dp[i][j] + dp[i - 1][j - k]) % mod;
+            }
+        }
+        return dp[n][r[n]];
     }
 };
