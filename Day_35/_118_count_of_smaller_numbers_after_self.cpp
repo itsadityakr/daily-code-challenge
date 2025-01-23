@@ -1,4 +1,4 @@
-// https://leetcode.com/problems/rearrange-array-elements-by-sign/description/
+// https://leetcode.com/problems/count-of-smaller-numbers-after-self/description/
 
 class Solution
 {
