@@ -64,13 +64,16 @@ Welcome to my repository where I will be solving **Data Structures and Algorithm
 
 | **#**  | **Problem Name**                                  | **Platform**                                                              | **Status**  | **File** | **Difficulty** | **Prerequisites** |
 |--------|---------------------------------------------------|--------------------------------------------------------------------------------|-------------|---------------|----------------------|-------------------|
-| 1      | All Divisors                                      | [LeetCode](https://leetcode.com/problems/all-divisors/)                         | ❌           | [.cpp](./all_divisors.cpp) |  |  |
-| 2      | Armstrong Number                                  | [LeetCode](https://leetcode.com/problems/armstrong-number/)                    | ❌           | [.cpp](./armstrong_number.cpp) |  |  |
-| 3      | Check Palindrome                                  | [LeetCode](https://leetcode.com/problems/palindrome-number/)                   | ❌           | [.cpp](./check_palindrome.cpp) |  |  |
-| 4      | Check Prime                                       | [LeetCode](https://leetcode.com/problems/prime-number/)                        | ❌      | [.cpp](./check_prime.cpp) |  |  |
-| 5      | Count Digits                                      | [LeetCode](https://leetcode.com/problems/count-digits/)                        | ❌        | [.cpp](./count_digits.cpp) |  |  |
-| 6      | LCM & GCD                                         | [LeetCode](https://leetcode.com/problems/lcm-and-gcd/)                         | ❌      | [.cpp](./lcm_gcd.cpp) |  |  |
-| 7      | Reverse Number                                    | [LeetCode](https://leetcode.com/problems/reverse-integer/)                     | ❌        | [.cpp](./reverse_number.cpp) |  |  |
+| 1      | Number of factors                                      | [GeeksForGeeks](https://www.geeksforgeeks.org/problems/number-of-factors1435/1?itm_source=geeksforgeeks&itm_medium=article&itm_campaign=practice_card)                         | ✅           | [.cpp](./Day_36/_119_numbers_of_factors.cpp) |🟢  |  |
+| 2      | Perfect Number                                  | [LeetCode](https://leetcode.com/problems/perfect-number/)                    | ✅           | [.cpp](./Day_36/_120_perfect_number.cpp) |🟢  |  |
+| 3      | Three Divisors| [LeetCode](https://leetcode.com/problems/three-divisors/description/)                         | ✅           | [.cpp](./Day_36/_121_three_divisors.cpp) |🟢  |  |
+| 4      | Four Divisors                                      | [LeetCode](https://leetcode.com/problems/four-divisors/description/)                         | ✅           | [.cpp](./Day_36/_122_four_divisors.cpp) |🟡  |  |
+| 5      | Armstrong Number                                  | [GeeksForGeeks](https://www.geeksforgeeks.org/problems/armstrong-numbers2727/1)                   | ✅           | [.cpp](./Day_36/_123_armstrong_number.cpp) |🟢  |  |
+| 6      | Check Palindrome                                  | [LeetCode](https://leetcode.com/problems/palindrome-number/)                   | ❌           | [.cpp](./check_palindrome.cpp) |  |  |
+| 7      | Check Prime                                       | [LeetCode](https://leetcode.com/problems/prime-number/)                        | ❌      | [.cpp](./check_prime.cpp) |  |  |
+| 8      | Count Digits                                      | [LeetCode](https://leetcode.com/problems/count-digits/)                        | ❌        | [.cpp](./count_digits.cpp) |  |  |
+| 9      | LCM & GCD                                         | [LeetCode](https://leetcode.com/problems/lcm-and-gcd/)                         | ❌      | [.cpp](./lcm_gcd.cpp) |  |  |
+| 10      | Reverse Number                                    | [LeetCode](https://leetcode.com/problems/reverse-integer/)                     | ❌        | [.cpp](./reverse_number.cpp) |  |  |
 
 ---
 
