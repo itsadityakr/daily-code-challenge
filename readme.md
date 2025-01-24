@@ -3,11 +3,60 @@
 Welcome to my repository where I will be solving **Data Structures and Algorithms (DSA)** questions daily ordered from beginner to advanced level problems.
 
 ## 📋 Table of Contents
-1. [Arrays](#arrays)
-2. [Basic Maths](#basic-maths)
-3. [Recursion](#recursion)
-4. [Sorting](#sorting)
+
+1. [Basic Maths](#basic-maths)
+2. [Recursion](#recursion)
+3. [Sorting](#sorting)
+4. [Arrays](#arrays)
 5. [Previous Sheet - 1 From Day 01 to Day 24](#previous-sheet---1-from-day-01-to-day-24)
+
+---
+
+## Basic Maths
+
+| **#**  | **Problem Name**                                  | **Platform**                                                              | **Status**  | **File** | **Difficulty** | **Prerequisites** |
+|--------|---------------------------------------------------|--------------------------------------------------------------------------------|-------------|---------------|----------------------|-------------------|
+| 1      | Number of factors                                      | [GeeksForGeeks](https://www.geeksforgeeks.org/problems/number-of-factors1435/1?itm_source=geeksforgeeks&itm_medium=article&itm_campaign=practice_card)                         | ✅           | [.cpp](./Day_36/_119_numbers_of_factors.cpp) |🟢  |  |
+| 2      | Perfect Number                                  | [LeetCode](https://leetcode.com/problems/perfect-number/)                    | ✅           | [.cpp](./Day_36/_120_perfect_number.cpp) |🟢  |  |
+| 3      | Three Divisors| [LeetCode](https://leetcode.com/problems/three-divisors/description/)                         | ✅           | [.cpp](./Day_36/_121_three_divisors.cpp) |🟢  |  |
+| 4      | Four Divisors                                      | [LeetCode](https://leetcode.com/problems/four-divisors/description/)                         | ✅           | [.cpp](./Day_36/_122_four_divisors.cpp) |🟡  |  |
+| 5      | Armstrong Number                                  | [GeeksForGeeks](https://www.geeksforgeeks.org/problems/armstrong-numbers2727/1)                   | ✅           | [.cpp](./Day_36/_123_armstrong_number.cpp) |🟢  |  |
+| 6      | Check Palindrome                                  | [LeetCode](https://leetcode.com/problems/palindrome-number/)                   | ❌           | [.cpp](./check_palindrome.cpp) |  |  |
+| 7      | Check Prime                                       | [LeetCode](https://leetcode.com/problems/prime-number/)                        | ❌      | [.cpp](./check_prime.cpp) |  |  |
+| 8      | Count Digits                                      | [LeetCode](https://leetcode.com/problems/count-digits/)                        | ❌        | [.cpp](./count_digits.cpp) |  |  |
+| 9      | LCM & GCD                                         | [LeetCode](https://leetcode.com/problems/lcm-and-gcd/)                         | ❌      | [.cpp](./lcm_gcd.cpp) |  |  |
+| 10      | Reverse Number                                    | [LeetCode](https://leetcode.com/problems/reverse-integer/)                     | ❌        | [.cpp](./reverse_number.cpp) |  |  |
+
+---
+
+## Recursion
+
+| **#**  | **Problem Name**                                  | **Platform**                                                              | **Status**  | **File** | **Difficulty** | **Prerequisites** |
+|--------|---------------------------------------------------|--------------------------------------------------------------------------------|-------------|---------------|----------------------|-------------------|
+| 1      | Print 1 to N                                     | [LeetCode](https://leetcode.com/problems/print-numbers-from-1-to-n/)           | ❌           | [.cpp](./print_1_to_n.cpp) |  |  |
+| 2      | Check Palindrome                                  | [LeetCode](https://leetcode.com/problems/palindrome-number/)                   | ❌           | [.cpp](./check_palindrome.cpp) |  |  |
+| 3      | Factorial of N                                    | [LeetCode](https://leetcode.com/problems/factorial/)                           | ❌        | [.cpp](./factorial.cpp) |  |  |
+| 4      | Fibonacci Series                                   | [LeetCode](https://leetcode.com/problems/fibonacci-number/)                    | ❌        | [.cpp](./fibonacci_series.cpp) |  |  |
+| 5      | Print N Times                                     | [LeetCode](https://leetcode.com/problems/print-string-n-times/)                | ❌        | [.cpp](./print_n_times.cpp) |  |  |
+| 6      | Print N to 1                                      | [LeetCode](https://leetcode.com/problems/print-numbers-from-n-to-1/)           | ❌        | [.cpp](./print_n_to_1.cpp) |  |  |
+| 7      | Reverse Array                                    | [LeetCode](https://leetcode.com/problems/reverse-array/)                       | ❌        | [.cpp](./reverse_array.cpp) |  |  |
+| 8      | Sum of N Numbers                                  | [LeetCode](https://leetcode.com/problems/sum-of-n-numbers/)                    | ❌        | [.cpp](./sum_of_n_numbers.cpp) |  |  |
+
+---
+
+## Sorting
+
+| **#**  | **Problem Name**                                  | **Platform**                                                              | **Status**  | **File** | **Difficulty** | **Prerequisites** |
+|--------|---------------------------------------------------|--------------------------------------------------------------------------------|-------------|---------------|----------------------|-------------------|
+| 1      | Bubble Sort                                       | [LeetCode](https://leetcode.com/problems/sort-an-array/)                       | ❌        | [.cpp](./bubble_sort.cpp) |  |  |
+| 2      | Insertion Sort                                    | [LeetCode](https://leetcode.com/problems/sort-an-array/)                       | ❌        | [.cpp](./insertion_sort.cpp) |  |  |
+| 3      | Merge Sort                                        | [LeetCode](https://leetcode.com/problems/sort-an-array/)                       | ❌      | [.cpp](./merge_sort.cpp) |  |  |
+| 4      | Quick Sort                                        | [LeetCode](https://leetcode.com/problems/sort-an-array/)                       | ❌      | [.cpp](./quick_sort.cpp) |  |  |
+| 5      | Recursive Bubble Sort                             | [LeetCode](https://leetcode.com/problems/sort-an-array/)                       | ❌      | [.cpp](./recursive_bubble_sort.cpp) |  |  |
+| 6      | Recursive Insertion Sort                          | [LeetCode](https://leetcode.com/problems/sort-an-array/)                       | ❌      | [.cpp](./recursive_insertion_sort.cpp) |  |  |
+| 7      | Selection Sort                                    | [LeetCode](https://leetcode.com/problems/sort-an-array/)                       | ❌        | [.cpp](./selection_sort.cpp) |  |  |
+
+
 
 ---
 
@@ -56,54 +105,6 @@ Welcome to my repository where I will be solving **Data Structures and Algorithm
 | 38     | Reverse Pairs                                          | [LeetCode](https://leetcode.com/problems/reverse-pairs/)                       | ✅            | [.cpp](./Day_34/_116_reverse_pairs.cpp) |🔴                         |Merge Sort, Efficient Counting Techniques                            |
 | 39     | Maximum Product Subarray                               | [LeetCode](https://leetcode.com/problems/maximum-product-subarray/)           | ✅            | [.cpp](./Day_35/_117_count_of_smaller_numbers_after_self.cpp) |🟡                      |Array, Prefix and Suffix Products                            |
 | 40     | Count of Smaller Numbers After Self                        | [LeetCode](https://leetcode.com/problems/count-of-smaller-numbers-after-self/description/)  | ✅            | [.cpp](./Day_35/_118_maximum_product_subarray.cpp) |🔴                      |Merge Sort, Divide and Conquer Algorithm, Array and Index Tracking                            |
-
-
----
-
-## Basic Maths
-
-| **#**  | **Problem Name**                                  | **Platform**                                                              | **Status**  | **File** | **Difficulty** | **Prerequisites** |
-|--------|---------------------------------------------------|--------------------------------------------------------------------------------|-------------|---------------|----------------------|-------------------|
-| 1      | Number of factors                                      | [GeeksForGeeks](https://www.geeksforgeeks.org/problems/number-of-factors1435/1?itm_source=geeksforgeeks&itm_medium=article&itm_campaign=practice_card)                         | ✅           | [.cpp](./Day_36/_119_numbers_of_factors.cpp) |🟢  |  |
-| 2      | Perfect Number                                  | [LeetCode](https://leetcode.com/problems/perfect-number/)                    | ✅           | [.cpp](./Day_36/_120_perfect_number.cpp) |🟢  |  |
-| 3      | Three Divisors| [LeetCode](https://leetcode.com/problems/three-divisors/description/)                         | ✅           | [.cpp](./Day_36/_121_three_divisors.cpp) |🟢  |  |
-| 4      | Four Divisors                                      | [LeetCode](https://leetcode.com/problems/four-divisors/description/)                         | ✅           | [.cpp](./Day_36/_122_four_divisors.cpp) |🟡  |  |
-| 5      | Armstrong Number                                  | [GeeksForGeeks](https://www.geeksforgeeks.org/problems/armstrong-numbers2727/1)                   | ✅           | [.cpp](./Day_36/_123_armstrong_number.cpp) |🟢  |  |
-| 6      | Check Palindrome                                  | [LeetCode](https://leetcode.com/problems/palindrome-number/)                   | ❌           | [.cpp](./check_palindrome.cpp) |  |  |
-| 7      | Check Prime                                       | [LeetCode](https://leetcode.com/problems/prime-number/)                        | ❌      | [.cpp](./check_prime.cpp) |  |  |
-| 8      | Count Digits                                      | [LeetCode](https://leetcode.com/problems/count-digits/)                        | ❌        | [.cpp](./count_digits.cpp) |  |  |
-| 9      | LCM & GCD                                         | [LeetCode](https://leetcode.com/problems/lcm-and-gcd/)                         | ❌      | [.cpp](./lcm_gcd.cpp) |  |  |
-| 10      | Reverse Number                                    | [LeetCode](https://leetcode.com/problems/reverse-integer/)                     | ❌        | [.cpp](./reverse_number.cpp) |  |  |
-
----
-
-## Recursion
-
-| **#**  | **Problem Name**                                  | **Platform**                                                              | **Status**  | **File** | **Difficulty** | **Prerequisites** |
-|--------|---------------------------------------------------|--------------------------------------------------------------------------------|-------------|---------------|----------------------|-------------------|
-| 1      | Print 1 to N                                     | [LeetCode](https://leetcode.com/problems/print-numbers-from-1-to-n/)           | ❌           | [.cpp](./print_1_to_n.cpp) |  |  |
-| 2      | Check Palindrome                                  | [LeetCode](https://leetcode.com/problems/palindrome-number/)                   | ❌           | [.cpp](./check_palindrome.cpp) |  |  |
-| 3      | Factorial of N                                    | [LeetCode](https://leetcode.com/problems/factorial/)                           | ❌        | [.cpp](./factorial.cpp) |  |  |
-| 4      | Fibonacci Series                                   | [LeetCode](https://leetcode.com/problems/fibonacci-number/)                    | ❌        | [.cpp](./fibonacci_series.cpp) |  |  |
-| 5      | Print N Times                                     | [LeetCode](https://leetcode.com/problems/print-string-n-times/)                | ❌        | [.cpp](./print_n_times.cpp) |  |  |
-| 6      | Print N to 1                                      | [LeetCode](https://leetcode.com/problems/print-numbers-from-n-to-1/)           | ❌        | [.cpp](./print_n_to_1.cpp) |  |  |
-| 7      | Reverse Array                                    | [LeetCode](https://leetcode.com/problems/reverse-array/)                       | ❌        | [.cpp](./reverse_array.cpp) |  |  |
-| 8      | Sum of N Numbers                                  | [LeetCode](https://leetcode.com/problems/sum-of-n-numbers/)                    | ❌        | [.cpp](./sum_of_n_numbers.cpp) |  |  |
-
----
-
-## Sorting
-
-| **#**  | **Problem Name**                                  | **Platform**                                                              | **Status**  | **File** | **Difficulty** | **Prerequisites** |
-|--------|---------------------------------------------------|--------------------------------------------------------------------------------|-------------|---------------|----------------------|-------------------|
-| 1      | Bubble Sort                                       | [LeetCode](https://leetcode.com/problems/sort-an-array/)                       | ❌        | [.cpp](./bubble_sort.cpp) |  |  |
-| 2      | Insertion Sort                                    | [LeetCode](https://leetcode.com/problems/sort-an-array/)                       | ❌        | [.cpp](./insertion_sort.cpp) |  |  |
-| 3      | Merge Sort                                        | [LeetCode](https://leetcode.com/problems/sort-an-array/)                       | ❌      | [.cpp](./merge_sort.cpp) |  |  |
-| 4      | Quick Sort                                        | [LeetCode](https://leetcode.com/problems/sort-an-array/)                       | ❌      | [.cpp](./quick_sort.cpp) |  |  |
-| 5      | Recursive Bubble Sort                             | [LeetCode](https://leetcode.com/problems/sort-an-array/)                       | ❌      | [.cpp](./recursive_bubble_sort.cpp) |  |  |
-| 6      | Recursive Insertion Sort                          | [LeetCode](https://leetcode.com/problems/sort-an-array/)                       | ❌      | [.cpp](./recursive_insertion_sort.cpp) |  |  |
-| 7      | Selection Sort                                    | [LeetCode](https://leetcode.com/problems/sort-an-array/)                       | ❌        | [.cpp](./selection_sort.cpp) |  |  |
-
 
 
 ---
