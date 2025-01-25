@@ -21,12 +21,15 @@ Welcome to my repository where I will be solving **Data Structures and Algorithm
 | 3      | Three Divisors| [LeetCode](https://leetcode.com/problems/three-divisors/description/)                         | ✅           | [.cpp](./Day_36/_121_three_divisors.cpp) |🟢  |Prime numbers, Perfect squares, Divisors  |
 | 4      | Four Divisors                                      | [LeetCode](https://leetcode.com/problems/four-divisors/description/)                         | ✅           | [.cpp](./Day_36/_122_four_divisors.cpp) |🟡  |Divisors, Efficient looping techniques, Sum of numbers  |
 | 5      | Armstrong Number                                  | [GeeksForGeeks](https://www.geeksforgeeks.org/problems/armstrong-numbers2727/1)                   | ✅           | [.cpp](./Day_36/_123_armstrong_number.cpp) |🟢  |Number manipulation, Digit extraction, Loops  |
-| 6      | Check Palindrome                                  | [LeetCode](https://leetcode.com/problems/palindrome-number/)                   | ❌           | [.cpp](./check_palindrome.cpp) |  |  |
-| 7      | Check Prime                                       | [LeetCode](https://leetcode.com/problems/prime-number/)                        | ❌      | [.cpp](./check_prime.cpp) |  |  |
-| 8      | Count Digits                                      | [LeetCode](https://leetcode.com/problems/count-digits/)                        | ❌        | [.cpp](./count_digits.cpp) |  |  |
-| 9      | LCM & GCD                                         | [LeetCode](https://leetcode.com/problems/lcm-and-gcd/)                         | ❌      | [.cpp](./lcm_gcd.cpp) |  |  |
-| 10      | Reverse Number                                    | [LeetCode](https://leetcode.com/problems/reverse-integer/)                     | ❌        | [.cpp](./reverse_number.cpp) |  |  |
-
+| 6      | Palindrome Number                                  | [LeetCode](https://leetcode.com/problems/palindrome-number/description/)                   | ✅           | [.cpp](./Day_37/_124_palindrome_number.cpp) |🟢  |Loops, Conditionals, Integer Operations (% And /), Overflow Handling  |
+| 7     | Valid Palindrome                                  | [LeetCode](https://leetcode.com/problems/valid-palindrome/description/)                   | ✅           | [.cpp](./Day_37/_125_valid_palindrome.cpp) |🟢  |String Manipulation, Two-Pointer Technique, Isalnum, Tolower  |
+| 8      | Prime Number                                  | [GeeksForGeeks](https://www.geeksforgeeks.org/problems/prime-number2314/1?itm_source=geeksforgeeks&itm_medium=article&itm_campaign=practice_card)                   | ✅           | [.cpp](./Day_37/_126_prime_number.cpp) |🟢  |Mathematics, Prime Number Logic, Square Root Optimization  |
+| 9      | Count Primes                                  | [LeetCode](https://leetcode.com/problems/count-primes/description/)                   | ✅           | [.cpp](./Day_37/_127_count_primes.cpp) |🟡  |Sieve Of Eratosthenes, Boolean Arrays, Loops  |
+| 10      | Count Digits                                  | [GeeksForGeeks](https://www.geeksforgeeks.org/problems/count-digits5716/0)                   | ✅           | [.cpp](./Day_37/_128_count_digits.cpp) |🟢  |Modulo, Digit Extraction, Loops|
+| 11      | Count the Digits That Divide a Number                                  | [LeetCode](https://leetcode.com/problems/count-the-digits-that-divide-a-number/description/)                   | ✅           | [.cpp](./Day_37/_129_count_the_digits_that_divide_a_number.cpp) |🟢  |Modulo, Digit Extraction, Loops  |
+| 12      | LCM & GCD                                         | [LeetCode](https://leetcode.com/problems/lcm-and-gcd/)                         | ❌      | [.cpp](./lcm_gcd.cpp) |  |  |
+| 13      | Reverse Number                                    | [LeetCode](https://leetcode.com/problems/reverse-integer/)                     | ❌        | [.cpp](./reverse_number.cpp) |  |  |
+| sn      | disc                                  | [N](weblink)                   | ❌           | [.cpp](./) |  |  |
 ---
 
 ## Recursion
