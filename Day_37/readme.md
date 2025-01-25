@@ -1,4 +1,4 @@
-### Day 37 - Problems  
+### Day 37  - Problems  
 
 ---
 
