@@ -27,11 +27,14 @@ Welcome to my repository where I will be solving **Data Structures and Algorithm
 | 9      | Count Primes                                  | [LeetCode](https://leetcode.com/problems/count-primes/description/)                   | ✅           | [.cpp](./Day_37/_127_count_primes.cpp) |🟡  |Sieve Of Eratosthenes, Boolean Arrays, Loops  |
 | 10      | Count Digits                                  | [GeeksForGeeks](https://www.geeksforgeeks.org/problems/count-digits5716/0)                   | ✅           | [.cpp](./Day_37/_128_count_digits.cpp) |🟢  |Modulo, Digit Extraction, Loops|
 | 11      | Count the Digits That Divide a Number                                  | [LeetCode](https://leetcode.com/problems/count-the-digits-that-divide-a-number/description/)                   | ✅           | [.cpp](./Day_37/_129_count_the_digits_that_divide_a_number.cpp) |🟢  |Modulo, Digit Extraction, Loops  |
-| 12      | LCM & GCD                                         | [LeetCode](https://leetcode.com/problems/lcm-and-gcd/)                         | ❌      | [.cpp](./lcm_gcd.cpp) |  |  |
-| 13      | Reverse Number                                    | [LeetCode](https://leetcode.com/problems/reverse-integer/)                     | ❌        | [.cpp](./reverse_number.cpp) |  |  |
-| sn      | disc                                  | [N](weblink)                   | ❌           | [.cpp](./) |  |  |
+| 12      | GCD of two number                                  | [GeeksForGeeks](https://www.geeksforgeeks.org/problems/gcd-of-two-numbers3459/1?itm_source=geeksforgeeks&itm_medium=article&itm_campaign=practice_card)                   | ✅           | [.cpp](./Day_38/_131_gcd_of_two_numbers.cpp) |🟢  |Euclidean Algorithm, Basic Math (division and modulus), Iterative Loops  |
+| 13      | LCM and GCD                                         | [GeeksForGeeks](https://www.geeksforgeeks.org/problems/lcm-and-gcd4516/1?itm_source=geeksforgeeks&itm_medium=article&itm_campaign=practice_card)                         | ✅      | [.cpp](./Day_38/_130_lcm_and_gcd.cpp) |🟢  |Euclidean Algorithm, Relation Between LCM and GCD, Basic Math (multiplication, division)  |
+| 14      | Find Greatest Common Divisor of Array                                 | [LeetCode](https://leetcode.com/problems/find-greatest-common-divisor-of-array/description/)                   | ✅           | [.cpp](./Day_38/_132_find_greatest_common_divisor_of_array.cpp) |🟢  |Array Traversal, Euclidean Algorithm, Basic Math (min, max, division, modulus)  |
+| 15      | Reverse Integer                                    | [LeetCode](https://leetcode.com/problems/reverse-integer/)                     | ✅        | [.cpp](./Day_38/_133_reverse_integer.cpp) |🟡  |Modulus for Digit Extraction, Handling Integer Overflow, Iterative Loops  |
 ---
+| sn      | disc                                  | [N](weblink)                   | ❌✅🔄           | [.cpp](./) |🟢🟡🔴  |  |
 
+---
 ## Recursion
 
 | **#**  | **Problem Name**                                  | **Platform**                                                              | **Status**  | **File** | **Difficulty** | **Prerequisites** |
