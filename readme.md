@@ -32,9 +32,7 @@ Welcome to my repository where I will be solving **Data Structures and Algorithm
 | 14      | Find Greatest Common Divisor of Array                                 | [LeetCode](https://leetcode.com/problems/find-greatest-common-divisor-of-array/description/)                   | ✅           | [.cpp](./Day_38/_132_find_greatest_common_divisor_of_array.cpp) |🟢  |Array Traversal, Euclidean Algorithm, Basic Math (min, max, division, modulus)  |
 | 15      | Reverse Integer                                    | [LeetCode](https://leetcode.com/problems/reverse-integer/)                     | ✅        | [.cpp](./Day_38/_133_reverse_integer.cpp) |🟡  |Modulus for Digit Extraction, Handling Integer Overflow, Iterative Loops  |
 ---
-| sn      | disc                                  | [N](weblink)                   | ❌✅🔄           | [.cpp](./) |🟢🟡🔴  |  |
 
----
 ## Recursion
 
 | **#**  | **Problem Name**                                  | **Platform**                                                              | **Status**  | **File** | **Difficulty** | **Prerequisites** |
@@ -48,6 +46,29 @@ Welcome to my repository where I will be solving **Data Structures and Algorithm
 | 7      | Fibonacci Number                                  | [LeetCode](https://leetcode.com/problems/fibonacci-number/description/)                    | ✅        | [.cpp](./Day_39/_140_fibonacci_number.cpp) |🟢  |Recursion, Understanding of Fibonacci sequence  |
 
 ---
+
+## Two Pointers
+
+| **#**  | **Problem Name**                                  | **Platform**                                                              | **Status**  | **File** | **Difficulty** | **Prerequisites** |
+|--------|---------------------------------------------------|--------------------------------------------------------------------------------|-------------|---------------|----------------------|-------------------|
+| 1      | Reverse String| [LeetCode](https://leetcode.com/problems/reverse-string/description/) | ✅| [.cpp](./Day_07/_31_reverse_string.cpp) |🟢  |Two Pointers, In-Place Modification  |
+| 2      | Move Zeroes| [LeetCode](https://leetcode.com/problems/move-zeroes/description/) | ✅| [.cpp](./Day_26/_85_move_all_zeros_to_end.cpp) |🟢  |Two Pointers, In-Place Modification|
+| 3      | Valid Palindrome II| [LeetCode](https://leetcode.com/problems/valid-palindrome-ii/description/) | ✅| [.cpp](./Day_39/_141_valid_palindrome_ii.cpp) |🟢  |Two Pointers, In-Place Modification  |
+| 4      | Container With Most Water| [LeetCode](https://leetcode.com/problems/container-with-most-water/description/) | ✅| [.cpp](./) |🟡  |Pre  |
+| 1      | Sort Colors| [LeetCode](https://leetcode.com/problems/sort-colors/submissions/) | ✅| [.cpp](./Day_28/_94_sort_0_1_2.cpp) |🟡  |Two Pointers, In-Place Modification  |
+| 1      | Trapping Rain Water| [LeetCode](https://leetcode.com/problems/trapping-rain-water/description/) | ✅| [.cpp](./) |🔴  |Pre  |
+
+---
+
+## Topic
+
+| **#**  | **Problem Name**                                  | **Platform**                                                              | **Status**  | **File** | **Difficulty** | **Prerequisites** |
+|--------|---------------------------------------------------|--------------------------------------------------------------------------------|-------------|---------------|----------------------|-------------------|
+| 1      | Problem| [LC/GFG](web_link) | ❌✅🔄| [.cpp](./Day_) |🟢🟡🔴  |Pre  |
+
+
+---
+
 
 ## Sorting
 
