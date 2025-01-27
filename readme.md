@@ -54,9 +54,9 @@ Welcome to my repository where I will be solving **Data Structures and Algorithm
 | 1      | Reverse String| [LeetCode](https://leetcode.com/problems/reverse-string/description/) | ✅| [.cpp](./Day_07/_31_reverse_string.cpp) |🟢  |Two Pointers, In-Place Modification  |
 | 2      | Move Zeroes| [LeetCode](https://leetcode.com/problems/move-zeroes/description/) | ✅| [.cpp](./Day_26/_85_move_all_zeros_to_end.cpp) |🟢  |Two Pointers, In-Place Modification|
 | 3      | Valid Palindrome II| [LeetCode](https://leetcode.com/problems/valid-palindrome-ii/description/) | ✅| [.cpp](./Day_39/_141_valid_palindrome_ii.cpp) |🟢  |Two Pointers, In-Place Modification  |
-| 4      | Container With Most Water| [LeetCode](https://leetcode.com/problems/container-with-most-water/description/) | ✅| [.cpp](./) |🟡  |Pre  |
+| 4      | Container With Most Water| [LeetCode](https://leetcode.com/problems/container-with-most-water/description/) | 🔄| [.cpp](./) |🟡  |Pre  |
 | 1      | Sort Colors| [LeetCode](https://leetcode.com/problems/sort-colors/submissions/) | ✅| [.cpp](./Day_28/_94_sort_0_1_2.cpp) |🟡  |Two Pointers, In-Place Modification  |
-| 1      | Trapping Rain Water| [LeetCode](https://leetcode.com/problems/trapping-rain-water/description/) | ✅| [.cpp](./) |🔴  |Pre  |
+| 1      | Trapping Rain Water| [LeetCode](https://leetcode.com/problems/trapping-rain-water/description/) | 🔄| [.cpp](./) |🔴  |Pre  |
 
 ---
 
