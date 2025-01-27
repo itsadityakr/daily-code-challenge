@@ -39,14 +39,13 @@ Welcome to my repository where I will be solving **Data Structures and Algorithm
 
 | **#**  | **Problem Name**                                  | **Platform**                                                              | **Status**  | **File** | **Difficulty** | **Prerequisites** |
 |--------|---------------------------------------------------|--------------------------------------------------------------------------------|-------------|---------------|----------------------|-------------------|
-| 1      | Print 1 to N                                     | [LeetCode](https://leetcode.com/problems/print-numbers-from-1-to-n/)           | ❌           | [.cpp](./print_1_to_n.cpp) |  |  |
-| 2      | Check Palindrome                                  | [LeetCode](https://leetcode.com/problems/palindrome-number/)                   | ❌           | [.cpp](./check_palindrome.cpp) |  |  |
-| 3      | Factorial of N                                    | [LeetCode](https://leetcode.com/problems/factorial/)                           | ❌        | [.cpp](./factorial.cpp) |  |  |
-| 4      | Fibonacci Series                                   | [LeetCode](https://leetcode.com/problems/fibonacci-number/)                    | ❌        | [.cpp](./fibonacci_series.cpp) |  |  |
-| 5      | Print N Times                                     | [LeetCode](https://leetcode.com/problems/print-string-n-times/)                | ❌        | [.cpp](./print_n_times.cpp) |  |  |
-| 6      | Print N to 1                                      | [LeetCode](https://leetcode.com/problems/print-numbers-from-n-to-1/)           | ❌        | [.cpp](./print_n_to_1.cpp) |  |  |
-| 7      | Reverse Array                                    | [LeetCode](https://leetcode.com/problems/reverse-array/)                       | ❌        | [.cpp](./reverse_array.cpp) |  |  |
-| 8      | Sum of N Numbers                                  | [LeetCode](https://leetcode.com/problems/sum-of-n-numbers/)                    | ❌        | [.cpp](./sum_of_n_numbers.cpp) |  |  |
+| 1      | Print 1 To N Without Loop| [GeeksForGeeks](https://www.geeksforgeeks.org/problems/print-1-to-n-without-using-loops-1587115620/1)           | ✅           | [.cpp](./Day_39/_134_print_1_to_n.cpp) |🟢  |Recursion  |
+| 2      | Print N to 1 without loop                                  | [GeeksForGeeks](https://www.geeksforgeeks.org/problems/print-n-to-1-without-loop/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=print-n-to-1-without-loop)                   | ✅           | [.cpp](./Day_39/_135_print_n_to_1.cpp) |🟢  |Recursion  |
+| 3      | Print GFG n times                                    | [GeeksForGeeks](https://www.geeksforgeeks.org/problems/print-gfg-n-times/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=print-gfg-n-times)                           | ✅        | [.cpp](./Day_39/_136_print_gfg_n_times.cpp) |🟢  |Recursion  |
+| 4      | Sum of first n terms                                     | [GeeksForGeeks](https://www.geeksforgeeks.org/problems/sum-of-first-n-terms5843/1)                | ✅        | [.cpp](./Day_39/_137_sum_of_first_n_terms.cpp) |🟢  |Recursion, Arithmetic operations (like exponentiation)  |
+| 5      | Factorials Less than or Equal to n                                      | [GeeksForGeeks](https://www.geeksforgeeks.org/problems/find-all-factorial-numbers-less-than-or-equal-to-n3548/0?problemType=functional&difficulty%255B%255D=-1&page=1&query=problemTypefunctionaldifficulty%255B%255D-1page1)           | ✅        | [.cpp](./Day_39/_138_factorials_less_than_or_equal_to.cpp) |🟢  |Recursion, Factorial calculations  |
+| 6      | Reverse an Array                                    | [GeeksForGeeks](https://www.geeksforgeeks.org/problems/reverse-an-array/0)                       | ✅        | [.cpp](./Day_39/_139_reverse_an_array.cpp) |🟢  |Recursion, Arrays  |
+| 7      | Fibonacci Number                                  | [LeetCode](https://leetcode.com/problems/fibonacci-number/description/)                    | ✅        | [.cpp](./Day_39/_140_fibonacci_number.cpp) |🟢  |Recursion, Understanding of Fibonacci sequence  |
 
 ---
 
