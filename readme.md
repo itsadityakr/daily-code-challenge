@@ -54,9 +54,9 @@ Welcome to my repository where I will be solving **Data Structures and Algorithm
 | 1      | Reverse String| [LeetCode](https://leetcode.com/problems/reverse-string/description/) | ✅| [.cpp](./Day_07/_31_reverse_string.cpp) |🟢  |Two Pointers, In-Place Modification  |
 | 2      | Move Zeroes| [LeetCode](https://leetcode.com/problems/move-zeroes/description/) | ✅| [.cpp](./Day_26/_85_move_all_zeros_to_end.cpp) |🟢  |Two Pointers, In-Place Modification|
 | 3      | Valid Palindrome II| [LeetCode](https://leetcode.com/problems/valid-palindrome-ii/description/) | ✅| [.cpp](./Day_39/_141_valid_palindrome_ii.cpp) |🟢  |Two Pointers, In-Place Modification  |
-| 4      | Container With Most Water| [LeetCode](https://leetcode.com/problems/container-with-most-water/description/) | ✅| [.cpp](./Day_40/_142_container_with_most_water.cpp) |🟡  |Pre  |
+| 4      | Container With Most Water| [LeetCode](https://leetcode.com/problems/container-with-most-water/description/) | ✅| [.cpp](./Day_40/_142_container_with_most_water.cpp) |🟡  |Arrays, Two-pointer technique, Greedy algorithm  |
 | 1      | Sort Colors| [LeetCode](https://leetcode.com/problems/sort-colors/submissions/) | ✅| [.cpp](./Day_28/_94_sort_0_1_2.cpp) |🟡  |Two Pointers, In-Place Modification  |
-| 1      | Trapping Rain Water| [LeetCode](https://leetcode.com/problems/trapping-rain-water/description/) | ✅| [.cpp](./Day_40/_143_trapping_rain_water.cpp) |🔴  |Pre  |
+| 1      | Trapping Rain Water| [LeetCode](https://leetcode.com/problems/trapping-rain-water/description/) | ✅| [.cpp](./Day_40/_143_trapping_rain_water.cpp) |🔴  |Arrays, Two-pointer technique, Greedy algorithm  |
 
 ---
 
@@ -65,10 +65,10 @@ Welcome to my repository where I will be solving **Data Structures and Algorithm
 
 | **#**  | **Problem Name**                                  | **Platform**                                                              | **Status**  | **File** | **Difficulty** | **Prerequisites** |
 |--------|---------------------------------------------------|--------------------------------------------------------------------------------|-------------|---------------|----------------------|-------------------|
-| 1      | Bubble Sort                                       | [GeeksForGeeks](https://www.geeksforgeeks.org/problems/bubble-sort/1)                       | ✅        | [.cpp](./Day_40/_144_bubble_sort.cpp) |🟢  |  |
-| 2      | Insertion Sort                                    | [GeeksForGeeks](https://www.geeksforgeeks.org/problems/insertion-sort/1)                       | ✅        | [.cpp](./Day_40/_145_insertion_sort.cpp) |🟢  |  |
+| 1      | Bubble Sort                                       | [GeeksForGeeks](https://www.geeksforgeeks.org/problems/bubble-sort/1)                       | ✅        | [.cpp](./Day_40/_144_bubble_sort.cpp) |🟢  |Arrays, Loops, Sorting basics  |
+| 2      | Insertion Sort                                    | [GeeksForGeeks](https://www.geeksforgeeks.org/problems/insertion-sort/1)                       | ✅        | [.cpp](./Day_40/_145_insertion_sort.cpp) |🟢  |Arrays, Loops, Sorting basics  |
 | 3      | Merge Sort                                        | [GeeksForGeeks](https://www.geeksforgeeks.org/problems/merge-sort/1)                       | 🔄      | [.cpp](./Day_40/_146_merge_sort.cpp) |🟡  |  |
-| 4      | Quick Sort                                        | [GeeksForGeeks](https://www.geeksforgeeks.org/problems/quick-sort/1)                       | ✅      | [.cpp](./Day_40/_147_quick_sort.cpp) |🔴  |  |
+| 4      | Quick Sort                                        | [GeeksForGeeks](https://www.geeksforgeeks.org/problems/quick-sort/1)                       | ✅      | [.cpp](./Day_40/_147_quick_sort.cpp) |🔴  |Arrays, Recursion, Divide and Conquer, Sorting basics  |
 | 5      | Recursive Bubble Sort                             | [LeetCode](https://leetcode.com/problems/sort-an-array/)                       | ❌      | [.cpp](./recursive_bubble_sort.cpp) |  |  |
 | 6      | Recursive Insertion Sort                          | [LeetCode](https://leetcode.com/problems/sort-an-array/)                       | ❌      | [.cpp](./recursive_insertion_sort.cpp) |  |  |
 | 7      | Selection Sort                                    | [LeetCode](https://leetcode.com/problems/sort-an-array/)                       | ❌        | [.cpp](./selection_sort.cpp) |  |  |
