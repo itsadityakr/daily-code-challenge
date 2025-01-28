@@ -69,10 +69,23 @@ Welcome to my repository where I will be solving **Data Structures and Algorithm
 | 2      | Insertion Sort                                    | [GeeksForGeeks](https://www.geeksforgeeks.org/problems/insertion-sort/1)                       | ✅        | [.cpp](./Day_40/_145_insertion_sort.cpp) |🟢  |Arrays, Loops, Sorting basics  |
 | 3      | Merge Sort                                        | [GeeksForGeeks](https://www.geeksforgeeks.org/problems/merge-sort/1)                       | 🔄      | [.cpp](./Day_40/_146_merge_sort.cpp) |🟡  |  |
 | 4      | Quick Sort                                        | [GeeksForGeeks](https://www.geeksforgeeks.org/problems/quick-sort/1)                       | ✅      | [.cpp](./Day_40/_147_quick_sort.cpp) |🔴  |Arrays, Recursion, Divide and Conquer, Sorting basics  |
-| 5      | Recursive Bubble Sort                             | [LeetCode](https://leetcode.com/problems/sort-an-array/)                       | ❌      | [.cpp](./recursive_bubble_sort.cpp) |  |  |
-| 6      | Recursive Insertion Sort                          | [LeetCode](https://leetcode.com/problems/sort-an-array/)                       | ❌      | [.cpp](./recursive_insertion_sort.cpp) |  |  |
-| 7      | Selection Sort                                    | [LeetCode](https://leetcode.com/problems/sort-an-array/)                       | ❌        | [.cpp](./selection_sort.cpp) |  |  |
+| 5      | Recursive Bubble Sort                             | [GeeksForGeeks](https://www.geeksforgeeks.org/problems/bubble-sort/1)                       | ❌      | [.cpp](././Day_41/_148_recursive_bubble_sort.cpp) |🟢  |  |
+| 6      | Recursive Insertion Sort                          | [GeeksForGeeks](https://www.geeksforgeeks.org/problems/insertion-sort/1)                       | ❌      | [.cpp](./Day_41/_149_recursive_insertion_sort.cpp) |🟢  |  |
+| 7      | Selection Sort                                    | [GeeksForGeeks](https://www.geeksforgeeks.org/problems/selection-sort/1)                       | ❌        | [.cpp](./Day_41/_150_selection_sort.cpp) |🟢  |  |
 
+
+---
+
+## Binary Search
+
+| **#**  | **Problem Name**                                  | **Platform**                                                              | **Status**  | **File** | **Difficulty** | **Prerequisites** |
+|--------|---------------------------------------------------|--------------------------------------------------------------------------------|-------------|---------------|----------------------|-------------------|
+| 1      | Binary Search| [LeetCode](https://leetcode.com/problems/binary-search/description/k) | ❌| [.cpp](./Day_) |🟢  |Pre  |
+| 2      | Floor in a Sorted Array| [GeeksForGeeks](https://www.geeksforgeeks.org/problems/floor-in-a-sorted-array-1587115620/1?track=DSASP-Searching&amp%253BbatchId=154&utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=floor-in-a-sorted-array) | ❌| [.cpp](./Day_41/_151_binary_search.cpp) |🟢  |Pre  |
+| 3      | Ceil The Floor| [GeeksForGeeks](https://www.geeksforgeeks.org/problems/ceil-the-floor2802/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=ceil-the-floor) | ❌| [.cpp](./Day_) |🟢  |Pre  |
+| 4      | Search Insert Position| [LeetCode](https://leetcode.com/problems/search-insert-position/description/) | ❌| [.cpp](./Day_) |🟢  |Pre  |
+| 5      | Find First and Last Position of Element in Sorted Array| [LeetCode](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/description/) | ❌| [.cpp](./Day_) |🟡  |Pre  |
+| 6      | Number of occurrence| [GeeksForGeeks](https://www.geeksforgeeks.org/problems/number-of-occurrence2259/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=number-of-occurrence) | ❌| [.cpp](./Day_) |🟢  |Pre  |
 
 
 ---
