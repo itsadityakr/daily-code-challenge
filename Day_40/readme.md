@@ -2,7 +2,7 @@
 
 ---
 
-### 142. **Container With Most Water** [CPP Code](./_142_container_with_most_water.cpp)
+### 142. **Container With Most Water** [.cpp Code](./_142_container_with_most_water.cpp)
    - **File**: _142_container_with_most_water.cpp
    - **Description**: Given an array of integers representing the heights of vertical lines, find two lines that together with the x-axis form a container that holds the most water.
    - **Approach**: 
@@ -15,7 +15,7 @@
 
 ---
 
-### 143. **Trapping Rain Water** [CPP Code](./_143_trapping_rain_water.cpp)
+### 143. **Trapping Rain Water** [.cpp Code](./_143_trapping_rain_water.cpp)
    - **File**: _143_trapping_rain_water.cpp
    - **Description**: Given an array of non-negative integers representing an elevation map, compute how much water can be trapped after raining.
    - **Approach**: 
@@ -30,7 +30,7 @@
 
 ---
 
-### 144. **Bubble Sort** [CPP Code](./_144_bubble_sort.cpp)
+### 144. **Bubble Sort** [.cpp Code](./_144_bubble_sort.cpp)
    - **File**: _144_bubble_sort.cpp
    - **Description**: Implement the Bubble Sort algorithm to sort an array of integers in ascending order.
    - **Approach**: 
@@ -45,7 +45,7 @@
 
 ---
 
-### 145. **Insertion Sort** [CPP Code](./_145_insertion_sort.cpp)
+### 145. **Insertion Sort** [.cpp Code](./_145_insertion_sort.cpp)
    - **File**: _145_insertion_sort.cpp
    - **Description**: Implement the Insertion Sort algorithm to sort an array of integers in ascending order.
    - **Approach**: 
@@ -57,8 +57,34 @@
    - **Space Complexity**: O(1), as we are sorting the array in place and using a constant amount of extra space.
 
 ---
+### 146. **Merge Sort** [.cpp Code](./_146_merge_sort.cpp)
+   - **Description**: Merge Sort is a sorting algorithm that divides the array into two halves, sorts each half, and then merges the sorted halves back together.
+   - **Approach**:
+     1. **Divide**:
+        - Start with an unsorted array.
+        - Find the middle point of the array: `mid = left + (right - left) / 2`.
+        - Split the array into two halves:
+          - Left half: from `left` to `mid`.
+          - Right half: from `mid + 1` to `right`.
+     2. **Conquer**:
+        - Recursively sort the left half and the right half.
+        - Keep dividing the array until each subarray has only one element (a single element is always sorted).
+     3. **Combine (Merge)**:
+        - Now, merge the two sorted halves back into a single sorted array.
+        - Use two pointers, one for each half, to compare elements.
+        - Take the smaller element from the two halves and place it in the original array.
+        - Move the pointer of the half from which the element was taken.
+        - Repeat this until all elements from both halves are merged.
+        - If one half is exhausted, copy the remaining elements from the other half directly.
+   - **Key Points**:
+     - Merge Sort uses **recursion** to divide the problem into smaller subproblems.
+     - The **merge step** is where the actual sorting happens by combining two sorted halves.
+   - **Time Complexity**: O(n log n) - Efficient for large datasets.
+   - **Space Complexity**: O(n) - Requires extra space for temporary arrays.
 
-### 147. **Quick Sort** [CPP Code](./_147_quick_sort.cpp)
+---
+
+### 147. **Quick Sort** [.cpp Code](./_147_quick_sort.cpp)
    - **File**: _147_quick_sort.cpp
    - **Description**: Implement the Quick Sort algorithm to sort an array of integers in ascending order.
    - **Approach**: 
