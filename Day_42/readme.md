@@ -86,3 +86,68 @@
 - **Space Complexity**: **O(N)**  
 
 ---
+
+## 157. Find the Duplicate Number [.cpp Code](./_157_find_the_duplicate_number.cpp)  
+- **File**: _157_find_the_duplicate_number.cpp_  
+- **Description**: Given an array of `N+1` integers where each integer is in the range `1` to `N` and one number appears **more than once**, find the duplicate number.  
+- **Approach**:  
+  1. **Use a Hash Map (unordered_map)**:  
+     - Iterate through the array and store the frequency of each number in a hash map.  
+  2. **Find the Duplicate**:  
+     - Iterate over the hash map and find the number whose count is more than `1`.  
+  3. **Edge Cases**:  
+     - If all numbers are distinct (which shouldn't be the case as per the problem constraints).  
+     - If the duplicate number appears multiple times.  
+- **Time Complexity**: **O(N)**  
+- **Space Complexity**: **O(N)**  
+
+---
+
+## 158. First Unique Character in a String [.cpp Code](./_158_first_unique_character_in_a_string.cpp)  
+- **File**: _158_first_unique_character_in_a_string.cpp_  
+- **Description**: Given a string, find the index of the **first unique character** (a character that appears exactly once). If no unique character exists, return `-1`.  
+- **Approach**:  
+  1. **Use a Hash Map (unordered_map)**:  
+     - Traverse the string and store the frequency of each character in a hash map.  
+  2. **Find the First Unique Character**:  
+     - Traverse the string again and return the index of the first character with frequency `1`.  
+  3. **Edge Cases**:  
+     - If all characters are the same, return `-1`.  
+     - If the string has only one character, return `0`.  
+- **Time Complexity**: **O(N)**  
+- **Space Complexity**: **O(1)** (Since the number of unique characters is at most `26` for lowercase English letters)  
+
+---
+
+## 159. Union of Arrays with Duplicates [.cpp Code](./_159_union_of_arrays_with_duplicates.cpp)  
+- **File**: _159_union_of_arrays_with_duplicates.cpp_  
+- **Description**: Given two arrays, find the total number of unique elements present in either of the arrays (union operation).  
+- **Approach**:  
+  1. **Using Hash Map (unordered_map)**:  
+     - Insert elements of both arrays into a hash map.  
+     - Count the unique keys in the map.  
+  2. **Alternative Approach - Using Hash Set (unordered_set)**:  
+     - Insert all elements from both arrays into a hash set.  
+     - The size of the hash set gives the total unique elements.  
+  3. **Edge Cases**:  
+     - If one array is empty, return the size of the other array.  
+     - If both arrays are empty, return `0`.  
+- **Time Complexity**: **O(N + M)**  
+- **Space Complexity**: **O(N + M)**  
+
+---
+
+## 160. Intersection of Two Arrays [.cpp Code](./_160_intersection_of_two_arrays.cpp)  
+- **File**: _160_intersection_of_two_arrays.cpp_  
+- **Description**: Given two arrays, return a new array that contains only the elements that appear in **both arrays** (intersection operation).  
+- **Approach**:  
+  1. **Using Hash Set (unordered_set)**:  
+     - Store all elements from the first array in a hash set.  
+     - Iterate through the second array and check if any element exists in the set. If it does, store it in another set (to avoid duplicates in the output).  
+  2. **Edge Cases**:  
+     - If one or both arrays are empty, return an empty array.  
+     - If there are no common elements, return an empty array.  
+- **Time Complexity**: **O(N + M)**  
+- **Space Complexity**: **O(min(N, M))**  
+
+---
