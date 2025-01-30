@@ -109,6 +109,27 @@ Welcome to my repository where I will be solving **Data Structures and Algorithm
 | 4     | Search Insert Position                                  | [LeetCode](https://leetcode.com/problems/search-insert-position/description/)                                                                                                                                                          | ❌         | [.cpp](./Day_)                          | 🟢             | Pre                                 |
 | 5     | Find First and Last Position of Element in Sorted Array | [LeetCode](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/description/)                                                                                                                         | ❌         | [.cpp](./Day_)                          | 🟡             | Pre                                 |
 | 6     | Number of occurrence                                    | [GeeksForGeeks](https://www.geeksforgeeks.org/problems/number-of-occurrence2259/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=number-of-occurrence)                                                        | ❌         | [.cpp](./Day_)                          | 🟢             | Pre                                 |
+|7|Search in Rotated Sorted Array|[LeetCode](https://leetcode.com/problems/search-in-rotated-sorted-array/description/)|❌|[.cpp](./Day_)| 🟡|Pre|
+|8|Search in Rotated Sorted Array II|[LeetCode](https://leetcode.com/problems/search-in-rotated-sorted-array-ii/description/)|❌|[.cpp](./Day_)| 🟡|Pre|
+|9|Find Minimum in Rotated Sorted Array|[LeetCode](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/description/)|❌|[.cpp](./Day_)| 🟡|Pre|
+|10|Find Kth Rotation|[GeeksForGeeks](https://www.geeksforgeeks.org/problems/rotation4723/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=rotation)|❌|[.cpp](./Day_)| 🟢|Pre|
+|11|Single Element in a Sorted Array|[LeetCode](https://leetcode.com/problems/single-element-in-a-sorted-array/description/)|❌|[.cpp](./Day_)| 🟡|Pre|
+|12|Find Peak Element|[LeetCode](https://leetcode.com/problems/find-peak-element/description/)|❌|[.cpp](./Day_)| 🟡|Pre|
+|13|Square Root|[GeeksForGeeks](https://www.geeksforgeeks.org/problems/square-root/0?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=square-root)|❌|[.cpp](./Day_)| 🟢|Pre|
+|14|Find nth root of m|[GeeksForGeeks](https://www.geeksforgeeks.org/problems/find-nth-root-of-m5843/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=find-nth-root-of-m)|❌|[.cpp](./Day_)| 🟢|Pre|
+|15|Koko Eating Bananas|[LeetCode](https://leetcode.com/problems/koko-eating-bananas/description/)|❌|[.cpp]()| 🟡|Pre|
+|16|Minimum Number of Days to Make m Bouquets|[LeetCode](https://leetcode.com/problems/minimum-number-of-days-to-make-m-bouquets/description/)|❌|[.cpp](./Day_)| 🟡|Pre|
+|17|Find the Smallest Divisor Given a Threshold|[LeetCode](https://leetcode.com/problems/find-the-smallest-divisor-given-a-threshold/description/)|❌|[.cpp](./Day_)| 🟡|Pre|
+|18|Capacity To Ship Packages Within D Days|[LeetCode](https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/description/)|❌|[.cpp](./Day_)| 🟡|Pre|
+|19|Kth Missing Positive Number|[LeetCode](https://leetcode.com/problems/kth-missing-positive-number/description/)|❌|[.cpp](./Day_)| 🟢|Pre|
+|20|Split Array Largest Sum|[LeetCode](https://leetcode.com/problems/split-array-largest-sum/description/)|❌|[.cpp](./Day_)|🔴|Pre|
+|21|Median of Two Sorted Arrays|[LeetCode](https://leetcode.com/problems/median-of-two-sorted-arrays/description/)|❌|[.cpp](./Day_)|🔴|Pre|
+|22|K-th element of two Arrays|[GeeksForGeeks](https://www.geeksforgeeks.org/problems/k-th-element-of-two-sorted-array1317/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=k-th-element-of-two-sorted-array)|❌|[.cpp](./Day_)|🟡|Pre|
+|23|Row with max 1s|[GeeksForGeeks](https://www.geeksforgeeks.org/problems/row-with-max-1s0023/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=row-with-max-1s)|❌|[.cpp](./Day_)| 🟡|Pre|
+|24|Search a 2D Matrix|[LeetCode](https://leetcode.com/problems/search-a-2d-matrix/description/)|❌|[.cpp](./Day_)| 🟡|Pre|
+|25|Search a 2D Matrix II|[LeetCode](https://leetcode.com/problems/search-a-2d-matrix-ii/description/)|❌|[.cpp](./Day_)| 🟡|Pre|
+|26|Find a Peak Element II|[LeetCode](https://leetcode.com/problems/find-a-peak-element-ii/description/)|❌|[.cpp](./Day_)| 🟡|Pre|
+|27|Median in a row-wise sorted Matrix|[GeeksForGeeks](https://www.geeksforgeeks.org/problems/median-in-a-row-wise-sorted-matrix1527/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=median-in-a-row-wise-sorted-matrix)|❌|[.cpp](./Day_)|🔴|Pre|
 
 ---
 
@@ -116,7 +137,7 @@ Welcome to my repository where I will be solving **Data Structures and Algorithm
 
 | **#** | **Problem Name** | **Platform**       | **Status** | **File**       | **Difficulty** | **Prerequisites** |
 | ----- | ---------------- | ------------------ | ---------- | -------------- | -------------- | ----------------- |
-| 1     | Problem          | [LC/GFG](web_link) | ❌✅🔄     | [.cpp](./Day_) | 🟢🟡🔴         | Pre               |
+|1|Problem|[LC/GFG](web_link)|❌✅🔄|[.cpp](./Day_)|🟢🟡🔴|-|
 
 ---
 
