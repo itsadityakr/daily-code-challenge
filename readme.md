@@ -6,9 +6,12 @@ Welcome to my repository where I will be solving **Data Structures and Algorithm
 
 1. [Basic Maths](#basic-maths)
 2. [Recursion](#recursion)
-3. [Sorting](#sorting)
-4. [Arrays](#arrays)
-5. [Previous Sheet - 1 From Day 01 to Day 24](#previous-sheet---1-from-day-01-to-day-24)
+3. [Two Pointers](#two-pointers)
+4. [Sorting](#sorting)
+5. [Hashing](#hashing)
+6. [Binary Search](#binary-search)
+7. [Arrays](#arrays)
+8. [Previous Sheet - 1 From Day 01 to Day 24](#previous-sheet---1-from-day-01-to-day-24)
 
 ---
 
