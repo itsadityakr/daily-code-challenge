@@ -75,11 +75,27 @@ Welcome to my repository where I will be solving **Data Structures and Algorithm
 
 ---
 
+## Hashing
+
+| **#** | **Problem Name**                   | **Platform**                                                                                                                                              | **Status** | **File**       | **Difficulty** | **Prerequisites** |
+| ----- | ---------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------- | -------------- | -------------- | ----------------- |
+| 1     | Find unique element                | [GFG](https://www.geeksforgeeks.org/problems/find-unique-element2632/0)                                                                                   | ❌         | [.cpp](./Day_) | 🟢             | Pre               |
+| 2     | Sum of Unique Elements             | [LC](http://leetcode.com/problems/sum-of-unique-elements/description/)                                                                                    | ❌         | [.cpp](./Day_) | 🟢             | Pre               |
+| 3     | Find the Frequency                 | [GFG](https://www.geeksforgeeks.org/problems/find-the-frequency/1)                                                                                        | ❌         | [.cpp](./Day_) | 🟢             | Pre               |
+| 4     | Frequencies in a Limited Array     | [GFG](https://www.geeksforgeeks.org/problems/frequency-of-array-elements-1587115620/1)                                                                    | ❌         | [.cpp](./Day_) | 🟢             | Pre               |
+| 5     | Check if array contains duplicates | [GFG](https://www.geeksforgeeks.org/problems/check-if-array-contains-duplicates/1?itm_source=geeksforgeeks&itm_medium=article&itm_campaign=practice_card) | ❌         | [.cpp](./Day_) | 🟢             | Pre               |
+| 6     | Find the Duplicate Number          | [LC](https://leetcode.com/problems/find-the-duplicate-number/description/)                                                                                | ❌         | [.cpp](./Day_) | 🟡             | Pre               |
+| 7     | First Unique Character in a String | [LC](https://leetcode.com/problems/first-unique-character-in-a-string/description/)                                                                       | ❌         | [.cpp](./Day_) | 🟢             | Pre               |
+| 8     | Union of Arrays with Duplicates    | [GFG](https://www.geeksforgeeks.org/problems/union-of-two-arrays3538/1?itm_source=geeksforgeeks&itm_medium=article&itm_campaign=practice_card)            | ❌         | [.cpp](./Day_) | 🟢             | Pre               |
+| 9     | Intersection of Two Arrays         | [LC](https://leetcode.com/problems/intersection-of-two-arrays/description/)                                                                               | ❌         | [.cpp](./Day_) | 🟢             | Pre               |
+
+---
+
 ## Binary Search
 
 | **#** | **Problem Name**                                        | **Platform**                                                                                                                                                                                                                           | **Status** | **File**                                | **Difficulty** | **Prerequisites**                   |
 | ----- | ------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------- | --------------------------------------- | -------------- | ----------------------------------- |
-| 1     | Binary Search                                           | [LeetCode](https://leetcode.com/problems/binary-search/description/k)                                                                                                                                                                  | ✅         | [.cpp](./Day_41/_151_binary_search.cpp)                          | 🟢             | Recursion, Comparisons, Finding mid |
+| 1     | Binary Search                                           | [LeetCode](https://leetcode.com/problems/binary-search/description/k)                                                                                                                                                                  | ✅         | [.cpp](./Day_41/_151_binary_search.cpp) | 🟢             | Recursion, Comparisons, Finding mid |
 | 2     | Floor in a Sorted Array                                 | [GeeksForGeeks](https://www.geeksforgeeks.org/problems/floor-in-a-sorted-array-1587115620/1?track=DSASP-Searching&amp%253BbatchId=154&utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=floor-in-a-sorted-array) | ❌         | [.cpp](./Day_41/_151_binary_search.cpp) | 🟢             | Pre                                 |
 | 3     | Ceil The Floor                                          | [GeeksForGeeks](https://www.geeksforgeeks.org/problems/ceil-the-floor2802/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=ceil-the-floor)                                                                    | ❌         | [.cpp](./Day_)                          | 🟢             | Pre                                 |
 | 4     | Search Insert Position                                  | [LeetCode](https://leetcode.com/problems/search-insert-position/description/)                                                                                                                                                          | ❌         | [.cpp](./Day_)                          | 🟢             | Pre                                 |
@@ -145,12 +161,12 @@ Welcome to my repository where I will be solving **Data Structures and Algorithm
 
 ### 📌 Legend:
 
-- ✅ Completed
-- 🔄 To be completed next day
-- ❌ Not Started
-- 🟢 Easy Problem
-- 🟡 Medium Problem
-- 🔴 Hard Problem
+-   ✅ Completed
+-   🔄 To be completed next day
+-   ❌ Not Started
+-   🟢 Easy Problem
+-   🟡 Medium Problem
+-   🔴 Hard Problem
 
 ---
 
@@ -319,9 +335,9 @@ Welcome to my repository where I will be solving **Data Structures and Algorithm
 
 ### 📌 Legend:
 
-- ✅ Completed
-- 🔄 In Progress
-- ❌ Not Started
+-   ✅ Completed
+-   🔄 In Progress
+-   ❌ Not Started
 
 ---
 
