@@ -8,10 +8,11 @@ Welcome to my repository where I will be solving **Data Structures and Algorithm
 2. [Recursion](#recursion)
 3. [Two Pointers](#two-pointers)
 4. [Sorting](#sorting)
-5. [Hashing](#hashing)
-6. [Binary Search](#binary-search)
-7. [Arrays](#arrays)
-8. [Previous Sheet - 1 From Day 01 to Day 24](#previous-sheet---1-from-day-01-to-day-24)
+5. [Algorithms and Techniques](#algorithms-and-techniques)
+6. [Hashing](#hashing)
+7. [Binary Search](#binary-search)
+8. [Arrays](#arrays)
+9. [Previous Sheet - 1 From Day 01 to Day 24](#previous-sheet---1-from-day-01-to-day-24)
 
 ---
 
@@ -75,6 +76,24 @@ Welcome to my repository where I will be solving **Data Structures and Algorithm
 | 5     | Recursive Bubble Sort    | [GeeksForGeeks](https://www.geeksforgeeks.org/problems/bubble-sort/1)    | ✅         | [.cpp](././Day_41/_148_recursive_bubble_sort.cpp)  | 🟢             | Arrays, Recursion, Swapping                           |
 | 6     | Recursive Insertion Sort | [GeeksForGeeks](https://www.geeksforgeeks.org/problems/insertion-sort/1) | ✅         | [.cpp](./Day_41/_149_recursive_insertion_sort.cpp) | 🟢             | Arrays, Recursion, Insertion                          |
 | 7     | Selection Sort           | [GeeksForGeeks](https://www.geeksforgeeks.org/problems/selection-sort/1) | ✅         | [.cpp](./Day_41/_150_selection_sort.cpp)           | 🟢             | Arrays, Recursion, Swapping                           |
+
+---
+
+
+## Algorithms and Techniques
+
+| **#** | **Problem Name** | **Platform**       | **Status** | **File**       | **Difficulty** | **Prerequisites** |
+| ----- | ---------------- | ------------------ | ---------- | -------------- | -------------- | ----------------- |
+|1|Prefix Sum|[GeeksForGeeks](https://www.geeksforgeeks.org/prefix-sum-array-implementation-applications-competitive-programming/)|❌|[.cpp](./Day_)|🟢|Arrays, Loops, Basic Mathematics (Addition, Subtraction)|
+|2|Fibonacci Squence|[LeetCode](https://leetcode.com/problems/generate-fibonacci-sequence/description/)|❌|[.cpp](./Day_)|🟢| Recursion, Dynamic Programming, Basic Mathematics (Sequences)|
+|3|Boyer-Moore Voting Algorithm|[TopCoder](https://www.topcoder.com/thrive/articles/boyer-moore-majority-vote-algorithm)|❌|[.cpp](./Day_)|🟢|Arrays, Loops, Basic Counting Logic|
+|4|Euclidean Algorithm|[GeeksForGeeks](https://www.geeksforgeeks.org/euclidean-algorithms-basic-and-extended/)|❌|[.cpp](./Day_)|🟡|Basic Mathematics (Division, Remainder), Recursion|
+|5|Sieve of Eratosthenes|[CP-Algorithms](https://cp-algorithms.com/algebra/sieve-of-eratosthenes.html)|❌|[.cpp](./Day_)|🟡|Arrays, Loops, Basic Mathematics (Prime Numbers)|
+|6|Binomial Coefficients|[GeeksForGeeks](https://www.geeksforgeeks.org/binomial-coefficient-dp-9/)|❌|[.cpp](./Day_)|🟡|Combinatorics, Dynamic Programming, Recursion|
+|7|In-place Array Modification|[GeeksForGeeks](https://www.geeksforgeeks.org/in-place-algorithm/)|❌|[.cpp](./Day_)|🔴|Arrays, Loops, Two-pointer Technique|
+|8|Sliding Window|[GeeksForGeeks](https://www.geeksforgeeks.org/window-sliding-technique/)|❌|[.cpp](./Day_)|🔴|Arrays, Loops, Two-pointer Technique, Hash Maps (for some variations)|
+|9|Floyd's Tortoise and Hare Algorithm|[DEV Community](https://dev.to/alisabaj/floyd-s-tortoise-and-hare-algorithm-finding-a-cycle-in-a-linked-list-39af)|❌|[.cpp](./Day_)|🔴|Linked Lists, Two-pointer Technique, Cyclic Detection|
+|10|Longest Common Subsequence (LCS)|[GeeksForGeeks](https://www.geeksforgeeks.org/longest-common-subsequence-dp-4/)|❌|[.cpp](./Day_)|🔴|Dynamic Programming, Strings, Recursion|
 
 ---
 
