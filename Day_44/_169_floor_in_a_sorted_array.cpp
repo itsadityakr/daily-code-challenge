@@ -1,24 +1,35 @@
-// https://leetcode.com/problems/longest-substring-without-repeating-characters/
+// https://www.geeksforgeeks.org/problems/ceil-the-floor2802/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=ceil-the-floor
 
 class Solution
 {
 public:
-    int lengthOfLongestSubstring(string s)
+    vector<int> getFloorAndCeil(int x, vector<int> &nums)
     {
-        unordered_map<char, int> lastIndex;
-        int maxLength = 0, left = 0, right = 0;
+        vector<int> result(2, -1);
+        int floor = INT_MIN;
+        int ceil = INT_MAX;
 
-        while (right < s.size())
+        for (int i = 0; i < nums.size(); i++)
         {
-            char ch = s[right];
-            if (lastIndex.count(ch) && lastIndex[ch] >= left)
+            if (nums[i] <= x && nums[i] > floor)
             {
-                left = lastIndex[ch] + 1;
+                floor = nums[i];
             }
-            lastIndex[ch] = right;
-            maxLength = max(maxLength, right - left + 1);
-            right++;
+            if (nums[i] >= x && nums[i] < ceil)
+            {
+                ceil = nums[i];
+            }
         }
-        return maxLength;
+
+        if (floor != INT_MIN)
+        {
+            result[0] = floor;
+        }
+        if (ceil != INT_MAX)
+        {
+            result[1] = ceil;
+        }
+
+        return result;
     }
 };

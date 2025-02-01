@@ -1,154 +1,71 @@
-## Prefix Sum
-
-Prefix sum, also known as a cumulative sum or scan, is a technique used to compute the running total of a sequence of numbers. It is widely used in various algorithms and problems, such as range sum queries, dynamic programming, and more. Below are detailed notes on prefix sum in C++:
+## Day 44 - Problems
 
 ---
 
-### **1. Basic Concept**
-- The prefix sum array is an array where each element at index `i` represents the sum of all elements from the start of the original array up to index `i`.
-- Given an array `arr[]`, the prefix sum array `prefix[]` is computed as:
-  ```
-  prefix[0] = arr[0]
-  prefix[1] = arr[0] + arr[1]
-  prefix[2] = arr[0] + arr[1] + arr[2]
-  ...
-  prefix[i] = arr[0] + arr[1] + ... + arr[i]
-  ```
+### 169. **Floor in a Sorted Array** [C++ Code](./_169_floor_in_a_sorted_array.cpp)
+   - **File**: _169_floor_in_a_sorted_array.cpp
+   - **Description**: Given a sorted array and a number `x`, find the floor and ceil of `x` in the array. The floor of `x` is the largest element in the array that is less than or equal to `x`, and the ceil of `x` is the smallest element in the array that is greater than or equal to `x`.
+   - **Approach**: 
+     - We initialize two variables, `floor` and `ceil`, to keep track of the largest element less than or equal to `x` and the smallest element greater than or equal to `x`, respectively.
+     - We iterate through the array and update `floor` and `ceil` based on the current element:
+       - If the current element is less than or equal to `x` and greater than the current `floor`, we update `floor`.
+       - If the current element is greater than or equal to `x` and less than the current `ceil`, we update `ceil`.
+     - After iterating through the array, we check if `floor` and `ceil` were updated. If they were, we store their values in the result vector; otherwise, we store `-1` to indicate that no valid floor or ceil was found.
+   - **Time Complexity**: O(n), where `n` is the number of elements in the array. We traverse the array once.
+   - **Space Complexity**: O(1), as we use a constant amount of extra space.
 
 ---
 
-### **2. Implementation in C++**
-Here’s how you can compute the prefix sum array in C++:
-
-```cpp
-#include <iostream>
-#include <vector>
-using namespace std;
-
-vector<int> computePrefixSum(const vector<int>& arr) {
-    int n = arr.size();
-    vector<int> prefix(n);
-    prefix[0] = arr[0]; // Base case
-
-    // Compute prefix sum
-    for (int i = 1; i < n; i++) {
-        prefix[i] = prefix[i - 1] + arr[i];
-    }
-
-    return prefix;
-}
-
-int main() {
-    vector<int> arr = {1, 2, 3, 4, 5};
-    vector<int> prefix = computePrefixSum(arr);
-
-    // Print prefix sum array
-    for (int i = 0; i < prefix.size(); i++) {
-        cout << prefix[i] << " ";
-    }
-    return 0;
-}
-```
-
-**Output:**
-```
-1 3 6 10 15
-```
+### 170. **Ceil the Floor** [C++ Code](./_170_ceil_the_floor.cpp)
+   - **File**: _170_ceil_the_floor.cpp
+   - **Description**: This problem is similar to the previous one. Given a sorted array and a number `x`, find the floor and ceil of `x` in the array.
+   - **Approach**: 
+     - The approach is identical to the previous problem. We initialize `floor` and `ceil` and iterate through the array to find the appropriate values.
+     - We update `floor` and `ceil` based on the current element and store the results in a vector.
+   - **Time Complexity**: O(n), where `n` is the number of elements in the array. We traverse the array once.
+   - **Space Complexity**: O(1), as we use a constant amount of extra space.
 
 ---
 
-### **3. Applications of Prefix Sum**
-#### **a. Range Sum Queries**
-- Prefix sum allows you to answer range sum queries in **O(1)** time.
-- Given a range `[L, R]`, the sum can be computed as:
-  ```
-  sum = prefix[R] - prefix[L - 1]
-  ```
-  (If `L == 0`, then `sum = prefix[R]`.)
-
-**Example:**
-```cpp
-int rangeSum(const vector<int>& prefix, int L, int R) {
-    if (L == 0) return prefix[R];
-    return prefix[R] - prefix[L - 1];
-}
-```
-
-#### **b. Subarray Sum Problems**
-- Prefix sum is useful for solving problems involving subarray sums, such as finding subarrays with a given sum.
-
-#### **c. Dynamic Programming**
-- Prefix sum is often used in dynamic programming to optimize computations involving cumulative sums.
+### 171. **Search Insert Position** [C++ Code](./_171_search_insert_position.cpp)
+   - **File**: _171_search_insert_position.cpp
+   - **Description**: Given a sorted array and a target value, return the index where the target would be inserted to maintain the sorted order. If the target is already present, return its index.
+   - **Approach**: 
+     - We use binary search to efficiently find the position where the target should be inserted.
+     - We initialize two pointers, `low` and `high`, to the start and end of the array, respectively.
+     - We repeatedly calculate the middle index (`mid`) and compare the element at `mid` with the target:
+       - If the element at `mid` is equal to the target, we return `mid`.
+       - If the element at `mid` is less than the target, we move the `low` pointer to `mid + 1`.
+       - If the element at `mid` is greater than the target, we move the `high` pointer to `mid - 1`.
+     - If the target is not found, the `low` pointer will point to the position where the target should be inserted.
+   - **Time Complexity**: O(log n), where `n` is the number of elements in the array. Binary search halves the search space in each iteration.
+   - **Space Complexity**: O(1), as we use a constant amount of extra space.
 
 ---
 
-### **4. In-Place Prefix Sum**
-- You can compute the prefix sum in-place (without using extra space) by modifying the original array:
-```cpp
-void computePrefixSumInPlace(vector<int>& arr) {
-    for (int i = 1; i < arr.size(); i++) {
-        arr[i] += arr[i - 1];
-    }
-}
-```
+### 172. **Find First and Last Position of Element in Sorted Array** [C++ Code](./_172_find_first_and_last_position_of_element_in_sorted_array.cpp)
+   - **File**: _172_find_first_and_last_position_of_element_in_sorted_array.cpp
+   - **Description**: Given a sorted array and a target value, find the starting and ending position of the target in the array. If the target is not found, return `[-1, -1]`.
+   - **Approach**: 
+     - We use two separate binary search functions to find the first and last occurrence of the target.
+     - For the first occurrence:
+       - We perform a binary search and when we find the target, we continue searching in the left half to find the earliest occurrence.
+     - For the last occurrence:
+       - We perform a binary search and when we find the target, we continue searching in the right half to find the latest occurrence.
+     - We return the indices of the first and last occurrences.
+   - **Time Complexity**: O(log n), where `n` is the number of elements in the array. We perform two binary searches.
+   - **Space Complexity**: O(1), as we use a constant amount of extra space.
 
 ---
 
-### **5. 2D Prefix Sum**
-- Prefix sum can be extended to 2D arrays (matrices) for solving problems involving submatrix sums.
-- The prefix sum for a 2D array `mat[][]` is computed as:
-  ```
-  prefix[i][j] = mat[i][j] + prefix[i-1][j] + prefix[i][j-1] - prefix[i-1][j-1]
-  ```
-
-**Example:**
-```cpp
-vector<vector<int>> compute2DPrefixSum(const vector<vector<int>>& mat) {
-    int rows = mat.size();
-    int cols = mat[0].size();
-    vector<vector<int>> prefix(rows, vector<int>(cols));
-
-    // Compute prefix sum
-    for (int i = 0; i < rows; i++) {
-        for (int j = 0; j < cols; j++) {
-            prefix[i][j] = mat[i][j];
-            if (i > 0) prefix[i][j] += prefix[i - 1][j];
-            if (j > 0) prefix[i][j] += prefix[i][j - 1];
-            if (i > 0 && j > 0) prefix[i][j] -= prefix[i - 1][j - 1];
-        }
-    }
-
-    return prefix;
-}
-```
+### 173. **Number of Occurrence** [C++ Code](./_173_number_of_occurence.cpp)
+   - **File**: _173_number_of_occurence.cpp
+   - **Description**: Given a sorted array and a target value, find the number of occurrences of the target in the array.
+   - **Approach**: 
+     - We use the same approach as the previous problem to find the first and last occurrence of the target.
+     - Once we have the indices of the first and last occurrences, we calculate the number of occurrences as `last - first + 1`.
+     - If the target is not found, we return `0`.
+   - **Time Complexity**: O(log n), where `n` is the number of elements in the array. We perform two binary searches.
+   - **Space Complexity**: O(1), as we use a constant amount of extra space.
 
 ---
-
-### **6. Time and Space Complexity**
-- **Time Complexity:** O(N) for 1D arrays, O(N*M) for 2D arrays.
-- **Space Complexity:** O(N) for 1D arrays, O(N*M) for 2D arrays (if using extra space).
-
----
-
-### **7. Common Mistakes**
-1. Forgetting to handle the base case (`prefix[0] = arr[0]`).
-2. Incorrectly computing range sums (e.g., not handling the case when `L == 0`).
-3. Off-by-one errors in loops.
-
----
-
-### **8. Practice Problems**
-1. [Range Sum Query - Immutable (LeetCode 303)](https://leetcode.com/problems/range-sum-query-immutable/)
-2. [Maximum Subarray (LeetCode 53)](https://leetcode.com/problems/maximum-subarray/)
-3. [Subarray Sum Equals K (LeetCode 560)](https://leetcode.com/problems/subarray-sum-equals-k/)
-4. [Range Sum Query 2D - Immutable (LeetCode 304)](https://leetcode.com/problems/range-sum-query-2d-immutable/)
-
----
-
-### **9. Advanced Topics**
-- **Difference Array:** A technique related to prefix sum that is used for range update operations.
-- **Prefix Sum with Hashing:** Used in problems like finding subarrays with a given sum.
-
----
-
-By mastering prefix sums, you can efficiently solve a wide range of problems in competitive programming and real-world applications.

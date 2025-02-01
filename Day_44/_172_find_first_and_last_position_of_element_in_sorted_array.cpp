@@ -1,24 +1,60 @@
-// https://leetcode.com/problems/longest-substring-without-repeating-characters/
+// https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/
 
 class Solution
 {
 public:
-    int lengthOfLongestSubstring(string s)
+    int findFirst(vector<int> &nums, int target)
     {
-        unordered_map<char, int> lastIndex;
-        int maxLength = 0, left = 0, right = 0;
-
-        while (right < s.size())
+        int low = 0, high = nums.size() - 1;
+        int first = -1;
+        while (low <= high)
         {
-            char ch = s[right];
-            if (lastIndex.count(ch) && lastIndex[ch] >= left)
+            int mid = low + (high - low) / 2;
+            if (nums[mid] == target)
             {
-                left = lastIndex[ch] + 1;
+                first = mid;
+                high = mid - 1;
             }
-            lastIndex[ch] = right;
-            maxLength = max(maxLength, right - left + 1);
-            right++;
+            else if (nums[mid] < target)
+            {
+                low = mid + 1;
+            }
+            else
+            {
+                high = mid - 1;
+            }
         }
-        return maxLength;
+        return first;
+    }
+
+    int findLast(vector<int> &nums, int target)
+    {
+        int low = 0, high = nums.size() - 1;
+        int last = -1;
+        while (low <= high)
+        {
+            int mid = low + (high - low) / 2;
+            if (nums[mid] == target)
+            {
+                last = mid;
+                low = mid + 1;
+            }
+            else if (nums[mid] < target)
+            {
+                low = mid + 1;
+            }
+            else
+            {
+                high = mid - 1;
+            }
+        }
+        return last;
+    }
+
+    vector<int> searchRange(vector<int> &nums, int target)
+    {
+        int first = findFirst(nums, target);
+        int last = findLast(nums, target);
+        return {first, last};
     }
 };
