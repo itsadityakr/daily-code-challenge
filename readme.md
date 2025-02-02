@@ -84,10 +84,10 @@ Welcome to my repository where I will be solving **Data Structures and Algorithm
 
 | **#** | **Problem Name** | **Platform**       | **Status** | **File**       | **Difficulty** | **Prerequisites** |
 | ----- | ---------------- | ------------------ | ---------- | -------------- | -------------- | ----------------- |
-|1|Prefix Sum|[GeeksForGeeks](https://www.geeksforgeeks.org/prefix-sum-array-implementation-applications-competitive-programming/)|✅|[.cpp](./Library/03_Algorithms_and_Techniques/prefix_sum_array/)|🟢|Arrays, Loops, Basic Mathematics (Addition, Subtraction)|
-|2|Fibonacci Sequence|[LeetCode](https://leetcode.com/problems/generate-fibonacci-sequence/description/)|✅|[.cpp](./Library/03_Algorithms_and_Techniques/fibonacci_sequence/)|🟢| Recursion, Dynamic Programming, Basic Mathematics (Sequences)|
-|3|Boyer-Moore Voting Algorithm|[TopCoder](https://www.topcoder.com/thrive/articles/boyer-moore-majority-vote-algorithm)|✅|[.cpp](./Library/03_Algorithms_and_Techniques/boyer_moore_voting_algorithm/)|🟢|Arrays, Loops, Basic Counting Logic|
-|4|Euclidean Algorithm|[GeeksForGeeks](https://www.geeksforgeeks.org/euclidean-algorithms-basic-and-extended/)|✅|[.cpp](./Library/03_Algorithms_and_Techniques)|🟡|Basic Mathematics (Division, Remainder), Recursion|
+|1|Prefix Sum|[GeeksForGeeks](https://www.geeksforgeeks.org/prefix-sum-array-implementation-applications-competitive-programming/)|✅|[.cpp](./algorithms-and-techniques/prefix_sum_array/)|🟢|Arrays, Loops, Basic Mathematics (Addition, Subtraction)|
+|2|Fibonacci Sequence|[LeetCode](https://leetcode.com/problems/generate-fibonacci-sequence/description/)|✅|[.cpp](./algorithms-and-techniques/fibonacci_sequence/)|🟢| Recursion, Dynamic Programming, Basic Mathematics (Sequences)|
+|3|Boyer-Moore Voting Algorithm|[TopCoder](https://www.topcoder.com/thrive/articles/boyer-moore-majority-vote-algorithm)|✅|[.cpp](./algorithms-and-techniques/boyer_moore_voting_algorithm/)|🟢|Arrays, Loops, Basic Counting Logic|
+|4|Euclidean Algorithm|[GeeksForGeeks](https://www.geeksforgeeks.org/euclidean-algorithms-basic-and-extended/)|✅|[.cpp](./algorithms-and-techniques/euclidean_algorithm/)|🟡|Basic Mathematics (Division, Remainder), Recursion|
 |5|Sieve of Eratosthenes|[CP-Algorithms](https://cp-algorithms.com/algebra/sieve-of-eratosthenes.html)|❌|[.cpp](./Library/03_Algorithms_and_Techniques)|🟡|Arrays, Loops, Basic Mathematics (Prime Numbers)|
 |6|Binomial Coefficients|[GeeksForGeeks](https://www.geeksforgeeks.org/binomial-coefficient-dp-9/)|❌|[.cpp](./Library/03_Algorithms_and_Techniques)|🟡|Combinatorics, Dynamic Programming, Recursion|
 |7|In-place Array Modification|[GeeksForGeeks](https://www.geeksforgeeks.org/in-place-algorithm/)|❌|[.cpp](./Library/03_Algorithms_and_Techniques)|🔴|Arrays, Loops, Two-pointer Technique|
