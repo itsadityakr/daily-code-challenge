@@ -1,62 +1,74 @@
-## Day 45 - Problems
+## Day 46 - Problems
 
 ---
 
-### 174. **Search in Rotated Sorted Array** [C++ Code](./_174_search_in_rotated_sorted_array.cpp)
-   - **File**: _174_search_in_rotated_sorted_array.cpp
-   - **Description**: Given a rotated sorted array, the goal is to search for a specific target element in the array and return its index. If the element is not found, return -1. A rotated sorted array is an array that was sorted in increasing order, but then rotated at some pivot point.
-   - **Approach**: 
-      - We can solve this problem using **binary search**, which is a more efficient way than linear search.
-      - Start by initializing two pointers: **left** (starting from index 0) and **right** (starting from the last index).
-      - In each iteration, calculate the middle element using `mid = left + (right - left) / 2`.
-      - Compare the middle element with the target:
-         - If the middle element matches the target, return its index.
-         - If the left part of the array is sorted (i.e., `nums[left] <= nums[mid]`), check if the target lies within the left part. If it does, adjust the right pointer to `mid - 1`; otherwise, adjust the left pointer to `mid + 1`.
-         - If the right part of the array is sorted (i.e., `nums[mid] <= nums[right]`), similarly check if the target lies within the right part and adjust the pointers accordingly.
-      - The process continues until the target is found or the pointers cross, in which case we return `-1`.
-   - **Time Complexity**: O(log N), since binary search works by halving the search space in each iteration.
-   - **Space Complexity**: O(1), because we are using a constant amount of extra space for variables.
-
----
-
-### 175. **Search in Rotated Sorted Array II** [C++ Code](./_175_search_in_rotated_sorted_array_ii.cpp)
-   - **File**: _175_search_in_rotated_sorted_array_ii.cpp
-   - **Description**: This is a variant of the previous problem where the array may contain duplicate values. We are still required to find a target element. If duplicates are present, the problem is slightly more complicated since binary search requires distinct values to efficiently reduce the search space.
+### 178. **Single Element in a Sorted Array** [C++ Code](./_178_single_element_in_a_sorted_array.cpp)
+   - **File**: _178_single_element_in_a_sorted_array.cpp_
+   - **Description**: Given a sorted array where every element appears exactly twice except for one element that appears once, find the single element.
+   - **Understanding the Problem**: Imagine you have a row of pairs of numbers, but one number is left out and does not have a pair. The list is sorted, meaning similar numbers are grouped together. We need to find that single number efficiently.
+   - **How to Approach the Problem**: Instead of checking every element (which is slow), use binary search. Observe that the index of elements changes depending on where the single element is.
    - **Approach**:
-      - This problem is also solved using binary search, but there is an additional check when the left, middle, and right elements are equal.
-      - The main idea is similar to the first problem, but we handle duplicates by checking if `nums[left] == nums[mid] == nums[right]`. When all three are equal, we can't determine which side is sorted, so we move the pointers inward: `left++` and `right--`.
-      - If the left part is sorted (i.e., `nums[left] <= nums[mid]`), we check if the target lies between `nums[left]` and `nums[mid]`. If it does, adjust `right`; otherwise, move `left`.
-      - If the right part is sorted (i.e., `nums[mid] <= nums[right]`), we do a similar check for the target and adjust the pointers.
-      - The process continues until we find the target or conclude that it isn't in the array.
-   - **Time Complexity**: O(N), because in the worst case (with duplicates), we may need to check all elements.
-   - **Space Complexity**: O(1), as only a few variables are used.
+     1. Use **binary search** with two pointers (`left` and `right`).
+     2. Find the middle index `mid`.
+     3. If `mid` is even and `nums[mid]` matches `nums[mid+1]`, it means the single element is on the right half.
+     4. If `mid` is odd and `nums[mid]` matches `nums[mid-1]`, it also means the single element is on the right half.
+     5. Otherwise, the single element is on the left half.
+     6. Keep adjusting `left` and `right` until they meet, and return `nums[left]`.
+   - **Key Concepts Explained**: Binary search, odd-even index patterns.
+   - **Time Complexity**: **O(log n)** (binary search reduces search space by half each time).
+   - **Space Complexity**: **O(1)** (only a few extra variables are used).
 
 ---
 
-### 176. **Find Minimum in Rotated Sorted Array** [C++ Code](./_176_find_min_in_rotated_sorted_array.cpp)
-   - **File**: _176_find_min_in_rotated_sorted_array.cpp
-   - **Description**: In a rotated sorted array, we need to find the minimum element. The array was initially sorted but rotated at some pivot point.
+### 179. **Find Peak Element** [C++ Code](./_179_find_peak_element.cpp)
+   - **File**: _179_find_peak_element.cpp_
+   - **Description**: Given an array, find a peak element (an element greater than its neighbors). The array does not necessarily need to be sorted.
+   - **Understanding the Problem**: A peak element is simply an element that is larger than both its left and right neighbors. The array is unsorted, and there may be multiple peaks, but we only need to find one.
+   - **How to Approach the Problem**: Instead of scanning the whole array, use binary search since if one side is greater, a peak must exist there.
    - **Approach**:
-      - To find the minimum element, we can use binary search.
-      - We maintain two pointers, **left** and **right**. We check the middle element and compare it with the rightmost element:
-         - If `nums[mid] > nums[right]`, it means the minimum element lies to the right of `mid` (because the right part is unsorted and contains the minimum).
-         - If `nums[mid] <= nums[right]`, it means the right part is sorted, so the minimum must be in the left part (or it is the middle element itself).
-      - The process continues until the left pointer equals the right pointer, at which point the left pointer will be pointing to the minimum element.
-   - **Time Complexity**: O(log N), because we use binary search.
-   - **Space Complexity**: O(1), since only a constant amount of space is required.
+     1. Use **binary search** with `left` and `right`.
+     2. Find `mid` index.
+     3. If `nums[mid] > nums[mid+1]`, then the peak is in the left half.
+     4. Otherwise, move `left` to `mid+1` because a peak must exist on the right half.
+     5. Continue until `left` equals `right`, which is the peak.
+   - **Key Concepts Explained**: Binary search, peak detection.
+   - **Time Complexity**: **O(log n)**.
+   - **Space Complexity**: **O(1)**.
 
 ---
 
-### 177. **Find Kth Rotation** [C++ Code](./_177_find_kth_rotation.cpp)
-   - **File**: _177_find_kth_rotation.cpp
-   - **Description**: Given a rotated sorted array, the task is to find the number of rotations (i.e., the index of the minimum element). This problem requires identifying the pivot point of the rotation.
+### 180. **Square Root (Floor Value)** [C++ Code](./_180_square_root.cpp)
+   - **File**: _180_square_root.cpp_
+   - **Description**: Find the integer part of the square root of a given number `n`.
+   - **Understanding the Problem**: The square root of a number `x` is a value `y` such that `y * y = x`. Since we need only the integer part, we return `floor(sqrt(x))`.
+   - **How to Approach the Problem**: Instead of checking every number from `1` to `n`, use binary search.
    - **Approach**:
-      - We use binary search to find the pivot.
-      - Start with **left** and **right** pointers. Compare the middle element `arr[mid]` with the rightmost element `arr[right]`:
-         - If `arr[mid] > arr[right]`, it means the minimum element (and thus the pivot) is to the right of `mid`, so move the left pointer to `mid + 1`.
-         - If `arr[mid] <= arr[right]`, the pivot must be to the left of `mid`, so move the right pointer to `mid`.
-      - The process continues until the left pointer equals the right pointer, and this will give the index of the smallest element, which is also the number of rotations.
-   - **Time Complexity**: O(log N), as we perform binary search.
-   - **Space Complexity**: O(1), because only a few variables are used.
+     1. Set `left = 1` and `right = n`.
+     2. Find `mid` and calculate `mid * mid`.
+     3. If `mid * mid == n`, return `mid`.
+     4. If `mid * mid < n`, move `left` to `mid + 1` and store `mid` as an answer.
+     5. If `mid * mid > n`, move `right` to `mid - 1`.
+     6. Repeat until `left` crosses `right`, and return `ans`.
+   - **Key Concepts Explained**: Binary search, square root approximation.
+   - **Time Complexity**: **O(log n)**.
+   - **Space Complexity**: **O(1)**.
+
+---
+
+### 181. **Find Nth Root of M** [C++ Code](./_181_find_nth_root_of_m.cpp)
+   - **File**: _181_find_nth_root_of_m.cpp_
+   - **Description**: Given two numbers `n` and `m`, find the `n`th root of `m`. If it does not exist as an integer, return -1.
+   - **Understanding the Problem**: The `n`th root of `m` is a number `x` such that `x^n = m`. We need to find this `x` efficiently.
+   - **How to Approach the Problem**: Instead of trying every possible value, use binary search.
+   - **Approach**:
+     1. Use binary search with `left = 1` and `right = m`.
+     2. Find `mid` and compute `mid^n` using a helper function.
+     3. If `mid^n == m`, return `mid`.
+     4. If `mid^n > m`, move `right` to `mid - 1`.
+     5. If `mid^n < m`, move `left` to `mid + 1`.
+     6. If no value satisfies `x^n = m`, return `-1`.
+   - **Key Concepts Explained**: Binary search, exponentiation.
+   - **Time Complexity**: **O(log m)**.
+   - **Space Complexity**: **O(1)**.
 
 ---

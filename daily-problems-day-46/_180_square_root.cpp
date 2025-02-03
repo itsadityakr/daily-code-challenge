@@ -1,26 +1,30 @@
-// https://www.geeksforgeeks.org/problems/rotation4723/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=rotation
+// https://www.geeksforgeeks.org/problems/square-root/0?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=square-root
 
 class Solution
 {
 public:
-    int findKRotation(vector<int> &arr)
+    int floorSqrt(int n)
     {
-        int left = 0, right = arr.size() - 1;
+        int left = 1, right = n, ans = 0;
 
-        while (left < right)
+        while (left <= right)
         {
-            int mid = left + (right - left) / 2;
+            long long mid = left + (right - left) / 2;
+            long long square = mid * mid;
 
-            if (arr[mid] > arr[right])
+            if (square == n)
+                return mid;
+            else if (square < n)
             {
+                ans = mid;
                 left = mid + 1;
             }
             else
             {
-                right = mid;
+                right = mid - 1;
             }
         }
 
-        return left;
+        return ans;
     }
 };

@@ -1,26 +1,21 @@
-// https://www.geeksforgeeks.org/problems/rotation4723/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=rotation
+// https://leetcode.com/problems/single-element-in-a-sorted-array/
 
 class Solution
 {
 public:
-    int findKRotation(vector<int> &arr)
+    int singleNonDuplicate(vector<int> &nums)
     {
-        int left = 0, right = arr.size() - 1;
-
+        int left = 0, right = nums.size() - 1;
         while (left < right)
         {
-            int mid = left + (right - left) / 2;
-
-            if (arr[mid] > arr[right])
-            {
+            int mid = (left + right) / 2;
+            if ((mid % 2 == 0 && nums[mid] == nums[mid + 1]) ||
+                (mid % 2 == 1 && nums[mid] == nums[mid - 1]))
                 left = mid + 1;
-            }
             else
-            {
                 right = mid;
-            }
         }
 
-        return left;
+        return nums[left];
     }
 };

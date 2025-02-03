@@ -1,23 +1,23 @@
-// https://www.geeksforgeeks.org/problems/rotation4723/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=rotation
+// https://leetcode.com/problems/find-peak-element/description/
 
 class Solution
 {
 public:
-    int findKRotation(vector<int> &arr)
+    int findPeakElement(vector<int> &nums)
     {
-        int left = 0, right = arr.size() - 1;
+        int left = 0, right = nums.size() - 1;
 
         while (left < right)
         {
             int mid = left + (right - left) / 2;
 
-            if (arr[mid] > arr[right])
+            if (nums[mid] > nums[mid + 1])
             {
-                left = mid + 1;
+                right = mid;
             }
             else
             {
-                right = mid;
+                left = mid + 1;
             }
         }
 

@@ -1,26 +1,38 @@
-// https://www.geeksforgeeks.org/problems/rotation4723/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=rotation
+// https://www.geeksforgeeks.org/problems/find-nth-root-of-m5843/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=find-nth-root-of-m
 
 class Solution
 {
 public:
-    int findKRotation(vector<int> &arr)
+    long long power(long long base, int exp, int m)
     {
-        int left = 0, right = arr.size() - 1;
+        long long result = 1;
+        while (exp > 0)
+        {
+            result *= base;
+            if (result > m)
+                return -1;
+            exp--;
+        }
+        return result;
+    }
 
-        while (left < right)
+    int nthRoot(int n, int m)
+    {
+        int left = 1, right = m;
+
+        while (left <= right)
         {
             int mid = left + (right - left) / 2;
+            long long res = power(mid, n, m);
 
-            if (arr[mid] > arr[right])
-            {
-                left = mid + 1;
-            }
+            if (res == m)
+                return mid;
+            else if (res == -1 || res > m)
+                right = mid - 1;
             else
-            {
-                right = mid;
-            }
+                left = mid + 1;
         }
 
-        return left;
+        return -1;
     }
 };
