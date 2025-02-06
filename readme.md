@@ -148,10 +148,10 @@ Welcome to my repository where I will be solving **Data Structures and Algorithm
 |21|Median of Two Sorted Arrays|[LeetCode](https://leetcode.com/problems/median-of-two-sorted-arrays/description/)|✅|[.cpp](./daily-problems-day-48/_189_Median_of_Two_Sorted_Arrays.cpp)|🔴|Binary Search, Partitioning, Median Calculation|
 |22|K-th element of two Arrays|[GeeksForGeeks](https://www.geeksforgeeks.org/problems/k-th-element-of-two-sorted-array1317/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=k-th-element-of-two-sorted-array)|✅|[.cpp](./daily-problems-day-47/_185_kth_element_of_two_arrays.cpp)|🟡|Binary Search, Partitioning, Array Merging Concepts|
 |23|Row with max 1s|[GeeksForGeeks](https://www.geeksforgeeks.org/problems/row-with-max-1s0023/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=row-with-max-1s)|✅|[.cpp](./daily-problems-day-48/_190_Row_with_max_1s.cpp)| 🟡|Binary Search, 2D Arrays|
-|24|Search a 2D Matrix|[LeetCode](https://leetcode.com/problems/search-a-2d-matrix/description/)|❌|[.cpp](./daily-problems-day-)| 🟡|Pre|
-|25|Search a 2D Matrix II|[LeetCode](https://leetcode.com/problems/search-a-2d-matrix-ii/description/)|❌|[.cpp](./daily-problems-day-)| 🟡|Pre|
-|26|Find a Peak Element II|[LeetCode](https://leetcode.com/problems/find-a-peak-element-ii/description/)|❌|[.cpp](./daily-problems-day-)| 🟡|Pre|
-|27|Median in a row-wise sorted Matrix|[GeeksForGeeks](https://www.geeksforgeeks.org/problems/median-in-a-row-wise-sorted-matrix1527/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=median-in-a-row-wise-sorted-matrix)|❌|[.cpp](./daily-problems-day-)|🔴|Pre|
+|24|Search a 2D Matrix|[LeetCode](https://leetcode.com/problems/search-a-2d-matrix/description/)|✅|[.cpp](./daily-problems-day-49/_191_Search_a_2D_Matrix.cpp)| 🟡|Binary Search, Matrix Traversal, Index Mapping|
+|25|Search a 2D Matrix II|[LeetCode](https://leetcode.com/problems/search-a-2d-matrix-ii/description/)|✅|[.cpp](./daily-problems-day-49/_192_Search_a_2D_Matrix_II.cpp)| 🟡|Binary Search, Matrix Traversal, 2D Search Strategy|
+|26|Find a Peak Element II|[LeetCode](https://leetcode.com/problems/find-a-peak-element-ii/description/)|✅|[.cpp](./daily-problems-day-49/_193_Find_a_Peak_Element_II.cpp)| 🟡|Binary Search, Peak Finding Algorithm, Matrix Traversal|
+|27|Median in a row-wise sorted Matrix|[GeeksForGeeks](https://www.geeksforgeeks.org/problems/median-in-a-row-wise-sorted-matrix1527/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=median-in-a-row-wise-sorted-matrix)|✅|[.cpp](./daily-problems-day-49/_194_Median_in_a_row-wise_sorted_Matrix.cpp)|🔴|Binary Search, Median Concept, Matrix Traversal|
 
 ---
 
