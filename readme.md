@@ -12,6 +12,7 @@ Welcome to my repository where I will be solving **Data Structures and Algorithm
 6. [Hashing](#hashing)
 7. [Binary Search](#binary-search)
 8. [Arrays](#arrays)
+9. [Strings](#strings)
 9. [Previous Sheet - 1 From Day 01 to Day 24](#previous-sheet---1-from-day-01-to-day-24)
 
 ---
@@ -202,7 +203,7 @@ Welcome to my repository where I will be solving **Data Structures and Algorithm
 
 ---
 
-## String
+## Strings
 
 | **#** | **Problem Name** | **Platform**       | **Status** | **File**       | **Difficulty** | **Prerequisites** |
 | ----- | ---------------- | ------------------ | ---------- | -------------- | -------------- | ----------------- |
