@@ -155,36 +155,6 @@ Welcome to my repository where I will be solving **Data Structures and Algorithm
 
 ---
 
-## String
-
-| **#** | **Problem Name** | **Platform**       | **Status** | **File**       | **Difficulty** | **Prerequisites** |
-| ----- | ---------------- | ------------------ | ---------- | -------------- | -------------- | ----------------- |
-|1|Remove Outermost Parentheses|[LeetCode](https://leetcode.com/problems/remove-outermost-parentheses/)|❌|[.cpp](./daily-problems-day-)|🟢|-|
-|2|Reverse Words in a String|[LeetCode](https://leetcode.com/problems/reverse-words-in-a-string/description/)|❌|[.cpp](./daily-problems-day-)|🟡|-|
-|3|Largest Odd Number in String|[LeetCode](https://leetcode.com/problems/largest-odd-number-in-string/description/)|❌|[.cpp](./daily-problems-day-)|🟢|-|
-|4|Longest Common Prefix|[LeetCode](https://leetcode.com/problems/longest-common-prefix/description/)|❌|[.cpp](./daily-problems-day-)|🟢|-|
-|5|Isomorphic Strings|[LeetCode](https://leetcode.com/problems/isomorphic-strings/description/)|❌|[.cpp](./daily-problems-day-)|🟢|-|
-|6|Rotate String|[LeetCode](https://leetcode.com/problems/rotate-string/description/)|❌|[.cpp](./daily-problems-day-)|🟢|-|
-|7|Valid Anagram|[LeetCode](https://leetcode.com/problems/valid-anagram/description/)|❌|[.cpp](./daily-problems-day-)|🟢|-|
-|8|Sort Characters By Frequency|[LeetCode](https://leetcode.com/problems/sort-characters-by-frequency/description/)|❌|[.cpp](./daily-problems-day-)|🟡|-|
-|9|Maximum Nesting Depth of the Parentheses|[LeetCode](https://leetcode.com/problems/maximum-nesting-depth-of-the-parentheses/description/)|❌|[.cpp](./daily-problems-day-)|🟢|-|
-|10|Roman to Integer|[LeetCode](https://leetcode.com/problems/roman-to-integer/description/)|❌|[.cpp](./daily-problems-day-)|🟢|-|
-|11|String to Integer (atoi)|[LeetCode](https://leetcode.com/problems/string-to-integer-atoi/description/)|❌|[.cpp](./daily-problems-day-)|🟡|-|
-|12|Substrings with K Distinct|[GeeksForGeeks](https://www.geeksforgeeks.org/problems/count-number-of-substrings4528/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=count-number-of-substrings)|❌|[.cpp](./daily-problems-day-)|🟡|-|
-|13|Longest Palindromic Substring|[LeetCode](https://leetcode.com/problems/longest-palindromic-substring/description/)|❌|[.cpp](./daily-problems-day-)|🟡|-|
-|14|Sum of Beauty of All Substrings|[LeetCode](https://leetcode.com/problems/sum-of-beauty-of-all-substrings/description/)|❌|[.cpp](./daily-problems-day-)|🟡|-|
-|15|Reverse Words in a String|[LeetCode](https://leetcode.com/problems/reverse-words-in-a-string/description/)|❌|[.cpp](./daily-problems-day-)|🟡|-|
-
----
-
-## Topic
-
-| **#** | **Problem Name** | **Platform**       | **Status** | **File**       | **Difficulty** | **Prerequisites** |
-| ----- | ---------------- | ------------------ | ---------- | -------------- | -------------- | ----------------- |
-|1|Problem|[LC/GFG](web_link)|❌✅🔄|[.cpp](./daily-problems-day-)|🟢🟡🔴|-|
-
----
-
 ## Arrays
 
 | **#** | **Problem Name**                                    | **Platform**                                                                                            | **Status** | **File**                                                                       | **Difficulty** | **Prerequisites**                                           |
@@ -231,6 +201,37 @@ Welcome to my repository where I will be solving **Data Structures and Algorithm
 | 40    | Count of Smaller Numbers After Self                  | [LeetCode](https://leetcode.com/problems/count-of-smaller-numbers-after-self/description/)             | ✅         | [.cpp](./daily-problems-day-35/_118_maximum_product_subarray.cpp)                             | 🔴             | Merge Sort, Divide and Conquer Algorithm, Array and Index Tracking|
 
 ---
+
+## String
+
+| **#** | **Problem Name** | **Platform**       | **Status** | **File**       | **Difficulty** | **Prerequisites** |
+| ----- | ---------------- | ------------------ | ---------- | -------------- | -------------- | ----------------- |
+|1|Remove Outermost Parentheses|[LeetCode](https://leetcode.com/problems/remove-outermost-parentheses/)|✅|[.cpp](./daily-problems-day-50/_195_Remove_Outermost_Parentheses.cpp)|🟢|Strings, Loops, Conditionals|
+|2|Reverse Words in a String|[LeetCode](https://leetcode.com/problems/reverse-words-in-a-string/description/)|✅|[.cpp](./daily-problems-day-50/_196_Reverse_Words_in_a_String.cpp)|🟡|Strings Manipulation, Vectors, StringStream|
+|3|Largest Odd Number in String|[LeetCode](https://leetcode.com/problems/largest-odd-number-in-string/description/)|✅|[.cpp](./daily-problems-day-50/_197_Largest_Odd_Number_in_String.cpp)|🟢|Strings, Basic Number Properties|
+|4|Longest Common Prefix|[LeetCode](https://leetcode.com/problems/longest-common-prefix/description/)|❌|[.cpp](./daily-problems-day-)|🟢|-|
+|5|Isomorphic Strings|[LeetCode](https://leetcode.com/problems/isomorphic-strings/description/)|❌|[.cpp](./daily-problems-day-)|🟢|-|
+|6|Rotate String|[LeetCode](https://leetcode.com/problems/rotate-string/description/)|❌|[.cpp](./daily-problems-day-)|🟢|-|
+|7|Valid Anagram|[LeetCode](https://leetcode.com/problems/valid-anagram/description/)|❌|[.cpp](./daily-problems-day-)|🟢|-|
+|8|Sort Characters By Frequency|[LeetCode](https://leetcode.com/problems/sort-characters-by-frequency/description/)|❌|[.cpp](./daily-problems-day-)|🟡|-|
+|9|Maximum Nesting Depth of the Parentheses|[LeetCode](https://leetcode.com/problems/maximum-nesting-depth-of-the-parentheses/description/)|❌|[.cpp](./daily-problems-day-)|🟢|-|
+|10|Roman to Integer|[LeetCode](https://leetcode.com/problems/roman-to-integer/description/)|❌|[.cpp](./daily-problems-day-)|🟢|-|
+|11|String to Integer (atoi)|[LeetCode](https://leetcode.com/problems/string-to-integer-atoi/description/)|❌|[.cpp](./daily-problems-day-)|🟡|-|
+|12|Substrings with K Distinct|[GeeksForGeeks](https://www.geeksforgeeks.org/problems/count-number-of-substrings4528/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=count-number-of-substrings)|❌|[.cpp](./daily-problems-day-)|🟡|-|
+|13|Longest Palindromic Substring|[LeetCode](https://leetcode.com/problems/longest-palindromic-substring/description/)|❌|[.cpp](./daily-problems-day-)|🟡|-|
+|14|Sum of Beauty of All Substrings|[LeetCode](https://leetcode.com/problems/sum-of-beauty-of-all-substrings/description/)|❌|[.cpp](./daily-problems-day-)|🟡|-|
+|15|Reverse Words in a String|[LeetCode](https://leetcode.com/problems/reverse-words-in-a-string/description/)|❌|[.cpp](./daily-problems-day-)|🟡|-|
+
+---
+
+## Topic
+
+| **#** | **Problem Name** | **Platform**       | **Status** | **File**       | **Difficulty** | **Prerequisites** |
+| ----- | ---------------- | ------------------ | ---------- | -------------- | -------------- | ----------------- |
+|1|Problem|[LC/GFG](web_link)|❌✅🔄|[.cpp](./daily-problems-day-)|🟢🟡🔴|-|
+
+---
+
 
 ### 📌 Legend:
 
