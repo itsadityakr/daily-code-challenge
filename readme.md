@@ -17,8 +17,8 @@ Welcome to my repository where I will be solving **Data Structures and Algorithm
 
 ---
 
-<details>
-  <summary><strong>Basic Maths</strong></summary>
+<details  id="basic-maths">
+  <summary><span style="font-size: 24px; font-weight: bold;">Basic Maths</span></summary>
 
 | **#** | **Problem Name**                      | **Platform**                                                                                                                                            | **Status** | **File**                                                        | **Difficulty** | **Prerequisites**                                                                        |
 | ----- | ------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------- | --------------------------------------------------------------- | -------------- | ---------------------------------------------------------------------------------------- |
@@ -44,8 +44,8 @@ Welcome to my repository where I will be solving **Data Structures and Algorithm
 
 ---
 
-<details>
-  <summary><strong>Recursion</strong></summary>
+<details  id="recursion">
+  <summary><span style="font-size: 24px; font-weight: bold;">Recursion</span></summary>
 
 
 | **#** | **Problem Name**                   | **Platform**                                                                                                                                                                                                                  | **Status** | **File**                                                   | **Difficulty** | **Prerequisites**                                      |
@@ -63,8 +63,8 @@ Welcome to my repository where I will be solving **Data Structures and Algorithm
 
 ---
 
-<details>
-  <summary><strong>Two Pointers</strong></summary>
+<details  id="two-pointers">
+  <summary><span style="font-size: 24px; font-weight: bold;">Two Pointers</span></summary>
 
 
 | **#** | **Problem Name**          | **Platform**                                                                     | **Status** | **File**                                            | **Difficulty** | **Prerequisites**                               |
@@ -81,8 +81,8 @@ Welcome to my repository where I will be solving **Data Structures and Algorithm
 
 ---
 
-<details>
-  <summary><strong>Sorting</strong></summary>
+<details  id="sorting">
+  <summary><span style="font-size: 24px; font-weight: bold;">Sorting</span></summary>
 
 
 | **#** | **Problem Name**         | **Platform**                                                             | **Status** | **File**                                           | **Difficulty** | **Prerequisites**                                     |
@@ -102,8 +102,8 @@ Welcome to my repository where I will be solving **Data Structures and Algorithm
 ---
 
 
-<details>
-  <summary><strong>Algorithms and Techniques</strong></summary>
+<details  id="algorithms-and-techniques">
+  <summary><span style="font-size: 24px; font-weight: bold;">Algorithms and Techniques</span></summary>
 
 | **#** | **Problem Name** | **Platform**       | **Status** | **File**       | **Difficulty** | **Prerequisites** |
 | ----- | ---------------- | ------------------ | ---------- | -------------- | -------------- | ----------------- |
@@ -123,8 +123,8 @@ Welcome to my repository where I will be solving **Data Structures and Algorithm
 
 ---
 
-<details>
-  <summary><strong>Hashing</strong></summary>
+<details  id="hashing">
+  <summary><span style="font-size: 24px; font-weight: bold;">Hashing</span></summary>
 
 
 | **#** | **Problem Name**                               | **Platform**                                                                                                                                                        | **Status** | **File**                                                     | **Difficulty** | **Prerequisites**                                               |
@@ -153,8 +153,8 @@ Welcome to my repository where I will be solving **Data Structures and Algorithm
 
 ---
 
-<details>
-  <summary><strong>Binary Search</strong></summary>
+<details  id="binary-search">
+  <summary><span style="font-size: 24px; font-weight: bold;">Binary Search</span></summary>
 
 | **#** | **Problem Name**                                        | **Platform**                                                                                                                                                                                                                           | **Status** | **File**                                | **Difficulty** | **Prerequisites**                   |
 | ----- | ------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------- | --------------------------------------- | -------------- | ----------------------------------- |
@@ -192,8 +192,8 @@ Welcome to my repository where I will be solving **Data Structures and Algorithm
 
 ---
 
-<details>
-  <summary><strong>Arrays</strong></summary>
+<details  id="arrays">
+  <summary><span style="font-size: 24px; font-weight: bold;">Arrays</span></summary>
 
 | **#** | **Problem Name**                                    | **Platform**                                                                                            | **Status** | **File**                                                                       | **Difficulty** | **Prerequisites**                                           |
 |------|---------------------------------------------------|-----------------------------------------------------------------------------------------------------|----------|-------------------------------------------------------------------------------|--------------|-------------------------------------------------------------|
@@ -285,8 +285,8 @@ Welcome to my repository where I will be solving **Data Structures and Algorithm
 
 ---
 
-<details>
-  <summary><strong>Previous Sheet - 1 From Day 01 to Day 24</strong></summary>
+<details  id="previous-sheet---1-from-day-01-to-day-24">
+  <summary><span style="font-size: 24px; font-weight: bold;">Previous Sheet - 1 From Day 01 to Day 24</span></summary>
 
 ### 📋 Table of Contents
 
