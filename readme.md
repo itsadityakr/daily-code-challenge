@@ -4,8 +4,9 @@ Welcome to my repository where I will be solving **Data Structures and Algorithm
 
 ## 📋 Table of Contents
 
-1. [SHEET 1](#sheet-1)
-2. [SHEET 2](#sheet-2)
+1. [Sheet 1](#sheet-1)
+2. [Sheet 2](#sheet-2)
+9. [Active](#strings)
 
 ---
 
