@@ -11,7 +11,7 @@ Welcome to my repository where I will be solving **Data Structures and Algorithm
 ---
 
 <details id="sheet-1">
-  <summary><h2>Problems</h2></summary>
+  <summary><h2>Sheet 1</h2></summary>
 
   ## 📋 Table of Contents
 
