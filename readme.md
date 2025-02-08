@@ -17,7 +17,8 @@ Welcome to my repository where I will be solving **Data Structures and Algorithm
 
 ---
 
-## Basic Maths
+<details>
+  <summary><strong>Basic Maths</strong></summary>
 
 | **#** | **Problem Name**                      | **Platform**                                                                                                                                            | **Status** | **File**                                                        | **Difficulty** | **Prerequisites**                                                                        |
 | ----- | ------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------- | --------------------------------------------------------------- | -------------- | ---------------------------------------------------------------------------------------- |
@@ -39,7 +40,13 @@ Welcome to my repository where I will be solving **Data Structures and Algorithm
 
 ---
 
-## Recursion
+</details>
+
+---
+
+<details>
+  <summary><strong>Recursion</strong></summary>
+
 
 | **#** | **Problem Name**                   | **Platform**                                                                                                                                                                                                                  | **Status** | **File**                                                   | **Difficulty** | **Prerequisites**                                      |
 | ----- | ---------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------- | ---------------------------------------------------------- | -------------- | ------------------------------------------------------ |
@@ -50,10 +57,15 @@ Welcome to my repository where I will be solving **Data Structures and Algorithm
 | 5     | Factorials Less than or Equal to n | [GeeksForGeeks](https://www.geeksforgeeks.org/problems/find-all-factorial-numbers-less-than-or-equal-to-n3548/0?problemType=functional&difficulty%255B%255D=-1&page=1&query=problemTypefunctionaldifficulty%255B%255D-1page1) | ✅         | [.cpp](./daily-problems-day-39/_138_factorials_less_than_or_equal_to.cpp) | 🟢             | Recursion, Factorial calculations                      |
 | 6     | Reverse an Array                   | [GeeksForGeeks](https://www.geeksforgeeks.org/problems/reverse-an-array/0)                                                                                                                                                    | ✅         | [.cpp](./daily-problems-day-39/_139_reverse_an_array.cpp)                 | 🟢             | Recursion, Arrays                                      |
 | 7     | Fibonacci Number                   | [LeetCode](https://leetcode.com/problems/fibonacci-number/description/)                                                                                                                                                       | ✅         | [.cpp](./daily-problems-day-39/_140_fibonacci_number.cpp)                 | 🟢             | Recursion, Understanding of Fibonacci sequence         |
+---
+
+</details>
 
 ---
 
-## Two Pointers
+<details>
+  <summary><strong>Two Pointers</strong></summary>
+
 
 | **#** | **Problem Name**          | **Platform**                                                                     | **Status** | **File**                                            | **Difficulty** | **Prerequisites**                               |
 | ----- | ------------------------- | -------------------------------------------------------------------------------- | ---------- | --------------------------------------------------- | -------------- | ----------------------------------------------- |
@@ -63,10 +75,15 @@ Welcome to my repository where I will be solving **Data Structures and Algorithm
 | 4     | Container With Most Water | [LeetCode](https://leetcode.com/problems/container-with-most-water/description/) | ✅         | [.cpp](./daily-problems-day-40/_142_container_with_most_water.cpp) | 🟡             | Arrays, Two-pointer technique, Greedy algorithm |
 | 5     | Sort Colors               | [LeetCode](https://leetcode.com/problems/sort-colors/submissions/)               | ✅         | [.cpp](./daily-problems-day-28/_94_sort_0_1_2.cpp)                 | 🟡             | Two Pointers, In-Place Modification             |
 | 6     | Trapping Rain Water       | [LeetCode](https://leetcode.com/problems/trapping-rain-water/description/)       | ✅         | [.cpp](./daily-problems-day-40/_143_trapping_rain_water.cpp)       | 🔴             | Arrays, Two-pointer technique, Greedy algorithm |
+---
+
+</details>
 
 ---
 
-## Sorting
+<details>
+  <summary><strong>Sorting</strong></summary>
+
 
 | **#** | **Problem Name**         | **Platform**                                                             | **Status** | **File**                                           | **Difficulty** | **Prerequisites**                                     |
 | ----- | ------------------------ | ------------------------------------------------------------------------ | ---------- | -------------------------------------------------- | -------------- | ----------------------------------------------------- |
@@ -80,8 +97,13 @@ Welcome to my repository where I will be solving **Data Structures and Algorithm
 
 ---
 
+</details>
 
-## Algorithms and Techniques
+---
+
+
+<details>
+  <summary><strong>Algorithms and Techniques</strong></summary>
 
 | **#** | **Problem Name** | **Platform**       | **Status** | **File**       | **Difficulty** | **Prerequisites** |
 | ----- | ---------------- | ------------------ | ---------- | -------------- | -------------- | ----------------- |
@@ -97,8 +119,13 @@ Welcome to my repository where I will be solving **Data Structures and Algorithm
 |10|Longest Common Subsequence (LCS)|[GeeksForGeeks](https://www.geeksforgeeks.org/longest-common-subsequence-dp-4/)|❌|[.cpp](./Library/03_Algorithms_and_Techniques)|🔴|Dynamic Programming, Strings, Recursion|
 
 ---
+</details>
 
-## Hashing
+---
+
+<details>
+  <summary><strong>Hashing</strong></summary>
+
 
 | **#** | **Problem Name**                               | **Platform**                                                                                                                                                        | **Status** | **File**                                                     | **Difficulty** | **Prerequisites**                                               |
 | ----- | ---------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------- | ------------------------------------------------------------ | -------------- | --------------------------------------------------------------- |
@@ -122,7 +149,12 @@ Welcome to my repository where I will be solving **Data Structures and Algorithm
 
 ---
 
-## Binary Search
+</details>
+
+---
+
+<details>
+  <summary><strong>Binary Search</strong></summary>
 
 | **#** | **Problem Name**                                        | **Platform**                                                                                                                                                                                                                           | **Status** | **File**                                | **Difficulty** | **Prerequisites**                   |
 | ----- | ------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------- | --------------------------------------- | -------------- | ----------------------------------- |
@@ -156,7 +188,12 @@ Welcome to my repository where I will be solving **Data Structures and Algorithm
 
 ---
 
-## Arrays
+</details>
+
+---
+
+<details>
+  <summary><strong>Arrays</strong></summary>
 
 | **#** | **Problem Name**                                    | **Platform**                                                                                            | **Status** | **File**                                                                       | **Difficulty** | **Prerequisites**                                           |
 |------|---------------------------------------------------|-----------------------------------------------------------------------------------------------------|----------|-------------------------------------------------------------------------------|--------------|-------------------------------------------------------------|
@@ -202,6 +239,9 @@ Welcome to my repository where I will be solving **Data Structures and Algorithm
 | 40    | Count of Smaller Numbers After Self                  | [LeetCode](https://leetcode.com/problems/count-of-smaller-numbers-after-self/description/)             | ✅         | [.cpp](./daily-problems-day-35/_118_maximum_product_subarray.cpp)                             | 🔴             | Merge Sort, Divide and Conquer Algorithm, Array and Index Tracking|
 
 ---
+</details>
+
+---
 
 ## Strings
 
@@ -245,7 +285,8 @@ Welcome to my repository where I will be solving **Data Structures and Algorithm
 
 ---
 
-## Previous Sheet - 1 From Day 01 to Day 24
+<details>
+  <summary><strong>Previous Sheet - 1 From Day 01 to Day 24</strong></summary>
 
 ### 📋 Table of Contents
 
@@ -405,6 +446,10 @@ Welcome to my repository where I will be solving **Data Structures and Algorithm
 | 70    | Longest Happy Prefix-KMP algorithm for pattern matching. | ✅         | [Link](./daily-problems-day-18/_70_longest_happy_prefix_kmp_algorithm.cpp)                         |
 | 71    | Longest palindromic substring.                           | ✅         | [Link](./daily-problems-day-19/_71_longest_palindromic_substring.cpp)                              |
 | 72    | Find the minimum window substring.                       | ✅         | [Link](./daily-problems-day-20/_72_minimum_window_substring.cpp)                                   |
+
+
+---
+</details>
 
 ---
 
