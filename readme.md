@@ -4,6 +4,16 @@ Welcome to my repository where I will be solving **Data Structures and Algorithm
 
 ## 📋 Table of Contents
 
+1. [SHEET 1](#sheet-1)
+2. [SHEET 2](#sheet-2)
+
+---
+
+<details id="sheet-1">
+  <summary><h2>Problems</h2></summary>
+
+  ## 📋 Table of Contents
+
 1. [Basic Maths](#basic-maths)
 2. [Recursion](#recursion)
 3. [Two Pointers](#two-pointers)
@@ -13,12 +23,6 @@ Welcome to my repository where I will be solving **Data Structures and Algorithm
 7. [Binary Search](#binary-search)
 8. [Arrays](#arrays)
 9. [Strings](#strings)
-9. [Previous Sheet - 1 From Day 01 to Day 24](#previous-sheet---1-from-day-01-to-day-24)
-
----
-
-<details>
-  <summary><h2>Problems</h2></summary>
   
   ## Basic Maths
 
@@ -250,7 +254,7 @@ Welcome to my repository where I will be solving **Data Structures and Algorithm
 -   🔴 Hard Problem
 
 ---
-<details>
+<details id="sheet-2">
   <summary><h2>Sheet 2</h2></summary>
   
 
