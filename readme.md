@@ -61,8 +61,8 @@ Welcome to my repository where I will be solving **Data Structures and Algorithm
 | 2     | Move Zeroes               | [LeetCode](https://leetcode.com/problems/move-zeroes/description/)               | ✅         | [.cpp](./daily-problems-day-26/_85_move_all_zeros_to_end.cpp)      | 🟢             | Two Pointers, In-Place Modification             |
 | 3     | Valid Palindrome II       | [LeetCode](https://leetcode.com/problems/valid-palindrome-ii/description/)       | ✅         | [.cpp](./daily-problems-day-39/_141_valid_palindrome_ii.cpp)       | 🟢             | Two Pointers, In-Place Modification             |
 | 4     | Container With Most Water | [LeetCode](https://leetcode.com/problems/container-with-most-water/description/) | ✅         | [.cpp](./daily-problems-day-40/_142_container_with_most_water.cpp) | 🟡             | Arrays, Two-pointer technique, Greedy algorithm |
-| 1     | Sort Colors               | [LeetCode](https://leetcode.com/problems/sort-colors/submissions/)               | ✅         | [.cpp](./daily-problems-day-28/_94_sort_0_1_2.cpp)                 | 🟡             | Two Pointers, In-Place Modification             |
-| 1     | Trapping Rain Water       | [LeetCode](https://leetcode.com/problems/trapping-rain-water/description/)       | ✅         | [.cpp](./daily-problems-day-40/_143_trapping_rain_water.cpp)       | 🔴             | Arrays, Two-pointer technique, Greedy algorithm |
+| 5     | Sort Colors               | [LeetCode](https://leetcode.com/problems/sort-colors/submissions/)               | ✅         | [.cpp](./daily-problems-day-28/_94_sort_0_1_2.cpp)                 | 🟡             | Two Pointers, In-Place Modification             |
+| 6     | Trapping Rain Water       | [LeetCode](https://leetcode.com/problems/trapping-rain-water/description/)       | ✅         | [.cpp](./daily-problems-day-40/_143_trapping_rain_water.cpp)       | 🔴             | Arrays, Two-pointer technique, Greedy algorithm |
 
 ---
 
@@ -210,8 +210,8 @@ Welcome to my repository where I will be solving **Data Structures and Algorithm
 |1|Remove Outermost Parentheses|[LeetCode](https://leetcode.com/problems/remove-outermost-parentheses/)|✅|[.cpp](./daily-problems-day-50/_195_Remove_Outermost_Parentheses.cpp)|🟢|Strings, Loops, Conditionals|
 |2|Reverse Words in a String|[LeetCode](https://leetcode.com/problems/reverse-words-in-a-string/description/)|✅|[.cpp](./daily-problems-day-50/_196_Reverse_Words_in_a_String.cpp)|🟡|Strings Manipulation, Vectors, StringStream|
 |3|Largest Odd Number in String|[LeetCode](https://leetcode.com/problems/largest-odd-number-in-string/description/)|✅|[.cpp](./daily-problems-day-50/_197_Largest_Odd_Number_in_String.cpp)|🟢|Strings, Basic Number Properties|
-|4|Longest Common Prefix|[LeetCode](https://leetcode.com/problems/longest-common-prefix/description/)|❌|[.cpp](./daily-problems-day-)|🟢|-|
-|5|Isomorphic Strings|[LeetCode](https://leetcode.com/problems/isomorphic-strings/description/)|❌|[.cpp](./daily-problems-day-)|🟢|-|
+|4|Longest Common Prefix|[LeetCode](https://leetcode.com/problems/longest-common-prefix/description/)|❌|[.cpp](./daily-problems-day-51/_198_Longest_Common_Prefix.cpp)|🟢|Binary Search, Strings, Prefix, Array Iteration|
+|5|Isomorphic Strings|[LeetCode](https://leetcode.com/problems/isomorphic-strings/description/)|❌|[.cpp](./daily-problems-day-51/_199_Isomorphic_Strings.cpp)|🟢|Hash Map, Strings, Character Mapping, Iteration|
 |6|Rotate String|[LeetCode](https://leetcode.com/problems/rotate-string/description/)|❌|[.cpp](./daily-problems-day-)|🟢|-|
 |7|Valid Anagram|[LeetCode](https://leetcode.com/problems/valid-anagram/description/)|❌|[.cpp](./daily-problems-day-)|🟢|-|
 |8|Sort Characters By Frequency|[LeetCode](https://leetcode.com/problems/sort-characters-by-frequency/description/)|❌|[.cpp](./daily-problems-day-)|🟡|-|
