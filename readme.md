@@ -223,10 +223,10 @@ Welcome to my repository where I will be solving **Data Structures and Algorithm
 |3|Largest Odd Number in String|[LeetCode](https://leetcode.com/problems/largest-odd-number-in-string/description/)|✅|[.cpp](./daily-problems-day-50/_197_Largest_Odd_Number_in_String.cpp)|🟢|Strings, Basic Number Properties|
 |4|Longest Common Prefix|[LeetCode](https://leetcode.com/problems/longest-common-prefix/description/)|✅|[.cpp](./daily-problems-day-51/_198_Longest_Common_Prefix.cpp)|🟢|Binary Search, Strings, Prefix, Array Iteration|
 |5|Isomorphic Strings|[LeetCode](https://leetcode.com/problems/isomorphic-strings/description/)|✅|[.cpp](./daily-problems-day-51/_199_Isomorphic_Strings.cpp)|🟢|Hash Map, Strings, Character Mapping, Iteration|
-|6|Rotate String|[LeetCode](https://leetcode.com/problems/rotate-string/description/)|❌|[.cpp](./daily-problems-day-)|🟢|-|
-|7|Valid Anagram|[LeetCode](https://leetcode.com/problems/valid-anagram/description/)|❌|[.cpp](./daily-problems-day-)|🟢|-|
-|8|Sort Characters By Frequency|[LeetCode](https://leetcode.com/problems/sort-characters-by-frequency/description/)|❌|[.cpp](./daily-problems-day-)|🟡|-|
-|9|Maximum Nesting Depth of the Parentheses|[LeetCode](https://leetcode.com/problems/maximum-nesting-depth-of-the-parentheses/description/)|❌|[.cpp](./daily-problems-day-)|🟢|-|
+|6|Rotate String|[LeetCode](https://leetcode.com/problems/rotate-string/description/)|✅|[.cpp](./daily-problems-day-52/_200_Rotate_String.cpp)|🟢|String manipulation, String comparison, Loops, Array indexing, Functions|
+|7|Valid Anagram|[LeetCode](https://leetcode.com/problems/valid-anagram/description/)|✅|[.cpp](./daily-problems-day-52/_201_Valid_Anagram.cpp)|🟢|String manipulation, Hash maps (unordered_map), String comparison, Character counting|
+|8|Sort Characters By Frequency|[LeetCode](https://leetcode.com/problems/sort-characters-by-frequency/description/)|✅|[.cpp](./daily-problems-day-52/_202_Sort_Characters_By_Frequency.cpp)|🟡|Hash maps (unordered_map), Sorting (with custom comparator), String manipulation, Pairing elements|
+|9|Maximum Nesting Depth of the Parentheses|[LeetCode](https://leetcode.com/problems/maximum-nesting-depth-of-the-parentheses/description/)|✅|[.cpp](./daily-problems-day-52/_203_Maximum_Nesting_Depth_of_the_Parentheses.cpp)|🟢|Parentheses matching, Stack-like behavior (counting depth), Iteration through strings|
 |10|Roman to Integer|[LeetCode](https://leetcode.com/problems/roman-to-integer/description/)|❌|[.cpp](./daily-problems-day-)|🟢|-|
 |11|String to Integer (atoi)|[LeetCode](https://leetcode.com/problems/string-to-integer-atoi/description/)|❌|[.cpp](./daily-problems-day-)|🟡|-|
 |12|Substrings with K Distinct|[GeeksForGeeks](https://www.geeksforgeeks.org/problems/count-number-of-substrings4528/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=count-number-of-substrings)|❌|[.cpp](./daily-problems-day-)|🟡|-|
