@@ -1,8 +1,4 @@
-Here’s a structured breakdown for the given problems using the provided template:
-
----
-
-## Day X - Problems  
+## Day 53 - Problems  
 
 ---
 
@@ -40,6 +36,7 @@ Here’s a structured breakdown for the given problems using the provided templa
 
 
 - **Dry Run Table for `"MCMXCIV"`**
+
 | Index | Char | Value | PrevValue | Result | Action |
 |-------|------|-------|----------|--------|--------|
 | 0     | 'M'  | 1000  | 0        | 1000   | Add 1000 |
