@@ -2,7 +2,7 @@
 
 ---
 
-### 207. **Longest Palindromic Substring** [C++ Code](./207_Longest_Palindromic_Substring.cpp)  
+### 207. **Longest Palindromic Substring** [C++ Code](./_207_Longest_Palindromic_Substring.cpp)  
 
 - **File**: _207_Longest_Palindromic_Substring.cpp_  
 - **Description**:  
@@ -40,7 +40,7 @@
 
 ---
 
-### 208. **Sum of Beauty of All Substrings** [C++ Code](./208_Sum_of_Beauty_of_All_Substrings.cpp)  
+### 208. **Sum of Beauty of All Substrings** [C++ Code](./_208_Sum_of_Beauty_of_All_Substrings.cpp)  
 
 - **File**: _208_Sum_of_Beauty_of_All_Substrings.cpp_  
 - **Description**:  
@@ -68,7 +68,7 @@
 
 ---
 
-### 209. **Reverse Words in a String** [C++ Code](./209_Reverse_Words_in_a_String.cpp)  
+### 209. **Reverse Words in a String** [C++ Code](./_209_Reverse_Words_in_a_String.cpp)  
 
 - **File**: _209_Reverse_Words_in_a_String.cpp_  
 - **Description**:  
@@ -100,14 +100,5 @@
 | 1    | Extract `hello` | `[hello]` | - | - |
 | 2    | Extract `world` | `[hello, world]` | - | - |
 | 3    | Reverse | `[world, hello]` | `[world, hello]` | `"world hello"` |
-
----
-
-### **Problem Prerequisites**  
-
-1. **Sort Characters By Frequency** - Hashmaps, Priority Queue  
-2. **Longest Palindromic Substring** - Two Pointers, String Manipulation  
-3. **Sum of Beauty of All Substrings** - Brute Force, Frequency Counting  
-4. **Reverse Words in a String** - String Parsing, List Manipulation  
 
 ---
