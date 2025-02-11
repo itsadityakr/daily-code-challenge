@@ -211,9 +211,6 @@ Welcome to my repository where I will be solving **Data Structures and Algorithm
 
 ---
 
-</details>
-
-
 ## Strings
 
 | **#** | **Problem Name** | **Platform**       | **Status** | **File**       | **Difficulty** | **Prerequisites** |
@@ -232,6 +229,17 @@ Welcome to my repository where I will be solving **Data Structures and Algorithm
 |12|Longest Palindromic Substring|[LeetCode](https://leetcode.com/problems/longest-palindromic-substring/description/)|✅|[.cpp](./daily-problems-day-54/_207_Longest_Palindromic_Substring.cpp)|🟡|Two Pointers, String Manipulation|
 |13|Sum of Beauty of All Substrings|[LeetCode](https://leetcode.com/problems/sum-of-beauty-of-all-substrings/description/)|✅|[.cpp](./daily-problems-day-54/_208_Sum_of_Beauty_of_All_Substrings.cpp)|🟡|Brute Force, Frequency Counting|
 |14|Reverse Words in a String|[LeetCode](https://leetcode.com/problems/reverse-words-in-a-string/description/)|✅|[.cpp](./daily-problems-day-54/_209_Reverse_Words_in_a_String.cpp)|🟡|String Parsing, List Manipulation|
+
+---
+
+</details>
+
+
+## Topic
+
+| **#** | **Problem Name** | **Platform**       | **Status** | **File**       | **Difficulty** | **Prerequisites** |
+| ----- | ---------------- | ------------------ | ---------- | -------------- | -------------- | ----------------- |
+|1|Problem|[LC/GFG](web_link)|❌✅🔄|[.cpp](./daily-problems-day-)|🟢🟡🔴|-|
 
 ---
 
