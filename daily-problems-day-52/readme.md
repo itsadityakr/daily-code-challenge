@@ -97,46 +97,45 @@
 
 ---
 
-### 202. **Sort Characters By Frequency** [C++ Code](./_202_Sort_Characters_By_Frequency.cpp)  
+### 202. **Sort Characters By Frequency** [C++ Code](./202_Sort_Characters_By_Frequency.cpp)  
 
 - **File**: _202_Sort_Characters_By_Frequency.cpp_  
 - **Description**:  
-  - Given a string `s`, the task is to return a new string where the characters are sorted by their frequency in descending order.  
-  - Constraints:  
-    - The string consists of lowercase English letters.
+  - Given a string, the task is to sort the characters by their frequency in descending order.  
+  - If two characters have the same frequency, their relative order does not matter.  
 
 - **Understanding the Problem**:  
-  - You need to sort the characters of a string in such a way that the characters with higher frequency come first.
-  - Example:  
-    - `s = "tree"`  
-    - Frequency of characters: t:1, r:1, e:2  
-    - Sorted result: `"eetr"`
+  - We need to count how many times each character appears and sort them based on their frequency.  
+  - Example: `"tree"` → `"eetr"` (or `"eert"`, as the order of same-frequency characters doesn’t matter).  
 
-- **How to Approach the Problem**:  
-  - Count the frequency of each character.
-  - Sort the characters by their frequency in descending order.
-  - Rebuild the string using the sorted characters.
+- **How to Solve the Problem**:  
+  - Use a frequency map to count character occurrences.  
+  - Store characters in a max heap (priority queue) based on frequency.  
+  - Construct the result string by repeatedly taking the most frequent character from the heap.  
 
 - **Approach**:  
-  1. Count the frequency of each character in the string.
-  2. Sort the characters based on their frequency.
-  3. Rebuild the string by appending each character multiplied by its frequency.
+  1. Create a hashmap to store character frequencies.  
+  2. Use a max heap (priority queue) to store characters based on frequency.  
+  3. Extract characters from the heap and build the result string.  
 
 - **Key Concepts Explained**:  
-  - **Frequency Count**: The number of times a character appears in the string.
-  - **Sorting**: Sorting the characters based on their frequency, not alphabetically.
+  - **Hashmap**: To store character frequencies.  
+  - **Max Heap (Priority Queue)**: To fetch the highest frequency characters efficiently.  
 
-- **Time Complexity**:  
-  - The time complexity is O(n log n), where `n` is the length of the string. Sorting takes O(n log n) time, and counting frequencies takes O(n).
+- **Time Complexity**: **O(n log k)** (due to heap operations).  
+- **Space Complexity**: **O(n)** (for hashmap and heap storage).  
 
-- **Space Complexity**:  
-  - The space complexity is O(n), where `n` is the length of the string, due to the frequency map and the sorted list.
+- **Dry Run**:  
 
-- **Dry Run**:
-
-| **Function**          | **Operation**                             | **String s** | **Frequency Map**    | **Sorted Characters** | **Result** |
-|-----------------------|-------------------------------------------|--------------|----------------------|-----------------------|------------|
-| **frequencySort**      | Count frequencies                         | `"tree"`      | t:1, r:1, e:2         | e:2, t:1, r:1         | "eetr"     |
+| Step | Operation | Frequency Map | Max Heap | Result String |
+|------|----------|--------------|----------|--------------|
+| 1    | Count ‘t’ | {t:1} | - | - |
+| 2    | Count ‘r’ | {t:1, r:1} | - | - |
+| 3    | Count ‘e’ | {t:1, r:1, e:2} | - | - |
+| 4    | Insert to heap | - | (2, e), (1, t), (1, r) | - |
+| 5    | Pop ‘e’ and append | - | (1, t), (1, r) | `"ee"` |
+| 6    | Pop ‘t’ and append | - | (1, r) | `"eet"` |
+| 7    | Pop ‘r’ and append | - | - | `"eetr"` |
 
 ---
 

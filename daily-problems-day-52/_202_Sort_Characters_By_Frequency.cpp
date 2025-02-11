@@ -6,24 +6,23 @@ public:
     string frequencySort(string s)
     {
         unordered_map<char, int> freqMap;
-
         for (char c : s)
         {
             freqMap[c]++;
         }
 
-        vector<pair<char, int>> freqVec(freqMap.begin(), freqMap.end());
-
-        sort(freqVec.begin(), freqVec.end(),
-             [](const pair<char, int> &a, const pair<char, int> &b)
-             {
-                 return a.second > b.second;
-             });
+        priority_queue<pair<int, char>> maxHeap;
+        for (const auto &entry : freqMap)
+        {
+            maxHeap.push({entry.second, entry.first});
+        }
 
         string result;
-        for (const auto &p : freqVec)
+        while (!maxHeap.empty())
         {
-            result.append(p.second, p.first);
+            auto [freq, ch] = maxHeap.top();
+            maxHeap.pop();
+            result.append(freq, ch);
         }
 
         return result;
