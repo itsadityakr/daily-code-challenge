@@ -234,14 +234,18 @@ Welcome to my repository where I will be solving **Data Structures and Algorithm
 
 </details>
 
+---
 
-## Topic
+## Linked List
 
 | **#** | **Problem Name** | **Platform**       | **Status** | **File**       | **Difficulty** | **Prerequisites** |
 | ----- | ---------------- | ------------------ | ---------- | -------------- | -------------- | ----------------- |
-|1|Problem|[LC/GFG](web_link)|❌✅🔄|[.cpp](./daily-problems-day-)|🟢🟡🔴|-|
+|1|Design Linked List|[LeetCode](https://leetcode.com/problems/design-linked-list/description/)|✅|[.cpp](./daily-problems-day-55/_209_Design_Linked_List.cpp)|🟡|Pointers, Linked List Basics, Iteration|
+|2|Count Linked List Nodes|[GeeksForGeeks](https://www.geeksforgeeks.org/problems/count-nodes-of-linked-list/1?itm_source=geeksforgeeks&itm_medium=article&itm_campaign=practice_card)|✅|[.cpp](./daily-problems-day-55/_210_Count_Linked_List_Nodes.cpp)|🟢|Pointers, Linked List Basics, Iteration, Traversal|
+|3|Search in Linked List|[GeeksForGeeks](https://www.geeksforgeeks.org/problems/search-in-linked-list-1664434326/0)|✅|[.cpp](./daily-problems-day-55/_211_Search_in_Linked_List.cpp)|🟢|Pointers, Linked List Basics, Iteration, Linear Search|
 
 ---
+
 
 ## Topic
 

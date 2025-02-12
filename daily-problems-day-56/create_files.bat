@@ -25,7 +25,7 @@ for /f "delims=" %%a in (%listfile%) do (
         set "name=!name: =_!"
         
         :: Prepend underscore and append .word extension
-        echo Creating file: _!name!.word
+        echo Creating file: _!name!.cpp
         echo. > "_!name!.cpp"
     ) else (
         echo Skipping empty line.
