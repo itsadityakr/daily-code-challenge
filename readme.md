@@ -6,7 +6,7 @@ Welcome to my repository where I will be solving **Data Structures and Algorithm
 
 1. [Sheet 1](#sheet-1)
 2. [Sheet 2](#sheet-2)
-9. [Active](#strings)
+9. [Active](#linked-list)
 
 ---
 
