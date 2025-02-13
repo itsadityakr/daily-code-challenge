@@ -245,6 +245,7 @@ Welcome to my repository where I will be solving **Data Structures and Algorithm
 |3|Search in Linked List|[GeeksForGeeks](https://www.geeksforgeeks.org/problems/search-in-linked-list-1664434326/0)|✅|[.cpp](./daily-problems-day-55/_211_Search_in_Linked_List.cpp)|🟢|Pointers, Linked List Basics, Iteration, Linear Search|
 |4|Linked List Insertion at End|[GeeksForGeeks](https://www.geeksforgeeks.org/problems/linked-list-insertion-1587115620/0?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=linked-list-insertion)|✅|[.cpp](./daily-problems-day-56/_212_Linked_List_Insertion_At_End.cpp)|🟢|Pointers, Linked List Basics, Iteration|
 |5|Delete a given Node in Linked List|[LeetCode](https://leetcode.com/problems/delete-node-in-a-linked-list/description/)|✅|[.cpp](./daily-problems-day-56/_213_Delete_Node_in_a_Linked_List.cpp)|🟡|Pointers, Linked List Basics, Iteration, Traversal|
+
 ---
 
 
