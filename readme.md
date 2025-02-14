@@ -245,6 +245,8 @@ Welcome to my repository where I will be solving **Data Structures and Algorithm
 |3|Search in Linked List|[GeeksForGeeks](https://www.geeksforgeeks.org/problems/search-in-linked-list-1664434326/0)|✅|[.cpp](./daily-problems-day-55/_211_Search_in_Linked_List.cpp)|🟢|Pointers, Linked List Basics, Iteration, Linear Search|
 |4|Linked List Insertion at End|[GeeksForGeeks](https://www.geeksforgeeks.org/problems/linked-list-insertion-1587115620/0?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=linked-list-insertion)|✅|[.cpp](./daily-problems-day-56/_212_Linked_List_Insertion_At_End.cpp)|🟢|Pointers, Linked List Basics, Iteration|
 |5|Delete a given Node in Linked List|[LeetCode](https://leetcode.com/problems/delete-node-in-a-linked-list/description/)|✅|[.cpp](./daily-problems-day-56/_213_Delete_Node_in_a_Linked_List.cpp)|🟡|Pointers, Linked List Basics, Iteration, Traversal|
+|1|Doubly Linked List - Insertion at Given Position|[GeeksForGeeks](https://www.geeksforgeeks.org/problems/insert-a-node-in-doubly-linked-list/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=insert-a-node-in-doubly-linked-list)|✅|[.cpp](./daily-problems-day-57/_214_Doubly_linked_list_Insertion_at_given_position.cpp)|🟢|Doubly Linked List, Pointer Manipulation, Traversal.|
+|1|PMiddle of the Linked List|[LeetCode](https://leetcode.com/problems/middle-of-the-linked-list/description/)|✅|[.cpp](./daily-problems-day-57/_215_Middle_of_the_Linked_List.cpp)|🟢|Singly Linked List, Two Pointer Technique.|
 
 ---
 
