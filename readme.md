@@ -240,20 +240,20 @@ Welcome to my repository where I will be solving **Data Structures and Algorithm
 
 | **#** | **Problem Name** | **Platform**       | **Status** | **File**       | **Difficulty** | **Prerequisites** |
 | ----- | ---------------- | ------------------ | ---------- | -------------- | -------------- | ----------------- |
-|1|Creating a Node Structure of Linked List|[GeeksForGeeks](https://www.geeksforgeeks.org/program-to-implement-singly-linked-list-in-c-using-class/)|✅|[.cpp](./daily-problems-day-)|🟡|-|
-|2|Insert at Head in Linked List|[HackerRank](https://www.hackerrank.com/challenges/insert-a-node-at-the-head-of-a-linked-list/problem)|✅|[.cpp](./daily-problems-day-)|🟢|-|
-|3|Insert at Tail in Linked List|[GeeksForGeeks](https://www.geeksforgeeks.org/problems/linked-list-insertion-1587115620/1?itm_source=geeksforgeeks&itm_medium=article&itm_campaign=practice_card)|✅|[.cpp](./daily-problems-day-)|🟡|-|
-|4|Insert at Position in Linked List|[GeeksForGeeks](https://www.geeksforgeeks.org/insert-a-node-at-a-specific-position-in-a-linked-list/)|✅|[.cpp](./daily-problems-day-)|🔴|-|
-|5|Delete at Head in Linked List|[GeeksForGeeks](https://www.geeksforgeeks.org/remove-first-node-of-the-linked-list/)|✅|[.cpp](./daily-problems-day-)|🟡|-|
-|6|Delete at Tail in Linked List|[GeeksForGeeks](https://www.geeksforgeeks.org/remove-last-node-of-the-linked-list/)|✅|[.cpp](./daily-problems-day-)|🟡|-|
-|7|Delete at Given Position in Linked List|[GeeksForGeeks](https://www.geeksforgeeks.org/delete-a-linked-list-node-at-a-given-position/)|✅|[.cpp](./daily-problems-day-)|🔴|-|
-|8|Search for a Value|[GeeksForGeeks](https://www.geeksforgeeks.org/problems/search-in-linked-list-1664434326/0)|✅|[.cpp](./daily-problems-day-)|🟢|-|
-|9|Reverse Linked List|[LeetCode](https://leetcode.com/problems/reverse-linked-list/description/)|✅|[.cpp](./daily-problems-day-)|🟢|-|
-|10|Identical Linked List|[GeeksForGeeks](https://www.geeksforgeeks.org/problems/identical-linked-lists/1?itm_source=geeksforgeeks&itm_medium=article&itm_campaign=practice_card)|✅|[.cpp](./daily-problems-day-)|🟡|-|
-|11|Remove Duplicates from Sorted Linked List|[LeetCode](https://leetcode.com/problems/remove-duplicates-from-sorted-list/description/)|✅|[.cpp](./daily-problems-day-)|🟢|-|
-|12|Remove Duplicates from Sorted List II|[LeetCode](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/description/)|✅|[.cpp](./daily-problems-day-)|🟡|-|
-|13|Remove Duplicates From an Unsorted Linked List|[GeeksForGeeks](https://www.geeksforgeeks.org/problems/remove-duplicates-from-an-unsorted-linked-list/1)|✅|[.cpp](./daily-problems-day-)|🟢|-|
-|14|Merge Two Sorted Linked Lists|[LeetCode](https://leetcode.com/problems/merge-two-sorted-lists/description/)|✅|[.cpp](./daily-problems-day-)|🟢|-|
+|1|Creating a Node Structure of Linked List|[GeeksForGeeks](https://www.geeksforgeeks.org/program-to-implement-singly-linked-list-in-c-using-class/)|✅|[.cpp](./daily-problems-day-59/_219_Creating_a_Node_Structure_of_Linked_List.cpp)|🟡|Pointers, OOPs|
+|2|Insert at Head in Linked List|[HackerRank](https://www.hackerrank.com/challenges/insert-a-node-at-the-head-of-a-linked-list/problem)|✅|[.cpp](./daily-problems-day-59/_220_Insert_at_Head_in_Linked_List.cpp)|🟢|Pointers, OOPs|
+|3|Insert at Tail in Linked List|[GeeksForGeeks](https://www.geeksforgeeks.org/problems/linked-list-insertion-1587115620/1?itm_source=geeksforgeeks&itm_medium=article&itm_campaign=practice_card)|✅|[.cpp](./daily-problems-day-60/_221_Insert_at_Tail_in_Linked_List.cpp)|🟡|Traversal, Pointers, OOPs|
+|4|Insert at Position in Linked List|[GeeksForGeeks](https://www.geeksforgeeks.org/insert-a-node-at-a-specific-position-in-a-linked-list/)|✅|[.cpp](./daily-problems-day-60/_222_Insert_at_Position_in_Linked_List.cpp)|🔴|Counting, Traversal, Pointers, OOPs|
+|5|Delete at Head in Linked List|[GeeksForGeeks](https://www.geeksforgeeks.org/remove-first-node-of-the-linked-list/)|✅|[.cpp](./daily-problems-day-61/_223_Delete_at_Head_in_Linked_List.cpp)|🟡|Pointers, OOPs|
+|6|Delete at Tail in Linked List|[GeeksForGeeks](https://www.geeksforgeeks.org/remove-last-node-of-the-linked-list/)|✅|[.cpp](./daily-problems-day-61/_224_Delete_at_Tail_in_Linked_List.cpp)|🟡|Traversal, Pointers, OOPs|
+|7|Delete at Given Position in Linked List|[GeeksForGeeks](https://www.geeksforgeeks.org/delete-a-linked-list-node-at-a-given-position/)|✅|[.cpp](./daily-problems-day-62/_225_Delete_at_Given_Position_in_Linked_List.cpp)|🔴|Counting, Traversal, Pointers, OOPs|
+|8|Search for a Value|[GeeksForGeeks](https://www.geeksforgeeks.org/problems/search-in-linked-list-1664434326/0)|✅|[.cpp](./daily-problems-day-62/_226_Search_for_a_Value.cpp)|🟢|Comparsion, Traversal, Pointers, OOPs|
+|9|Reverse Linked List|[LeetCode](https://leetcode.com/problems/reverse-linked-list/description/)|✅|[.cpp](./daily-problems-day-63/_227_Reverse_Linked_List.cpp)|🟢|Traversal, Pointers, OOPs|
+|10|Identical Linked List|[GeeksForGeeks](https://www.geeksforgeeks.org/problems/identical-linked-lists/1?itm_source=geeksforgeeks&itm_medium=article&itm_campaign=practice_card)|✅|[.cpp](./daily-problems-day-64/_228_Identical_Linked_List.cpp)|🟡|Comparsion, Traversal, Pointers, OOPs|
+|11|Remove Duplicates from Sorted Linked List|[LeetCode](https://leetcode.com/problems/remove-duplicates-from-sorted-list/description/)|✅|[.cpp](./daily-problems-day-65/_229_Remove_Duplicates_from_Sorted_Linked_List.cpp)|🟢|Comparsion, Traversal, Pointers, OOPs|
+|12|Remove Duplicates from Sorted List II|[LeetCode](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/description/)|✅|[.cpp](./daily-problems-day-66/_230_Remove_Duplicates_from_Sorted_List_II.cpp)|🟡|Comparsion, Traversal, Pointers, OOPs|
+|13|Remove Duplicates From an Unsorted Linked List|[GeeksForGeeks](https://www.geeksforgeeks.org/problems/remove-duplicates-from-an-unsorted-linked-list/1)|✅|[.cpp](./daily-problems-day-67/_231_Remove_Duplicates_From_an_Unsorted_Linked_List.cpp)|🟢|Comparsion, Traversal, Pointers, OOPs|
+|14|Merge Two Sorted Linked Lists|[LeetCode](https://leetcode.com/problems/merge-two-sorted-lists/description/)|✅|[.cpp](./daily-problems-day-68/_232_Merge_Two_Sorted_Linked_Lists.cpp)|🟢|Comparsion, Traversal, Pointers, OOPs|
 
 ---
 
