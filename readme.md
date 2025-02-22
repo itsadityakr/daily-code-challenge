@@ -254,7 +254,23 @@ Welcome to my repository where I will be solving **Data Structures and Algorithm
 |12|Remove Duplicates from Sorted List II|[LeetCode](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/description/)|✅|[.cpp](./daily-problems-day-66/_230_Remove_Duplicates_from_Sorted_List_II.cpp)|🟡|Comparsion, Traversal, Pointers, OOPs|
 |13|Remove Duplicates From an Unsorted Linked List|[GeeksForGeeks](https://www.geeksforgeeks.org/problems/remove-duplicates-from-an-unsorted-linked-list/1)|✅|[.cpp](./daily-problems-day-67/_231_Remove_Duplicates_From_an_Unsorted_Linked_List.cpp)|🟢|Comparsion, Traversal, Pointers, OOPs|
 |14|Merge Two Sorted Linked Lists|[LeetCode](https://leetcode.com/problems/merge-two-sorted-lists/description/)|✅|[.cpp](./daily-problems-day-68/_232_Merge_Two_Sorted_Linked_Lists.cpp)|🟢|Comparsion, Traversal, Pointers, OOPs|
-
+| 15  | Middle of a Linked List [Tortoise-Hare Method]  |[LeetCode/GeeksForGeeks](web_link)|❌✅🔄|[.cpp](./daily-problems-day-)|🟢🟡🔴|-|
+| 16  | Detect a loop in Linked List                   |[LeetCode/GeeksForGeeks](web_link)|❌✅🔄|[.cpp](./daily-problems-day-)|🟢🟡🔴|-|
+| 17  | Find the starting point in Linked List         |[LeetCode/GeeksForGeeks](web_link)|❌✅🔄|[.cpp](./daily-problems-day-)|🟢🟡🔴|-|
+| 18  | Length of Loop in Linked List                  |[LeetCode/GeeksForGeeks](web_link)|❌✅🔄|[.cpp](./daily-problems-day-)|🟢🟡🔴|-|
+| 19  | Check if Linked List is palindrome or not      |[LeetCode/GeeksForGeeks](web_link)|❌✅🔄|[.cpp](./daily-problems-day-)|🟢🟡🔴|-|
+| 20  | Segregate odd and even nodes in Linked List    |[LeetCode/GeeksForGeeks](web_link)|❌✅🔄|[.cpp](./daily-problems-day-)|🟢🟡🔴|-|
+| 21  | Remove Nth node from the back of the Linked List |[LeetCode/GeeksForGeeks](web_link)|❌✅🔄|[.cpp](./daily-problems-day-)|🟢🟡🔴|-|
+| 22 | Delete the middle node of Linked List          |[LeetCode/GeeksForGeeks](web_link)|❌✅🔄|[.cpp](./daily-problems-day-)|🟢🟡🔴|-|
+| 23 | Sort Linked List                               |[LeetCode/GeeksForGeeks](web_link)|❌✅🔄|[.cpp](./daily-problems-day-)|🟢🟡🔴|-|
+| 24 | Sort a Linked List of 0's, 1's, and 2's by changing links |[LeetCode/GeeksForGeeks](web_link)|❌✅🔄|[.cpp](./daily-problems-day-)|🟢🟡🔴|-|
+| 25 | Find the intersection point of Y Linked List  |[LeetCode/GeeksForGeeks](web_link)|❌✅🔄|[.cpp](./daily-problems-day-)|🟢🟡🔴|-|
+| 26 | Add 1 to a number represented by Linked List  |[LeetCode/GeeksForGeeks](web_link)|❌✅🔄|[.cpp](./daily-problems-day-)|🟢🟡🔴|-|
+| 27 | Add 2 numbers in Linked List                  |[LeetCode/GeeksForGeeks](web_link)|❌✅🔄|[.cpp](./daily-problems-day-)|🟢🟡🔴|-|
+| 28 | Reverse Linked List in group of given size K                  |[LeetCode/GeeksForGeeks](web_link)|❌✅🔄|[.cpp](./daily-problems-day-)|🟢🟡🔴|-|
+| 29 | Rotate a Linked List                  |[LeetCode/GeeksForGeeks](web_link)|❌✅🔄|[.cpp](./daily-problems-day-)|🟢🟡🔴|-|
+| 30 | Flattening of Linked List                  |[LeetCode/GeeksForGeeks](web_link)|❌✅🔄|[.cpp](./daily-problems-day-)|🟢🟡🔴|-|
+| 31 | Clone a Linked List with random and next pointer                  |[LeetCode/GeeksForGeeks](web_link)|❌✅🔄|[.cpp](./daily-problems-day-)|🟢🟡🔴|-|
 ---
 
 
