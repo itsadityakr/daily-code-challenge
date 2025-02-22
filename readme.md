@@ -1,9 +1,9 @@
 <img src="https://img.shields.io/badge/DATA%20STRUCTURE%20AND%20ALGORITHMS-%2300599C?style=for-the-badge&logo=cplusplus&logoColor=%23FFFFFF" width="100%">
 
-![Static Badge](https://img.shields.io/badge/Aditya%20Kumar-black?style=social&logo=appian)
+![Static Badge](https://img.shields.io/badge/LeetCode-black?style=for-the-badge&logo=leetcode) ![Static Badge](https://img.shields.io/badge/GeeksForGeeks-%232F8D46?style=for-the-badge&logo=geeksforgeeks&logoColor=%23FFFFFF) ![Static Badge](https://img.shields.io/badge/Aditya%20Kumar-black?style=for-the-badge&logo=atlasos&logoColor=%23ffffff)
 
 
-<img src="https://img.shields.io/badge/LeetCode-black?style=for-the-badge&logo=leetcode"><img src="https://img.shields.io/badge/GeeksForGeeks-%232F8D46?style=for-the-badge&logo=geeksforgeeks&logoColor=%23FFFFFF" style="margin-left: 10px;">
+
 
 Welcome to my repository where I will be solving **Data Structures and Algorithms (DSA)** questions daily ordered from beginner to advanced level problems.
 
