@@ -262,20 +262,20 @@ Welcome to my repository where I will be solving **Data Structures and Algorithm
 | 15 | Middle of the Linked List | [LeetCode](https://leetcode.com/problems/middle-of-the-linked-list/description/) | ✅ | [.cpp](./day-61/_233_Middle_of_the_Linked_List.cpp) | 🟢 | Tortoise and Hare Algorithm, Linked List basics |
 | 16 | Linked List Cycle | [LeetCode](https://leetcode.com/problems/linked-list-cycle/description/) | ✅ | [.cpp](./day-61/_234_Linked_List_Cycle.cpp) | 🟢 |Floyd’s Cycle Detection Algorithm, Fast and Slow Pointers|
 | 17 | Linked List Cycle II | [LeetCode](https://leetcode.com/problems/linked-list-cycle-ii/description/) | ✅ | [.cpp](./day-61/_235_Linked_List_Cycle_II.cpp) | 🟡 |Cycle Detection, Resetting Pointers|
-| 18 | Find length of Loop | [GeeksForGeeks](https://www.geeksforgeeks.org/problems/find-length-of-loop/1) | ❌✅🔄 | [.cpp](./day-18.cpp) | 🟡 | - |
-| 19 | Palindrome Linked List | [LeetCode](https://leetcode.com/problems/palindrome-linked-list/description/) | ❌✅🔄 | [.cpp](./day-19.cpp) | 🔴 | - |
-| 20 | Odd Even Linked List | [LeetCode](https://leetcode.com/problems/odd-even-linked-list/description/) | ❌✅🔄 | [.cpp](./day-20.cpp) | 🟡 | - |
-| 21 | Remove Nth Node From End of List | [LeetCode](https://leetcode.com/problems/remove-nth-node-from-end-of-list/description/) | ❌✅🔄 | [.cpp](./day-21.cpp) | 🟡 | - |
-| 22 | Delete the Middle Node of a Linked List | [LeetCode](https://leetcode.com/problems/delete-the-middle-node-of-a-linked-list/description/) | ❌✅🔄 | [.cpp](./day-22.cpp) | 🟢 | - |
-| 23 | Sort List | [LeetCode](https://leetcode.com/problems/sort-list/description/) | ❌✅🔄 | [.cpp](./day-23.cpp) | 🔴 | - |
-| 24 | Sort a linked list of 0s, 1s and 2s | [GeeksForGeeks](https://www.geeksforgeeks.org/problems/given-a-linked-list-of-0s-1s-and-2s-sort-it/1) | ❌✅🔄 | [.cpp](./day-24.cpp) | 🟢 | - |
-| 25 | Intersection of Two Linked Lists | [LeetCode](https://leetcode.com/problems/intersection-of-two-linked-lists/description/) | ❌✅🔄 | [.cpp](./day-25.cpp) | 🟡 | - |
-| 26 | Add 1 to a Linked List Number | [GeeksForGeeks](https://www.geeksforgeeks.org/problems/add-1-to-a-number-represented-as-linked-list/1) | ❌✅🔄 | [.cpp](./day-26.cpp) | 🟡 | - |
-| 27 | Add Two Numbers | [LeetCode](https://leetcode.com/problems/add-two-numbers/description/) | ❌✅🔄 | [.cpp](./day-27.cpp) | 🟡 | - |
-| 28 | Reverse Nodes in k-Group | [LeetCode](https://leetcode.com/problems/reverse-nodes-in-k-group/description/) | ❌✅🔄 | [.cpp](./day-28.cpp) | 🔴 | - |
-| 29 | Rotate List | [LeetCode](https://leetcode.com/problems/rotate-list/description/) | ❌✅🔄 | [.cpp](./day-29.cpp) | 🟡 | - |
-| 30 | Flattening a Linked List | [GeeksForGeeks](https://www.geeksforgeeks.org/problems/flattening-a-linked-list/1) | ❌✅🔄 | [.cpp](./day-30.cpp) | 🔴 | - |
-| 31 | Copy List with Random Pointer | [LeetCode](https://leetcode.com/problems/copy-list-with-random-pointer/description/) | ❌✅🔄 | [.cpp](./day-31.cpp) | 🔴 | - |
+| 18 | Find length of Loop | [GeeksForGeeks](https://www.geeksforgeeks.org/problems/find-length-of-loop/1) | ❌ | [.cpp](./day-18.cpp) | 🟡 | - |
+| 19 | Palindrome Linked List | [LeetCode](https://leetcode.com/problems/palindrome-linked-list/description/) | ❌ | [.cpp](./day-19.cpp) | 🔴 | - |
+| 20 | Odd Even Linked List | [LeetCode](https://leetcode.com/problems/odd-even-linked-list/description/) | ❌ | [.cpp](./day-20.cpp) | 🟡 | - |
+| 21 | Remove Nth Node From End of List | [LeetCode](https://leetcode.com/problems/remove-nth-node-from-end-of-list/description/) | ❌ | [.cpp](./day-21.cpp) | 🟡 | - |
+| 22 | Delete the Middle Node of a Linked List | [LeetCode](https://leetcode.com/problems/delete-the-middle-node-of-a-linked-list/description/) | ❌ | [.cpp](./day-22.cpp) | 🟢 | - |
+| 23 | Sort List | [LeetCode](https://leetcode.com/problems/sort-list/description/) | ❌ | [.cpp](./day-23.cpp) | 🔴 | - |
+| 24 | Sort a linked list of 0s, 1s and 2s | [GeeksForGeeks](https://www.geeksforgeeks.org/problems/given-a-linked-list-of-0s-1s-and-2s-sort-it/1) | ❌ | [.cpp](./day-24.cpp) | 🟢 | - |
+| 25 | Intersection of Two Linked Lists | [LeetCode](https://leetcode.com/problems/intersection-of-two-linked-lists/description/) | ❌ | [.cpp](./day-25.cpp) | 🟡 | - |
+| 26 | Add 1 to a Linked List Number | [GeeksForGeeks](https://www.geeksforgeeks.org/problems/add-1-to-a-number-represented-as-linked-list/1) | ❌ | [.cpp](./day-26.cpp) | 🟡 | - |
+| 27 | Add Two Numbers | [LeetCode](https://leetcode.com/problems/add-two-numbers/description/) | ❌ | [.cpp](./day-27.cpp) | 🟡 | - |
+| 28 | Reverse Nodes in k-Group | [LeetCode](https://leetcode.com/problems/reverse-nodes-in-k-group/description/) | ❌ | [.cpp](./day-28.cpp) | 🔴 | - |
+| 29 | Rotate List | [LeetCode](https://leetcode.com/problems/rotate-list/description/) | ❌ | [.cpp](./day-29.cpp) | 🟡 | - |
+| 30 | Flattening a Linked List | [GeeksForGeeks](https://www.geeksforgeeks.org/problems/flattening-a-linked-list/1) | ❌ | [.cpp](./day-30.cpp) | 🔴 | - |
+| 31 | Copy List with Random Pointer | [LeetCode](https://leetcode.com/problems/copy-list-with-random-pointer/description/) | ❌ | [.cpp](./day-31.cpp) | 🔴 | - |
 
 ---
 
@@ -283,15 +283,14 @@ Welcome to my repository where I will be solving **Data Structures and Algorithm
 
 | **#** | **Problem Name** | **Platform** | **Status** | **File** | **Difficulty** | **Prerequisites** |
 | ----- | ---------------- | ---------------------------------- | ---------- | -------------- | -------------- | ----------------- |
-| 1 | Problem | [LeetCode/GeeksForGeeks](web_link) | ❌✅🔄 | [.cpp](./day-) | 🟢🟡🔴 | - |
+| 1 | Problem | [LeetCode/GeeksForGeeks](web_link) | ❌✅ | [.cpp](./day-) | 🟢🟡🔴 | - |
 
 ---
 
 ### 📌 Legend:
 
 - ✅ Completed
-- 🔄 To be completed next day
-- ❌ Not Started
+- ❌ Incomplete
 - 🟢 Easy Problem
 - 🟡 Medium Problem
 - 🔴 Hard Problem
@@ -470,14 +469,6 @@ Welcome to my repository where I will be solving **Data Structures and Algorithm
 
 ---
 
-### 📌 Legend:
-
-- ✅ Completed
-- 🔄 In Progress
-- ❌ Not Started
-
----
-
 ## 💡 About This Repository
 
 This repository is dedicated to practicing **Data Structures and Algorithms** to improve problem-solving skills. The problems are grouped and ordered from beginner to advanced levels to make it easier for anyone to follow a structured learning path.
@@ -495,12 +486,3 @@ Feel free to contribute by submitting pull requests, reporting issues, or sugges
 This repository is open-source and available under the [MIT License](LICENSE).
 
 ---
-
-
-![LC]
-
-[LC]: https://img.shields.io/badge/LeetCode-black?style=for-the-badge&logo=leetcode
-
-![GFG]
-
-[GFG]: https://img.shields.io/badge/GeeksForGeeks-%232F8D46?style=for-the-badge&logo=geeksforgeeks&logoColor=%23FFFFFF
