@@ -1,4 +1,11 @@
-# 🚀 Daily DSA Problem Solving
+<img src="https://img.shields.io/badge/DATA%20STRUCTURE%20AND%20ALGORITHMS-%2300599C?style=for-the-badge&logo=cplusplus&logoColor=%23FFFFFF" width="600">
+
+![LC] ![GFG]
+
+[LC]: https://img.shields.io/badge/LeetCode-black?style=for-the-badge&logo=leetcode
+
+[GFG]: https://img.shields.io/badge/GeeksForGeeks-%232F8D46?style=for-the-badge&logo=geeksforgeeks&logoColor=%23FFFFFF
+
 
 Welcome to my repository where I will be solving **Data Structures and Algorithms (DSA)** questions daily ordered from beginner to advanced level problems.
 
@@ -9,9 +16,10 @@ Welcome to my repository where I will be solving **Data Structures and Algorithm
 3. [Active](#linked-list)
 
 ---
+![Static Badge](https://img.shields.io/badge/SHEET%201-%2334A853?style=for-the-badge&logo=googlesheets&logoColor=%23FFFFFF)
 
 <details id="sheet-1">
- <summary><h2>Sheet 1</h2></summary>
+ <summary>Click to Expand</summary>
 
 ## 📋 Table of Contents
 
@@ -290,10 +298,12 @@ Welcome to my repository where I will be solving **Data Structures and Algorithm
 - 🟡 Medium Problem
 - 🔴 Hard Problem
 
+
 ---
+![Static Badge](https://img.shields.io/badge/SHEET%202-%2334A853?style=for-the-badge&logo=googlesheets&logoColor=%23FFFFFF)
 
 <details id="sheet-2">
- <summary><h2>Sheet 2</h2></summary>
+ <summary>Click to Expand</summary>
 
 ## Previous Sheet From Day 01 to Day 24
 
@@ -487,3 +497,12 @@ Feel free to contribute by submitting pull requests, reporting issues, or sugges
 This repository is open-source and available under the [MIT License](LICENSE).
 
 ---
+
+
+![LC]
+
+[LC]: https://img.shields.io/badge/LeetCode-black?style=for-the-badge&logo=leetcode
+
+![GFG]
+
+[GFG]: https://img.shields.io/badge/GeeksForGeeks-%232F8D46?style=for-the-badge&logo=geeksforgeeks&logoColor=%23FFFFFF
