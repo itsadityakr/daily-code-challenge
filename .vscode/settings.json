@@ -150,10 +150,10 @@
     "valarray": "cpp",
     "variant": "cpp"
   },
-"C_Cpp.errorSquiggles": "disabled",
-"cSpell.words": [
+  "C_Cpp.errorSquiggles": "disabled",
+  "cSpell.words": [
     "Atoi",
     "Kadane's",
     "subarray"
-]
+  ]
 }
