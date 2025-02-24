@@ -1,1 +1,84 @@
- 
+// https://leetcode.com/problems/sort-list/
+
+/**
+ * Definition for singly-linked list.
+ * struct ListNode {
+ *     int val;
+ *     ListNode *next;
+ *     ListNode() : val(0), next(nullptr) {}
+ *     ListNode(int x) : val(x), next(nullptr) {}
+ *     ListNode(int x, ListNode *next) : val(x), next(next) {}
+ * };
+ */
+class Solution
+{
+public:
+    ListNode *mergeTwoLists(ListNode *list1, ListNode *list2)
+    {
+        ListNode *dummy = new ListNode(0);
+        ListNode *current = dummy;
+
+        while (list1 != nullptr && list2 != nullptr)
+        {
+            if (list1->val < list2->val)
+            {
+                current->next = list1;
+                list1 = list1->next;
+            }
+            else
+            {
+                current->next = list2;
+                list2 = list2->next;
+            }
+            current = current->next;
+        }
+
+        if (list1 != nullptr)
+        {
+            current->next = list1;
+        }
+        if (list2 != nullptr)
+        {
+            current->next = list2;
+        }
+
+        ListNode *mergedHead = dummy->next;
+        delete dummy;
+        return mergedHead;
+    }
+
+    ListNode *getMiddle(ListNode *head)
+    {
+        ListNode *slow = head;
+        ListNode *fast = head;
+        ListNode *prev = nullptr;
+
+        while (fast != nullptr && fast->next != nullptr)
+        {
+            prev = slow;
+            slow = slow->next;
+            fast = fast->next->next;
+        }
+
+        if (prev != nullptr)
+        {
+            prev->next = nullptr;
+        }
+
+        return slow;
+    }
+
+    ListNode *sortList(ListNode *head)
+    {
+        if (head == nullptr || head->next == nullptr)
+        {
+            return head;
+        }
+
+        ListNode *middle = getMiddle(head);
+        ListNode *leftSorted = sortList(head);
+        ListNode *rightSorted = sortList(middle);
+
+        return mergeTwoLists(leftSorted, rightSorted);
+    }
+};
