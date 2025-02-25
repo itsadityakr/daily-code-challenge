@@ -15,9 +15,32 @@
   - Imagine you have a chain of beads (linked list) and need to remove the `n`-th bead from the end.  
   - Example: If the list is `[1 → 2 → 3 → 4 → 5]` and `n = 2`, removing the 2nd from the end results in `[1 → 2 → 3 → 5]`.  
 
-- **How to Solve the Problem**:
-  - Use two pointers (`fast` and `slow`) to locate the node before the one to be deleted.  
-  - Edge case: If `n == size`, remove the head.  
+### **Pseudocode for Removing N-th Node from End of List**
+```
+FUNCTION removeNthFromEnd(head, n):
+    CREATE a dummy node with value 0
+    SET dummy.next to head
+    INITIALIZE two pointers: fast and slow, both pointing to dummy
+
+    // Move fast pointer n+1 steps ahead
+    FOR i from 0 to n:
+        MOVE fast one step forward
+
+    // Move both fast and slow until fast reaches the end
+    WHILE fast is NOT NULL:
+        MOVE fast one step forward
+        MOVE slow one step forward
+
+    // Remove the N-th node from the end
+    SET toDelete to slow.next
+    SET slow.next to toDelete.next
+    DELETE toDelete
+
+    // Return the updated head
+    SET newHead to dummy.next
+    DELETE dummy
+    RETURN newHead
+```
 
 - **Approach**:  
 1. **Create a dummy node**  
@@ -84,9 +107,26 @@
   - Think of a train with `size` compartments. Remove the middle one.  
   - Example: `[1 → 2 → 3 → 4 → 5]` becomes `[1 → 2 → 4 → 5]`.  
 
-- **How to Solve the Problem**:  
-  - Use slow (`slow`) and fast (`fast`) pointers to find the middle node.  
-  - Track the previous node (`prev`) to adjust the list.  
+### **Pseudocode for Deleting the Middle Node of a Linked List**
+```
+FUNCTION deleteMiddle(head):
+    IF head is NULL OR head.next is NULL:
+        RETURN NULL  // If there's only one node, return NULL
+
+    INITIALIZE slow = head, fast = head, prev = NULL
+
+    // Move slow one step and fast two steps to find the middle node
+    WHILE fast is NOT NULL AND fast.next is NOT NULL:
+        SET prev = slow
+        MOVE slow one step forward
+        MOVE fast two steps forward
+
+    // Remove the middle node
+    SET prev.next to slow.next
+    DELETE slow
+
+    RETURN head
+```
 
 - **Approach**:  
 1. **Use Two Pointers (`slow` and `fast`)**  
@@ -159,8 +199,51 @@
   - Think of a messy stack of books (linked list). You need to arrange them in order.  
   - Example: `[4 → 2 → 1 → 3]` → `[1 → 2 → 3 → 4]`.  
 
-- **How to Solve the Problem**:  
-  - Use **Merge Sort** (Divide & Conquer) to split the list, sort recursively, and merge back.  
+### **Pseudocode for Sorting a Linked List using Merge Sort**
+```
+FUNCTION mergeTwoLists(list1, list2):
+    CREATE dummy node with value 0
+    SET current = dummy
+
+    WHILE list1 is NOT NULL AND list2 is NOT NULL:
+        IF list1.val < list2.val:
+            current.next = list1
+            MOVE list1 one step forward
+        ELSE:
+            current.next = list2
+            MOVE list2 one step forward
+        MOVE current one step forward
+
+    IF list1 is NOT NULL:
+        current.next = list1
+    IF list2 is NOT NULL:
+        current.next = list2
+
+    RETURN dummy.next
+
+FUNCTION getMiddle(head):
+    SET slow = head, fast = head, prev = NULL
+
+    WHILE fast is NOT NULL AND fast.next is NOT NULL:
+        SET prev = slow
+        MOVE slow one step forward
+        MOVE fast two steps forward
+
+    IF prev is NOT NULL:
+        SET prev.next = NULL  // Split the list into two halves
+
+    RETURN slow  // Middle node of the list
+
+FUNCTION sortList(head):
+    IF head is NULL OR head.next is NULL:
+        RETURN head  // Base case: if list is empty or has only one node
+
+    SET middle = getMiddle(head)  // Find middle of list
+    SET leftSorted = sortList(head)  // Recursively sort left half
+    SET rightSorted = sortList(middle)  // Recursively sort right half
+
+    RETURN mergeTwoLists(leftSorted, rightSorted)  // Merge sorted halves
+```
 
 - **Approach**:  
 #### **Step 1: Find the Middle of the List**
