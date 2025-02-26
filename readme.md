@@ -271,11 +271,11 @@ Welcome to my repository where I will be solving **Data Structures and Algorithm
 | 24 | Sort a linked list of 0s, 1s and 2s | [GeeksForGeeks](https://www.geeksforgeeks.org/problems/given-a-linked-list-of-0s-1s-and-2s-sort-it/1) | ✅ | [.cpp](./day-64/_242_Sort_a_linked_list_of_0s,_1s_and_2s.cpp) | 🟢 | Linked Lists, In-place Sorting, Pointer Manipulation   |
 | 25 | Intersection of Two Linked Lists | [LeetCode](https://leetcode.com/problems/intersection-of-two-linked-lists/description/) | ✅ | [.cpp](./day-64/_243_Intersection_of_Two_Linked_Lists.cpp) | 🟢 | Linked Lists, Two Pointer Technique, Pointer Manipulation   |
 | 26 | Add 1 to a Linked List Number | [GeeksForGeeks](https://www.geeksforgeeks.org/problems/add-1-to-a-number-represented-as-linked-list/1) | ✅ | [.cpp](./day-64/_244_Add_1_to_a_Linked_List_Number_.cpp) | 🟡 | Linked Lists, Reversal, Carry Handling   |
-| 27 | Add Two Numbers | [LeetCode](https://leetcode.com/problems/add-two-numbers/description/) | ❌ | [.cpp](./day-27.cpp) | 🟡 | - |
-| 28 | Reverse Nodes in k-Group | [LeetCode](https://leetcode.com/problems/reverse-nodes-in-k-group/description/) | ❌ | [.cpp](./day-28.cpp) | 🔴 | - |
-| 29 | Rotate List | [LeetCode](https://leetcode.com/problems/rotate-list/description/) | ❌ | [.cpp](./day-29.cpp) | 🟡 | - |
-| 30 | Flattening a Linked List | [GeeksForGeeks](https://www.geeksforgeeks.org/problems/flattening-a-linked-list/1) | ❌ | [.cpp](./day-30.cpp) | 🔴 | - |
-| 31 | Copy List with Random Pointer | [LeetCode](https://leetcode.com/problems/copy-list-with-random-pointer/description/) | ❌ | [.cpp](./day-31.cpp) | 🔴 | - |
+| 27 | Add Two Numbers | [LeetCode](https://leetcode.com/problems/add-two-numbers/description/) | ✅ | [.cpp](./day-65/_245_Add_Two_Numbers.cpp) | 🟡 | Linked Lists, Carry Propagation |
+| 28 | Reverse Nodes in k-Group | [LeetCode](https://leetcode.com/problems/reverse-nodes-in-k-group/description/) | ✅ | [.cpp](./day-65/_246_Reverse_Nodes_in_k-Group.cpp) | 🔴 | Linked Lists, Recursion, Reversal Techniques |
+| 29 | Rotate List | [LeetCode](https://leetcode.com/problems/rotate-list/description/) | ✅ | [.cpp](./day-65/_247_Rotate_List.cpp) | 🟡 | Linked Lists, Modular Arithmetic |
+| 30 | Flattening a Linked List | [GeeksForGeeks](https://www.geeksforgeeks.org/problems/flattening-a-linked-list/1) | ❌ | [.cpp](./day-) | 🔴 | - |
+| 31 | Copy List with Random Pointer | [LeetCode](https://leetcode.com/problems/copy-list-with-random-pointer/description/) | ❌ | [.cpp](./day-) | 🔴 | - |
 
 ---
 
