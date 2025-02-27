@@ -274,8 +274,8 @@ Welcome to my repository where I will be solving **Data Structures and Algorithm
 | 27 | Add Two Numbers | [LeetCode](https://leetcode.com/problems/add-two-numbers/description/) | ✅ | [.cpp](./day-65/_245_Add_Two_Numbers.cpp) | 🟡 | Linked Lists, Carry Propagation |
 | 28 | Reverse Nodes in k-Group | [LeetCode](https://leetcode.com/problems/reverse-nodes-in-k-group/description/) | ✅ | [.cpp](./day-65/_246_Reverse_Nodes_in_k-Group.cpp) | 🔴 | Linked Lists, Recursion, Reversal Techniques |
 | 29 | Rotate List | [LeetCode](https://leetcode.com/problems/rotate-list/description/) | ✅ | [.cpp](./day-65/_247_Rotate_List.cpp) | 🟡 | Linked Lists, Modular Arithmetic |
-| 30 | Flattening a Linked List | [GeeksForGeeks](https://www.geeksforgeeks.org/problems/flattening-a-linked-list/1) | ❌ | [.cpp](./day-) | 🔴 | - |
-| 31 | Copy List with Random Pointer | [LeetCode](https://leetcode.com/problems/copy-list-with-random-pointer/description/) | ❌ | [.cpp](./day-) | 🔴 | - |
+| 30 | Flattening a Linked List | [GeeksForGeeks](https://www.geeksforgeeks.org/problems/flattening-a-linked-list/1) | ❌ | [.cpp](./day-66/_248_Flattening_a_Linked_List.cpp) | 🟡 | Linked List, Pointers, Merging, Sorting, Sorting via merging, Recursion |
+| 31 | Copy List with Random Pointer | [LeetCode](https://leetcode.com/problems/copy-list-with-random-pointer/description/) | ❌ | [.cpp](./day-66/_249_Copy_List_with_Random_Pointer.cpp) | 🟡 | Linked Lists, Deep Copy, Hashing |
 
 ---
 
