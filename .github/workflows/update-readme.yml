@@ -1,0 +1,32 @@
+name: Update README
+
+on:
+  push:
+    branches:
+      - main  # Runs when you push to the main branch
+  schedule:
+    - cron: '0 0 * * *'  # Runs daily (optional)
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+
+      - name: Replace Placeholders with Badges
+        run: |
+          sed -i 's|{{LEETCODE}}|[![LeetCode](https://img.shields.io/badge/LeetCode-black?logo=leetcode)](https://leetcode.com/)|g' README_TEMPLATE.md
+          sed -i 's|{{GFG}}|[![GeeksForGeeks](https://img.shields.io/badge/GeeksForGeeks-%23F8FAFC?style=flat&logo=geeksforgeeks)](https://www.geeksforgeeks.org/)|g' README_TEMPLATE.md
+          sed -i 's|{{CPP}}|[![C++](https://img.shields.io/badge/-%23F8FAFC?style=flat&logo=cplusplus&logoColor=%2300599C)](https://cplusplus.com/)|g' README_TEMPLATE.md
+          sed -i 's|{{CODE360}}|[![Code360](https://img.shields.io/badge/Code360-%23F8FAFC?style=flat&logo=codingninjas&logoColor=%23ffffff&color=%23DD6620)](https://www.codingninjas.com/)|g' README_TEMPLATE.md
+          mv README_TEMPLATE.md README.md
+
+      - name: Commit and Push Changes
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git commit -m "Updated README with badges" || echo "No changes to commit"
+          git push
