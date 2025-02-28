@@ -283,10 +283,10 @@ Welcome to my repository where I will be solving **Data Structures and Algorithm
 
 | **#** | **Problem Name** | **Platform** | **Status** | **File** | **Difficulty** | **Prerequisites** |  
 |-----|----------------|------------------------------|----------|--------------|--------------|-----------------|  
-| 1 | K-th Bit is Set or No | [GeeksForGeeks](https://www.geeksforgeeks.org/problems/check-whether-k-th-bit-is-set-or-not-1587115620/1) | ❌✅ | [.cpp](./day-) | 🟢 | - |  
-| 2 | Odd or Even | [GeeksForGeeks](https://www.geeksforgeeks.org/problems/odd-or-even3618/1?itm_source=geeksforgeeks&itm_medium=article&itm_campaign=practice_card) | ❌✅ | [.cpp](./day-) | 🟢 | - |  
-| 3 | Power of Two | [LeetCode](https://leetcode.com/problems/power-of-two/description/) | ❌✅ | [.cpp](./day-) | 🟢 | - |  
-| 4 | Counting Bits | [LeetCode](https://leetcode.com/problems/counting-bits/description/) | ❌✅ | [.cpp](./day-) | 🟢 | - |  
+| 1 | K-th Bit is Set or No | [GeeksForGeeks](https://www.geeksforgeeks.org/problems/check-whether-k-th-bit-is-set-or-not-1587115620/1) | ✅ | [.cpp](./day-67/_250_Kth_Bit_is_Set_or_Not.cpp) | 🟢 | Bitwise AND (`&`), Bitwise Shift (`<<`) |  
+| 2 | Odd or Even | [GeeksForGeeks](https://www.geeksforgeeks.org/problems/odd-or-even3618/1?itm_source=geeksforgeeks&itm_medium=article&itm_campaign=practice_card) | ✅ | [.cpp](./day-67/_251_Odd_or_Even.cpp) | 🟢 | Bitwise AND (`&`) |  
+| 3 | Power of Two | [LeetCode](https://leetcode.com/problems/power-of-two/description/) | ✅ | [.cpp](./day-67/_252_Power_of_Two.cpp) | 🟢 | Bitwise AND (`&`), Properties of powers of two | 
+| 4 | Counting Bits | [LeetCode](https://leetcode.com/problems/counting-bits/description/) | ✅ | [.cpp](./day-67/_253_Counting_Bits.cpp) | 🟢 | Bitwise Shift (`>>`), Dynamic Programming |  
 | 5 | Set the rightmost unset bit | [GeeksForGeeks](https://www.geeksforgeeks.org/problems/set-the-rightmost-unset-bit4436/1?itm_source=geeksforgeeks&itm_medium=article&itm_campaign=practice_card) | ❌✅ | [.cpp](./day-) | 🟢 | - |  
 | 6 | Swap Two Numbers | [Code-360](https://www.naukri.com/code360/problems/swap-two-numbers_1112577) | ❌✅ | [.cpp](./day-) | 🟢 | - |  
 | 7 | Divide Two Integers | [LeetCode](https://leetcode.com/problems/divide-two-integers/description/) | ❌✅ | [.cpp](./day-) | 🟡 | - |  
