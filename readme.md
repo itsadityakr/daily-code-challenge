@@ -287,10 +287,10 @@ Welcome to my repository where I will be solving **Data Structures and Algorithm
 | 2 | Odd or Even | [GeeksForGeeks](https://www.geeksforgeeks.org/problems/odd-or-even3618/1?itm_source=geeksforgeeks&itm_medium=article&itm_campaign=practice_card) | ✅ | [.cpp](./day-67/_251_Odd_or_Even.cpp) | 🟢 | Bitwise AND (`&`) |  
 | 3 | Power of Two | [LeetCode](https://leetcode.com/problems/power-of-two/description/) | ✅ | [.cpp](./day-67/_252_Power_of_Two.cpp) | 🟢 | Bitwise AND (`&`), Properties of powers of two | 
 | 4 | Counting Bits | [LeetCode](https://leetcode.com/problems/counting-bits/description/) | ✅ | [.cpp](./day-67/_253_Counting_Bits.cpp) | 🟢 | Bitwise Shift (`>>`), Dynamic Programming |  
-| 5 | Set the rightmost unset bit | [GeeksForGeeks](https://www.geeksforgeeks.org/problems/set-the-rightmost-unset-bit4436/1?itm_source=geeksforgeeks&itm_medium=article&itm_campaign=practice_card) | ❌✅ | [.cpp](./day-) | 🟢 | - |  
-| 6 | Swap Two Numbers | [Code-360](https://www.naukri.com/code360/problems/swap-two-numbers_1112577) | ❌✅ | [.cpp](./day-) | 🟢 | - |  
-| 7 | Divide Two Integers | [LeetCode](https://leetcode.com/problems/divide-two-integers/description/) | ❌✅ | [.cpp](./day-) | 🟡 | - |  
-| 8 | Minimum Bit Flips to Convert Number | [LeetCode](https://leetcode.com/problems/minimum-bit-flips-to-convert-number/description/) | ❌✅ | [.cpp](./day-) | 🟢 | - |  
+| 5 | Set the rightmost unset bit | [GeeksForGeeks](https://www.geeksforgeeks.org/problems/set-the-rightmost-unset-bit4436/1?itm_source=geeksforgeeks&itm_medium=article&itm_campaign=practice_card) | ✅ | [.cpp](./day-68/_254_Set_the_rightmost_unset_bit.cpp) | 🟢 | Bitwise OR, Binary Representation |  
+| 6 | Swap Two Numbers | [GeeksForGeeks](https://www.geeksforgeeks.org/problems/swap-two-numbers3844/1) | ✅ | [.cpp](./day-68/_255_Swap_Two_Numbers.cpp) | 🟢 | Bitwise XOR, Binary Properties |  
+| 7 | Divide Two Integers | [LeetCode](https://leetcode.com/problems/divide-two-integers/description/) | ✅ | [.cpp](./day-68/_256_Divide_Two_Integers.cpp) | 🟡 | Bitwise Shift, Integer Overflow Handling |  
+| 8 | Minimum Bit Flips to Convert Number | [LeetCode](https://leetcode.com/problems/minimum-bit-flips-to-convert-number/description/) | ✅ | [.cpp](./day-68/_257_Minimum_Bit_Flips_to_Convert_Number.cpp) | 🟢 | Bitwise XOR, Counting Set Bits |  
 | 9 | Exceptionally odd | [GeeksForGeeks](https://www.geeksforgeeks.org/problems/find-the-odd-occurence4820/1?itm_source=geeksforgeeks&itm_medium=article&itm_campaign=practice_card) | ❌✅ | [.cpp](./day-) | 🟢 | - |  
 | 10 | Power Set | [GeeksForGeeks](https://www.geeksforgeeks.org/problems/power-set4302/1?itm_source=geeksforgeeks&itm_medium=article&itm_campaign=practice_card) | ❌✅ | [.cpp](./day-) | 🟡 | - |  
 | 11 | XOR Operation in an Array | [LeetCode](https://leetcode.com/problems/xor-operation-in-an-array/description/) | ❌✅ | [.cpp](./day-) | 🟢 | - |  
