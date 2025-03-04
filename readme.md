@@ -297,9 +297,9 @@ Welcome to my repository where I will be solving **Data Structures and Algorithm
 | 12 | Single Number III | [LeetCode](https://leetcode.com/problems/single-number-iii/description/) | ✅ | [.cpp](./day-70/_261_Single_Number_III.cpp) | 🟡 | XOR operation, Bitwise manipulation.  |  
 | 13 | Distinct Prime Factors of Product of Array | [LeetCode](https://leetcode.com/problems/distinct-prime-factors-of-product-of-array/description/) | ✅ | [.cpp](./day-70/_262_Distinct_Prime_Factors_of_Product_of_Array.cpp) | 🟡 | Prime factorization, Sets |  
 | 14 | All divisors of a Number | [GeeksForGeeks](https://www.geeksforgeeks.org/problems/all-divisors-of-a-number/1) | ✅ | [.cpp](./day-70/_263_All_divisors_of_a_Number.cpp) | 🟢 | Number theory, Efficient iteration using sqrt(N)  |  
-| 15 | Sieve of Eratosthenes | [GeeksForGeeks](https://www.geeksforgeeks.org/problems/sieve-of-eratosthenes5242/1?itm_source=geeksforgeeks&itm_medium=article&itm_campaign=practice_card) | ❌✅ | [.cpp](./day-) | 🟢 | - |  
-| 16 | Prime Factorization of a Number using Sieve | [GeeksForGeeks](https://www.geeksforgeeks.org/problems/prime-factors5052/1?itm_source=geeksforgeeks&itm_medium=article&itm_campaign=practice_cardk) | ❌✅ | [.cpp](./day-) | 🟡 | - |  
-| 17 | Pow(x, n) | [LeetCode](https://leetcode.com/problems/powx-n/description/) | ❌✅ | [.cpp](./day-) | 🟡 | - | 
+| 15 | Sieve of Eratosthenes | [GeeksForGeeks](https://www.geeksforgeeks.org/problems/sieve-of-eratosthenes5242/1?itm_source=geeksforgeeks&itm_medium=article&itm_campaign=practice_card) | ✅ | [.cpp](./day-71/_264_Sieve_of_Eratosthenes.cpp) | 🟢 | Prime Numbers, Sieve Algorithm, Boolean Arrays |  
+| 16 | Prime Factorization of a Number using Sieve | [GeeksForGeeks](https://www.geeksforgeeks.org/problems/prime-factors5052/1?itm_source=geeksforgeeks&itm_medium=article&itm_campaign=practice_cardk) | ✅ | [.cpp](./day-71/_265_Prime_Factorization_of_a_Number_using_Sieve.cpp) | 🟡 | Prime Numbers, Factorization, Efficient Iteration |  
+| 17 | Pow(x, n) | [LeetCode](https://leetcode.com/problems/powx-n/description/) | ✅ | [.cpp](./day-71/_266_Pow_x_n.cpp) | 🟡 | Exponentiation by Squaring, Logarithmic Optimization | 
 
 
 ---
