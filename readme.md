@@ -11,7 +11,7 @@ Welcome to my repository where I will be solving **Data Structures and Algorithm
 
 1. [Sheet 1](#sheet-1)
 2. [Sheet 2](#sheet-2)
-3. [Active](#bit-manipulation)
+3. [Active](#stack)
 
 ---
 ![Static Badge](https://img.shields.io/badge/SHEET%201-%2334A853?style=for-the-badge&logo=googlesheets&logoColor=%23FFFFFF)
@@ -30,6 +30,8 @@ Welcome to my repository where I will be solving **Data Structures and Algorithm
 7. [Binary Search](#binary-search)
 8. [Arrays](#arrays)
 9. [Strings](#strings)
+10. [Linked List](#linked-list)
+11. [Bit Manipulation](#bit-manipulation)
 
 ## Basic Maths
 
@@ -273,9 +275,6 @@ Welcome to my repository where I will be solving **Data Structures and Algorithm
 | 30 | Flattening a Linked List | [GeeksForGeeks](https://www.geeksforgeeks.org/problems/flattening-a-linked-list/1) | ❌ | [.cpp](./day-66/_248_Flattening_a_Linked_List.cpp) | 🟡 | Linked List, Pointers, Merging, Sorting, Sorting via merging, Recursion |
 | 31 | Copy List with Random Pointer | [LeetCode](https://leetcode.com/problems/copy-list-with-random-pointer/description/) | ❌ | [.cpp](./day-66/_249_Copy_List_with_Random_Pointer.cpp) | 🟡 | Linked Lists, Deep Copy, Hashing |
 
----
-
-</details>
 
 ---
 
@@ -301,6 +300,37 @@ Welcome to my repository where I will be solving **Data Structures and Algorithm
 | 16 | Prime Factorization of a Number using Sieve | [GeeksForGeeks](https://www.geeksforgeeks.org/problems/prime-factors5052/1?itm_source=geeksforgeeks&itm_medium=article&itm_campaign=practice_cardk) | ✅ | [.cpp](./day-71/_265_Prime_Factorization_of_a_Number_using_Sieve.cpp) | 🟡 | Prime Numbers, Factorization, Efficient Iteration |  
 | 17 | Pow(x, n) | [LeetCode](https://leetcode.com/problems/powx-n/description/) | ✅ | [.cpp](./day-71/_266_Pow_x_n.cpp) | 🟡 | Exponentiation by Squaring, Logarithmic Optimization | 
 
+---
+
+</details>
+
+---
+
+## Stack
+
+| **#** | **Problem Name** | **Platform** | **Status** | **File** | **Difficulty** | **Prerequisites** |
+| ----- | ---------------- | ---------------------------------- | ---------- | -------------- | -------------- | ----------------- |
+| 1 | Valid Parentheses | [LeetCode](https://leetcode.com/problems/valid-parentheses/description/) | ❌ | [.cpp](./day-) | 🟢  | Stack, String |
+| 2 | Min Stack | [LeetCode](https://leetcode.com/problems/min-stack/description/) | ❌ | [.cpp](./day-) | 🟡  | Stack |
+| 3 | Infix to Postfix | [GeeksForGeeks](https://www.geeksforgeeks.org/problems/infix-to-postfix-1587115620/1) | ❌ | [.cpp](./day-) | 🟡  | Stack, Operator Precedence |
+| 4 | Prefix to Infix Conversion | [GeeksForGeeks](https://www.geeksforgeeks.org/problems/prefix-to-infix-conversion/1) | ❌ | [.cpp](./day-) | 🟡  | Stack, Expression Parsing |
+| 5 | Prefix to Postfix Conversion | [GeeksForGeeks](https://www.geeksforgeeks.org/problems/prefix-to-postfix-conversion/1) | ❌ | [.cpp](./day-) | 🟡  | Stack, Expression Parsing |
+| 6 | Postfix to Prefix Conversion | [GeeksForGeeks](https://www.geeksforgeeks.org/problems/postfix-to-prefix-conversion/1) | ❌ | [.cpp](./day-) | 🟡  | Stack, Expression Parsing |
+| 7 | Next Greater Element I | [LeetCode](https://leetcode.com/problems/next-greater-element-i/description/) | ❌ | [.cpp](./day-) | 🟢  | Stack, Monotonic Stack |
+| 8 | Next Greater Element II | [LeetCode](https://leetcode.com/problems/next-greater-element-ii/description/) | ❌ | [.cpp](./day-) | 🟡  | Stack, Monotonic Stack |
+| 9 | Smaller on Left | [GeeksForGeeks](https://www.geeksforgeeks.org/problems/smaller-on-left20360700/1) | ❌ | [.cpp](./day-) | 🟡  | Stack, Monotonic Stack |
+| 10 | Number of greater elements to the right | [GeeksForGeeks](https://www.geeksforgeeks.org/problems/number-of-nges-to-the-right/1) | ❌ | [.cpp](./day-) | 🟡  | Stack, Monotonic Stack |
+| 11 | Trapping Rain Water | [LeetCode](https://leetcode.com/problems/trapping-rain-water/description/) | ❌ | [.cpp](./day-) | 🔴  | Stack, Two Pointers |
+| 12 | Sum of Subarray Minimums | [LeetCode](https://leetcode.com/problems/sum-of-subarray-minimums/description/) | ❌ | [.cpp](./day-) | 🟡  | Stack, Monotonic Stack |
+| 13 | Asteroid Collision | [LeetCode](https://leetcode.com/problems/asteroid-collision/description/) | ❌ | [.cpp](./day-) | 🟡  | Stack |
+| 14 | Sum of Subarray Ranges | [LeetCode](https://leetcode.com/problems/sum-of-subarray-ranges/description/) | ❌ | [.cpp](./day-) | 🟡  | Stack, Sliding Window |
+| 15 | Remove K Digits | [LeetCode](https://leetcode.com/problems/remove-k-digits/description/) | ❌ | [.cpp](./day-) | 🟡  | Stack, Greedy |
+| 16 | Largest Rectangle in Histogram | [LeetCode](https://leetcode.com/problems/largest-rectangle-in-histogram/description/) | ❌ | [.cpp](./day-) | 🔴  | Stack, Monotonic Stack |
+| 17 | Maximal Rectangle | [LeetCode](https://leetcode.com/problems/maximal-rectangle/description/) | ❌ | [.cpp](./day-) | 🔴  | Stack, Dynamic Programming |
+| 18 | Sliding Window Maximum | [LeetCode](https://leetcode.com/problems/sliding-window-maximum/description/) | ❌ | [.cpp](./day-) | 🔴  | Stack, Deque |
+| 19 | Online Stock Span | [LeetCode](https://leetcode.com/problems/online-stock-span/description/) | ❌ | [.cpp](./day-) | 🟡  | Stack, Monotonic Stack |
+| 20 | LRU Cache | [LeetCode](https://leetcode.com/problems/lru-cache/description/) | ❌ | [.cpp](./day-) | 🟡  | HashMap, Doubly Linked List |
+| 21 | LFU Cache | [LeetCode](https://leetcode.com/problems/lfu-cache/description/) | ❌ | [.cpp](./day-) | 🔴  | HashMap, Doubly Linked List |
 
 ---
 ## Topic
