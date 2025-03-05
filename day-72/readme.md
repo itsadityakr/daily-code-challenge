@@ -1,6 +1,4 @@
----
-
-## Day 267 - Problems  
+## Day 72 - Problems  
 
 ---
 
@@ -147,6 +145,93 @@ minStack.getMin();   // Returns -2
   - `top()` → `0`  
   - `getMin()` → `-2`  
 
+---
+
+### 269. **Infix to Postfix** [C++ Code](./_269_Infix_to_Postfix.cpp)  
+
+- **File**: _269_Infix_to_Postfix.cpp_  
+- **Description**:  
+  - Convert an infix expression (e.g., `A+B*C`) to a postfix expression (e.g., `ABC*+`).
+  - Follow operator precedence and associativity rules.
+  - The input will contain operands (A-Z, 0-9) and operators (`+ - * / ^ ()`).
+
+- **Understanding the Problem**:  
+  - In infix notation, operators are between operands (`A + B`).
+  - In postfix notation, operators come after operands (`AB+`).
+  - Example:
+    - Input: `(A+B)*C`
+    - Output: `AB+C*`
+    - Explanation: Parentheses ensure `A+B` is evaluated first, then multiplied by `C`.
+
+- **Pseudocode**:
+```plaintext
+Initialize an empty stack for operators and an empty string for result
+For each character in the expression:
+    If it is an operand, add it to the result
+    If it is '(', push it onto the stack
+    If it is ')', pop from the stack and add to the result until '(' is found
+    If it is an operator:
+        While the stack is not empty and precedence of top of stack >= precedence of current operator:
+            Pop from stack and add to result
+        Push the current operator onto the stack
+While stack is not empty:
+    Pop from stack and add to result
+Return result
+```
+
+- **Approach**:  
+  1. Use a **stack** to store operators.
+  2. Traverse the expression:
+     - If the character is an operand, add it to the result.
+     - If it's an opening parenthesis, push it onto the stack.
+     - If it's a closing parenthesis, pop from the stack until the corresponding opening parenthesis is removed.
+     - If it's an operator, pop from the stack while the top has higher or equal precedence, then push the current operator.
+  3. After traversing the expression, pop remaining operators from the stack.
+
+- **Key Concepts Explained**:  
+  - **Operator Precedence**: Defines which operator should be applied first (`*` before `+`).
+  - **Associativity**: Determines order when operators have the same precedence (`^` is right-associative, others are left-associative).
+  - **Stack Usage**: Helps manage precedence and order of operations.
+
+- **Time Complexity**: O(n), where n is the length of the expression (each character is processed once).  
+- **Space Complexity**: O(n), as the worst case involves storing all operators in the stack.  
+
+### **Example Input**  
+```plaintext
+(A+B)*C
+```
+
+### **Expected Output**  
+```plaintext
+AB+C*
+```
+
+---
+
+### **Step-by-Step Execution**  
+
+#### **Initialization**
+- Stack: `[]`
+- Result: `""`
+
+#### **Processing Each Character**
+| Step | Character | Stack State | Result String | Action Taken |
+|------|----------|------------|---------------|--------------|
+| 1    | `(`      | `[`(`)]`    | `""`          | Push `(` to stack |
+| 2    | `A`      | `[`(`)]`    | `"A"`         | Operand, add to result |
+| 3    | `+`      | `[`(`, `+`)]` | `"A"`       | Push `+` to stack |
+| 4    | `B`      | `[`(`, `+`)]` | `"AB"`      | Operand, add to result |
+| 5    | `)`      | `[]`        | `"AB+"`       | Pop `+` to result, pop `(` |
+| 6    | `*`      | `[`*`]`     | `"AB+"`       | Push `*` to stack |
+| 7    | `C`      | `[`*`]`     | `"AB+C"`      | Operand, add to result |
+
+#### **Final Stack Processing**
+- Stack contains `[*]`, pop and add to result.
+
+#### **Final Result**  
+```plaintext
+AB+C*
+```
 
 ---  
 
