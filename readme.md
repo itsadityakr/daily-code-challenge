@@ -310,8 +310,8 @@ Welcome to my repository where I will be solving **Data Structures and Algorithm
 
 | **#** | **Problem Name** | **Platform** | **Status** | **File** | **Difficulty** | **Prerequisites** |
 | ----- | ---------------- | ---------------------------------- | ---------- | -------------- | -------------- | ----------------- |
-| 1 | Valid Parentheses | [LeetCode](https://leetcode.com/problems/valid-parentheses/description/) | ❌ | [.cpp](./day-) | 🟢  | Stack, String |
-| 2 | Min Stack | [LeetCode](https://leetcode.com/problems/min-stack/description/) | ❌ | [.cpp](./day-) | 🟡  | Stack |
+| 1 | Valid Parentheses | [LeetCode](https://leetcode.com/problems/valid-parentheses/description/) | ✅ | [.cpp](./day-72/_267_Valid_Parentheses.cpp) | 🟢  | Stack, String |
+| 2 | Min Stack | [LeetCode](https://leetcode.com/problems/min-stack/description/) | ✅ | [.cpp](./day-72/_268_Min_Stack.cpp) | 🟡  | Stack |
 | 3 | Infix to Postfix | [GeeksForGeeks](https://www.geeksforgeeks.org/problems/infix-to-postfix-1587115620/1) | ❌ | [.cpp](./day-) | 🟡  | Stack, Operator Precedence |
 | 4 | Prefix to Infix Conversion | [GeeksForGeeks](https://www.geeksforgeeks.org/problems/prefix-to-infix-conversion/1) | ❌ | [.cpp](./day-) | 🟡  | Stack, Expression Parsing |
 | 5 | Prefix to Postfix Conversion | [GeeksForGeeks](https://www.geeksforgeeks.org/problems/prefix-to-postfix-conversion/1) | ❌ | [.cpp](./day-) | 🟡  | Stack, Expression Parsing |
