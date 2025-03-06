@@ -1,6 +1,4 @@
----
-
-## Day X - Problems  
+## Day 71 - Problems  
 
 ---
 

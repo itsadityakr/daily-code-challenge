@@ -313,10 +313,10 @@ Welcome to my repository where I will be solving **Data Structures and Algorithm
 | 1 | Valid Parentheses | [LeetCode](https://leetcode.com/problems/valid-parentheses/description/) | ✅ | [.cpp](./day-72/_267_Valid_Parentheses.cpp) | 🟢  | Stack, String |
 | 2 | Min Stack | [LeetCode](https://leetcode.com/problems/min-stack/description/) | ✅ | [.cpp](./day-72/_268_Min_Stack.cpp) | 🟡  | Stack |
 | 3 | Infix to Postfix | [GeeksForGeeks](https://www.geeksforgeeks.org/problems/infix-to-postfix-1587115620/1) | ✅ | [.cpp](./day-72/_269_Infix_to_Postfix.cpp) | 🟡  | Stack, Operator Precedence |
-| 4 | Prefix to Infix Conversion | [GeeksForGeeks](https://www.geeksforgeeks.org/problems/prefix-to-infix-conversion/1) | ❌ | [.cpp](./day-) | 🟡  | Stack, Expression Parsing |
-| 5 | Prefix to Postfix Conversion | [GeeksForGeeks](https://www.geeksforgeeks.org/problems/prefix-to-postfix-conversion/1) | ❌ | [.cpp](./day-) | 🟡  | Stack, Expression Parsing |
-| 6 | Postfix to Prefix Conversion | [GeeksForGeeks](https://www.geeksforgeeks.org/problems/postfix-to-prefix-conversion/1) | ❌ | [.cpp](./day-) | 🟡  | Stack, Expression Parsing |
-| 7 | Next Greater Element I | [LeetCode](https://leetcode.com/problems/next-greater-element-i/description/) | ❌ | [.cpp](./day-) | 🟢  | Stack, Monotonic Stack |
+| 4 | Prefix to Infix Conversion | [GeeksForGeeks](https://www.geeksforgeeks.org/problems/prefix-to-infix-conversion/1) | ✅ | [.cpp](./day-73/_270_Prefix_to_Infix_Conversion.cpp) | 🟡  | Stack, Expression Parsing |
+| 5 | Prefix to Postfix Conversion | [GeeksForGeeks](https://www.geeksforgeeks.org/problems/prefix-to-postfix-conversion/1) | ✅ | [.cpp](./day-73/_271_Prefix_to_Postfix_Conversion.cpp) | 🟡  | Stack, Expression Parsing |
+| 6 | Postfix to Prefix Conversion | [GeeksForGeeks](https://www.geeksforgeeks.org/problems/postfix-to-prefix-conversion/1) | ✅ | [.cpp](./day-73/_272_Postfix_to_Prefix_Conversion.cpp) | 🟡  | Stack, Expression Parsing |
+| 7 | Next Greater Element I | [LeetCode](https://leetcode.com/problems/next-greater-element-i/description/) | ✅ | [.cpp](./day-73/_273_Next_Greater_Element_I.cpp) | 🟢  | Stack, Monotonic Stack |
 | 8 | Next Greater Element II | [LeetCode](https://leetcode.com/problems/next-greater-element-ii/description/) | ❌ | [.cpp](./day-) | 🟡  | Stack, Monotonic Stack |
 | 9 | Smaller on Left | [GeeksForGeeks](https://www.geeksforgeeks.org/problems/smaller-on-left20360700/1) | ❌ | [.cpp](./day-) | 🟡  | Stack, Monotonic Stack |
 | 10 | Number of greater elements to the right | [GeeksForGeeks](https://www.geeksforgeeks.org/problems/number-of-nges-to-the-right/1) | ❌ | [.cpp](./day-) | 🟡  | Stack, Monotonic Stack |
