@@ -317,8 +317,8 @@ Welcome to my repository where I will be solving **Data Structures and Algorithm
 | 5 | Prefix to Postfix Conversion | [GeeksForGeeks](https://www.geeksforgeeks.org/problems/prefix-to-postfix-conversion/1) | ✅ | [.cpp](./day-73/_271_Prefix_to_Postfix_Conversion.cpp) | 🟡  | Stack, Expression Parsing |
 | 6 | Postfix to Prefix Conversion | [GeeksForGeeks](https://www.geeksforgeeks.org/problems/postfix-to-prefix-conversion/1) | ✅ | [.cpp](./day-73/_272_Postfix_to_Prefix_Conversion.cpp) | 🟡  | Stack, Expression Parsing |
 | 7 | Next Greater Element I | [LeetCode](https://leetcode.com/problems/next-greater-element-i/description/) | ✅ | [.cpp](./day-73/_273_Next_Greater_Element_I.cpp) | 🟢  | Stack, Monotonic Stack |
-| 8 | Next Greater Element II | [LeetCode](https://leetcode.com/problems/next-greater-element-ii/description/) | ❌ | [.cpp](./day-) | 🟡  | Stack, Monotonic Stack |
-| 9 | Smaller on Left | [GeeksForGeeks](https://www.geeksforgeeks.org/problems/smaller-on-left20360700/1) | ❌ | [.cpp](./day-) | 🟡  | Stack, Monotonic Stack |
+| 8 | Next Greater Element II | [LeetCode](https://leetcode.com/problems/next-greater-element-ii/description/) | ✅ | [.cpp](./day-74/_274_Next_Greater_Element_II.cpp) | 🟡  | Stack, Monotonic Stack |
+| 9 | Smaller on Left | [GeeksForGeeks](https://www.geeksforgeeks.org/problems/smallest-number-on-left3403/1?itm_source=geeksforgeeks&itm_medium=article&itm_campaign=practice_card) | ✅ | [.cpp](./day-74/_275_Smaller_on_Left.cpp) | 🟡  | Stack, Monotonic Stack |
 | 10 | Number of greater elements to the right | [GeeksForGeeks](https://www.geeksforgeeks.org/problems/number-of-nges-to-the-right/1) | ❌ | [.cpp](./day-) | 🟡  | Stack, Monotonic Stack |
 | 11 | Trapping Rain Water | [LeetCode](https://leetcode.com/problems/trapping-rain-water/description/) | ❌ | [.cpp](./day-) | 🔴  | Stack, Two Pointers |
 | 12 | Sum of Subarray Minimums | [LeetCode](https://leetcode.com/problems/sum-of-subarray-minimums/description/) | ❌ | [.cpp](./day-) | 🟡  | Stack, Monotonic Stack |
