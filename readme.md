@@ -319,8 +319,8 @@ Welcome to my repository where I will be solving **Data Structures and Algorithm
 | 7 | Next Greater Element I | [LeetCode](https://leetcode.com/problems/next-greater-element-i/description/) | ✅ | [.cpp](./day-73/_273_Next_Greater_Element_I.cpp) | 🟢  | Stack, Monotonic Stack |
 | 8 | Next Greater Element II | [LeetCode](https://leetcode.com/problems/next-greater-element-ii/description/) | ✅ | [.cpp](./day-74/_274_Next_Greater_Element_II.cpp) | 🟡  | Stack, Monotonic Stack |
 | 9 | Smaller on Left | [GeeksForGeeks](https://www.geeksforgeeks.org/problems/smallest-number-on-left3403/1?itm_source=geeksforgeeks&itm_medium=article&itm_campaign=practice_card) | ✅ | [.cpp](./day-74/_275_Smaller_on_Left.cpp) | 🟡  | Stack, Monotonic Stack |
-| 10 | Number of greater elements to the right | [GeeksForGeeks](https://www.geeksforgeeks.org/problems/number-of-nges-to-the-right/1) | ❌ | [.cpp](./day-) | 🟡  | Stack, Monotonic Stack |
-| 11 | Trapping Rain Water | [LeetCode](https://leetcode.com/problems/trapping-rain-water/description/) | ❌ | [.cpp](./day-) | 🔴  | Stack, Two Pointers |
+| 10 | Next Greater Element (NGE) | [GeeksForGeeks](https://www.geeksforgeeks.org/problems/next-larger-element-1587115620/1?itm_source=geeksforgeeks&itm_medium=article&itm_campaign=practice_card) | ✅ | [.cpp](./day-75/_276_Next_Greater_Element_NGE.cpp) | 🟡  | Stack, Monotonic Stack |
+| 11 | Trapping Rain Water | [LeetCode](https://leetcode.com/problems/trapping-rain-water/description/) | ✅ | [.cpp](./day-75/_277_Trapping_Rain_Water.cpp) | 🔴  | Stack, Two Pointers |
 | 12 | Sum of Subarray Minimums | [LeetCode](https://leetcode.com/problems/sum-of-subarray-minimums/description/) | ❌ | [.cpp](./day-) | 🟡  | Stack, Monotonic Stack |
 | 13 | Asteroid Collision | [LeetCode](https://leetcode.com/problems/asteroid-collision/description/) | ❌ | [.cpp](./day-) | 🟡  | Stack |
 | 14 | Sum of Subarray Ranges | [LeetCode](https://leetcode.com/problems/sum-of-subarray-ranges/description/) | ❌ | [.cpp](./day-) | 🟡  | Stack, Sliding Window |
