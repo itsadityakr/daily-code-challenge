@@ -321,8 +321,8 @@ Welcome to my repository where I will be solving **Data Structures and Algorithm
 | 9 | Smaller on Left | [GeeksForGeeks](https://www.geeksforgeeks.org/problems/smallest-number-on-left3403/1?itm_source=geeksforgeeks&itm_medium=article&itm_campaign=practice_card) | ✅ | [.cpp](./day-74/_275_Smaller_on_Left.cpp) | 🟡  | Stack, Monotonic Stack |
 | 10 | Next Greater Element (NGE) | [GeeksForGeeks](https://www.geeksforgeeks.org/problems/next-larger-element-1587115620/1?itm_source=geeksforgeeks&itm_medium=article&itm_campaign=practice_card) | ✅ | [.cpp](./day-75/_276_Next_Greater_Element_NGE.cpp) | 🟡  | Stack, Monotonic Stack |
 | 11 | Trapping Rain Water | [LeetCode](https://leetcode.com/problems/trapping-rain-water/description/) | ✅ | [.cpp](./day-75/_277_Trapping_Rain_Water.cpp) | 🔴  | Stack, Two Pointers |
-| 12 | Sum of Subarray Minimums | [LeetCode](https://leetcode.com/problems/sum-of-subarray-minimums/description/) | ❌ | [.cpp](./day-) | 🟡  | Stack, Monotonic Stack |
-| 13 | Asteroid Collision | [LeetCode](https://leetcode.com/problems/asteroid-collision/description/) | ❌ | [.cpp](./day-) | 🟡  | Stack |
+| 12 | Sum of Subarray Minimums | [LeetCode](https://leetcode.com/problems/sum-of-subarray-minimums/description/) | ✅ | [.cpp](./day-76/_278_Sum_of_Subarray_Minimums.cpp) | 🟡  | Stack, Monotonic Stack |
+| 13 | Asteroid Collision | [LeetCode](https://leetcode.com/problems/asteroid-collision/description/) | ✅ | [.cpp](./day-76/_279_Asteroid_Collision.cpp) | 🟡  | Stack |
 | 14 | Sum of Subarray Ranges | [LeetCode](https://leetcode.com/problems/sum-of-subarray-ranges/description/) | ❌ | [.cpp](./day-) | 🟡  | Stack, Sliding Window |
 | 15 | Remove K Digits | [LeetCode](https://leetcode.com/problems/remove-k-digits/description/) | ❌ | [.cpp](./day-) | 🟡  | Stack, Greedy |
 | 16 | Largest Rectangle in Histogram | [LeetCode](https://leetcode.com/problems/largest-rectangle-in-histogram/description/) | ❌ | [.cpp](./day-) | 🔴  | Stack, Monotonic Stack |
