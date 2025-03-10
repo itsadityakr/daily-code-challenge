@@ -323,9 +323,9 @@ Welcome to my repository where I will be solving **Data Structures and Algorithm
 | 11 | Trapping Rain Water | [LeetCode](https://leetcode.com/problems/trapping-rain-water/description/) | ✅ | [.cpp](./day-75/_277_Trapping_Rain_Water.cpp) | 🔴  | Stack, Two Pointers |
 | 12 | Sum of Subarray Minimums | [LeetCode](https://leetcode.com/problems/sum-of-subarray-minimums/description/) | ✅ | [.cpp](./day-76/_278_Sum_of_Subarray_Minimums.cpp) | 🟡  | Stack, Monotonic Stack |
 | 13 | Asteroid Collision | [LeetCode](https://leetcode.com/problems/asteroid-collision/description/) | ✅ | [.cpp](./day-76/_279_Asteroid_Collision.cpp) | 🟡  | Stack |
-| 14 | Sum of Subarray Ranges | [LeetCode](https://leetcode.com/problems/sum-of-subarray-ranges/description/) | ❌ | [.cpp](./day-) | 🟡  | Stack, Sliding Window |
-| 15 | Remove K Digits | [LeetCode](https://leetcode.com/problems/remove-k-digits/description/) | ❌ | [.cpp](./day-) | 🟡  | Stack, Greedy |
-| 16 | Largest Rectangle in Histogram | [LeetCode](https://leetcode.com/problems/largest-rectangle-in-histogram/description/) | ❌ | [.cpp](./day-) | 🔴  | Stack, Monotonic Stack |
+| 14 | Sum of Subarray Ranges | [LeetCode](https://leetcode.com/problems/sum-of-subarray-ranges/description/) | ✅ | [.cpp](./day-77/_280_Sum_of_Subarray_Ranges.cpp) | 🟡  | Stack, Sliding Window |
+| 15 | Remove K Digits | [LeetCode](https://leetcode.com/problems/remove-k-digits/description/) | ✅ | [.cpp](./day-77/_281_Remove_K_Digits.cpp) | 🟡  | Stack, Greedy |
+| 16 | Largest Rectangle in Histogram | [LeetCode](https://leetcode.com/problems/largest-rectangle-in-histogram/description/) | ✅ | [.cpp](./day-77/_282_Largest_Rectangle_in_Histogram.cpp) | 🔴  | Stack, Monotonic Stack |
 | 17 | Maximal Rectangle | [LeetCode](https://leetcode.com/problems/maximal-rectangle/description/) | ❌ | [.cpp](./day-) | 🔴  | Stack, Dynamic Programming |
 | 18 | Sliding Window Maximum | [LeetCode](https://leetcode.com/problems/sliding-window-maximum/description/) | ❌ | [.cpp](./day-) | 🔴  | Stack, Deque |
 | 19 | Online Stock Span | [LeetCode](https://leetcode.com/problems/online-stock-span/description/) | ❌ | [.cpp](./day-) | 🟡  | Stack, Monotonic Stack |
