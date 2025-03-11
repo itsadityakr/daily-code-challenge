@@ -326,8 +326,8 @@ Welcome to my repository where I will be solving **Data Structures and Algorithm
 | 14 | Sum of Subarray Ranges | [LeetCode](https://leetcode.com/problems/sum-of-subarray-ranges/description/) | ✅ | [.cpp](./day-77/_280_Sum_of_Subarray_Ranges.cpp) | 🟡  | Stack, Sliding Window |
 | 15 | Remove K Digits | [LeetCode](https://leetcode.com/problems/remove-k-digits/description/) | ✅ | [.cpp](./day-77/_281_Remove_K_Digits.cpp) | 🟡  | Stack, Greedy |
 | 16 | Largest Rectangle in Histogram | [LeetCode](https://leetcode.com/problems/largest-rectangle-in-histogram/description/) | ✅ | [.cpp](./day-77/_282_Largest_Rectangle_in_Histogram.cpp) | 🔴  | Stack, Monotonic Stack |
-| 17 | Maximal Rectangle | [LeetCode](https://leetcode.com/problems/maximal-rectangle/description/) | ❌ | [.cpp](./day-) | 🔴  | Stack, Dynamic Programming |
-| 18 | Sliding Window Maximum | [LeetCode](https://leetcode.com/problems/sliding-window-maximum/description/) | ❌ | [.cpp](./day-) | 🔴  | Stack, Deque |
+| 17 | Maximal Rectangle | [LeetCode](https://leetcode.com/problems/maximal-rectangle/description/) | ✅ | [.cpp](./day-78/_283_Maximal_Rectangle.cpp) | 🔴  | Stack, Dynamic Programming |
+| 18 | Sliding Window Maximum | [LeetCode](https://leetcode.com/problems/sliding-window-maximum/description/) | ✅ | [.cpp](./day-78/_284_Sliding_Window_Maximum.cpp) | 🔴  | Stack |
 | 19 | Online Stock Span | [LeetCode](https://leetcode.com/problems/online-stock-span/description/) | ❌ | [.cpp](./day-) | 🟡  | Stack, Monotonic Stack |
 | 20 | LRU Cache | [LeetCode](https://leetcode.com/problems/lru-cache/description/) | ❌ | [.cpp](./day-) | 🟡  | HashMap, Doubly Linked List |
 | 21 | LFU Cache | [LeetCode](https://leetcode.com/problems/lfu-cache/description/) | ❌ | [.cpp](./day-) | 🔴  | HashMap, Doubly Linked List |
