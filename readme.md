@@ -98,23 +98,6 @@ Welcome to my repository where I will be solving **Data Structures and Algorithm
 
 ---
 
-## Algorithms and Techniques
-
-| **#** | **Problem Name** | **Platform** | **Status** | **File** | **Difficulty** | **Prerequisites** |
-| ----- | ----------------------------------- | -------------------------------------------------------------------------------------------------------------------- | ---------- | ----------------------------------------------------------------- | -------------- | --------------------------------------------------------------------- |
-| 1 | Prefix Sum | [GeeksForGeeks](https://www.geeksforgeeks.org/prefix-sum-array-implementation-applications-competitive-programming/) | ✅ | [.cpp](./algorithms-and-techniques/prefix_sum_array/) | 🟢 | Arrays, Loops, Basic Mathematics (Addition, Subtraction) |
-| 2 | Fibonacci Sequence | [LeetCode](https://leetcode.com/problems/generate-fibonacci-sequence/description/) | ✅ | [.cpp](./algorithms-and-techniques/fibonacci_sequence/) | 🟢 | Recursion, Dynamic Programming, Basic Mathematics (Sequences) |
-| 3 | Boyer-Moore Voting Algorithm | [TopCoder](https://www.topcoder.com/thrive/articles/boyer-moore-majority-vote-algorithm) | ✅ | [.cpp](./algorithms-and-techniques/boyer_moore_voting_algorithm/) | 🟢 | Arrays, Loops, Basic Counting Logic |
-| 4 | Euclidean Algorithm | [GeeksForGeeks](https://www.geeksforgeeks.org/euclidean-algorithms-basic-and-extended/) | ✅ | [.cpp](./algorithms-and-techniques/euclidean_algorithm/) | 🟡 | Basic Mathematics (Division, Remainder), Recursion |
-| 5 | Sieve of Eratosthenes | [CP-Algorithms](https://cp-algorithms.com/algebra/sieve-of-eratosthenes.html) | ❌ | [.cpp](./Library/03_Algorithms_and_Techniques) | 🟡 | Arrays, Loops, Basic Mathematics (Prime Numbers) |
-| 6 | Binomial Coefficients | [GeeksForGeeks](https://www.geeksforgeeks.org/binomial-coefficient-dp-9/) | ❌ | [.cpp](./Library/03_Algorithms_and_Techniques) | 🟡 | Combinatorics, Dynamic Programming, Recursion |
-| 7 | In-place Array Modification | [GeeksForGeeks](https://www.geeksforgeeks.org/in-place-algorithm/) | ❌ | [.cpp](./Library/03_Algorithms_and_Techniques) | 🔴 | Arrays, Loops, Two-pointer Technique |
-| 8 | Sliding Window | [GeeksForGeeks](https://www.geeksforgeeks.org/window-sliding-technique/) | ❌ | [.cpp](./Library/03_Algorithms_and_Techniques) | 🔴 | Arrays, Loops, Two-pointer Technique, Hash Maps (for some variations) |
-| 9 | Floyd's Tortoise and Hare Algorithm | [DEV Community](https://dev.to/alisabaj/floyd-s-tortoise-and-hare-algorithm-finding-a-cycle-in-a-linked-list-39af) | ❌ | [.cpp](./Library/03_Algorithms_and_Techniques) | 🔴 | Linked Lists, Two-pointer Technique, Cyclic Detection |
-| 10 | Longest Common Subsequence (LCS) | [GeeksForGeeks](https://www.geeksforgeeks.org/longest-common-subsequence-dp-4/) | ❌ | [.cpp](./Library/03_Algorithms_and_Techniques) | 🔴 | Dynamic Programming, Strings, Recursion |
-
----
-
 ## Hashing
 
 | **#** | **Problem Name** | **Platform** | **Status** | **File** | **Difficulty** | **Prerequisites** |
@@ -326,7 +309,7 @@ Welcome to my repository where I will be solving **Data Structures and Algorithm
 | 16 | Largest Rectangle in Histogram | [LeetCode](https://leetcode.com/problems/largest-rectangle-in-histogram/description/) | ✅ | [.cpp](./day-77/_282_Largest_Rectangle_in_Histogram.cpp) | 🔴  | Stack, Monotonic Stack |
 | 17 | Maximal Rectangle | [LeetCode](https://leetcode.com/problems/maximal-rectangle/description/) | ✅ | [.cpp](./day-78/_283_Maximal_Rectangle.cpp) | 🔴  | Stack, Dynamic Programming |
 | 18 | Sliding Window Maximum | [LeetCode](https://leetcode.com/problems/sliding-window-maximum/description/) | ✅ | [.cpp](./day-78/_284_Sliding_Window_Maximum.cpp) | 🔴  | Stack |
-| 19 | Online Stock Span | [LeetCode](https://leetcode.com/problems/online-stock-span/description/) | ❌ | [.cpp](./day-79/_285_Online_Stock_Span.cpp) | 🟡  | Stack, Monotonic Stack |
+| 19 | Online Stock Span | [LeetCode](https://leetcode.com/problems/online-stock-span/description/) | ✅ | [.cpp](./day-79/_285_Online_Stock_Span.cpp) | 🟡  | Stack, Monotonic Stack |
 
 ---
 
@@ -334,11 +317,28 @@ Welcome to my repository where I will be solving **Data Structures and Algorithm
 
 ---
 
+## Algorithms and Techniques
+
+| **#** | **Problem Name** | **Platform** | **Status** | **File** | **Difficulty** | **Prerequisites** |
+| ----- | ----------------------------------- | -------------------------------------------------------------------------------------------------------------------- | ---------- | ----------------------------------------------------------------- | -------------- | --------------------------------------------------------------------- |
+| 1 | Prefix Sum | [GeeksForGeeks](https://www.geeksforgeeks.org/prefix-sum-array-implementation-applications-competitive-programming/) | ✅ | [.cpp](./algorithms-and-techniques/prefix_sum_array/) | 🟢 | Arrays, Loops, Basic Mathematics (Addition, Subtraction) |
+| 2 | Fibonacci Sequence | [LeetCode](https://leetcode.com/problems/generate-fibonacci-sequence/description/) | ✅ | [.cpp](./algorithms-and-techniques/fibonacci_sequence/) | 🟢 | Recursion, Dynamic Programming, Basic Mathematics (Sequences) |
+| 3 | Boyer-Moore Voting Algorithm | [TopCoder](https://www.topcoder.com/thrive/articles/boyer-moore-majority-vote-algorithm) | ✅ | [.cpp](./algorithms-and-techniques/boyer_moore_voting_algorithm/) | 🟢 | Arrays, Loops, Basic Counting Logic |
+| 4 | Euclidean Algorithm | [GeeksForGeeks](https://www.geeksforgeeks.org/euclidean-algorithms-basic-and-extended/) | ✅ | [.cpp](./algorithms-and-techniques/euclidean_algorithm/) | 🟡 | Basic Mathematics (Division, Remainder), Recursion |
+| 5 | Sieve of Eratosthenes | [CP-Algorithms](https://cp-algorithms.com/algebra/sieve-of-eratosthenes.html) | ❌ | [.cpp](./Library/03_Algorithms_and_Techniques) | 🟡 | Arrays, Loops, Basic Mathematics (Prime Numbers) |
+| 6 | Binomial Coefficients | [GeeksForGeeks](https://www.geeksforgeeks.org/binomial-coefficient-dp-9/) | ❌ | [.cpp](./Library/03_Algorithms_and_Techniques) | 🟡 | Combinatorics, Dynamic Programming, Recursion |
+| 7 | In-place Array Modification | [GeeksForGeeks](https://www.geeksforgeeks.org/in-place-algorithm/) | ❌ | [.cpp](./Library/03_Algorithms_and_Techniques) | 🔴 | Arrays, Loops, Two-pointer Technique |
+| 8 | Sliding Window | [GeeksForGeeks](https://www.geeksforgeeks.org/window-sliding-technique/) | ❌ | [.cpp](./Library/03_Algorithms_and_Techniques) | 🔴 | Arrays, Loops, Two-pointer Technique, Hash Maps (for some variations) |
+| 9 | Floyd's Tortoise and Hare Algorithm | [DEV Community](https://dev.to/alisabaj/floyd-s-tortoise-and-hare-algorithm-finding-a-cycle-in-a-linked-list-39af) | ❌ | [.cpp](./Library/03_Algorithms_and_Techniques) | 🔴 | Linked Lists, Two-pointer Technique, Cyclic Detection |
+| 10 | Longest Common Subsequence (LCS) | [GeeksForGeeks](https://www.geeksforgeeks.org/longest-common-subsequence-dp-4/) | ❌ | [.cpp](./Library/03_Algorithms_and_Techniques) | 🔴 | Dynamic Programming, Strings, Recursion |
+
+---
+
 # Sliding Window and Two Pointer Combined
 
 | **#** | **Problem Name** | **Platform** | **Status** | **Solution File** | **Difficulty** | **Prerequisites** |
 |---|--------------------------------------|-----------------|----------|----------------|--------------|-----------------|
-| 1 | Longest Substring Without Repeating Characters | [LeetCode](https://leetcode.com/problems/longest-substring-without-repeating-characters/description/) | ❌ | [.cpp](./day-) | 🟡 Medium | Sliding Window |
+| 1 | Longest Substring Without Repeating Characters | [LeetCode](https://leetcode.com/problems/longest-substring-without-repeating-characters/description/) | ✅❌ | [.cpp](./day-) | 🟡 Medium | Sliding Window |
 | 2 | Max Consecutive Ones III | [LeetCode](https://leetcode.com/problems/max-consecutive-ones-iii/description/) | ❌ | [.cpp](./day-) | 🟡 Medium | Sliding Window |
 | 3 | Length of Longest Subarray With at Most K Frequency | [LeetCode](https://leetcode.com/problems/length-of-longest-subarray-with-at-most-k-frequency/description/) | ❌ | [.cpp](./day-) | 🟡 Medium | Sliding Window |
 | 4 | Longest Repeating Character Replacement | [LeetCode](https://leetcode.com/problems/longest-repeating-character-replacement/description/) | ❌ | [.cpp](./day-) | 🟡 Medium | Sliding Window |
