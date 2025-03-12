@@ -11,7 +11,7 @@ Welcome to my repository where I will be solving **Data Structures and Algorithm
 
 1. [Sheet 1](#sheet-1)
 2. [Sheet 2](#sheet-2)
-3. [Active](#stack)
+3. [Active](#sliding-window-and-two-pointer-combined)
 
 ---
 ![Static Badge](https://img.shields.io/badge/SHEET%201-%2334A853?style=for-the-badge&logo=googlesheets&logoColor=%23FFFFFF)
@@ -32,6 +32,8 @@ Welcome to my repository where I will be solving **Data Structures and Algorithm
 9. [Strings](#strings)
 10. [Linked List](#linked-list)
 11. [Bit Manipulation](#bit-manipulation)
+12. [Stack](#stack)
+
 
 ## Basic Maths
 
@@ -302,10 +304,6 @@ Welcome to my repository where I will be solving **Data Structures and Algorithm
 
 ---
 
-</details>
-
----
-
 ## Stack
 
 | **#** | **Problem Name** | **Platform** | **Status** | **File** | **Difficulty** | **Prerequisites** |
@@ -328,11 +326,31 @@ Welcome to my repository where I will be solving **Data Structures and Algorithm
 | 16 | Largest Rectangle in Histogram | [LeetCode](https://leetcode.com/problems/largest-rectangle-in-histogram/description/) | ✅ | [.cpp](./day-77/_282_Largest_Rectangle_in_Histogram.cpp) | 🔴  | Stack, Monotonic Stack |
 | 17 | Maximal Rectangle | [LeetCode](https://leetcode.com/problems/maximal-rectangle/description/) | ✅ | [.cpp](./day-78/_283_Maximal_Rectangle.cpp) | 🔴  | Stack, Dynamic Programming |
 | 18 | Sliding Window Maximum | [LeetCode](https://leetcode.com/problems/sliding-window-maximum/description/) | ✅ | [.cpp](./day-78/_284_Sliding_Window_Maximum.cpp) | 🔴  | Stack |
-| 19 | Online Stock Span | [LeetCode](https://leetcode.com/problems/online-stock-span/description/) | ❌ | [.cpp](./day-) | 🟡  | Stack, Monotonic Stack |
-| 20 | LRU Cache | [LeetCode](https://leetcode.com/problems/lru-cache/description/) | ❌ | [.cpp](./day-) | 🟡  | HashMap, Doubly Linked List |
-| 21 | LFU Cache | [LeetCode](https://leetcode.com/problems/lfu-cache/description/) | ❌ | [.cpp](./day-) | 🔴  | HashMap, Doubly Linked List |
+| 19 | Online Stock Span | [LeetCode](https://leetcode.com/problems/online-stock-span/description/) | ❌ | [.cpp](./day-79/_285_Online_Stock_Span.cpp) | 🟡  | Stack, Monotonic Stack |
 
 ---
+
+</details>
+
+---
+
+# Sliding Window and Two Pointer Combined
+
+| **#** | **Problem Name** | **Platform** | **Status** | **Solution File** | **Difficulty** | **Prerequisites** |
+|---|--------------------------------------|-----------------|----------|----------------|--------------|-----------------|
+| 1 | Longest Substring Without Repeating Characters | [LeetCode](https://leetcode.com/problems/longest-substring-without-repeating-characters/description/) | ❌ | [.cpp](./day-) | 🟡 Medium | Sliding Window |
+| 2 | Max Consecutive Ones III | [LeetCode](https://leetcode.com/problems/max-consecutive-ones-iii/description/) | ❌ | [.cpp](./day-) | 🟡 Medium | Sliding Window |
+| 3 | Length of Longest Subarray With at Most K Frequency | [LeetCode](https://leetcode.com/problems/length-of-longest-subarray-with-at-most-k-frequency/description/) | ❌ | [.cpp](./day-) | 🟡 Medium | Sliding Window |
+| 4 | Longest Repeating Character Replacement | [LeetCode](https://leetcode.com/problems/longest-repeating-character-replacement/description/) | ❌ | [.cpp](./day-) | 🟡 Medium | Sliding Window |
+| 5 | Binary Subarray with Sum | [LeetCode](https://leetcode.com/problems/binary-subarrays-with-sum/description/) | ❌ | [.cpp](./day-) | 🟢 Easy | Sliding Window |
+| 6 | Count Number of Nice Subarrays | [LeetCode](https://leetcode.com/problems/count-number-of-nice-subarrays/description/) | ❌ | [.cpp](./day-) | 🟡 Medium | Sliding Window |
+| 7 | Number of Substrings Containing All Three Characters | [LeetCode](https://leetcode.com/problems/number-of-substrings-containing-all-three-characters/description/) | ❌ | [.cpp](./day-) | 🟡 Medium | Sliding Window |
+| 8 | Maximum Points You Can Obtain from Cards | [LeetCode](https://leetcode.com/problems/maximum-points-you-can-obtain-from-cards/description/) | ❌ | [.cpp](./day-) | 🟡 Medium | Sliding Window |
+| 9 | Subarray with K Different Integers | [LeetCode](https://leetcode.com/problems/subarrays-with-k-different-integers/description/) | ❌ | [.cpp](./day-) | 🔴 Hard | Sliding Window, Two Pointer |
+| 10 | Minimum Window Substring | [LeetCode](https://leetcode.com/problems/minimum-window-substring/description/) | ❌ | [.cpp](./day-) | 🔴 Hard | Sliding Window |
+
+---
+
 ## Topic
 
 | **#** | **Problem Name** | **Platform** | **Status** | **File** | **Difficulty** | **Prerequisites** |
