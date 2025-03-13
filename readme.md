@@ -338,9 +338,9 @@ Welcome to my repository where I will be solving **Data Structures and Algorithm
 
 | **#** | **Problem Name** | **Platform** | **Status** | **Solution File** | **Difficulty** | **Prerequisites** |
 |---|--------------------------------------|-----------------|----------|----------------|--------------|-----------------|
-| 1 | Longest Substring Without Repeating Characters | [LeetCode](https://leetcode.com/problems/longest-substring-without-repeating-characters/description/) | ✅❌ | [.cpp](./day-) | 🟡 | Sliding Window |
-| 2 | Max Consecutive Ones III | [LeetCode](https://leetcode.com/problems/max-consecutive-ones-iii/description/) | ❌ | [.cpp](./day-) | 🟡 | Sliding Window |
-| 3 | Length of Longest Subarray With at Most K Frequency | [LeetCode](https://leetcode.com/problems/length-of-longest-subarray-with-at-most-k-frequency/description/) | ❌ | [.cpp](./day-) | 🟡 | Sliding Window |
+| 1 | Longest Substring Without Repeating Characters | [LeetCode](https://leetcode.com/problems/longest-substring-without-repeating-characters/description/) | ✅ | [.cpp](./day-80/_286_Longest_Substring_Without_Repeating_Characters.cpp) | 🟡 | Sliding Window, Hash Map, Two-Pointer Technique |
+| 2 | Max Consecutive Ones III | [LeetCode](https://leetcode.com/problems/max-consecutive-ones-iii/description/) | ✅ | [.cpp](./day-80/_287_Max_Consecutive_Ones_III.cpp) | 🟡 | Sliding Window, Two-Pointer Technique |
+| 3 | Length of Longest Subarray With at Most K Frequency | [LeetCode](https://leetcode.com/problems/length-of-longest-subarray-with-at-most-k-frequency/description/) | ✅ | [.cpp](./day-80/_288_Length_of_Longest_Subarray_With_at_Most_K_Frequency.cpp) | 🟡 | Sliding Window, Hash Map, Frequency Count |
 | 4 | Longest Repeating Character Replacement | [LeetCode](https://leetcode.com/problems/longest-repeating-character-replacement/description/) | ❌ | [.cpp](./day-) | 🟡 | Sliding Window |
 | 5 | Binary Subarray with Sum | [LeetCode](https://leetcode.com/problems/binary-subarrays-with-sum/description/) | ❌ | [.cpp](./day-) | 🟡 | Sliding Window |
 | 6 | Count Number of Nice Subarrays | [LeetCode](https://leetcode.com/problems/count-number-of-nice-subarrays/description/) | ❌ | [.cpp](./day-) | 🟡 | Sliding Window |
