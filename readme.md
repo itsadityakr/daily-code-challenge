@@ -338,16 +338,16 @@ Welcome to my repository where I will be solving **Data Structures and Algorithm
 
 | **#** | **Problem Name** | **Platform** | **Status** | **Solution File** | **Difficulty** | **Prerequisites** |
 |---|--------------------------------------|-----------------|----------|----------------|--------------|-----------------|
-| 1 | Longest Substring Without Repeating Characters | [LeetCode](https://leetcode.com/problems/longest-substring-without-repeating-characters/description/) | ✅❌ | [.cpp](./day-) | 🟡 Medium | Sliding Window |
-| 2 | Max Consecutive Ones III | [LeetCode](https://leetcode.com/problems/max-consecutive-ones-iii/description/) | ❌ | [.cpp](./day-) | 🟡 Medium | Sliding Window |
-| 3 | Length of Longest Subarray With at Most K Frequency | [LeetCode](https://leetcode.com/problems/length-of-longest-subarray-with-at-most-k-frequency/description/) | ❌ | [.cpp](./day-) | 🟡 Medium | Sliding Window |
-| 4 | Longest Repeating Character Replacement | [LeetCode](https://leetcode.com/problems/longest-repeating-character-replacement/description/) | ❌ | [.cpp](./day-) | 🟡 Medium | Sliding Window |
-| 5 | Binary Subarray with Sum | [LeetCode](https://leetcode.com/problems/binary-subarrays-with-sum/description/) | ❌ | [.cpp](./day-) | 🟢 Easy | Sliding Window |
-| 6 | Count Number of Nice Subarrays | [LeetCode](https://leetcode.com/problems/count-number-of-nice-subarrays/description/) | ❌ | [.cpp](./day-) | 🟡 Medium | Sliding Window |
-| 7 | Number of Substrings Containing All Three Characters | [LeetCode](https://leetcode.com/problems/number-of-substrings-containing-all-three-characters/description/) | ❌ | [.cpp](./day-) | 🟡 Medium | Sliding Window |
-| 8 | Maximum Points You Can Obtain from Cards | [LeetCode](https://leetcode.com/problems/maximum-points-you-can-obtain-from-cards/description/) | ❌ | [.cpp](./day-) | 🟡 Medium | Sliding Window |
-| 9 | Subarray with K Different Integers | [LeetCode](https://leetcode.com/problems/subarrays-with-k-different-integers/description/) | ❌ | [.cpp](./day-) | 🔴 Hard | Sliding Window, Two Pointer |
-| 10 | Minimum Window Substring | [LeetCode](https://leetcode.com/problems/minimum-window-substring/description/) | ❌ | [.cpp](./day-) | 🔴 Hard | Sliding Window |
+| 1 | Longest Substring Without Repeating Characters | [LeetCode](https://leetcode.com/problems/longest-substring-without-repeating-characters/description/) | ✅❌ | [.cpp](./day-) | 🟡 | Sliding Window |
+| 2 | Max Consecutive Ones III | [LeetCode](https://leetcode.com/problems/max-consecutive-ones-iii/description/) | ❌ | [.cpp](./day-) | 🟡 | Sliding Window |
+| 3 | Length of Longest Subarray With at Most K Frequency | [LeetCode](https://leetcode.com/problems/length-of-longest-subarray-with-at-most-k-frequency/description/) | ❌ | [.cpp](./day-) | 🟡 | Sliding Window |
+| 4 | Longest Repeating Character Replacement | [LeetCode](https://leetcode.com/problems/longest-repeating-character-replacement/description/) | ❌ | [.cpp](./day-) | 🟡 | Sliding Window |
+| 5 | Binary Subarray with Sum | [LeetCode](https://leetcode.com/problems/binary-subarrays-with-sum/description/) | ❌ | [.cpp](./day-) | 🟡 | Sliding Window |
+| 6 | Count Number of Nice Subarrays | [LeetCode](https://leetcode.com/problems/count-number-of-nice-subarrays/description/) | ❌ | [.cpp](./day-) | 🟡 | Sliding Window |
+| 7 | Number of Substrings Containing All Three Characters | [LeetCode](https://leetcode.com/problems/number-of-substrings-containing-all-three-characters/description/) | ❌ | [.cpp](./day-) | 🟡 | Sliding Window |
+| 8 | Maximum Points You Can Obtain from Cards | [LeetCode](https://leetcode.com/problems/maximum-points-you-can-obtain-from-cards/description/) | ❌ | [.cpp](./day-) | 🟡 | Sliding Window |
+| 9 | Subarray with K Different Integers | [LeetCode](https://leetcode.com/problems/subarrays-with-k-different-integers/description/) | ❌ | [.cpp](./day-) | 🔴 | Sliding Window, Two Pointer |
+| 10 | Minimum Window Substring | [LeetCode](https://leetcode.com/problems/minimum-window-substring/description/) | ❌ | [.cpp](./day-) | 🔴 | Sliding Window |
 
 ---
 
@@ -361,11 +361,11 @@ Welcome to my repository where I will be solving **Data Structures and Algorithm
 
 ### 📌 Legend:
 
-- ✅ Completed
-- ❌ Incomplete
-- 🟢 Easy Problem
-- 🟡 Medium Problem
-- 🔴 Hard Problem
+- ✅ - Completed
+- ❌ - Incomplete
+- 🟢 - Easy Problem
+- 🟡 - Medium Problem
+- 🔴 - Easy Problem
 
 
 ---
