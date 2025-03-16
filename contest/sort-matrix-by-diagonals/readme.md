@@ -1,4 +1,4 @@
-### 3. **Sort Matrix by Diagonals** [C++ Code](./code.cpp)  
+### **Sort Matrix by Diagonals** [C++ Code](./code.cpp)  
 
 - **File**: code.cpp 
 - **Description**:  

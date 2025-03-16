@@ -1,4 +1,4 @@
-### 3. **Assign Elements to Groups with Constraints** [C++ Code](./code.cpp)  
+### **Assign Elements to Groups with Constraints** [C++ Code](./code.cpp)  
 
 - **File**: code.cpp 
 - **Description**:  

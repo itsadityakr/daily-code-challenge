@@ -1,4 +1,4 @@
-### 5. **Max Sum From Grid** [C++ Code](./code.cpp)  
+### **Max Sum From Grid** [C++ Code](./code.cpp)  
 
 - **File**: _2_maxSum.cpp_  
 - **Description**:  

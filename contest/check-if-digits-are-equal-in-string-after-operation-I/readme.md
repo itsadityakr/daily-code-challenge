@@ -1,4 +1,4 @@
-### 1. **Has Same Digits** [C++ Code](./code.cpp)  
+### **Has Same Digits** [C++ Code](./code.cpp)  
 
 - **File**: code.cpp
 - **Description**:  
