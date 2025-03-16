@@ -1,6 +1,6 @@
-### 3. **Sort Matrix by Diagonals** [C++ Code](./sort-matrix-by-diagonals.cpp)  
+### 3. **Sort Matrix by Diagonals** [C++ Code](./code.cpp)  
 
-- **File**: _X(file_number)_sort-matrix-by-diagonals.cpp_  
+- **File**: code.cpp 
 - **Description**:  
   - Given an `n x n` matrix, the task is to sort each diagonal of the matrix in ascending or descending order. Specifically, the diagonals starting from the top-left to the bottom-right should be sorted in descending order, while the diagonals starting from the top-right to the bottom-left should be sorted in ascending order.  
   - Constraints:  

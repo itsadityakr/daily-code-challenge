@@ -1,6 +1,6 @@
 ### 1. **Has Same Digits** [C++ Code](./code.cpp)  
 
-- **File**: _1_hasSameDigits.cpp_  
+- **File**: code.cpp
 - **Description**:  
   - Given a string representing a number, repeatedly replace each adjacent pair of digits with their sum modulo 10 until only two digits remain.  
   - The task is to check if the final two digits are the same.  

@@ -1,5 +1,5 @@
-### 1. **Find Maximum Difference Between Odd and Even Frequency** [C++ Code](./find_max_difference_between_odd_even_frequency.cpp)
-   - **File**: find_max_difference_between_odd_even_frequency.cpp_
+### 1. **Find Maximum Difference Between Odd and Even Frequency** [C++ Code](./code.cpp)
+   - **File**: code.cpp
    - **Description**:  
      This problem involves finding the difference between the maximum frequency of any odd number and the minimum frequency of any even number in a string. The string consists of lowercase letters, and for each character in the string, we need to calculate the frequency of its occurrence. We then need to determine the highest frequency of characters that appear an odd number of times and the lowest frequency of characters that appear an even number of times. Finally, we return the difference between the maximum odd frequency and the minimum even frequency. If there are no odd or no even frequencies, the result will be negative infinity or undefined.
 

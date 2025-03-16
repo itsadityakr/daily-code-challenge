@@ -1,6 +1,6 @@
-### 3. **Assign Elements to Groups with Constraints** [C++ Code](./assign-elements-to-groups-with-constraints.cpp)  
+### 3. **Assign Elements to Groups with Constraints** [C++ Code](./code.cpp)  
 
-- **File**: _X(file_number)_assign-elements-to-groups-with-constraints.cpp_  
+- **File**: code.cpp 
 - **Description**:  
   - Given two arrays, `groups` and `elements`, the task is to assign each group to the earliest available element that satisfies certain constraints. Specifically, an element can be assigned to a group if it is a divisor of the group's value. The goal is to return an array where each entry corresponds to the index of the assigned element for each group. If no valid element is found, the entry should be `-1`.  
   - Constraints:  
