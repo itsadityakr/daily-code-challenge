@@ -1,8 +1,8 @@
-_290_Binary_Subarray_with_Sum.cpp
+// _290_Binary_Subarray_with_Sum.cpp
 
-    // https://leetcode.com/problems/binary-subarrays-with-sum/description/
+// https://leetcode.com/problems/binary-subarrays-with-sum/description/
 
-    class Solution
+class Solution
 {
 public:
     int numSubarraysWithSum(vector<int> &nums, int goal)

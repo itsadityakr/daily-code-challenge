@@ -1,7 +1,7 @@
-_291_Count_Number_of_Nice_Subarrays.cpp
-    // https://leetcode.com/problems/count-number-of-nice-subarrays/description/
+// _291_Count_Number_of_Nice_Subarrays.cpp
+// https://leetcode.com/problems/count-number-of-nice-subarrays/description/
 
-    class Solution
+class Solution
 {
 public:
     int numberOfSubarrays(vector<int> &nums, int k)

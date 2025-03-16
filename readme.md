@@ -344,8 +344,8 @@ Welcome to my repository where I will be solving **Data Structures and Algorithm
 | 4 | Longest Repeating Character Replacement | [LeetCode](https://leetcode.com/problems/longest-repeating-character-replacement/description/) | ✅ | [.cpp](./day-81/_289_Longest_Repeating_Character_Replacement.cpp) | 🟡 | Sliding Window, Hashing, Two Pointer Technique  |
 | 5 | Binary Subarray with Sum | [LeetCode](https://leetcode.com/problems/binary-subarrays-with-sum/description/) | ✅ | [.cpp](./day-82/_290_Binary_Subarray_with_Sum.cpp) | 🟡 | Sliding Window, Two Pointer |
 | 6 | Count Number of Nice Subarrays | [LeetCode](https://leetcode.com/problems/count-number-of-nice-subarrays/description/) | ✅ | [.cpp](./day-82/_291_Count_Number_of_Nice_Subarrays.cpp) | 🟡 | Sliding Window, Two Pointer |
-| 7 | Number of Substrings Containing All Three Characters | [LeetCode](https://leetcode.com/problems/number-of-substrings-containing-all-three-characters/description/) | ❌ | [.cpp](./day-) | 🟡 | Sliding Window |
-| 8 | Maximum Points You Can Obtain from Cards | [LeetCode](https://leetcode.com/problems/maximum-points-you-can-obtain-from-cards/description/) | ❌ | [.cpp](./day-) | 🟡 | Sliding Window |
+| 7 | Number of Substrings Containing All Three Characters | [LeetCode](https://leetcode.com/problems/number-of-substrings-containing-all-three-characters/description/) | ✅ | [.cpp](./day-83/_292_Number_of_Substrings_Containing_All_Three_Characters.cpp) | 🟡 | Sliding Window, Two Pointers, String Manipulation |
+| 8 | Maximum Points You Can Obtain from Cards | [LeetCode](https://leetcode.com/problems/maximum-points-you-can-obtain-from-cards/description/) | ✅ | [.cpp](./day-83/_293_Maximum_Points_You_Can_Obtain_from_Cards.cpp) | 🟡 | Sliding Window, Array Manipulation, Subarray Sum |
 | 9 | Subarray with K Different Integers | [LeetCode](https://leetcode.com/problems/subarrays-with-k-different-integers/description/) | ❌ | [.cpp](./day-) | 🔴 | Sliding Window, Two Pointer |
 | 10 | Minimum Window Substring | [LeetCode](https://leetcode.com/problems/minimum-window-substring/description/) | ❌ | [.cpp](./day-) | 🔴 | Sliding Window |
 
