@@ -1,0 +1,7 @@
+296 Print the array elements
+297 Find the maximum and minimum element in an array
+298 Reverse an array
+299 Find the sum of all elements in an array
+300 Find the second largest and second smallest element (Sorting required)
+301 Check if an array is sorted
+302 Remove duplicates from a sorted array

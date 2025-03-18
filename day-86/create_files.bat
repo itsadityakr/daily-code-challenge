@@ -31,6 +31,21 @@ for /f "delims=" %%a in (%listfile%) do (
         echo Skipping empty line.
     )
 )
+for /f "delims=" %%a in (%listfile%) do (
+    set "name=%%a"
+    
+    :: Skip any lines that are empty
+    if not "!name!"=="" (
+        :: Replace spaces with underscores
+        set "name=!name: =_!"
+        
+        :: Prepend underscore and append .word extension
+        echo Creating file: _!name!.py
+        echo. > "_!name!.py"
+    ) else (
+        echo Skipping empty line.
+    )
+)
 
 echo Files created successfully.
 pause
