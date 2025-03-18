@@ -9,11 +9,9 @@ Welcome to my repository where I will be solving **Data Structures and Algorithm
 <a href="./sheet-1.md">
     <img src="https://img.shields.io/badge/SHEET%201-%2334A853?style=for-the-badge&logo=googlesheets&logoColor=%23FFFFFF" alt="Static Badge">
 </a>
-
 <a href="./sheet-2.md">
     <img src="https://img.shields.io/badge/SHEET%202-%2334A853?style=for-the-badge&logo=googlesheets&logoColor=%23FFFFFF" alt="Static Badge">
 </a>
-
 <a href="./sheet-3.md">
     <img src="https://img.shields.io/badge/SHEET%203%20Revision-%2334A853?style=for-the-badge&logo=googlesheets&logoColor=%23FFFFFF" alt="Static Badge">
 </a>
