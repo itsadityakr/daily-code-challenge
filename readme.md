@@ -29,7 +29,8 @@ Welcome to my repository where I will be solving **Data Structures and Algorithm
 | 2 | Find the maximum and minimum element in an array | Basic Array Problems | ✅ | [.cpp](./day-85/_297_Find_the_maximum_and_minimum_element_in_an_array.cpp) [.py](./day-85/_297_Find_the_maximum_and_minimum_element_in_an_array.py) | 🟢 | - |  
 | 3 | Reverse an array | Basic Array Problems | ✅ | [.cpp](./day-85/_298_Reverse_an_array.cpp) [.py](./day-85/_298_Reverse_an_array.py) | 🟢 | - |  
 | 4 | Find the sum of all elements in an array | Basic Array Problems | ✅ | [.cpp](./day-85/_299_Find_the_sum_of_all_elements_in_an_array.cpp) [.py](./day-85/_299_Find_the_sum_of_all_elements_in_an_array.py) | 🟢 | - |  
-| 5 | Find the second largest and second smallest element | Basic Array Problems | ✅ | [.cpp](./day-85/_300_Find_the_second_largest_and_second_smallest_element_(Sorting_required).cpp) [.py](./day-85/_300_Find_the_second_largest_and_second_smallest_element_(Sorting_required).py) | 🟡 | Sorting |  
+| 5 | Find the second largest and second smallest element | Basic Array Problems | ✅ | [.cpp](./day-85/
+_300_Find_the_second_largest_and_second_smallest_element_(Sorting_required).cpp) [.py](./day-85/_300_Find_the_second_largest_and_second_smallest_element_(Sorting_required).py) | 🟡 | Sorting |  
 | 6 | Check if an array is sorted | Basic Array Problems | ✅ | [.cpp](./day-85/_301_Check_if_an_array_is_sorted.cpp) [.py](./day-85/_301_Check_if_an_array_is_sorted.py) | 🟢 | - |  
 | 7 | [Remove duplicates from a sorted array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/description/) | Basic Array Problems | ✅ | [.cpp](./day-85/_302_Remove_duplicates_from_a_sorted_array.cpp) [.py](./day-85/_302_Remove_duplicates_from_a_sorted_array.py) | 🟡 | Sorting |  
 | 8 | [Left rotate the array by one place](https://www.geeksforgeeks.org/problems/cyclically-rotate-an-array-by-one2614/1?itm_source=geeksforgeeks&itm_medium=article&itm_campaign=practice_card) | Basic Array Problems | ✅ | [.cpp](./day-86/_303_Left_rotate_the_array_by_one_place.cpp) [.py](./day-86/_303_Left_rotate_the_array_by_one_place.py) | 🟢 | Reversal, Partition Reversal |  
@@ -38,8 +39,8 @@ Welcome to my repository where I will be solving **Data Structures and Algorithm
 | 11 | [Linear Search](https://www.geeksforgeeks.org/problems/search-an-element-in-an-array-1587115621/1) | Searching | ✅ | [.cpp](./day-86/_306_Linear_Search.cpp) [.py](./day-86/_306_Linear_Search.py) | 🟢 | Array Traversal, Comparison |  
 | 12 | [Binary Search](https://www.geeksforgeeks.org/problems/binary-search-1587115620/1) | Searching | ✅ | [.cpp](./day-86/_307_Binary_Search.cpp) [.py](./day-86/_307_Binary_Search.py) | 🟢 | Mid Finding, Array Partioning |  
 | 13 | [Bubble Sort](https://www.geeksforgeeks.org/problems/bubble-sort/1) | Sorting | ✅ | [.cpp](./day-86/_308_Bubble_Sort.cpp) [.py](./day-86/_308_Bubble_Sort.py) | 🟢 | Nested Loops, Swapping |  
-| 14 | [Selection Sort]() | Sorting | ❌ | [.cpp](./day-) [.py](./day-) | 🟢 | - |  
-| 15 | [Insertion Sort]() | Sorting | ❌ | [.cpp](./day-) [.py](./day-) | 🟢 | - |  
+| 14 | [Selection Sort](https://www.geeksforgeeks.org/problems/selection-sort/1?itm_source=geeksforgeeks&itm_medium=article&itm_campaign=practice_card) | Sorting | ✅ | [.cpp](./day-86/_309_Selection_Sort.cpp) [.py](./day-86/_309_Selection_Sort.py) | 🟢 | Finding Min and Swapping |  
+| 15 | [Insertion Sort](https://www.geeksforgeeks.org/problems/insertion-sort/1?itm_source=geeksforgeeks&itm_medium=article&itm_campaign=practice_card) | Sorting | ✅ | [.cpp](./day-86/_310_Insertion_Sort.cpp) [.py](./day-86/_310_Insertion_Sort.py) | 🟢 | Finding Previous Index, Shifting, Placing |  
 | 16 | [Merge Sort]() | Sorting | ❌ | [.cpp](./day-) [.py](./day-) | 🟡 | Recursion |  
 | 17 | [Quick Sort]() | Sorting | ❌ | [.cpp](./day-) [.py](./day-) | 🟡 | Recursion |  
 | 18 | [Counting Sort]() | Sorting | ❌ | [.cpp](./day-) [.py](./day-) | 🟡 | - |  
