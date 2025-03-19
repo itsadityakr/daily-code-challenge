@@ -32,17 +32,17 @@ Welcome to my repository where I will be solving **Data Structures and Algorithm
 | 5 | Find the second largest and second smallest element | Basic Array Problems | ✅ | [.cpp](./day-85/_300_Find_the_second_largest_and_second_smallest_element_(Sorting_required).cpp) [.py](./day-85/_300_Find_the_second_largest_and_second_smallest_element_(Sorting_required).py) | 🟡 | Sorting |  
 | 6 | Check if an array is sorted | Basic Array Problems | ✅ | [.cpp](./day-85/_301_Check_if_an_array_is_sorted.cpp) [.py](./day-85/_301_Check_if_an_array_is_sorted.py) | 🟢 | - |  
 | 7 | [Remove duplicates from a sorted array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/description/) | Basic Array Problems | ✅ | [.cpp](./day-85/_302_Remove_duplicates_from_a_sorted_array.cpp) [.py](./day-85/_302_Remove_duplicates_from_a_sorted_array.py) | 🟡 | Sorting |  
-| 8 | Left rotate the array by one place | Basic Array Problems | ❌ | [.cpp](./day-) [.py](./day-) | 🟢 | - |  
-| 9 | Left rotate the array by K places | Basic Array Problems | ❌ | [.cpp](./day-) [.py](./day-) | 🟡 | - |  
-| 10 | Right rotate the array by K places | Basic Array Problems | ❌ | [.cpp](./day-) [.py](./day-) | 🟡 | - |  
-| 11 | Linear Search | Searching | ❌ | [.cpp](./day-) [.py](./day-) | 🟢 | - |  
-| 12 | Binary Search | Searching | ❌ | [.cpp](./day-) [.py](./day-) | 🟢 | - |  
-| 13 | Bubble Sort | Sorting | ❌ | [.cpp](./day-) [.py](./day-) | 🟢 | - |  
-| 14 | Selection Sort | Sorting | ❌ | [.cpp](./day-) [.py](./day-) | 🟢 | - |  
-| 15 | Insertion Sort | Sorting | ❌ | [.cpp](./day-) [.py](./day-) | 🟢 | - |  
-| 16 | Merge Sort | Sorting | ❌ | [.cpp](./day-) [.py](./day-) | 🟡 | Recursion |  
-| 17 | Quick Sort | Sorting | ❌ | [.cpp](./day-) [.py](./day-) | 🟡 | Recursion |  
-| 18 | Counting Sort | Sorting | ❌ | [.cpp](./day-) [.py](./day-) | 🟡 | - |  
+| 8 | [Left rotate the array by one place](https://www.geeksforgeeks.org/problems/cyclically-rotate-an-array-by-one2614/1?itm_source=geeksforgeeks&itm_medium=article&itm_campaign=practice_card) | Basic Array Problems | ✅ | [.cpp](./day-86/_303_Left_rotate_the_array_by_one_place.cpp) [.py](./day-86/_303_Left_rotate_the_array_by_one_place.py) | 🟢 | Reversal, Partition Reversal |  
+| 9 | Left rotate the array by K places | Basic Array Problems | ✅ | [.cpp](./day-86/_304_Left_rotate_the_array_by_K_places.cpp) [.py](./day-86/_304_Left_rotate_the_array_by_K_places.py) | 🟡 | Reversal, Partition Reversal |  
+| 10 | [Right rotate the array by K places](https://leetcode.com/problems/rotate-array/description/) | Basic Array Problems | ✅ | [.cpp](./day-86/_305_Right_rotate_the_array_by_K_places.cpp) [.py](./day-86/_305_Right_rotate_the_array_by_K_places.py) | 🟡 | Reversal, Partition Reversal |  
+| 11 | [Linear Search](https://www.geeksforgeeks.org/problems/search-an-element-in-an-array-1587115621/1) | Searching | ✅ | [.cpp](./day-86/_306_Linear_Search.cpp) [.py](./day-86/_306_Linear_Search.py) | 🟢 | Array Traversal, Comparison |  
+| 12 | [Binary Search](https://www.geeksforgeeks.org/problems/binary-search-1587115620/1) | Searching | ✅ | [.cpp](./day-86/_307_Binary_Search.cpp) [.py](./day-86/_307_Binary_Search.py) | 🟢 | Mid Finding, Array Partioning |  
+| 13 | [Bubble Sort](https://www.geeksforgeeks.org/problems/bubble-sort/1) | Sorting | ✅ | [.cpp](./day-86/_308_Bubble_Sort.cpp) [.py](./day-86/_308_Bubble_Sort.py) | 🟢 | Nested Loops, Swapping |  
+| 14 | [Selection Sort]() | Sorting | ❌ | [.cpp](./day-) [.py](./day-) | 🟢 | - |  
+| 15 | [Insertion Sort]() | Sorting | ❌ | [.cpp](./day-) [.py](./day-) | 🟢 | - |  
+| 16 | [Merge Sort]() | Sorting | ❌ | [.cpp](./day-) [.py](./day-) | 🟡 | Recursion |  
+| 17 | [Quick Sort]() | Sorting | ❌ | [.cpp](./day-) [.py](./day-) | 🟡 | Recursion |  
+| 18 | [Counting Sort]() | Sorting | ❌ | [.cpp](./day-) [.py](./day-) | 🟡 | - |  
 | 19 | Find the Kth largest/smallest element | Sorting | ❌ | [.cpp](./day-) [.py](./day-) | 🟡 | Sorting |  
 | 20 | Find the missing number in an array of 1 to N | Sorting | ❌ | [.cpp](./day-) [.py](./day-) | 🟡 | - |  
 | 21 | Find the duplicate element in an array | Sorting | ❌ | [.cpp](./day-) [.py](./day-) | 🟡 | Hashing |  
