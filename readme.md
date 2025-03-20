@@ -25,13 +25,13 @@ Welcome to my repository where I will be solving **Data Structures and Algorithm
 
 | **#** | **Problem Name** | **Problem Type** | **Status** | **File** | **Difficulty** | **Prerequisites** |  
 | ----- | ---------------- | -------------- | ---------- | ------ | -------------- | ----------------- |  
-| 1 | Print the array elements | Basic Array Problems | ✅ | [.cpp](./day-85/_296_Print_the_array_elements.cpp) [.py](./day-85/_296_Print_the_array_elements.py) | 🟢 | - |  
-| 2 | Find the maximum and minimum element in an array | Basic Array Problems | ✅ | [.cpp](./day-85/_297_Find_the_maximum_and_minimum_element_in_an_array.cpp) [.py](./day-85/_297_Find_the_maximum_and_minimum_element_in_an_array.py) | 🟢 | - |  
-| 3 | Reverse an array | Basic Array Problems | ✅ | [.cpp](./day-85/_298_Reverse_an_array.cpp) [.py](./day-85/_298_Reverse_an_array.py) | 🟢 | - |  
-| 4 | Find the sum of all elements in an array | Basic Array Problems | ✅ | [.cpp](./day-85/_299_Find_the_sum_of_all_elements_in_an_array.cpp) [.py](./day-85/_299_Find_the_sum_of_all_elements_in_an_array.py) | 🟢 | - |  
-| 5 | Find the second largest and second smallest element | Basic Array Problems | ✅ | [.cpp](./day-85/_300_Find_the_second_largest_and_second_smallest_element.cpp) [.py](./day-85/_300_Find_the_second_largest_and_second_smallest_element.py) | 🟡 | Sorting |  
-| 6 | Check if an array is sorted | Basic Array Problems | ✅ | [.cpp](./day-85/_301_Check_if_an_array_is_sorted.cpp) [.py](./day-85/_301_Check_if_an_array_is_sorted.py) | 🟢 | - |  
-| 7 | [Remove duplicates from a sorted array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/description/) | Basic Array Problems | ✅ | [.cpp](./day-85/_302_Remove_duplicates_from_a_sorted_array.cpp) [.py](./day-85/_302_Remove_duplicates_from_a_sorted_array.py) | 🟡 | Sorting |  
+| 1 | Print the array elements | Basic Array Problems | ✅ | [.cpp](./day-85/_296_Print_the_array_elements.cpp) [.py](./day-85/_296_Print_the_array_elements.py) | 🟢 | For Loop, Print Statement |  
+| 2 | Find the maximum and minimum element in an array | Basic Array Problems | ✅ | [.cpp](./day-85/_297_Find_the_maximum_and_minimum_element_in_an_array.cpp) [.py](./day-85/_297_Find_the_maximum_and_minimum_element_in_an_array.py) | 🟢 | For Loop, Assigning Variables |  
+| 3 | Reverse an array | Basic Array Problems | ✅ | [.cpp](./day-85/_298_Reverse_an_array.cpp) [.py](./day-85/_298_Reverse_an_array.py) | 🟢 | Loops, Swapping |  
+| 4 | Find the sum of all elements in an array | Basic Array Problems | ✅ | [.cpp](./day-85/_299_Find_the_sum_of_all_elements_in_an_array.cpp) [.py](./day-85/_299_Find_the_sum_of_all_elements_in_an_array.py) | 🟢 | Loop, Accumulation |  
+| 5 | Find the second largest and second smallest element | Basic Array Problems | ✅ | [.cpp](./day-85/_300_Find_the_second_largest_and_second_smallest_element.cpp) [.py](./day-85/_300_Find_the_second_largest_and_second_smallest_element.py) | 🟡 | For Loop, Assigning Variables (or) Sorting |  
+| 6 | Check if an array is sorted | Basic Array Problems | ✅ | [.cpp](./day-85/_301_Check_if_an_array_is_sorted.cpp) [.py](./day-85/_301_Check_if_an_array_is_sorted.py) | 🟢 | Comparison of Elements |  
+| 7 | [Remove duplicates from a sorted array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/description/) | Basic Array Problems | ✅ | [.cpp](./day-85/_302_Remove_duplicates_from_a_sorted_array.cpp) [.py](./day-85/_302_Remove_duplicates_from_a_sorted_array.py) | 🟡 | Traversing, Comparison |  
 | 8 | [Left rotate the array by one place](https://www.geeksforgeeks.org/problems/cyclically-rotate-an-array-by-one2614/1?itm_source=geeksforgeeks&itm_medium=article&itm_campaign=practice_card) | Basic Array Problems | ✅ | [.cpp](./day-86/_303_Left_rotate_the_array_by_one_place.cpp) [.py](./day-86/_303_Left_rotate_the_array_by_one_place.py) | 🟢 | Reversal, Partition Reversal |  
 | 9 | Left rotate the array by K places | Basic Array Problems | ✅ | [.cpp](./day-86/_304_Left_rotate_the_array_by_K_places.cpp) [.py](./day-86/_304_Left_rotate_the_array_by_K_places.py) | 🟡 | Reversal, Partition Reversal |  
 | 10 | [Right rotate the array by K places](https://leetcode.com/problems/rotate-array/description/) | Basic Array Problems | ✅ | [.cpp](./day-86/_305_Right_rotate_the_array_by_K_places.cpp) [.py](./day-86/_305_Right_rotate_the_array_by_K_places.py) | 🟡 | Reversal, Partition Reversal |  
@@ -40,9 +40,9 @@ Welcome to my repository where I will be solving **Data Structures and Algorithm
 | 13 | [Bubble Sort](https://www.geeksforgeeks.org/problems/bubble-sort/1) | Sorting | ✅ | [.cpp](./day-86/_308_Bubble_Sort.cpp) [.py](./day-86/_308_Bubble_Sort.py) | 🟢 | Nested Loops, Swapping |  
 | 14 | [Selection Sort](https://www.geeksforgeeks.org/problems/selection-sort/1?itm_source=geeksforgeeks&itm_medium=article&itm_campaign=practice_card) | Sorting | ✅ | [.cpp](./day-86/_309_Selection_Sort.cpp) [.py](./day-86/_309_Selection_Sort.py) | 🟢 | Finding Min and Swapping |  
 | 15 | [Insertion Sort](https://www.geeksforgeeks.org/problems/insertion-sort/1?itm_source=geeksforgeeks&itm_medium=article&itm_campaign=practice_card) | Sorting | ✅ | [.cpp](./day-86/_310_Insertion_Sort.cpp) [.py](./day-86/_310_Insertion_Sort.py) | 🟢 | Finding Previous Index, Shifting, Placing |  
-| 16 | [Merge Sort]() | Sorting | ❌ | [.cpp](./day-) [.py](./day-) | 🟡 | Recursion |  
-| 17 | [Quick Sort]() | Sorting | ❌ | [.cpp](./day-) [.py](./day-) | 🟡 | Recursion |  
-| 18 | [Counting Sort]() | Sorting | ❌ | [.cpp](./day-) [.py](./day-) | 🟡 | - |  
+| 16 | [Merge Sort]() | Sorting | ✅ | [.cpp](./day-) [.py](./day-) | 🟡 | Recursion, Partition, Merging |  
+| 17 | [Quick Sort]() | Sorting | ✅ | [.cpp](./day-) [.py](./day-) | 🟡 | Recursion |  
+| 18 | [Counting Sort](https://www.geeksforgeeks.org/problems/counting-sort/1?itm_source=geeksforgeeks&itm_medium=article&itm_campaign=practice_card) | Sorting | ✅ | [.cpp](./day-) [.py](./day-) | 🟡 | Finding Max Value, Frequency, Accumulation |  
 | 19 | Find the Kth largest/smallest element | Sorting | ❌ | [.cpp](./day-) [.py](./day-) | 🟡 | Sorting |  
 | 20 | Find the missing number in an array of 1 to N | Sorting | ❌ | [.cpp](./day-) [.py](./day-) | 🟡 | - |  
 | 21 | Find the duplicate element in an array | Sorting | ❌ | [.cpp](./day-) [.py](./day-) | 🟡 | Hashing |  
