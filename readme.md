@@ -45,43 +45,43 @@ Welcome to my repository where I will be solving **Data Structures and Algorithm
 | 18 | [Counting Sort](https://www.geeksforgeeks.org/problems/counting-sort/1?itm_source=geeksforgeeks&itm_medium=article&itm_campaign=practice_card) | Sorting | ✅ | [.cpp](./day-87/_313_Counting_Sort.cpp) [.py](./day-87/_313_Counting_Sort.py) | 🟡 | Finding Max Value, Frequency, Accumulation |  
 | 19 | [Find the Kth largest/smallest element](https://leetcode.com/problems/kth-largest-element-in-an-array/description/) | Sorting | ✅ | [.cpp](./day-87/_314_Find_the_Kth_largest_and_smallest_element.cpp) [.py](./day-87/_314_Find_the_Kth_largest_and_smallest_element.py) | 🟡 | Quick Select, Partitioning |  
 | 20 | [Find the missing number in an array of 1 to N](https://leetcode.com/problems/missing-number/description/) | Sorting | ✅ | [.cpp](./day-87/_315_Find_the_missing_number_in_an_array_of_1_to_N.cpp) [.py](./day-87/_315_Find_the_missing_number_in_an_array_of_1_to_N.py) | 🟡 | XOR, Bit Manipulation |  
-| 21 | Find the duplicate element in an array | Sorting | ❌ | [.cpp](./day-) [.py](./day-) | 🟡 | Hashing |  
-| 22 | Print all subarrays of an array | Subarray | ❌ | [.cpp](./day-) [.py](./day-) | 🟡 | - |  
-| 23 | Find the sum of all subarrays | Subarray | ❌ | [.cpp](./day-) [.py](./day-) | 🟡 | - |  
-| 24 | Maximum sum subarray (Kadane’s Algorithm) | Subarray | ❌ | [.cpp](./day-) [.py](./day-) | 🟡 | Kadane’s Algorithm |  
-| 25 | Smallest sum subarray | Subarray | ❌ | [.cpp](./day-) [.py](./day-) | 🟡 | Kadane’s Algorithm |  
-| 26 | Longest subarray with sum K | Subarray | ❌ | [.cpp](./day-) [.py](./day-) | 🟡 | Hashing |  
-| 27 | Count subarrays with sum 0 | Subarray | ❌ | [.cpp](./day-) [.py](./day-) | 🟡 | Hashing |  
-| 28 | Find subarray with maximum product | Subarray | ❌ | [.cpp](./day-) [.py](./day-) | 🔴 | Dynamic Programming |  
-| 29 | Check if a subarray with sum 0 exists | Subarray | ❌ | [.cpp](./day-) [.py](./day-) | 🟡 | Hashing |  
-| 30 | Print all subsequences of an array | Subsequence | ❌ | [.cpp](./day-) [.py](./day-) | 🟡 | Recursion |  
-| 31 | Find the longest increasing subsequence (LIS) | Subsequence | ❌ | [.cpp](./day-) [.py](./day-) | 🔴 | Dynamic Programming |  
-| 32 | Find the longest decreasing subsequence | Subsequence | ❌ | [.cpp](./day-) [.py](./day-) | 🔴 | Dynamic Programming |  
-| 33 | Find the longest bitonic subsequence | Subsequence | ❌ | [.cpp](./day-) [.py](./day-) | 🔴 | Dynamic Programming |  
-| 34 | Count number of subsequences with a given sum | Subsequence | ❌ | [.cpp](./day-) [.py](./day-) | 🔴 | Recursion, DP |  
-| 35 | Print all subsets of an array | Subset | ❌ | [.cpp](./day-) [.py](./day-) | 🟡 | Bit Manipulation |  
-| 36 | Find the subset with a given sum | Subset | ❌ | [.cpp](./day-) [.py](./day-) | 🔴 | DP |  
-| 37 | Count the number of subsets with a given sum | Subset | ❌ | [.cpp](./day-) [.py](./day-) | 🔴 | DP |  
-| 38 | Find the sum of two numbers in a sorted array | Two Pointer | ❌ | [.cpp](./day-) [.py](./day-) | 🟢 | Sorting |  
-| 39 | Move all zeros to the end of an array | Two Pointer | ❌ | [.cpp](./day-) [.py](./day-) | 🟢 | - |  
-| 40 | Find the intersection of two sorted arrays | Two Pointer | ❌ | [.cpp](./day-) [.py](./day-) | 🟡 | Sorting |  
-| 41 | Find the union of two sorted arrays | Two Pointer | ❌ | [.cpp](./day-) [.py](./day-) | 🟡 | Sorting |  
-| 42 | Find the pair with a given sum | Two Pointer | ❌ | [.cpp](./day-) [.py](./day-) | 🟡 | Sorting |  
-| 43 | Sort an array of 0s, 1s, and 2s (Dutch National Flag Problem) | Two Pointer | ❌ | [.cpp](./day-) [.py](./day-) | 🟡 | - |  
-| 44 | Find three numbers that sum to zero (Triplet Sum) | Two Pointer | ❌ | [.cpp](./day-) [.py](./day-) | 🔴 | Sorting |  
-| 45 | Maximum sum of a subarray of size K | Sliding Window | ❌ | [.cpp](./day-) [.py](./day-) | 🟢 | - |  
-| 46 | Find the first negative integer in every window of size K | Sliding Window | ❌ | [.cpp](./day-) [.py](./day-) | 🟡 | - |  
-| 47 | Longest substring with K unique characters | Sliding Window | ❌ | [.cpp](./day-) [.py](./day-) | 🔴 | Hashing |  
-| 48 | Maximum sum subarray | Kadane’s Algorithm | ❌ | [.cpp](./day-) [.py](./day-) | 🟡 | Kadane’s Algorithm |  
-| 49 | Smallest sum subarray | Kadane’s Algorithm | ❌ | [.cpp](./day-) [.py](./day-) | 🟡 | Kadane’s Algorithm |  
-| 50 | Check if a subarray with sum 0 exists | Prefix Sum & Hashing | ❌ | [.cpp](./day-) [.py](./day-) | 🟡 | Hashing |  
-| 51 | Find the equilibrium index of an array | Prefix Sum & Hashing | ❌ | [.cpp](./day-) [.py](./day-) | 🟡 | Prefix Sum |  
-| 52 | Count subarrays with a given sum | Prefix Sum & Hashing | ❌ | [.cpp](./day-) [.py](./day-) | 🟡 | Prefix Sum |
-| 53 | Print a 2D matrix in spiral order | Matrix & 2D Array | ❌ | [.cpp](./day-) [.py](./day-) | 🟡 | - |  
-| 54 | Rotate a matrix by 90 degrees | Matrix & 2D Array | ❌ | [.cpp](./day-) [.py](./day-) | 🟡 | - |  
-| 55 | Transpose of a matrix | Matrix & 2D Array | ❌ | [.cpp](./day-) [.py](./day-) | 🟡 | - |  
-| 56 | Find a given element in a sorted matrix | Matrix & 2D Array | ❌ | [.cpp](./day-) [.py](./day-) | 🟡 | Binary Search |  
-| 57 | Search an element in row-wise & column-wise sorted matrix | Matrix & 2D Array | ❌ | [.cpp](./day-) [.py](./day-) | 🔴 | Binary Search |  
+| 21 | [Find the duplicate element in an array](https://leetcode.com/problems/find-the-duplicate-number/) | Sorting | ✅ | [.cpp](./day-88/_316_Find_the_duplicate_element_in_an_array.cpp) [.py](./day-88/_316_Find_the_duplicate_element_in_an_array.py) | 🟡 | Hashing |  
+| 22 | [Print all subarrays of an array](https://www.geeksforgeeks.org/problems/generating-all-subarrays/0) | Subarray | ✅ | [.cpp](./day-88/_317_Print_all_subarrays_of_an_array.cpp) [.py](./day-88/_317_Print_all_subarrays_of_an_array.py) | 🟡 | - |  
+| 23 | [Find the sum of all subarrays](https://www.geeksforgeeks.org/problems/sum-of-subarrays2229/1?itm_source=geeksforgeeks&itm_medium=article&itm_campaign=practice_card) | Subarray | ✅ | [.cpp](./day-88/_318_Find_the_sum_of_all_subarrays.cpp) [.py](./day-88/_318_Find_the_sum_of_all_subarrays.py) | 🟡 | - |  
+| 24 | [Maximum sum subarray (Kadane’s Algorithm)](https://leetcode.com/problems/maximum-subarray/description/) | Subarray | ✅ | [.cpp](./day-88/_319_Maximum_sum_subarray.cpp) [.py](./day-88/_319_Maximum_sum_subarray.py) | 🟡 | Kadane’s Algorithm |  
+| 25 | [Smallest sum subarray](https://www.geeksforgeeks.org/problems/smallest-sum-contiguous-subarray/1?itm_source=geeksforgeeks&itm_medium=article&itm_campaign=practice_card) | Subarray | ✅ | [.cpp](./day-88/_320_Smallest_sum_subarray.cpp) [.py](./day-88/_320_Smallest_sum_subarray.py) | 🟡 | Kadane’s Algorithm |  
+| 26 | [Longest subarray with sum K]() | Subarray | ❌ | [.cpp](./day-) [.py](./day-) | 🟡 | Hashing |  
+| 27 | [Count subarrays with sum 0]() | Subarray | ❌ | [.cpp](./day-) [.py](./day-) | 🟡 | Hashing |  
+| 28 | [Find subarray with maximum product]() | Subarray | ❌ | [.cpp](./day-) [.py](./day-) | 🔴 | Dynamic Programming |  
+| 29 | [Check if a subarray with sum 0 exists]() | Subarray | ❌ | [.cpp](./day-) [.py](./day-) | 🟡 | Hashing |  
+| 30 | [Print all subsequences of an array]() | Subsequence | ❌ | [.cpp](./day-) [.py](./day-) | 🟡 | Recursion |  
+| 31 | [Find the longest increasing subsequence (LIS)]() | Subsequence | ❌ | [.cpp](./day-) [.py](./day-) | 🔴 | Dynamic Programming |  
+| 32 | [Find the longest decreasing subsequence]() | Subsequence | ❌ | [.cpp](./day-) [.py](./day-) | 🔴 | Dynamic Programming |  
+| 33 | [Find the longest bitonic subsequence]() | Subsequence | ❌ | [.cpp](./day-) [.py](./day-) | 🔴 | Dynamic Programming |  
+| 34 | [Count number of subsequences with a given sum]() | Subsequence | ❌ | [.cpp](./day-) [.py](./day-) | 🔴 | Recursion, DP |  
+| 35 | [Print all subsets of an array]() | Subset | ❌ | [.cpp](./day-) [.py](./day-) | 🟡 | Bit Manipulation |  
+| 36 | [Find the subset with a given sum]() | Subset | ❌ | [.cpp](./day-) [.py](./day-) | 🔴 | DP |  
+| 37 | [Count the number of subsets with a given sum]() | Subset | ❌ | [.cpp](./day-) [.py](./day-) | 🔴 | DP |  
+| 38 | [Find the sum of two numbers in a sorted array]() | Two Pointer | ❌ | [.cpp](./day-) [.py](./day-) | 🟢 | Sorting |  
+| 39 | [Move all zeros to the end of an array]() | Two Pointer | ❌ | [.cpp](./day-) [.py](./day-) | 🟢 | - |  
+| 40 | [Find the intersection of two sorted arrays]() | Two Pointer | ❌ | [.cpp](./day-) [.py](./day-) | 🟡 | Sorting |  
+| 41 | [Find the union of two sorted arrays]() | Two Pointer | ❌ | [.cpp](./day-) [.py](./day-) | 🟡 | Sorting |  
+| 42 | [Find the pair with a given sum]() | Two Pointer | ❌ | [.cpp](./day-) [.py](./day-) | 🟡 | Sorting |  
+| 43 | [Sort an array of 0s, 1s, and 2s (Dutch National Flag Problem)]() | Two Pointer | ❌ | [.cpp](./day-) [.py](./day-) | 🟡 | - |  
+| 44 | [Find three numbers that sum to zero (Triplet Sum)]() | Two Pointer | ❌ | [.cpp](./day-) [.py](./day-) | 🔴 | Sorting |  
+| 45 | [Maximum sum of a subarray of size K]() | Sliding Window | ❌ | [.cpp](./day-) [.py](./day-) | 🟢 | - |  
+| 46 | [Find the first negative integer in every window of size K]() | Sliding Window | ❌ | [.cpp](./day-) [.py](./day-) | 🟡 | - |  
+| 47 | [Longest substring with K unique characters]() | Sliding Window | ❌ | [.cpp](./day-) [.py](./day-) | 🔴 | Hashing |  
+| 48 | [Maximum sum subarray]() | Kadane’s Algorithm | ❌ | [.cpp](./day-) [.py](./day-) | 🟡 | Kadane’s Algorithm |  
+| 49 | [Smallest sum subarray]() | Kadane’s Algorithm | ❌ | [.cpp](./day-) [.py](./day-) | 🟡 | Kadane’s Algorithm |  
+| 50 | [Check if a subarray with sum 0 exists]() | Prefix Sum & Hashing | ❌ | [.cpp](./day-) [.py](./day-) | 🟡 | Hashing |  
+| 51 | [Find the equilibrium index of an array]() | Prefix Sum & Hashing | ❌ | [.cpp](./day-) [.py](./day-) | 🟡 | Prefix Sum |  
+| 52 | [Count subarrays with a given sum]() | Prefix Sum & Hashing | ❌ | [.cpp](./day-) [.py](./day-) | 🟡 | Prefix Sum |
+| 53 | [Print a 2D matrix in spiral order]() | Matrix & 2D Array | ❌ | [.cpp](./day-) [.py](./day-) | 🟡 | - |  
+| 54 | [Rotate a matrix by 90 degrees]() | Matrix & 2D Array | ❌ | [.cpp](./day-) [.py](./day-) | 🟡 | - |  
+| 55 | [Transpose of a matrix]() | Matrix & 2D Array | ❌ | [.cpp](./day-) [.py](./day-) | 🟡 | - |  
+| 56 | [Find a given element in a sorted matrix]() | Matrix & 2D Array | ❌ | [.cpp](./day-) [.py](./day-) | 🟡 | Binary Search |  
+| 57 | [Search an element in row-wise & column-wise sorted matrix]() | Matrix & 2D Array | ❌ | [.cpp](./day-) [.py](./day-) | 🔴 | Binary Search |  
 | 58 | Maximum size square sub-matrix with all 1s | Matrix & 2D Array | ❌ | [.cpp](./day-) [.py](./day-) | 🔴 | DP |  
 | 59 | Maximum product subarray | Advanced | ❌ | [.cpp](./day-) [.py](./day-) | 🔴 | Kadane’s Algorithm |  
 | 60 | Trapping Rain Water Problem | Advanced | ❌ | [.cpp](./day-) [.py](./day-) | 🔴 | Two Pointer |  
