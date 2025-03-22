@@ -4,7 +4,7 @@
 
 # Subarray with 0 sum
 
-# Given an array of integers, arr[]. Find if there is a subarray (of size at least one) with 0 sum. Return true/false depending upon whether there is a subarray present with 0-sum or not. 
+# Given an array of integers, arr[]. Find if there is a subarray (of size at least one) with 0 sum. Return true/false depending upon whether there is a subarray present with 0-sum or not.
 
 # Input: arr[] = [4, 2, -3, 1, 6]
 # Output: true
@@ -21,3 +21,15 @@
 # 1 <= arr.size <= 10^4
 # -10^5 <= arr[i] <= 10^5
 
+class Solution:
+    def subArrayExists(self, arr):
+        prefix_sums = set()
+        prefix_sum = 0
+
+        for num in arr:
+            prefix_sum += num
+            if prefix_sum == 0 or prefix_sum in prefix_sums:
+                return True
+            prefix_sums.add(prefix_sum)
+
+        return False

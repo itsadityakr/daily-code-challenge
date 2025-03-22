@@ -4,7 +4,7 @@
 
 // Subarray with 0 sum
 
-// Given an array of integers, arr[]. Find if there is a subarray (of size at least one) with 0 sum. Return true/false depending upon whether there is a subarray present with 0-sum or not. 
+// Given an array of integers, arr[]. Find if there is a subarray (of size at least one) with 0 sum. Return true/false depending upon whether there is a subarray present with 0-sum or not.
 
 // Input: arr[] = [4, 2, -3, 1, 6]
 // Output: true
@@ -20,3 +20,25 @@
 // Constraints:
 // 1 <= arr.size <= 10^4
 // -10^5 <= arr[i] <= 10^5
+
+class Solution
+{
+public:
+    bool subArrayExists(vector<int> &arr)
+    {
+        unordered_set<int> prefix_sums;
+        int prefix_sum = 0;
+
+        for (int num : arr)
+        {
+            prefix_sum += num;
+            if (prefix_sum == 0 || prefix_sums.find(prefix_sum) != prefix_sums.end())
+            {
+                return true;
+            }
+            prefix_sums.insert(prefix_sum);
+        }
+
+        return false;
+    }
+};

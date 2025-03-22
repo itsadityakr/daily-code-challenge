@@ -13,3 +13,21 @@
 // Input: arr[] = [6, -1, -3, 4, -2, 2, 4, 6, -12, -7]
 // Output: 4
 // Explanation: The 4 subarrays are [-1, -3, 4], [-2, 2], [2, 4, 6, -12], and [-1, -3, 4, -2, 2]
+
+class Solution {
+    public:
+        int findSubarray(vector<int>& arr) {
+            unordered_map<int, int> prefix_sum_count = {{0, 1}};
+            int prefix_sum = 0, count = 0;
+    
+            for (int num : arr) {
+                prefix_sum += num;
+                if (prefix_sum_count.find(prefix_sum) != prefix_sum_count.end()) {
+                    count += prefix_sum_count[prefix_sum];
+                }
+                prefix_sum_count[prefix_sum]++;
+            }
+            
+            return count;
+        }
+    };

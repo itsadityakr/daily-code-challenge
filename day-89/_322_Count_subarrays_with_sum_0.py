@@ -13,3 +13,17 @@
 # Input: arr[] = [6, -1, -3, 4, -2, 2, 4, 6, -12, -7]
 # Output: 4
 # Explanation: The 4 subarrays are [-1, -3, 4], [-2, 2], [2, 4, 6, -12], and [-1, -3, 4, -2, 2]
+
+class Solution:
+    def findSubarray(self, arr):
+        prefix_sum_count = {0: 1}
+        prefix_sum = 0
+        count = 0
+
+        for num in arr:
+            prefix_sum += num
+            if prefix_sum in prefix_sum_count:
+                count += prefix_sum_count[prefix_sum]
+            prefix_sum_count[prefix_sum] = prefix_sum_count.get(prefix_sum, 0) + 1
+
+        return count

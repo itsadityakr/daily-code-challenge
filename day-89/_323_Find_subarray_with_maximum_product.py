@@ -15,3 +15,16 @@
 # Input: nums = [-2,0,-1]
 # Output: 0
 # Explanation: The result cannot be 2, because [-2,-1] is not a subarray.
+
+class Solution:
+    def maxProduct(self, nums):
+        max_product = min_product = result = nums[0]
+
+        for num in nums[1:]:
+            if num < 0:
+                max_product, min_product = min_product, max_product
+            max_product = max(num, max_product * num)
+            min_product = min(num, min_product * num)
+            result = max(result, max_product)
+
+        return result
