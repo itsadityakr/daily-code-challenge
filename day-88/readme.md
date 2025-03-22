@@ -135,9 +135,8 @@ We need to generate every possible contiguous sequence of elements from the give
 #### Breakdown  
 1. A **subarray** is a sequence of elements appearing consecutively in the original array.  
 2. The number of possible subarrays for an array of size `n` is:  
-   \[
-   \frac{n(n+1)}{2}
-   \]
+   **`n * (n+1)/2`**
+
    - Example: For `n = 3`, possible subarrays = `3(4)/2 = 6`.  
 
 
@@ -258,9 +257,7 @@ We need to find the sum of all contiguous subarrays within a given array.
      - It is the starting element in `(i+1)` subarrays.  
      - It is the ending element in `(n-i)` subarrays.  
    - The total contribution of `arr[i]` is:  
-     \[
-     \text{arr}[i] \times (i+1) \times (n-i)
-     \]
+     **`arr[i] * (i+1) * (n-i)`**
    - Sum up contributions for all elements.  
 
 

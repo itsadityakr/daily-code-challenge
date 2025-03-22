@@ -306,7 +306,7 @@ count[256] = {0, 0, ..., 0}  // All elements initialized to 0
 Loop through the string `"geeksforgeeks"` and update `count[]`:  
 
 | Character | ASCII Value | Updated `count[]` |
-|--||-|
+|-----------|------------|--------------------|
 | g         | 103        | count[103] = 2    |
 | e         | 101        | count[101] = 4    |
 | e         | 101        | count[101] = 4    |
