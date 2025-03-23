@@ -54,11 +54,11 @@ Welcome to my repository where I will be solving **Data Structures and Algorithm
 | 27 | [Count subarrays with sum 0](https://www.geeksforgeeks.org/problems/zero-sum-subarrays1825/1) | Subarray | ✅ | [.cpp](./day-89/_322_Count_subarrays_with_sum_0.cpp) [.py](./day-89/_322_Count_subarrays_with_sum_0.py) | 🟡 | Hashing |  
 | 28 | [Find subarray with maximum product](https://leetcode.com/problems/maximum-product-subarray/description/) | Subarray | ✅ | [.cpp](./day-89/_323_Find_subarray_with_maximum_product.cpp) [.py](./day-89/_323_Find_subarray_with_maximum_product.py) | 🔴 | Dynamic Programming |  
 | 29 | [Check if a subarray with sum 0 exists](https://www.geeksforgeeks.org/problems/subarray-with-0-sum-1587115621/1?itm_source=geeksforgeeks&itm_medium=article&itm_campaign=practice_card) | Subarray | ✅ | [.cpp](./day-89/_324_Check_if_a_subarray_with_sum_0_exist.cpp) [.py](./day-89/_324_Check_if_a_subarray_with_sum_0_exist.py) | 🟡 | Hashing |  
-| 30 | [Print all subsequences of an array]() | Subsequence | ❌ | [.cpp](./day-) [.py](./day-) | 🟡 | Recursion |  
-| 31 | [Find the longest increasing subsequence (LIS)]() | Subsequence | ❌ | [.cpp](./day-) [.py](./day-) | 🔴 | Dynamic Programming |  
-| 32 | [Find the longest decreasing subsequence]() | Subsequence | ❌ | [.cpp](./day-) [.py](./day-) | 🔴 | Dynamic Programming |  
-| 33 | [Find the longest bitonic subsequence]() | Subsequence | ❌ | [.cpp](./day-) [.py](./day-) | 🔴 | Dynamic Programming |  
-| 34 | [Count number of subsequences with a given sum]() | Subsequence | ❌ | [.cpp](./day-) [.py](./day-) | 🔴 | Recursion, DP |  
+| 30 | Print all subsequences of an array | Subsequence | ✅ | [.cpp](./day-90/_325_Print_all_subsequences_of_an_array.cpp) [.py](./day-90/_325_Print_all_subsequences_of_an_array.py) | 🟡 | Recursion |  
+| 31 | [Find the longest increasing subsequence (LIS)](https://leetcode.com/problems/longest-increasing-subsequence/description/) | Subsequence | ✅ | [.cpp](./day-90/_326_Find_the_longest_increasing_subsequence.cpp) [.py](./day-90/_326_Find_the_longest_increasing_subsequence.py) | 🔴 | Dynamic Programming |  
+| 32 | Find the longest decreasing subsequence | Subsequence | ✅ | [.cpp](./day-90/_327_Find_the_longest_decreasing_subsequence.cpp) [.py](./day-90/_327_Find_the_longest_decreasing_subsequence.py) | 🔴 | Dynamic Programming |  
+| 33 | [Find the longest bitonic subsequence](https://www.geeksforgeeks.org/problems/longest-bitonic-subsequence0824/1) | Subsequence | ✅ | [.cpp](./day-90/_328_Find_the_longest_bitonic_subsequence.cpp) [.py](./day-90/_328_Find_the_longest_bitonic_subsequence.py) | 🔴 | Dynamic Programming |  
+| 34 | [Count number of subsequences with a given sum](https://leetcode.com/problems/number-of-subsequences-that-satisfy-the-given-sum-condition/description/) | Subsequence | ✅ | [.cpp](./day-90/_329_Count_number_of_subsequences_with_a_given_s.cpp) [.py](./day-90/_329_Count_number_of_subsequences_with_a_given_s.py) | 🔴 | Recursion, DP |  
 | 35 | [Print all subsets of an array]() | Subset | ❌ | [.cpp](./day-) [.py](./day-) | 🟡 | Bit Manipulation |  
 | 36 | [Find the subset with a given sum]() | Subset | ❌ | [.cpp](./day-) [.py](./day-) | 🔴 | DP |  
 | 37 | [Count the number of subsets with a given sum]() | Subset | ❌ | [.cpp](./day-) [.py](./day-) | 🔴 | DP |  
