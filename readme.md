@@ -59,9 +59,9 @@ Welcome to my repository where I will be solving **Data Structures and Algorithm
 | 32 | Find the longest decreasing subsequence | Subsequence | ✅ | [.cpp](./day-90/_327_Find_the_longest_decreasing_subsequence.cpp) [.py](./day-90/_327_Find_the_longest_decreasing_subsequence.py) | 🔴 | Dynamic Programming |  
 | 33 | [Find the longest bitonic subsequence](https://www.geeksforgeeks.org/problems/longest-bitonic-subsequence0824/1) | Subsequence | ✅ | [.cpp](./day-90/_328_Find_the_longest_bitonic_subsequence.cpp) [.py](./day-90/_328_Find_the_longest_bitonic_subsequence.py) | 🔴 | Dynamic Programming |  
 | 34 | [Count number of subsequences with a given sum](https://leetcode.com/problems/number-of-subsequences-that-satisfy-the-given-sum-condition/description/) | Subsequence | ✅ | [.cpp](./day-90/_329_Count_number_of_subsequences_with_a_given_s.cpp) [.py](./day-90/_329_Count_number_of_subsequences_with_a_given_s.py) | 🔴 | Recursion, DP |  
-| 35 | [Print all subsets of an array]() | Subset | ❌ | [.cpp](./day-) [.py](./day-) | 🟡 | Bit Manipulation |  
-| 36 | [Find the subset with a given sum]() | Subset | ❌ | [.cpp](./day-) [.py](./day-) | 🔴 | DP |  
-| 37 | [Count the number of subsets with a given sum]() | Subset | ❌ | [.cpp](./day-) [.py](./day-) | 🔴 | DP |  
+| 35 | [Print all subsets of an array](https://leetcode.com/problems/subsets/description/) | Subset | ✅ | [.cpp](./day-91/_330_Print_all_subsets_of_an_array.cpp) [.py](./day-91/_330_Print_all_subsets_of_an_array.py) | 🟡 | Bit Manipulation |  
+| 36 | Find the subset with a given sum | Subset | ✅ | [.cpp](./day-91/_331_Find_the_subset_with_a_given_sum.cpp) [.py](./day-91/_331_Find_the_subset_with_a_given_sum.py) | 🔴 | DP |  
+| 37 | [Count the number of subsets with a given sum](https://www.geeksforgeeks.org/problems/perfect-sum-problem5633/1?itm_source=geeksforgeeks&itm_medium=article&itm_campaign=practice_card) | Subset | ✅ | [.cpp](./day-91/_332_Count_the_number_of_subsets_with_a_given_s.cpp) [.py](./day-91/_332_Count_the_number_of_subsets_with_a_given_s.py) | 🔴 | DP |  
 | 38 | [Find the sum of two numbers in a sorted array]() | Two Pointer | ❌ | [.cpp](./day-) [.py](./day-) | 🟢 | Sorting |  
 | 39 | [Move all zeros to the end of an array]() | Two Pointer | ❌ | [.cpp](./day-) [.py](./day-) | 🟢 | - |  
 | 40 | [Find the intersection of two sorted arrays]() | Two Pointer | ❌ | [.cpp](./day-) [.py](./day-) | 🟡 | Sorting |  
