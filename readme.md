@@ -62,10 +62,10 @@ Welcome to my repository where I will be solving **Data Structures and Algorithm
 | 35 | [Print all subsets of an array](https://leetcode.com/problems/subsets/description/) | Subset | ✅ | [.cpp](./day-91/_330_Print_all_subsets_of_an_array.cpp) [.py](./day-91/_330_Print_all_subsets_of_an_array.py) | 🟡 | Bit Manipulation |  
 | 36 | Find the subset with a given sum | Subset | ✅ | [.cpp](./day-91/_331_Find_the_subset_with_a_given_sum.cpp) [.py](./day-91/_331_Find_the_subset_with_a_given_sum.py) | 🔴 | DP |  
 | 37 | [Count the number of subsets with a given sum](https://www.geeksforgeeks.org/problems/perfect-sum-problem5633/1?itm_source=geeksforgeeks&itm_medium=article&itm_campaign=practice_card) | Subset | ✅ | [.cpp](./day-91/_332_Count_the_number_of_subsets_with_a_given_s.cpp) [.py](./day-91/_332_Count_the_number_of_subsets_with_a_given_s.py) | 🔴 | DP |  
-| 38 | [Find the sum of two numbers in a sorted array]() | Two Pointer | ❌ | [.cpp](./day-) [.py](./day-) | 🟢 | Sorting |  
-| 39 | [Move all zeros to the end of an array]() | Two Pointer | ❌ | [.cpp](./day-) [.py](./day-) | 🟢 | - |  
-| 40 | [Find the intersection of two sorted arrays]() | Two Pointer | ❌ | [.cpp](./day-) [.py](./day-) | 🟡 | Sorting |  
-| 41 | [Find the union of two sorted arrays]() | Two Pointer | ❌ | [.cpp](./day-) [.py](./day-) | 🟡 | Sorting |  
+| 38 | [Find the sum of two numbers in a sorted array](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/description/) | Two Pointer | ✅ | [.cpp](./day-92/_333_Find_the_sum_of_two_numbers_in_a_sorted_array.cpp) [.py](./day-92/_333_Find_the_sum_of_two_numbers_in_a_sorted_array.py) | 🟢 | Sorting |  
+| 39 | [Move all zeros to the end of an array](https://leetcode.com/problems/move-zeroes/description/) | Two Pointer | ✅ | [.cpp](./day-92/_334_Move_all_zeros_to_the_end_of_an_array.cpp) [.py](./day-92/_334_Move_all_zeros_to_the_end_of_an_array.py) | 🟢 | - |  
+| 40 | [Find the intersection of two sorted arrays](https://leetcode.com/problems/intersection-of-two-arrays/description/) | Two Pointer | ✅ | [.cpp](./day-92/_335_Find_the_intersection_of_two_sorted_arrays.cpp) [.py](./day-92/_335_Find_the_intersection_of_two_sorted_arrays.py) | 🟡 | Sorting |  
+| 41 | [Find the union of two sorted arrays](https://www.geeksforgeeks.org/problems/union-of-two-sorted-arrays-1587115621/1) | Two Pointer | ✅ | [.cpp](./day-92/_336_Find_the_union_of_two_sorted_arrays.cpp) [.py](./day-92/_336_Find_the_union_of_two_sorted_arrays.py) | 🟡 | Sorting |  
 | 42 | [Find the pair with a given sum]() | Two Pointer | ❌ | [.cpp](./day-) [.py](./day-) | 🟡 | Sorting |  
 | 43 | [Sort an array of 0s, 1s, and 2s (Dutch National Flag Problem)]() | Two Pointer | ❌ | [.cpp](./day-) [.py](./day-) | 🟡 | - |  
 | 44 | [Find three numbers that sum to zero (Triplet Sum)]() | Two Pointer | ❌ | [.cpp](./day-) [.py](./day-) | 🔴 | Sorting |  
